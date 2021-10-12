@@ -486,7 +486,33 @@
   /* /////////////////////////////////////////////////// FOOOTER  */
   
   
-  footer{
-    background-color:black;
-    height: 3rem;
+  .footer{
+    
+    /* grid-template-columns: repeat(2fr 1fr); */
+    height: 14rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
   }
+
+  .footer_container{
+    display: flex;
+  }
+
+  .left_column{
+display: flex;
+  }
+
+  .right_column{
+    display: flex;
+
+
+  }
+
+  .mediaIcons{
+    height:40px;
+  }
+ 
