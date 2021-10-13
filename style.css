@@ -100,13 +100,7 @@
     font-weight: bold;
   }
   
-  .header {
-    /* font-weight: 400;
-    text-transform:uppercase;
-    font-size: 6rem;
-    letter-spacing: 1.8;
-    margin: 3rem; */
-  }
+  
   
   
   .sub-header {
@@ -143,9 +137,7 @@
   
   
   
-  .main-img {
   
-  }
   
   /* //////////////////////////////////////////////////////////// header section */
   
@@ -181,9 +173,6 @@
   /* /////  ///////////////////////////////////////////////////// INTRO */
   /* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
   
-  .service .fa {
-  
-  }
   
   .square {
     border: 1px solid black;
@@ -194,14 +183,7 @@
   .icon {
     color: white;
   }
-  
-  .service-body p {
-    /* margin:2rem; */
-    /* margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-width: 15rem; */
-  }
-  
+
   .service-body h3 {
     margin-top: 2rem;
   }
@@ -303,11 +285,7 @@
     align-self: end;
   }
   
-  .learn-side-1 {
-    /* display: grid; */
-    /* justify-self: start; */
   
-  }
   
   
   .logo-white {
@@ -405,9 +383,9 @@
     font-size: 1rem;
   }
   
-  .mentor-section h1 {
-    /* margin: 2rem; */
-  }
+.blockquote {
+ border-left: 2rem solid rgba(10, 10, 15, 0.267);
+}
   
   .mentor-section span {
     color: #d93;
