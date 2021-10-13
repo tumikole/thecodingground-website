@@ -1,5 +1,8 @@
 :root {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 53eff886fa28ccdc7f385797e0f96b627b337de4
     --red: black;
     --dark-green: #033333;
     --light-green: #2a7e5f;
@@ -402,9 +405,13 @@
     margin-top:1rem;
     color: var(--text-color);
   }
+<<<<<<< HEAD
   
   /*///////////////////////////////////////////////////////////// MEET THE MENTORS */
 .mentor-image{
+=======
+
+>>>>>>> 53eff886fa28ccdc7f385797e0f96b627b337de4
   --red: black;
   --dark-green: #033333;
   --light-green: #2a7e5f;
@@ -814,9 +821,14 @@ li {
   color: var(--text-color);
 }
 
+<<<<<<< HEAD
 /*///////////////////////////////////////////////////////////// MEET THE MENTORS */
 
   /* ///////////////////////////////////////////////////// stay in touch */
+=======
+
+  
+>>>>>>> 53eff886fa28ccdc7f385797e0f96b627b337de4
 
 .stay-in-touch-container h1 {
   color: var(--text-color);
@@ -873,7 +885,7 @@ h4 {
   margin-bottom: 2rem;
   font-weight: normal;
 }
-/* /////////////////////////////////////////////////// FOOOTER  */
+
 
 .footer {
   /* grid-template-columns: repeat(2fr 1fr); */
