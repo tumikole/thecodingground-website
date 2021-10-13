@@ -1,10 +1,77 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* background-color: #000000; */
+  background-color: teal;
+  font-size: 20px;
+  position: fixed;
+}
+
+.logo{
+  margin-left: 40%;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  height: 20vh;
+  /* opacity:0,5; */
+  /* width: 100%; */
+}
+.logHeader{
+  display: flex;
+  margin-left: 2%;
+}
+
+.mainNav{
+  display: flex;
+  width: 50%;
+  float: right;
+  margin-right: 10%;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 2.5rem;
+}
+.mainNav li:hover{
+  background-color: gray
+}
+
+.mainNav li{
+  display: inline;
+  color: #ffffff;
+
+}
+.mainNav li a{
+  color: #ffffff;
+}
+
+.Home_icon{
+
+height: 2rem;
+
+  
+}
+
+
 :root {
     --red: black;
     --dark-green: #033333;
     --light-green: #2a7e5f;
     --text-color: #555555;
   }
-  
+
+
   h1{
     font-size: 3rem;
     font-weight: 400;
