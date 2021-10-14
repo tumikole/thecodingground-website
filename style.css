@@ -1,50 +1,50 @@
 
-
-/* //////////////////////////////////////////navigationbar */
-
+/* ////////////////////////////////////////// Navigationbar */
 
 #nav {
   position: fixed ;
   width: 100% ;
-
-}
+  }
 
 .nav_bar {
   overflow: hidden ;
-  background-color: #333 ;
+  background-color: #033333 ;
   font-family: "Courier New", Courier, monospace ;
   padding: 2rem 0;
-
+  
 }
 
 .nav_bar a {
   float: left ;
-  font-size: 1.2rem ;
+  font-size: 1.5rem ;
   color: white ;
   text-align: center ;
   padding: 14px 16px ;
-  text-decoration: none ;
+  text-decoration: none !important;
 }
 
 .drop_down {
   float: left;
   overflow: hidden ;
+  text-decoration: none !important;
 }
 
 .drop_down .dropbtn {
-  font-size: 1.2rem ;
+  font-size: 1.5rem ;
   border: none ;
   outline: none ;
   color: white ;
   padding: 14px 16px ;
   background-color: inherit ;
   font-family: inherit ;
-  margin: 0 ;
+  margin: 0;
+  
 }
 
 .nav_bar a:hover,
 .drop_down:hover .dropbtn {
-  background-color: teal!important;
+    background-color: #2a7e5f !important;
+    color: #f9f9f9;
 }
 .dropdown-content {
   display: none !important;
@@ -61,16 +61,19 @@
   padding: 12px 16px !important;
   text-decoration: none !important;
   display: block !important;
-  text-align: left !important;
+  text-align: left !important;  text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd !important;
+  background-color: #2a7e5f !important;
 }
 
 .drop_down:hover .dropdown-content {
   display: block !important;
 }
+ 
+/* //////////////////////////////////////////////////////////////////////////////// Navigation Closed */
 
 :root {
   --red: black;
@@ -347,6 +350,7 @@ blockquote {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 3rem;
+    /* margin-top:7.5rem; */
   }
   
   .intro-section a {
