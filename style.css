@@ -1,4 +1,5 @@
 
+
 /* //////////////////////////////////////////navigationbar */
 
 
@@ -139,262 +140,23 @@ body {
   align-content: center;
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sub-header-container {
-  display: grid;
-  justify-content: center;
-  color: black;
-  margin: 0rem;
-  line-height: 2rem;
-}
-
-.header {
-  font-size: 8rem;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 1.8;
-}
-
-.header-container {
-  align-self: center;
-  line-height: 4rem;
-  margin: 0rem;
-  text-align: center;
-}
-
-.header-medium {
-  font-size: 5rem;
-  text-align: center;
-  font-weight: bold;
-}
-
-.sub-header {
-  background-color: white;
-  text-align: center;
-  width: 35rem;
-  letter-spacing: 0.2rem;
-  align-self: center;
-  padding: 1rem 5rem;
-  font-size: 2.5rem;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin-bottom: 0.3rem;
-  margin-top: 0rem;
-  color: var(--dark-green);
-  letter-spacing: 0.2rem;
-}
-
-.btn-apply {
-  background-color: var(--dark-green);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-weight: bold;
-  justify-self: center;
-  text-align: center;
-  margin-bottom: 3rem;
-  line-height: 0rem;
-  margin-top: 2rem;
-  padding: 2rem 1rem;
-}
-
-.apply {
-  display: grid;
-}
-
-/* //////////////////////////////////////////////////////////// header section */
-
-/* ////////////////////////////////////////////////////////// INTRO */
-.intro-section {
-  background-color: var(--light-green);
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 3rem;
-}
-
-.intro-section a {
-  width: 9rem;
-  margin: 1rem;
-  margin-left: 2rem;
-}
-
-.intro-section h1 {
-  text-align: center;
-  padding: 4rem;
-  margin: 0px;
-  line-height: 3rem;
-}
-
-.intro-section p {
-  margin-left: 2rem;
-}
-.intro-section span {
-  font-weight: bold;
-}
-
-/* /////  ///////////////////////////////////////////////////// INTRO */
-/* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
-
-.square {
-  border: 1px solid black;
-  padding: 1.5rem 1.5rem;
-  font-size: 1.8rem;
-}
-
-.icon {
-  color: white;
-}
-
-.service-body h3 {
-  margin-top: 2rem;
-}
-
-.service {
-  justify-self: center;
-  text-align: center;
-  color: #555555;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-  margin-bottom: 8rem;
-  margin-top: 8rem;
-  margin-right: 5rem;
-  margin-left: 5rem;
-  color: black;
-}
-
-/* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
-
-/* //////////////////////////////////////////////////////// INFO SECTION */
-
-.application-container {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  background-color: var(--light-green);
-  grid-gap: 2rem;
-  justify-content: center;
-  justify-items: center;
-  padding: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.white {
-  margin: 2rem 0px;
-}
-
-.application-image {
-  height: auto;
-  justify-self: end;
-  align-self: center;
-  width: 44rem;
-}
-
-.side-info {
-  display: grid;
-  justify-self: start;
-  text-align: left;
-}
-.side-info h1 {
-  line-height: 3rem;
-  /* font-weight: normal; */
-}
-
-.side-info p {
-  max-width: 33rem;
-}
-
-/* //////////////////////////////////////////////////////// INFO SECTION */
-
-/* ///////////////////////////////////////////////////// WHAT WILL YOU LEARN */
-.what-to-learn-container {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  background-color: var(--dark-green);
-  color: white;
-  padding-top: 3rem;
-  grid-gap: 9rem;
-  padding-bottom: 3rem;
-  line-height: 1.5rem;
-}
-
-.what-to-learn-container li {
-  margin: 1rem;
-  font-size: 1rem;
-  list-style: none;
-  word-spacing: 0.2rem;
-}
-
-.learn-side-1 {
-  display: grid;
-  justify-self: end;
-  grid-gap: 2rem;
-}
-
-.learn-side-1 h1 {
-  /* margin-bottom: 2rem; */
-  line-height: 3rem;
-}
-
-.learn-side-2 {
-  display: grid;
-  justify-self: start;
-  align-self: end;
-}
-
-.logo-white {
-  width: 186px;
-  height: 215px;
-  justify-self: end;
-}
-
-.what-to-learn-container .fa {
-  color: white;
-  font-size: 1rem;
-  margin-right: 1.5rem;
-}
-
-.what-to-learn-container p {
-  max-width: 30rem;
-}
-
-/* ///////////////////////////////////////////////////// WHAT WILL YOU LEARN */
-
-/* ////////////////////////////////////////////////////////////////////MEET THE MENTORS */
-
-.mentor-container {
-  display: grid;
-  color: black;
-  grid-template-rows: repeat(3, 1fr);
-  margin-bottom: 2rem;
-}
-
-.profile {
-  text-align: center;
-  justify-self: center;
-  width: 14rem;
-  text-align: center;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  padding-bottom: 1rem;
-}
-
-.mentor-image {
-  width: 212;
-  height: 240px;
 }
 
   .imgContainer{
     display: flex;
     align-items: center;
+     background-size: cover;
+  background-repeat: no-repeat;
+ background-image: url(./img/RevSlider-V1\ \(copy\).jpg);
+  }
 
+  .btn-apply{
+    background-color: #2a7e5f !important;
   }
   
   .homeImg{
     height: 60vh;
-    background-color: black;
+    /* background-color: black; */
     margin: 5rem;
   }
 
@@ -507,7 +269,7 @@ blockquote {
   .sub-header-container{
     display:grid;
     justify-content: center;
-    color:black;
+    color:white;
     margin:0rem;
     line-height: 2rem;
   }
@@ -517,7 +279,7 @@ blockquote {
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 1.8;
-    color: black;
+    color: white;
   }
   
   
@@ -533,7 +295,7 @@ blockquote {
     font-size:5rem;
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: white;
 
   }
   
@@ -541,7 +303,7 @@ blockquote {
   
   
   .sub-header {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.418);
     text-align: center;
     width: 35rem;
     letter-spacing: 0.2rem;
@@ -552,8 +314,9 @@ blockquote {
     text-transform: uppercase;
      margin-bottom:0.3rem;
      margin-top: 0rem;
-     color: var(--dark-green);
+     color: #033333e5;
     letter-spacing: 0.2rem;
+    /* opacity: 0.2; */
   }
   
   .btn-apply {
@@ -599,7 +362,7 @@ blockquote {
     margin:0px;
     line-height: 3rem;
   }
-  
+ 
   .intro-section p{
     margin-left:2rem;
   }
@@ -757,7 +520,7 @@ body {
   font-weight: bold;
 }
 
-.sub-header {
+/* .sub-header {
   background-color: white;
   text-align: center;
   width: 35rem;
@@ -771,7 +534,7 @@ body {
   margin-top: 0rem;
   color: var(--dark-green);
   letter-spacing: 0.2rem;
-}
+} */
 
 .btn-apply {
   background-color: var(--dark-green);
@@ -850,9 +613,7 @@ body {
   color: black;
 }
 
-/* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
 
-/* //////////////////////////////////////////////////////// INFO SECTION */
 
 .application-container {
   display: grid;
@@ -891,9 +652,7 @@ body {
   max-width: 33rem;
 }
 
-/* //////////////////////////////////////////////////////// INFO SECTION */
 
-/* ///////////////////////////////////////////////////// WHAT WILL YOU LEARN */
 .what-to-learn-container {
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -945,9 +704,7 @@ body {
   max-width: 30rem;
 }
 
-/* ///////////////////////////////////////////////////// WHAT WILL YOU LEARN */
 
-/* ////////////////////////////////////////////////////////////////////MEET THE MENTORS */
 
 .mentor-container {
   display: grid;
@@ -1035,7 +792,6 @@ li {
   color: var(--text-color);
 }
 
-/* ///////////////////////////////////////////////////// stay in touch */
 
 .stay-in-touch-container h1 {
   color: var(--text-color);
@@ -1066,7 +822,6 @@ li {
 
 .input-wrapper {
   display: grid;
-  /* grid-template-rows: 1fr 2fr; */
 }
 
 .input-wrapper {
