@@ -1,84 +1,153 @@
-.imgContainer {
-  background-image: url(./img/RevSlider-V1\ \(copy\).jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
+
+/* //////////////////////////////////////////navigationbar */
+
 
 #nav {
-  /* top: 5vh; */
-  position: fixed;
-  width: 100%;
-  }
-  
-   .navbar {
-    overflow: hidden;
-    background-color: #033333;
-    font-family:'Courier New', Courier, monospace;
-    padding: 20px;
+  position: fixed ;
+  width: 100% ;
 
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 1.2rem;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
+}
 
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 1.2rem;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #2a7e5f;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+.nav_bar {
+  overflow: hidden ;
+  background-color: #333 ;
+  font-family: "Courier New", Courier, monospace ;
+  padding: 2rem 0;
 
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color:  #2a7e5f;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }  
+}
+
+.nav_bar a {
+  float: left ;
+  font-size: 1.2rem ;
+  color: white ;
+  text-align: center ;
+  padding: 14px 16px ;
+  text-decoration: none ;
+}
+
+.drop_down {
+  float: left;
+  overflow: hidden ;
+}
+
+.drop_down .dropbtn {
+  font-size: 1.2rem ;
+  border: none ;
+  outline: none ;
+  color: white ;
+  padding: 14px 16px ;
+  background-color: inherit ;
+  font-family: inherit ;
+  margin: 0 ;
+}
+
+.nav_bar a:hover,
+.drop_down:hover .dropbtn {
+  background-color: teal!important;
+}
+.dropdown-content {
+  display: none !important;
+  position: absolute !important;
+  background-color: #f9f9f9 !important;
+  min-width: 160px !important;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+  z-index: 1 !important;
+}
+
+.dropdown-content a {
+  float: none !important;
+  color: black !important;
+  padding: 12px 16px !important;
+  text-decoration: none !important;
+  display: block !important;
+  text-align: left !important;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd !important;
+}
+
+.drop_down:hover .dropdown-content {
+  display: block !important;
+}
+
+:root {
+  --red: black;
+  --dark-green: #033333;
+  --light-green: #2a7e5f;
+  --text-color: #555555;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  width: 14rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid white;
+}
+
+p {
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+  /* line-height: 2rem; */
+  color: white;
+}
+
+html,
+body {
+  width: 100% !important;
+  /* //////////////////////////////////////////////////////////// header section */
+  overflow-x: hidden !important;
+}
+
+.img-container {
+  background-image: url("../img/RevSlider-V1.jpg");
+  background-position: center;
+  display: grid;
+  grid-template-rows: repeat(1, 16rem);
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
 
   .imgContainer{
     display: flex;
     align-items: center;
-
+     background-size: cover;
+  background-repeat: no-repeat;
+ background-image: url(./img/RevSlider-V1\ \(copy\).jpg);
   }
 
   .btn-apply{
@@ -813,8 +882,6 @@ footer {
   align-items: center;
    padding: 15rem; 
 } */
-
-
 
 .footerContainer > div{
   padding-left:120px;
