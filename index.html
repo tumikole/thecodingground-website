@@ -6,48 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mentor.html">
-    <link
-      rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-      crossorigin="anonymous"
-    />
-    
     <title>THECODINGGROUND</title>
 </head>
 
 
 <body data-gr-c-s-loaded="true">
-  <!-- <div class="topNav">
-    <a href="#"></a>
-    <a href="#"></a>
-  </div>
-  <nav class="navbar">
-    <div class="logoHeader">
-      <img src="img/Logo-White.png" class="logo"/>
-    </div>
-
-    <ul class="mainNav">
-      <li>
-        <a href="#" class="navLinks"><img class="Home_icon" src="icons/home-solid.svg"></a>
-      </li>
-      <li>
-        <a href="#" class="navLinks">students</a>
-      </li>
-      <li>
-        <a href="#" class="navLinks">About us</a>
-      </li>
-      <li>
-        <a href="#" class="navLinks">Sponsors</a>
-      </li>
-      <li>
-        <a href="#" class="navLinks">Contact us</a>
-      </li>
-   
-    </ul>
-      
-  </nav>  -->
-
   <div id="nav">
     <div class="navbar">
     <a href="./index.html" target="">Home</a>
@@ -74,9 +39,53 @@
     </div>
   
     <div class="sub-header-container">
-      <h3 class="sub-header hide">learn today.</h3>
-      <h3 class="sub-header">craft your future.</h3>
-      <a class="btn btn-apply" href="">apply for 2021</a>
+      <div  class="sub-header">
+      <h3>learn today.</h3>
+      </div>
+      <div  class="sub-header">
+
+      <h3>craft your future.</h3>
+    </div>
+      <a class="btn btn-apply" data-toggle="modal" data-target="#exampleModal" href="">apply for 2022</a>
+           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Application form</h5>
+                            </button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                  <div class="input-wrapper">
+                    <label for="">Name *</label>
+                    <input class="input" type="text" />
+                  </div>
+                  <div class="input-wrapper">
+                    <label for="">Email *</label>
+                    <input class="input" type="text" />
+                  </div>
+                  <div class="input-wrapper">
+                    <label for="">Contact Number *</label>
+                    <input class="input" type="text" />
+                  </div>
+                  <div class="input-wrapper">
+                    <label for="">Message *</label>
+                    <input type="textarea" class="input" />
+                  </div>
+                  <div class="input-wrapper">
+                    <label for="">files *</label>
+                    <input type="file">
+                  </div>
+    
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Apply</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -284,36 +293,6 @@
       </div>
     </div>
     <!-- WHAT YOU WILL LEARN -->
-
-    <!-- STAY IN TOUCH -->
-    <div class="stay-in-touch-container">
-      <h4>Stay in touch with The Coding Ground</h4>
-      <div class="touch-2-col-grid">
-        <form>
-          <div class="input-wrapper">
-            <label for="">Name *</label>
-            <input class="input" type="text" />
-          </div>
-          <div class="input-wrapper">
-            <label for="">Email *</label>
-            <input class="input" type="text" />
-          </div>
-          <div class="input-wrapper">
-            <label for="">Contact Number *</label>
-            <input class="input" type="text" />
-          </div>
-          <div class="input-wrapper">
-            <label for="">Message *</label>
-            <textarea class="input"></textarea>
-          </div>
-          <div>
-            <input class="submit" type="submit" value="Send" class="submit" />
-          </div>
-        </form>
-      </div>
-    </div>
-
-    <!-- STAY IN TOUCH -->
     <footer>
       <div class="row justify-content-center mb-0 pt-5 pb-0 row-2 px-3">
         <div class="col-12">
