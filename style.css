@@ -1,32 +1,43 @@
 
 /* ////////////////////////////////////////// Navigationbar */
+.logo{
+  float: left;
+  margin-left: 2%;
+}
 
+.drop {
+  margin: 0 !important;
+}
 #nav {
   position: fixed ;
-  width: 100% ;
+  width: 100% ;;
   }
 
 .nav_bar {
   overflow: hidden ;
   background-color: #033333 ;
   font-family: "Courier New", Courier, monospace ;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
   
 }
 
 .nav_bar a {
-  float: left ;
+  float: right;
   font-size: 1.5rem ;
   color: white ;
   text-align: center ;
   padding: 14px 16px ;
   text-decoration: none !important;
+  margin-top: 1.5rem;
+  
 }
 
 .drop_down {
-  float: left;
+  float: right;
   overflow: hidden ;
   text-decoration: none !important;
+  margin-right: 4%;
+  margin-top: 1.5rem;
 }
 
 .drop_down .dropbtn {
@@ -43,9 +54,11 @@
 
 .nav_bar a:hover,
 .drop_down:hover .dropbtn {
-    background-color: #2a7e5f !important;
+    /* background-color: #2a7e5f !important; */
+    text-decoration: underline !important;
     color: #f9f9f9;
 }
+
 .dropdown-content {
   display: none !important;
   position: absolute !important;
@@ -63,6 +76,7 @@
   display: block !important;
   text-align: left !important;  text-decoration: none !important;
   text-decoration: none !important;
+  
 }
 
 .dropdown-content a:hover {
@@ -125,14 +139,15 @@ body {
   color: #333;
   /* line-height: 2rem; */
   color: white;
+
 }
 
 html,
 body {
   width: 100% !important;
-  /* //////////////////////////////////////////////////////////// header section */
   overflow-x: hidden !important;
 }
+/* //////////////////////////////////////////////////////////// header section */
 
 .img-container {
   background-image: url("../img/RevSlider-V1.jpg");
@@ -350,7 +365,7 @@ blockquote {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 3rem;
-    /* margin-top:7.5rem; */
+    margin-top:7.5rem;
   }
   
   .intro-section a {
