@@ -1,4 +1,4 @@
- /* ////////////////////////////////////////////////////////////////////MEET THE MENTORS */
+ /* MEET THE MENTORS */
   
   .mentor-container {
     display: grid;
@@ -30,7 +30,7 @@
   .mentor-wrapper a {
     text-decoration: none;
     color: #033333;
-    font-size: 0.9rem;
+    font-size: 1 rem;
   }
   
   blockquote {
@@ -41,7 +41,7 @@
     padding-left: 2rem;
     font-weight: normal;
     line-height: 1.5rem;
-    font-size: 0.9rem;
+    font-size: 1 rem;
     color: var(--text-color);
   }
   
@@ -77,7 +77,7 @@
 }
   
   .mentor-section span {
-    color: #d93;
+    color: #033333;
   }
   
   .mentor-section h2 {
