@@ -1,7 +1,7 @@
 .section_container {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80%;
     margin: auto;
     padding: 50px;
