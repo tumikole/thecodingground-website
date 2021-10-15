@@ -5,6 +5,7 @@
     width: 80%;
     margin: auto;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 
@@ -12,3 +13,16 @@ p {
 
     padding: 0 35px;
 } 
+
+img {
+    /* width: 100%; */
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    /* vertical-align: middle; */
+    display: block;
+  }
+
+  .bio-container{
+      padding: 15px 25px;
+  }
