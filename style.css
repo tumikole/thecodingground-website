@@ -8,9 +8,10 @@
 .drop {
   margin: 0 !important;
 }
+
 #nav {
   position: fixed ;
-  width: 100% ;;
+  width: 100% ;
   }
 
 .nav_bar {
@@ -263,12 +264,22 @@ blockquote {
     color: white;
   
   }
-  
-  html,
+  html {
+    overflow:   scroll;
+  }
+  /* html,
   body {
     width: 100% !important;
     /* //////////////////////////////////////////////////////////// header section */
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important;
+    overflow-y: hidden; */
+  /* }  */
+
+   html  ::-webkit-scrollbar {
+     display: none;
+    /* width: 0px;
+    background: transparent; make scrollbar transparent */
+
   }
   
   
