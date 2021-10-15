@@ -402,50 +402,7 @@ blockquote {
   .icon {
     color: white;
   }
-li {
-  list-style: none;
-}
 
-.mentor-header-container {
-  text-align: center;
-  color: black;
-}
-
-.mentor-section {
-  margin-top: 5rem;
-}
-
-.text-block {
-  justify-self: end;
-  font-size: 1rem;
-}
-
-.blockquote {
-  border-left: 2rem solid rgba(10, 10, 15, 0.267);
-}
-
-.mentor-section span {
-  color: #d93;
-}
-
-.mentor-section h2 {
-  color: var(--text-color);
-}
-
-.profile h3 {
-  font-size: 1.5rem;
-  font-weight: normal;
-  margin-top: 1rem;
-  color: var(--text-color);
-}
-
-/*///////////////////////////////////////////////////////////// MEET THE MENTORS */
-.mentor-image {
-  --red: black;
-  --dark-green: #033333;
-  --light-green: #2a7e5f;
-  --text-color: #555555;
-}
 
 h1 {
   font-size: 3rem;
