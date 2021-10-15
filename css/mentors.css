@@ -1,0 +1,165 @@
+#nav {
+  position: fixed ;
+  width: 100% ;;
+  }
+
+.nav_bar {
+  overflow: hidden ;
+  background-color: #033333 ;
+  font-family: "Courier New", Courier, monospace ;
+  padding: 0.5rem 0;
+  
+}
+
+.nav_bar a {
+  float: right;
+  font-size: 1.5rem ;
+  color: white ;
+  text-align: center ;
+  padding: 14px 16px ;
+  text-decoration: none !important;
+  margin-top: 1.5rem;
+  
+}
+
+.drop_down {
+  float: right;
+  overflow: hidden ;
+  text-decoration: none !important;
+  margin-right: 4%;
+  margin-top: 1.5rem;
+}
+
+.drop_down .dropbtn {
+  font-size: 1.5rem ;
+  border: none ;
+  outline: none ;
+  color: white ;
+  padding: 14px 16px ;
+  background-color: inherit ;
+  font-family: inherit ;
+  margin: 0;
+  
+}
+
+.nav_bar a:hover,
+.drop_down:hover .dropbtn {
+    /* background-color: #2a7e5f !important; */
+    text-decoration: underline !important;
+    color: #f9f9f9;
+}
+
+.dropdown-content {
+  display: none !important;
+  position: absolute !important;
+  background-color: #f9f9f9 !important;
+  min-width: 160px !important;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+  z-index: 1 !important;
+}
+
+.dropdown-content a {
+  float: none !important;
+  color: black !important;
+  padding: 12px 16px !important;
+  text-decoration: none !important;
+  display: block !important;
+  text-align: left !important;  text-decoration: none !important;
+  text-decoration: none !important;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #2a7e5f !important;
+}
+
+.drop_down:hover .dropdown-content {
+  display: block !important;
+}
+ 
+ 
+ /* MEET THE MENTORS */
+  
+  .mentor-container {
+    display: grid;
+    color: black;
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom:2rem;
+  }
+  
+  .profile {
+    text-align: center;
+    justify-self: center;
+    width: 14rem;
+    text-align: center;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom:1rem;
+  }
+  
+  .mentor-image {
+    width: 212;
+    height: 240px;
+  }
+  
+  .mentor-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 5rem;
+  }
+  
+  .mentor-wrapper a {
+    text-decoration: none;
+    color: #033333;
+    font-size: 1 rem;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border-left: 3px solid #033333;
+    letter-spacing: 0.4px;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    font-size: 1 rem;
+    color: var(--text-color);
+  }
+  
+  
+  .rounded {
+    color: var(--dark-green);
+    font-size: 3rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 1rem auto;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .mentor-header-container {
+    text-align: center;
+    color: black;
+  }
+  
+  .mentor-section {
+    margin-top: 5rem;
+  }
+  
+  .text-block {
+    justify-self: end;
+    font-size: 1rem;
+  }
+  
+.blockquote {
+ border-left: 2rem solid rgba(10, 10, 15, 0.267);
+}
+  
+  .mentor-section span {
+    color: #033333;
+  }
+  
+  .mentor-section h2 {
+    color: var(--text-color);
+  }
