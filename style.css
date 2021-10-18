@@ -7,6 +7,7 @@
 
 .drop {
   margin: 0 !important;
+
 }
 
 #nav {
@@ -20,6 +21,11 @@
   font-family: "Courier New", Courier, monospace ;
   padding: 0.5rem 0;
   
+}
+
+.nav_bar .current {
+ background-color: #2a7e5f;
+ border-radius: 2rem;
 }
 
 .nav_bar a {
@@ -41,6 +47,11 @@
   margin-top: 1.5rem;
 }
 
+.drop_down a:active{
+  background-color: #2a7e5f;
+}
+
+
 .drop_down .dropbtn {
   font-size: 1.5rem ;
   border: none ;
@@ -51,6 +62,9 @@
   font-family: inherit ;
   margin: 0;
   
+}
+.nav .dropbtn {
+  background-color: #2a7e5f;
 }
 
 .nav_bar a:hover,
