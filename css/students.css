@@ -1,9 +1,10 @@
 .section_container {
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid black;
+    border: 2px solid rgb(105, 8, 8);
     width: 80%;
     margin: auto;
+    
     padding: 50px;
     box-sizing: border-box;
 }
@@ -15,7 +16,7 @@ p {
 } 
 
 img {
-    /* width: 100%; */
+    width: 500px;
     height: auto;
     border-radius: 8px;
     max-width: 100%;
@@ -23,6 +24,8 @@ img {
     display: block;
   }
 
-  .bio-container{
-      padding: 15px 25px;
+  
+
+  .resize{
+    height: 90%;
   }
