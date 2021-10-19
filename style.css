@@ -465,13 +465,6 @@ li {
   color: var(--text-color);
 }
 
-/*///////////////////////////////////////////////////////////// MEET THE MENTORS */
-.mentor-image {
-  --red: black;
-  --dark-green: #033333;
-  --light-green: #2a7e5f;
-  --text-color: #555555;
-}
 
 h1 {
   font-size: 3rem;
