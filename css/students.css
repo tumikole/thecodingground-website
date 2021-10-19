@@ -1,54 +1,155 @@
 .bio-container {
-    display: flex;
+    display:  flex;
     justify-content: space-evenly;
-    border: 2px solid rgb(3, 3, 2);
     margin: 20px;
     border-radius: 23px;
-    padding: 50px;
+    padding: 90px;
     box-sizing: border-box;
-    width: 40%;
     box-sizing: border-box;
-    
-    float: left;
-    
-    
+    width: 100%;
+    flex: 3;
+     
+}
+ h1 {
+   text-align: center;
+ }
+.kamva {
+    justify-content: space-evenly;
+    border-radius: 23px;
+    border: 12px solid rgb(3, 3, 2);
+    margin-right: 30px;
 }
 
-
-p {
-
-    padding: 0 35px;
-} 
-
 .resize {
+   padding: 18px;
     width: 9000px;
     height: auto;
     border-radius: 8px;
     max-width: 100%;
-    /* vertical-align: middle; */
     display: block;
   
   }
 
-  
+  .resize3 {
+    padding: 18px;
+     width: 500px;
+     height: auto;
+     border-radius: 8px;
+     max-width: 100%;
+     display: block;
+     margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+   }
 
-/* .students{
-  padding: 90px, 73px;
-  margin-top: 18rem;
-} */
-
-.TCG_students{
-  width: 500px;
-  height: auto;
-  border-radius: 8px;
-  max-width: 100%;
-  /* vertical-align: middle; */
-  display: block;
-}
+  .resize1{
+    padding: 15px ;
+    /* width: 50%; */
+    height: 400px;
+    border-radius: 8px;
+    max-width: 100%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+  } 
 
 .students {
-  display: grid;
-  grid-column-gap: 10px;
-  /* grid-template-columns: 1000px 1000px;
-  height: 100px; */
+  border: 3px solid rgb(248, 247, 247);
+    padding: 80px;
+    margin: 78px;
+    /* display: flex; */
+}
+
+.samuel {
+  justify-content: space-evenly;
+  border-radius: 23px;
+  border: 12px solid rgb(3, 3, 2);
+}
+
+.bio-container2 {
+  display:  flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  border-radius: 23px;
+  padding: 90px;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 3;
+   
+}
+.resize2{
+  padding: 15px ;
+    /* width: 50%; */
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.lindo {
+
+  justify-content: space-evenly;
+  border-radius: 23px;
+  border: 12px solid rgb(3, 3, 2);
+  margin-right: 30px;
+}
+
+.muano {
+  justify-content: space-evenly;
+  border-radius: 23px;
+  border: 12px solid rgb(3, 3, 2);
+}
+
+.bio-container3 {
+  display:  flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  border-radius: 23px;
+  padding: 90px;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 3;
+   
+}
+
+.wongani {
+
+  justify-content: space-evenly;
+  border-radius: 23px;
+  border: 12px solid rgb(3, 3, 2);
+  margin-right: 30px;
+}
+
+.kwanele {
+  justify-content: space-evenly;
+  border-radius: 23px;
+  border: 12px solid rgb(3, 3, 2);
+}
+
+.bio-container4 {
+  display:  flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  border-radius: 23px;
+  padding: 90px;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 3;
+   
+}
+
+.njabulo {
+  justify-content: space-evenly;
+  border-radius: 23px;
+  border: 12px solid rgb(3, 3, 2);
+  margin-right: 30px;
 }
