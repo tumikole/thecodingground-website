@@ -1,12 +1,17 @@
-.section_container {
+.bio-container {
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid rgb(105, 8, 8);
-    width: 80%;
-    margin: auto;
-    
+    border: 2px solid rgb(3, 3, 2);
+    margin: 20px;
+    border-radius: 23px;
     padding: 50px;
     box-sizing: border-box;
+    width: 40%;
+    box-sizing: border-box;
+    
+    float: left;
+    
+    
 }
 
 
@@ -15,17 +20,35 @@ p {
     padding: 0 35px;
 } 
 
-img {
-    width: 500px;
+.resize {
+    width: 9000px;
     height: auto;
     border-radius: 8px;
     max-width: 100%;
     /* vertical-align: middle; */
     display: block;
+  
   }
 
   
 
-  .resize{
-    height: 90%;
-  }
+/* .students{
+  padding: 90px, 73px;
+  margin-top: 18rem;
+} */
+
+.TCG_students{
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  max-width: 100%;
+  /* vertical-align: middle; */
+  display: block;
+}
+
+.students {
+  display: grid;
+  grid-column-gap: 10px;
+  /* grid-template-columns: 1000px 1000px;
+  height: 100px; */
+}
