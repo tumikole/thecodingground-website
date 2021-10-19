@@ -1,7 +1,7 @@
 /* ////////////////////////////////////////// Navigationbar */
 .logo {
   float: left;
-  margin-left: 2%;
+  margin-left: 4%;
 }
 
 .drop {
@@ -18,21 +18,26 @@
   background-color: #033333;
   font-family: "Courier New", Courier, monospace;
   padding: 0.5rem 0;
+
 }
 
 .nav_bar .current {
-  background-color: #2a7e5f;
-  border-radius: 2rem;
+ /* background-color: #2a7e5f; */
+ border: 1px solid #f9f9f9;
+ border-radius: 2rem;
+ width: 6%;
 }
+
 
 .nav_bar a {
   float: right;
-  font-size: 1.5rem;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  font-size: 1.2rem ;
+  color: white ;
+  text-align: center ;
+  padding: 10px 12px ;
   text-decoration: none !important;
   margin-top: 1.5rem;
+  margin-left: 1%;
 }
 
 .drop_down {
@@ -41,20 +46,22 @@
   text-decoration: none !important;
   margin-right: 4%;
   margin-top: 1.5rem;
+  margin-left: 1%;
 }
 
 .drop_down a:active {
   background-color: #2a7e5f;
+
 }
 
 .drop_down .dropbtn {
-  font-size: 1.5rem;
+  font-size: 1.2rem ;
   border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
+  outline: none ;
+  color:  #f9f9f9 ;
+  padding: 10px 12px !important;
+  background-color: inherit ;
+  font-family: inherit ;
   margin: 0;
 }
 .nav .dropbtn {
@@ -63,16 +70,30 @@
 
 .nav_bar a:hover,
 .drop_down:hover .dropbtn {
+    /* background-color: #2a7e5f !important; */
+    border: 1px solid #f9f9f9;
+    /* color: yellow; */
+    font-size: 1.2rem;
+    color: #f9f9f9;
+    border-radius: 2rem;
+    /* width: 6% !important; */
+    /* text-decoration: underline !important; */
+}
+.nav_bar a:hover{
+    width: 6% !important;
+    font-size: 1.2rem;
+
   /* background-color: #2a7e5f !important; */
   text-decoration: underline !important;
   color: #f9f9f9;
 }
 
 .dropdown-content {
+  /* margin-top: .5rem; */
   display: none !important;
   position: absolute !important;
   background-color: #f9f9f9 !important;
-  min-width: 160px !important;
+  min-width: 120px !important;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
   z-index: 1 !important;
 }
@@ -80,7 +101,7 @@
 .dropdown-content a {
   float: none !important;
   color: black !important;
-  padding: 12px 16px !important;
+  padding: 10px 12px !important;
   text-decoration: none !important;
   display: block !important;
   text-align: left !important;
@@ -90,13 +111,20 @@
 
 .dropdown-content a:hover {
   background-color: #2a7e5f !important;
+  width: 100% !important;
+  /* color: yellow !important; */
+  
+  
 }
 
 .drop_down:hover .dropdown-content {
   display: block !important;
+  margin-left: 0.5rem;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////// Navigation Closed */
+about
+
 
 :root {
   --red: black;
