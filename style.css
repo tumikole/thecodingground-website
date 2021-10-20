@@ -11,6 +11,8 @@
 #nav {
   position: fixed;
   width: 100%;
+  z-index: 50;
+
 }
 
 .nav_bar {
@@ -84,7 +86,7 @@
     font-size: 1.2rem;
 
   /* background-color: #2a7e5f !important; */
-  text-decoration: underline !important;
+  /* text-decoration: underline !important; */
   color: #f9f9f9;
 }
 
@@ -123,7 +125,6 @@
 }
 
 /* //////////////////////////////////////////////////////////////////////////////// Navigation Closed */
-about
 
 
 :root {
@@ -387,36 +388,6 @@ html ::-webkit-scrollbar {
 
 /* //////////////////////////////////////////////////////////// header section */
 
-/* ////////////////////////////////////////////////////////// INTRO */
-.intro-section {
-  background-color: var(--light-green);
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 3rem;
-  margin-top: 7.5rem;
-}
-
-.intro-section a {
-  width: 9rem;
-  margin: 1rem;
-  margin-left: 2rem;
-}
-
-.intro-section h1 {
-  text-align: center;
-  padding: 4rem;
-  margin: 0px;
-  line-height: 3rem;
-}
-
-.intro-section p {
-  margin-left: 2rem;
-}
-.intro-section span {
-  font-weight: bold;
-}
-
-/* /////  ///////////////////////////////////////////////////// INTRO */
 /* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
 
 .square {
@@ -518,7 +489,7 @@ body {
   overflow-x: hidden !important;
 }
 
-
+/* 
 
 .sub-header-container {
   display: grid;
@@ -562,34 +533,7 @@ body {
 
 .apply {
   display: grid;
-}
-
-.intro-section {
-  background-color: var(--light-green);
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 3rem;
-}
-
-.intro-section a {
-  width: 9rem;
-  margin: 1rem;
-  margin-left: 2rem;
-}
-
-.intro-section h1 {
-  text-align: center;
-  padding: 4rem;
-  margin: 0px;
-  line-height: 3rem;
-}
-
-.intro-section p {
-  margin-left: 2rem;
-}
-.intro-section span {
-  font-weight: bold;
-}
+} */
 
 /* /////  ///////////////////////////////////////////////////// INTRO */
 /* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
