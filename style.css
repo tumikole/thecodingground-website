@@ -768,11 +768,9 @@ h4 {
   font-weight: normal;
 }
 
-/* /////////////////////////////////////////footer_navigation */
 
 .footer {
-  /* display: grid; */
-  /* grid-template-columns: 1fr 2fr 2fr 2fr; */
+
   background-color: #2a7e5f !important ;
 }
 
@@ -806,9 +804,6 @@ h4 {
 
 }
 
-.footerContact,
-a{
-}
 .columns ul {
 
   display: flex;
