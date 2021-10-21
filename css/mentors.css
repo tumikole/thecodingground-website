@@ -8,6 +8,7 @@ gap: 5rem
 }
 
 .card {
+  border: 3px solid black !important;
   box-shadow: 8 4px 8px 0 rgba(0, 0, 0, 0.2);
   /* height: 10% !important; */
   margin: auto;
@@ -53,9 +54,14 @@ height: 350px !important;
 filter: gray;
 -webkit-filter:grayscale(1);
 }
+
+.media-container{
+
+ display: grid;
+ grid-template-columns: auto auto auto ;
+  gap: 2rem ;
+  margin: auto !important;
+}
 .media{
-  width: 25px;
-  float:left;
- margin: 2rem;
- 
+    width: 20px;
 }
