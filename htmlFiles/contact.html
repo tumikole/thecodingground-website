@@ -12,6 +12,11 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   <title>CONTACT US</title>
   <link rel="icon" type="image/png" href="/img/green-favicon.ico" sizes="16x16">
 
@@ -28,7 +33,7 @@
   <title>CONTACT US</title>
 </head>
 
-<body>
+<body id="intro-section">
   <div id="nav">
     <div class="nav_bar">
       <img class="logo" src="../img/Logo-White-website.png">
@@ -46,31 +51,33 @@
       <a href="../index.html" target="">Home</a>
     </div>
   </div>
-<div class="wrapper">
+
+<div style="height: 90vh" class="wrapper">
     <div class="contact-us">
       <h1>CONTACT US</h1>
       <hr class="hr">
     </div>
   <div class="wrapper-form">
     <div class="form">
-      <form>
+      <form action="https://formspree.io/f/mdoyvlyg"
+      method="POST">
         <div class="main-label">
           <labe class="label">First Name<span class="required"> *</span></label>
-            <input class="sub-form" type="text">
+            <input id="firstname" class="form-control"  type="text">
         </div>
         <div class="main-label">
           <labe class="label">Last Name<span class="required"> *</span</label>
-            <input class="sub-form" type="text">
+            <input id="lastname" class="form-control" type="text">
         </div>
         <div class="main-label">
           <labe class="label">Email<span class="required"> *</span</label>
-            <input class="sub-form" type="text">
+            <input id="email" class="form-control" type="text">
         </div>
         <div class="main-label">
           <labe class="label">Motivation Message <span class="required"> *</span</labe>
-          <textarea class="sub-form1" type="text" placeholder="Why should we consider you" ></textarea>
+          <textarea id="message" class="form-control" type="text" placeholder="Why should we consider you" ></textarea>
         </div>
-        <button class="form-button" type="button">SEND</button>
+        <button onclick="submitMessage()" class="form-button" type="button" >SEND</button>
       </form>
     </div>
     <div class="sub-contact">
@@ -106,56 +113,55 @@
 <footer>
   <div class="footer">
     <!-- <div class="columns">
-          <h5
-          <img src="./img/Logo-White.png" alt="tcg logo" />
-          </h5>
-        </div> -->
+              <h5
+              <img src="./img/Logo-White.png" alt="tcg logo" />
+              </h5>
+            </div> -->
     <!-- <div class="columns">
-         
-        </div> -->
-    <div class="columns">
-      <h3 style="color:white; text-align:center">Affiliated and proudly sponsored by</h3>
-      <br>
-      <ul>
-        <li>
-          <a href="https://www.inreality.com/">
-          <img src="../img/inreality.svg" class="sponsorLogo" /></a>
-        </li>
-
-        <li>
-          <a href="https://www.riversandsihub.co.za/">
-          <img src="../img/riversandsihub.png" class="sponsorLogo" /></a>
-        </li>
-        <li>
-          <a href="https://www.sourceworx.co.za/#">
-
-          <img src="../img/source-worx.svg" class="sponsorLogo" /></a>
-        </li>
-
-        <li>
-          <a href="https://techways.online/">
-
-          <img src="../img/Techways.png" class="sponsorLogo" /></a>
-        </li>
-        <li>
-          <a href="https://techways.online/">
-
-          <img src="../img/HRW_RECRUITMENT.png" class="sponsorLogo" /></a>
-        </li>
-      </ul>
-
-      <div class="footerContact">
-        <div class="socialIcons">
-          <a href="Tel:072 072 07200"><img src="../icons/whatsapp-brands.svg" class="img-fluid" /></a>
-          <a href="https://www.facebocom/CodeSchoolZA/"><img src="../icons/facebook-brands.svg"
-              style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
-          </a>
-          <a href="https://www.linkedin.com/company/the-coding-ground/about/"><img class="img-fluid"
-              src="../icons/linkedin-in-brands.svg" />
-          </a>
+             
+            </div> -->
+        <div class="columns">
+          <h3 style="color:white; text-align:center">Affiliated and proudly sponsored by</h3>
+          <br>
+          <ul>
+            <li>
+              <a href="https://www.inreality.com/">
+              <img src="../img/inreality.svg" class="sponsorLogo" /></a>
+            </li>
+  
+            <li>
+              <a href="https://www.riversandsihub.co.za/">
+              <img src="../img/riversandsihub.png" class="sponsorLogo" /></a>
+            </li>
+            <li>
+              <a href="https://www.sourceworx.co.za/#">
+              <img src="../img/source-worx.svg" class="sponsorLogo" /></a>
+            </li>
+  
+            <li>
+              <a href="https://techways.online/">
+        
+              <img src="../img/Techways.png" class="sponsorLogo" /></a>
+            </li>
+            <li>
+              <a href="https://hrwgrp.com/">
+              <img src="../img/HRW_RECRUITMENT.png" style="height:80px; width:100%; border-radius: 15px;" class="sponsorLogo" /></a>
+            </li>
+            <li>
+              <a href="https://www.devson.co.za/">
+              <img src="../img/1551263018231.jpeg" style="height:60px; width:60px; border-radius: 15px;" class="sponsorLogo" /></a>
+            </li>
+          </ul>
+          
+          <div class="footerContact">
+            <div class="socialIcons">
+            <a href="Tel:072 072 07200"><img src="../icons/whatsapp-brands.svg" class="img-fluid" /></a>
+            <a href="https://www.facebocom/CodeSchoolZA/"><img src="../icons/facebook-brands.svg" style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
+            </a>
+            <a href="https://www.linkedin.com/company/the-coding-ground/about/"><img src="../icons/linkedin-in-brands.svg" class="img-fluid"></a>
         </div>
         <div class="up-arrowDiv">
-          <a href="#nav"><img class="up-arrow-icon" src="../icons/arrow-alt-circle-up-regular.svg" alt=""></a>
+          <a href="#intro-section"><img class="up-arrow-icon" src="../icons/arrow-alt-circle-up-regular.svg" alt=""></a>
         </div>
       </div>
     </div>
@@ -163,8 +169,11 @@
   <div class="footerTextContainer">
     <h5 class="footerText">&#9400;THECODINGGROUND</h5>
   </div>
+
 </footer>
-<script src="script.js"></script>
+<script src="../contact.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
