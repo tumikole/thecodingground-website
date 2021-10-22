@@ -1,3 +1,4 @@
+
 // swal.fire("Succesfully registered");
 // document.getElementById("click").addEventListener("click",function(){
 
@@ -47,6 +48,7 @@ const submitForm = () => {
         // status.innerHTML = "Oops! There was a problem submitting your form"
       });
 }
+
 
 
 
