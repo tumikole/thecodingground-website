@@ -172,9 +172,7 @@
   font-weight: bold;
       margin-top: 0;
   }
-  .signup-form hr {
-      margin: 0 -30px 20px;
-  }
+  
 .signup-form .form-group {
   margin-bottom: 20px;
 }
@@ -190,9 +188,7 @@
   max-width: 42px;
   text-align: center;
 }
-.signup-form input[type="checkbox"] {
-  margin-top: 2px;
-}   
+
   .signup-form .btn{        
       font-size: 16px;
       font-weight: bold;
@@ -218,21 +214,14 @@
 .signup-form form a:hover {
   text-decoration: underline;
 }
-.signup-form .fa {
-  font-size: 21px;
-}
-.signup-form .fa-paper-plane {
-  font-size: 18px;
-}
-.signup-form .fa-check {
-  color: #fff;
-  left: 17px;
-  top: 18px;
-  font-size: 7px;
-  position: absolute;
+input{
+  border-radius: 0.5rem !important;
 }
 
 
+textarea{
+  border-radius: 0.5rem !important; 
+}
 
 /* ///////////////form end*/
 
@@ -289,16 +278,7 @@ body {
 }
 /* //////////////////////////////////////////////////////////// header section */
 
-/* .img-container {
-  background-image: url("../img/RevSlider-V1.jpg");
-  background-position: center;
-  display: grid;
-  grid-template-rows: repeat(1, 16rem);
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
-  background-repeat: no-repeat;
-} */
+
 
 .imgContainer {
   display: flex;
@@ -322,37 +302,10 @@ body {
   margin: 5rem;
 }
 
-.mentor-wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-left: 5rem;
-}
 
-.mentor-wrapper a {
-  text-decoration: none;
-  color: #033333;
-  font-size: 0.9rem;
-}
 
-blockquote {
-  font-style: italic;
-  border-left: 3px solid #033333;
-  letter-spacing: 0.4px;
-  margin-bottom: 2rem;
-  padding-left: 2rem;
-  font-weight: normal;
-  line-height: 1.5rem;
-  font-size: 0.9rem;
-  color: var(--text-color);
-}
 
-.rounded {
-  color: var(--dark-green);
-  font-size: 3rem;
-  padding: 2rem;
-  border-radius: 2rem;
-  margin: 1rem auto;
-}
+
 
 :root {
   --red: black;
@@ -374,23 +327,6 @@ h2 {
   font-size: 1.5rem;
 }
 
-.btn {
-  display: inline-block;
-  text-decoration: none;
-  width: 14rem;
-  padding: 1rem 1rem;
-  font-size: 1rem;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  border: 1px solid white;
-}
-
-p {
-  line-height: 1.8;
-  font-weight: 400;
-  font-size: 1.1rem;
-}
 
 * {
   padding: 0px;
@@ -408,18 +344,10 @@ body {
 html {
   overflow: scroll;
 }
-/* html,
-  body {
-    width: 100% !important;
-    /* //////////////////////////////////////////////////////////// header section */
-/* overflow-x: hidden !important;
-    overflow-y: hidden; */
-/* }  */
+
 
 html ::-webkit-scrollbar {
   display: none;
-  /* width: 0px;
-    background: transparent; make scrollbar transparent */
 }
 
 .sub-header-container {
@@ -448,6 +376,7 @@ html ::-webkit-scrollbar {
 .header-medium {
   font-size: 5rem;
   text-align: center;
+
   font-weight: bold;
   color: white;
 }
@@ -459,6 +388,7 @@ html ::-webkit-scrollbar {
   letter-spacing: 0.2rem;
   align-self: center;
   padding: 1rem 5rem;
+  border-radius: 0.5rem;
   font-size: 2.5rem;
   font-weight: normal;
   text-transform: uppercase;
@@ -466,7 +396,6 @@ html ::-webkit-scrollbar {
   margin-top: 0rem;
   color: #033333;
   letter-spacing: 0.2rem;
-  /* opacity: 0.2; */
 }
 
 .btn-apply {
@@ -588,60 +517,14 @@ body {
   overflow-x: hidden !important;
 }
 
-/* 
-
-.sub-header-container {
-  display: grid;
-  justify-content: center;
-  color: black;
-  margin: 0rem;
-  line-height: 2rem;
-}
-
-.header {
-  font-size: 8rem;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 1.8;
-}
-
-.header-container {
-  align-self: center;
-  line-height: 4rem;
-  margin: 0rem;
-  text-align: center;
-}
-
-.header-medium {
-  font-size: 5rem;
-  text-align: center;
-  font-weight: bold;
-}
-
-.btn-apply {
-  background-color: var(--dark-green);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-weight: bold;
-  justify-self: center;
-  text-align: center;
-  margin-bottom: 3rem;
-  line-height: 0rem;
-  margin-top: 2rem;
-  padding: 2rem 1rem;
-}
-
-.apply {
-  display: grid;
-} */
-
-/* /////  ///////////////////////////////////////////////////// INTRO */
+/* ////////////////////////////////////////////////////////// INTRO */
 /* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
 
-.square {
+/* .square {
   border: 1px solid black;
   padding: 1.5rem 1.5rem;
   font-size: 1.8rem;
-}
+} */
 
 .icon {
   color: white;
