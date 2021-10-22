@@ -1,53 +1,42 @@
-
-// swal.fire("Succesfully registered");
-// document.getElementById("click").addEventListener("click",function(){
-
-//     // swal.fire("Succesfully registered");
-// })
-
-// var form = document.getElementById("my-form");
-
-// async function handleSubmit(event) {
-//     event.preventDefault();
-//     //   var status = document.getElementById("my-form-status");
-//     var data = new FormData(event.target);
-//     fetch(event.target.action, {
-//         method: form.method,
-//         body: data,
-//         headers: {
-//             'Accept': 'application/json'
-//         }
-//     }).then(response => {
-//         swal.fire("Succesfully registered");
-//         // status.innerHTML = "Thanks for your submission!";
-//         form.reset()
-//       }).catch(error => {
-//         swal.fire("error");
-//         // status.innerHTML = "Oops! There was a problem submitting your form"
-//       });
-//     }
-//     form.addEventListener("submit", handleSubmit)
-
-
 const submitForm = () => {
     const name = document.getElementById('firstname').value
-    // event.preventDefault();
-    // var data = new FormData(event.target);
-    const data = {name : 'dkfjsdkfjd' , surname:"dlfjsdkf"} 
+    const lastname = document.getElementById('lastname').value
+    const contact = document.getElementById('contact').value
+    const id = document.getElementById('id').value
+    const email = document.getElementById('email').value
+    const address = document.getElementById('address').value
+
+ 
+  if(name && lastname && contact && id && email && address !== ''){
     fetch("https://formspree.io/f/xeqvwzvj", {
         method: 'POST',
-        body: JSON.stringify({name : "name"}),
+        body: JSON.stringify({Firstname : name, Lastname: lastname, Id: id, Contact: contact, Email: email, Address: address}),
         headers: {
             'Accept': 'application/json'
         }
     }).then(response => {
         swal.fire("Succesfully registered");
-        // status.innerHTML = "Thanks for your submission!";
       }).catch(error => {
         swal.fire("error");
-        // status.innerHTML = "Oops! There was a problem submitting your form"
       });
+} else{
+  Swal.fire({
+    title: 'Please fill all required fields.',
+    width: 600,
+    padding: '3em',
+    // background: '#fff url(./icon/linkedin-in-brands.svg)',
+    backdrop: `
+      rgba(0,0,123,0.4)
+      url("")
+      left top
+      no-repeat
+    `
+  })}
 }
+  
+    
+
+  
 
 
 

@@ -22,6 +22,7 @@
     width: 100%;
     
 }
+
 .wrapper-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -44,7 +45,7 @@ color: black;
     height: 8rem;
     font-size: 1.2rem;
     border-radius: 0.5rem;
-    padding: .5rem;
+    padding: .5remkdjfkwirfw;
     color: black;
     
 }
@@ -65,6 +66,12 @@ color: black;
     margin-left: 25%;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
+    /* //////////jnjjn  */
+    font-size: 16px;
+    font-weight: bold;
+background: #19aa8d;
+border: none;
+min-width: 140px;
 }
 
 .sub-contact{
@@ -100,14 +107,10 @@ background-color: black;
 }
 
 .form-button:hover{
-    background-color:  #2a7e5f;
+    background: #179b81;
+
 }
 
 .required{
     color:red
-}
-@keyframes pop
-{
-  0%{transform:scale(0);}
-  100%{transform:scale(0);}
 }
