@@ -1,24 +1,18 @@
 .bio-container {
     display:  flex;
     justify-content: space-evenly;
-    margin: 20px;
+    /* margin: 20px; */
     border-radius: 23px;
-    padding: 90px;
-    box-sizing: border-box;
+    /* padding: 90px; */
     box-sizing: border-box;
     width: 100%;
-    flex: 3;
-     
+    flex: 3;    
+    
 }
  h1 {
    text-align: center;
  }
-.kamva {
-    justify-content: space-evenly;
-    border-radius: 23px;
-    border: 12px solid rgb(3, 3, 2);
-    margin-right: 30px;
-}
+
 
 .resize {
    padding: 18px;
@@ -44,7 +38,6 @@
 
   .resize1{
     padding: 15px ;
-    /* width: 50%; */
     height: 400px;
     border-radius: 8px;
     max-width: 100%;
@@ -56,17 +49,12 @@
   } 
 
 .students {
-  border: 3px solid rgb(248, 247, 247);
     padding: 80px;
     margin: 78px;
-    /* display: flex; */
+    /* margin-top: 1rem; */
 }
 
-.samuel {
-  justify-content: space-evenly;
-  border-radius: 23px;
-  border: 12px solid rgb(3, 3, 2);
-}
+
 
 .bio-container2 {
   display:  flex;
@@ -82,8 +70,8 @@
 }
 .resize2{
   padding: 15px ;
-    /* width: 50%; */
-    height: auto;
+  
+    height: 490px;
     border-radius: 8px;
     max-width: 100%;
     display: block;
@@ -93,18 +81,27 @@
     border-radius: 8px;
 }
 
-.lindo {
+.card-container {
 
   justify-content: space-evenly;
   border-radius: 23px;
-  border: 12px solid rgb(3, 3, 2);
-  margin-right: 30px;
+  box-shadow: 0 0 5px 5px black; 
+  margin-right: 50px;
+  padding: 34px;
 }
 
-.muano {
-  justify-content: space-evenly;
-  border-radius: 23px;
-  border: 12px solid rgb(3, 3, 2);
+.header-h1, h1 {
+  padding-top: 13rem;
+  color: rgb(235, 98, 48);
+}
+
+.header-h1{
+  margin-top: 8rem;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/img/group\ picture.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bio-container3 {
@@ -120,18 +117,9 @@
    
 }
 
-.wongani {
-
-  justify-content: space-evenly;
-  border-radius: 23px;
-  border: 12px solid rgb(3, 3, 2);
-  margin-right: 30px;
-}
-
-.kwanele {
-  justify-content: space-evenly;
-  border-radius: 23px;
-  border: 12px solid rgb(3, 3, 2);
+.social{
+  text-align: center;
+  cursor: pointer;
 }
 
 .bio-container4 {
@@ -159,3 +147,4 @@
   0%{transform:scale(0);}
   100%{transform:scale(0);}
 }
+

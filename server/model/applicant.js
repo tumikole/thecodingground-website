@@ -17,7 +17,13 @@ const applicantSchema = new Schema({
     contact_No:{
         type: Number, 
         required: true 
+    },
+
+    date:{
+        type: Date, 
+        default: Date.now
     }
+
 
 })
 

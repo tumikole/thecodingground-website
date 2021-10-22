@@ -2,8 +2,8 @@
 display: grid;
 grid-template-columns: 2fr 2fr 2fr;
 padding: 10rem;
-gap: 5rem
-
+gap: 5rem;
+padding-left: 3rem;
 
 }
 
@@ -19,7 +19,7 @@ gap: 5rem
 
 .title {
   color: grey;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 button {
@@ -27,12 +27,12 @@ button {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #000;
+  color:black;
+  background-color:#2a7e5f;
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 18x;
 }
 
 a {
@@ -40,13 +40,17 @@ a {
   font-size: 22px;
   color: black;
 }
+.contact-btn{
+color: black;
+}
 
 button:hover, a:hover {
   opacity: 0.7;
 }
 
 .mentor-img{
-  width:100% !important;
+  height: 350px !important;
+
 }
 
 .mentor-imgMoral{
@@ -71,3 +75,10 @@ filter: gray;
   0%{transform:scale(0);}
   100%{transform:scale(0);}
 }
+
+ h1 {
+   font-size: 26px!important;
+   background-color:  #2a7e5f;;
+ }
+
+
