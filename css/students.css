@@ -135,3 +135,16 @@
    
 }
 
+.njabulo {
+  justify-content: space-evenly;
+  border-radius: 23px;
+  border: 12px solid rgb(3, 3, 2);
+  margin-right: 30px;
+}
+
+@keyframes pop
+{
+  0%{transform:scale(0);}
+  100%{transform:scale(0);}
+}
+
