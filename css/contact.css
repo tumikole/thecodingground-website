@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
 .contact-us{
     margin-top: 8rem;
     margin-left: 10%;
@@ -10,7 +10,15 @@
     text-align: center;
     padding-top: 4rem;
     color: white;
-
+}
+.footerText{
+    font-family: 'Delius', cursive;
+}
+li{
+     font-family: 'Delius', cursive;
+}
+h3{
+     font-family: 'Delius', cursive;
 }
 
 .wrapper{
@@ -45,21 +53,28 @@ color: black;
     height: 8rem;
     font-size: 1.2rem;
     border-radius: 0.5rem;
-    padding: .5remkdjfkwirfw;
+    padding: 5rem;
     color: black;
+    font-family: 'Delius', cursive;
+
     
 }
 
 .main-label{
     margin-top: 1rem;
     color: white;
+    font-family: 'Delius', cursive;
+
 }
 
 .label{
     font-size: 1.5rem;
+    font-family: 'Delius', cursive;
+
 }
 
 .form-button{
+
     width: 50%;
     height: 3rem;
     margin-top: 1.5rem;
@@ -72,6 +87,8 @@ color: black;
 background: #19aa8d;
 border: none;
 min-width: 140px;
+    font-family: 'Delius', cursive;
+
 }
 
 .sub-contact{
@@ -99,6 +116,7 @@ margin-left: 2rem;
 }
 .bold{
     font-weight: bold;
+    font-family: 'Delius', cursive;
 
 }
 

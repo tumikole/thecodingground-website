@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
+
 .card-container{
 display: grid;
 grid-template-columns: 2fr 2fr 2fr;
@@ -20,8 +22,14 @@ padding-left: 3rem;
 .title {
   color: grey;
   font-size: 20px;
+  font-family: 'Delius', cursive;
 }
-
+h3{
+   font-family: 'Delius', cursive;
+}
+h5{
+   font-family: 'Delius', cursive;
+}
 button {
   border: none;
   outline: 0;
@@ -34,16 +42,19 @@ button {
   cursor: pointer;
   width: 100%;
   font-size: 18x;
+  font-family: 'Delius', cursive;
   
 }
 
 a {
   text-decoration: none;
+  
   font-size: 22px;
   color: white;
 }
 .contact-btn{
 color:white;
+font-family: 'Delius', cursive;
 }
 
 button:hover, a:hover {
@@ -76,6 +87,11 @@ filter: gray;
    font-size: 26px!important;
    background-color:  #2a7e5f;;
    color: white;
+font-family: 'Delius', cursive;
+ }
+
+p{
+font-family: 'Delius', cursive;
  }
  
 

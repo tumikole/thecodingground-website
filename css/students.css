@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
+
+
 /* .bio-container {
     display:  flex;
     
@@ -9,6 +12,15 @@
    
     
 } */
+h3{
+   font-family: 'Delius', cursive;
+}
+h5{
+   font-family: 'Delius', cursive;
+}
+.footerText{
+    font-family: 'Delius', cursive;
+}
 .bio-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,7 +33,7 @@
 }
  h1 {
    text-align: center;
-
+font-family: 'Delius', cursive;
  }
 
  
@@ -85,6 +97,7 @@
   
   padding-top: 13rem;
   /* color: rgb(235, 98, 48); */
+font-family: 'Delius', cursive;
 }
 
 .header-h1{
@@ -108,7 +121,10 @@
 
 h2{
 text-align: center;
+font-family: 'Delius', cursive;
 }
-
+p{
+font-family: 'Delius', cursive;
+}
 
 
