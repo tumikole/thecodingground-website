@@ -92,7 +92,7 @@
   /* margin-right: 5rem; */
   width: 100%;
   height: 100vh;
-  background-image: url('/img/group\ picture.png');
+  background-image: url('../img/group\ picture.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -110,5 +110,9 @@ h2{
 text-align: center;
 }
 
+.dropdown-menu,
+#studentAnchorTags:hover{
+color: black !important;
+}
 
 
