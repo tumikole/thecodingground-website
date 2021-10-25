@@ -1,4 +1,6 @@
 /* ////////////////////////////////////////// Navigationbar */
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
+
 .logo {
   float: left;
   margin-left: 4%;
@@ -215,6 +217,7 @@ input{
 
 textarea{
   border-radius: 0.5rem !important; 
+  font-family: 'Delius', cursive;
 }
 
 /* ///////////////form end*/
@@ -225,12 +228,14 @@ h1 {
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  font-family: 'Delius', cursive;
 }
 
 h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
+  font-family: 'Delius', cursive;
 }
 
 .btn {
@@ -249,6 +254,7 @@ p {
   line-height: 1.8;
   font-weight: 400;
   font-size: 1.1rem;
+  font-family: 'Delius', cursive;
 }
 
 * {
@@ -313,12 +319,14 @@ h1 {
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  font-family: 'Delius', cursive;
 }
 
 h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
+  font-family: 'Delius', cursive;
 }
 
 
@@ -334,6 +342,7 @@ body {
   color: #333;
   /* line-height: 2rem; */
   color: white;
+  font-family: 'Delius', cursive;
 }
 html {
   overflow: scroll;
@@ -390,6 +399,7 @@ html ::-webkit-scrollbar {
   margin-top: 0rem;
   color: #033333;
   letter-spacing: 0.2rem;
+  font-family: 'Delius', cursive;
 }
 
 .btn-apply {
@@ -423,6 +433,7 @@ html ::-webkit-scrollbar {
 }
 li {
   list-style: none;
+ font-family: 'Delius', cursive;
 }
 
 .mentor-header-container {
@@ -464,12 +475,14 @@ h1 {
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  font-family: 'Delius', cursive;
 }
 
 h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
+  font-family: 'Delius', cursive;
 }
 
 .btn {
@@ -488,11 +501,18 @@ p {
   line-height: 1.8;
   font-weight: 400;
   font-size: 1.1rem;
+  font-family: 'Delius', cursive;
 }
 
 * {
   padding: 0px;
   margin: 0px;
+}
+h3{
+ font-family: 'Delius', cursive; 
+}
+h5{
+ font-family: 'Delius', cursive; 
 }
 
 body {
@@ -601,6 +621,7 @@ body {
 
 .what-to-learn-container p {
   max-width: 30rem;
+  font-family: 'Delius', cursive;
 }
 
 .mentor-container {
@@ -617,6 +638,7 @@ body {
   text-align: center;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
   padding-bottom: 1rem;
+  font-family: 'Delius', cursive;
 }
 
 .mentor-image {
@@ -635,6 +657,9 @@ body {
   color: #033333;
   font-size: 0.9rem;
 }
+a{
+   font-family: 'Delius', cursive; 4
+}
 
 blockquote {
   font-style: italic;
@@ -646,6 +671,7 @@ blockquote {
   line-height: 1.5rem;
   font-size: 0.9rem;
   color: var(--text-color);
+  font-family: 'Delius', cursive;
 }
 
 .rounded {
@@ -687,6 +713,7 @@ li {
   font-weight: normal;
   margin-top: 1rem;
   color: var(--text-color);
+font-family: 'Delius', cursive;
 }
 
 .stay-in-touch-container h1 {
@@ -742,6 +769,7 @@ h4 {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   font-weight: normal;
+  font-family: 'Delius', cursive;
 }
 
 

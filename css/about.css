@@ -1,4 +1,7 @@
-/* ////////////////////////////////////////////////////////// INTRO */
+/* ////////////////////////////////////////////////////////// 
+
+INTRO */
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
 .intro-section {
   background-color: var(--light-green);
   padding-left: 3rem;
@@ -7,12 +10,14 @@
   margin-top: 12rem;
   margin-left: 5%;
   margin-right: 5%;
+ 
 }
 
 .intro-section a {
   width: 9rem;
   margin: 1rem;
   margin-left: 2rem;
+ 
 }
 
 .intro-section h1 {
@@ -20,17 +25,20 @@
   padding: 4rem;
   margin: 0px;
   line-height: 3rem;
-  color:rgb(255,255,255);
+  color:rgb(255,255,255); 
+  font-family: 'Delius', cursive;
 }
 
 .intro-section p {
   margin-left: 2rem;
   font-size: 1.5rem;
   color:rgb(255,255,255);
+  font-family: 'Delius', cursive;
 
 }
 .intro-section span {
   font-weight: bold;
+  font-family: 'Delius', cursive;
 }
 
 /* ////////////////////////////////////////////////////////// INTRO */
@@ -110,6 +118,7 @@ a {
   font-size: 1.5em;
   line-height: 1.2em;
   justify-content: center;
+  font-family: 'Delius', cursive;
 }
 
 .card p {
@@ -177,6 +186,7 @@ a {
   display: flex;
   padding: 1em 3em;
   height: 3em;
+  
 }
 
 .info img {
@@ -186,7 +196,23 @@ a {
 
 .info h1 {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: normal;  
+}
+
+p{
+   font-family: 'Delius', cursive !important; 
+}
+h1{
+  font-family: 'Delius', cursive;
+}
+.footerText{
+    font-family: 'Delius', cursive;
+}
+h3{
+  font-family: 'Delius', cursive;
+}
+h5{
+   font-family: 'Delius', cursive;
 }
 
 /* MEDIA QUERIES */
