@@ -99,7 +99,7 @@ font-family: 'Delius', cursive;
   /* color: rgb(235, 98, 48); */
 font-family: 'Delius', cursive;
 }
-/* 
+
 .header-h1{
   margin-top: 1rem;
   width: 100%;
@@ -107,7 +107,7 @@ font-family: 'Delius', cursive;
   background-image: url('../img/group\ picture.png');
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 
 
@@ -132,17 +132,10 @@ font-family: 'Delius', cursive;
 color: black !important;
 }
 
-
- @keyframes pop
-{
-  0%{transform:scale(0);}
-  100%{transform:scale(0);}
-} 
-
-/* .card-container {
+ /* .card-container {
   position: relative;
   width: 50%;
-} */
-
+} 
+ */
 
 
