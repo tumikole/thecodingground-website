@@ -1,6 +1,6 @@
 /* ////////////////////////////////////////// Navigationbar */
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 .logo {
   float: left;
   margin-left: 4%;
@@ -253,23 +253,6 @@ p {
   margin: 0px;
 }
 
-body {
-  font-family: "Raleway", sans-serif !important;
-  font-size: 14px;
-  font-weight: 300;
-  color: #333;
-  /* line-height: 2rem; */
-  color: white;
-}
-
-html,
-body {
-  width: 100% !important;
-  overflow-x: hidden !important;
-}
-/* //////////////////////////////////////////////////////////// header section */
-
-
 
 .imgContainer {
   display: flex;
@@ -292,11 +275,6 @@ body {
   /* background-color: black; */
   margin: 5rem;
 }
-
-
-
-
-
 
 :root {
   --red: black;
@@ -325,6 +303,9 @@ h2 {
   padding: 0px;
   margin: 0px;
 }
+
+
+
 
 body {
   font-family: "Raleway", sans-serif !important;
@@ -614,99 +595,9 @@ body {
   max-width: 30rem;
   font-family: 'Delius', cursive;
 }
-
-.mentor-container {
-  display: grid;
-  color: black;
-  grid-template-rows: repeat(3, 1fr);
-  margin-bottom: 2rem;
-}
-
-.profile {
-  text-align: center;
-  justify-self: center;
-  width: 14rem;
-  text-align: center;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  padding-bottom: 1rem;
-  font-family: 'Delius', cursive;
-}
-
-.mentor-image {
-  width: 212;
-  height: 240px;
-}
-
-.mentor-wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-left: 5rem;
-}
-
-.mentor-wrapper a {
-  text-decoration: none;
-  color: #033333;
-  font-size: 0.9rem;
-}
-a{
-   font-family: 'Delius', cursive; 
-}
-
-blockquote {
-  font-style: italic;
-  border-left: 3px solid #033333;
-  letter-spacing: 0.4px;
-  margin-bottom: 2rem;
-  padding-left: 2rem;
-  font-weight: normal;
-  line-height: 1.5rem;
-  font-size: 0.9rem;
-  color: var(--text-color);
-  font-family: 'Delius', cursive;
-}
-
-.rounded {
-  color: var(--dark-green);
-  font-size: 3rem;
-  padding: 2rem;
-  border-radius: 2rem;
-  margin: 1rem auto;
-}
-
 li {
   list-style: none;
 }
-
-.mentor-header-container {
-  text-align: center;
-  color: black;
-}
-
-.mentor-section {
-  margin-top: 5rem;
-}
-
-.text-block {
-  justify-self: end;
-  font-size: 1rem;
-}
-
-.mentor-section span {
-  color: #d93;
-}
-
-.mentor-section h2 {
-  color: var(--text-color);
-}
-
-.profile h3 {
-  font-size: 1.5rem;
-  font-weight: normal;
-  margin-top: 1rem;
-  color: var(--text-color);
-font-family: 'Delius', cursive;
-}
-
 .stay-in-touch-container h1 {
   color: var(--text-color);
   font-weight: normal;
@@ -826,16 +717,28 @@ justify-content: space-between;
   justify-content: center;
   height: 5vh;
   padding: 9px;
-  
-  
+  opacity: 0.5;
 }
-.up-arrow-icon{
-  position: absolute;
 
-  width: 40px;
-   top: 1.8rem;
-  height: 40px;
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border-radius: 100%;
+  outline: none;
+  background-image: url(./icons/arrow-alt-circle-up-regular.svg);
+  background-color: #2a7e5f;
+  cursor: pointer;
+  padding: 25px;
+/* padding-top: 3rem; */
 
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 
 /* //////////////////////////////////////////closed .footer_navigation */
