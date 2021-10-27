@@ -181,24 +181,6 @@ a {
   transform: scale(1);
 }
 
-.info {
-  font-size: 1.2em;
-  display: flex;
-  padding: 1em 3em;
-  height: 3em;
-  
-}
-
-.info img {
-  height: 3em;
-  margin-right: 0.5em;
-}
-
-.info h1 {
-  font-size: 1em;
-  font-weight: normal;  
-}
-
 p{
    font-family: 'Delius', cursive !important; 
 }
@@ -225,13 +207,6 @@ h5{
  @media screen and (max-width: 900px) {
   .cards-wrapper {
     grid-template-columns: 1fr;
-  }
-  .info {
-    justify-content: center;
-  }
-  .card-grid-space .num {
-    margin-left: 0;
-    text-align: center;
   }
 } 
 

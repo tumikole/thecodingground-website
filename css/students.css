@@ -4,9 +4,7 @@
 .bio-container {
     margin: 20px;
     padding: 56px, ;
-    width: 100%;
-    
-    
+    width: 100%;   
 }
 h3{
    font-family: 'Delius', cursive;
@@ -23,8 +21,6 @@ h5{
 font-family: 'Delius', cursive;
  }
 
- 
-
 .resize {
     margin-top: 2rem;
     width: 600px;
@@ -34,9 +30,6 @@ font-family: 'Delius', cursive;
     display: block;
     
   }
-
-  
-
   .resize1{
     margin-top: 2rem;
     height: 25rem;
@@ -52,10 +45,6 @@ font-family: 'Delius', cursive;
     margin-top: 1rem;
     
 }
-
-
-
-
 .resize2{
     margin-top: 2rem;
     width: 25rem;
@@ -91,10 +80,6 @@ font-family: 'Delius', cursive;
   background-size: cover;
 }
 
-
-
-
-
 h2{
 font-family: 'Delius', cursive;
 }
@@ -105,12 +90,10 @@ white-space: pre-wrap;
 }
 
 
-.dropdown-menu,
-#studentAnchorTags:hover{
-color: black !important;
-}
-
-
-
+ /* .card-container {
+  position: relative;
+  width: 50%;
+} 
+ */
 
 

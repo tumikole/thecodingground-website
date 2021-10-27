@@ -19,7 +19,6 @@
 
   <title>CONTACT US</title>
   <link rel="icon" type="image/png" href="/img/green-favicon.ico" sizes="16x16">
- font-family: 'Delius', cursive;
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,16 +37,15 @@
     <div class="nav_bar">
       <img class="logo" src="../img/Logo-White-website.png">
       <a class="current" style="margin-right: 4%" href="../htmlFiles/contact.html" target="">Contact</a>
-      <a href="../htmlFiles/about.html" target="">About</a>
-
+      
       <div class="drop_down">
-        <button class="dropbtn">Members <i class="fa fa-caret-down"></i></button>
+        <button class="dropbtn">Our Team <i class="fa fa-caret-down"></i></button>
         <div class="dropdown-content">
           <a href="../htmlFiles/students.html" target="">Students</a>
           <a href="../htmlFiles/mentor.html" target="">Mentors</a>
-          <!-- <a class="drop" href="#">Sponsors</a> -->
         </div>
       </div>
+      <a href="../htmlFiles/about.html" target="">About</a>
       <a href="../index.html" target="">Home</a>
     </div>
   </div>
@@ -74,8 +72,8 @@
             <input id="email" class="form-control" type="text">
         </div>
         <div class="main-label">
-          <labe class="label">Motivation Message <span class="required"> *</span</labe>
-          <textarea id="message" class="form-control" style="height: 10rem" type="text" placeholder="Why we should consider you" ></textarea>
+          <labe class="label">Message <span class="required"> *</span</labe>
+          <textarea id="message" class="form-control" style="height: 10rem" type="text" placeholder="Type message here" ></textarea>
         </div>
         <button onclick="submitMessage()" class="form-button" type="button" >SEND</button>
       </form>
@@ -87,7 +85,7 @@
         </ul>
         <ul class="sub-map">
           <li class="bold">Riversand Incubation Hub</li>
-          <li>8 incubation Dr,Riveside view, Fourways</li>
+          <li>8 Incubation Drive,Riveside view, Fourways</li>
         </ul>
       </div>
       <div class="map">
@@ -153,28 +151,28 @@
             </li>
             <li>
               <a href="https://www.devson.co.za/" target="_blank">
-              <img src="../img/1551263018231.jpeg" style="height:60px; width:60px; border-radius: 15px;" class="sponsorLogo" /></a>
+                <img src="../img/1551263018231.jpeg" style="height:70px; width:70px; border-radius: 15px;" class="sponsorLogo" /></a>
             </li>
           </ul>
           
           <div class="footerContact">
             <div class="socialIcons">
-            <a href="Tel:072 072 07200"><img src="../icons/whatsapp-brands.svg" class="img-fluid" /></a>
-            <a href="https://www.facebocom/CodeSchoolZA/"><img src="../icons/facebook-brands.svg" style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
+              <a href="Tel:082 779 9875"><img src="../icons/phone-solid.svg" class="img-fluid" /></a>
+              <a href="https://www.facebocom/CodeSchoolZA/"><img src="../icons/facebook-brands.svg" style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
             </a>
             <a href="https://www.linkedin.com/company/the-coding-ground/about/"><img src="../icons/linkedin-in-brands.svg" class="img-fluid"></a>
         </div>
-        <div class="up-arrowDiv">
-          <a href="#intro-section"><img class="up-arrow-icon" src="../icons/arrow-alt-circle-up-regular.svg" alt=""></a>
-        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
       </div>
     </div>
   </div>
   <div class="footerTextContainer">
-    <h5 class="footerText">&#9400;THECODINGGROUND</h5>
+    <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2021</h5>
   </div>
 
 </footer>
+<script src="../script.js"></script>
 <script src="../contact.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 

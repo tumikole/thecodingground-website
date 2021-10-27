@@ -1,6 +1,6 @@
 /* ////////////////////////////////////////// Navigationbar */
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 .logo {
   float: left;
   margin-left: 4%;
@@ -15,18 +15,20 @@
   width: 100%;
   z-index: 50;
 }
-a.current {
-  color: #2a7e5f;
-}
-.current{
-  border: 1px solid #f9f9f9;
-  border-radius: 2rem;
-  /* width: 6%; */
-}
+
+.current1 {
+  color: yellow !important;
+  font-weight: bold;
+} 
+
+ .current{
+  color:  yellow !important;
+  font-weight: bold;
+} 
 
 #current{
-  border: 1px solid #f9f9f9;
-  border-radius: 2rem;
+color: yellow !important;
+font-weight: bold;
 }
 
 .nav_bar {
@@ -38,15 +40,13 @@ a.current {
 }
 
 .nav_bar .current {
- /* background-color: #2a7e5f; */
- border: 1px solid #f9f9f9;
- border-radius: 2rem;
- width: 6%;
+
+ color: yellow !important;
 }
 
 .nav_bar a {
   float: right;
-  font-size: 1.2rem ;
+  font-size: 1.2rem !important;
   color: white ;
   text-align: center ;
   padding: 10px 12px ;
@@ -65,8 +65,12 @@ a.current {
 }
 
 .drop_down a:active {
-  background-color: #2a7e5f;
+  color: yellow !important;
 
+}
+
+.dropbtn{
+  padding-top: .8rem;
 }
 
 .drop_down .dropbtn {
@@ -74,7 +78,7 @@ a.current {
   border: none;
   outline: none ;
   color:  #f9f9f9 ;
-  padding: 10px 12px !important;
+  /* padding: 10px 12px !important; */
   background-color: inherit ;
   font-family: inherit ;
   margin: 0 !important;
@@ -83,40 +87,36 @@ a.current {
   background-color: #2a7e5f;
 }
 
-.nav_bar a:hover,
-.drop_down:hover .dropbtn {
-    /* background-color: #2a7e5f !important; */
-    border: 1px solid #f9f9f9;
-    /* color: yellow; */
-    font-size: 1.2rem;
-    color: #f9f9f9;
-    border-radius: 2rem;
-    /* width: 6% !important; */
-    /* text-decoration: underline !important; */
-}
 .nav_bar a:hover{
-    width: 6% !important;
-    font-size: 1.2rem;
+  color: yellow !important;
+ font-size: 1.2rem;
+    font-weight: bold;
+}
 
-  /* background-color: #2a7e5f !important; */
-  /* text-decoration: underline !important; */
-  color: #f9f9f9;
+
+.drop_down:hover .dropbtn {
+
+ font-size: 1.2rem;
+ color: yellow !important;
+ font-weight: bold;
 }
 
 .dropdown-content {
   /* margin-top: .5rem; */
   display: none !important;
   position: absolute !important;
-  background-color: #f9f9f9 !important;
-  min-width: 120px !important;
+  background-color: #033333 !important;
+  /* background-color:  #2a7e5f !important; */
+  min-width: 105px !important;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
   z-index: 1 !important;
-  /* top: 6.5rem; */
+
+  margin-right: 10rem !important;
 }
 
 .dropdown-content a {
   float: none !important;
-  color: black !important;
+  color: white !important;
   padding: 10px 12px !important;
   text-decoration: none !important;
   display: block !important;
@@ -128,7 +128,8 @@ a.current {
 }
 
 .dropdown-content a:hover {
-  color: #2a7e5f !important;
+
+  color: yellow !important;
   width: 100% !important;
   font-weight: bold;
   /* color: yellow !important; */
@@ -274,23 +275,6 @@ p {
   margin: 0px;
 }
 
-body {
-  font-family: "Raleway", sans-serif !important;
-  font-size: 14px;
-  font-weight: 300;
-  color: #333;
-  /* line-height: 2rem; */
-  color: white;
-}
-
-html,
-body {
-  width: 100% !important;
-  overflow-x: hidden !important;
-}
-/* //////////////////////////////////////////////////////////// header section */
-
-
 
 .imgContainer {
   display: flex;
@@ -313,11 +297,6 @@ body {
   /* background-color: black; */
   margin: 5rem;
 }
-
-
-
-
-
 
 :root {
   --red: black;
@@ -346,6 +325,9 @@ h2 {
   padding: 0px;
   margin: 0px;
 }
+
+
+
 
 body {
   font-family: "Raleway", sans-serif !important;
@@ -636,98 +618,9 @@ body {
   font-family: 'Delius', cursive;
 }
 
-.mentor-container {
-  display: grid;
-  color: black;
-  grid-template-rows: repeat(3, 1fr);
-  margin-bottom: 2rem;
-}
-
-.profile {
-  text-align: center;
-  justify-self: center;
-  width: 14rem;
-  text-align: center;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  padding-bottom: 1rem;
-  font-family: 'Delius', cursive;
-}
-
-.mentor-image {
-  width: 212;
-  height: 240px;
-}
-
-.mentor-wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-left: 5rem;
-}
-
-.mentor-wrapper a {
-  text-decoration: none;
-  color: #033333;
-  font-size: 0.9rem;
-}
-a{
-   font-family: 'Delius', cursive; 4
-}
-
-blockquote {
-  font-style: italic;
-  border-left: 3px solid #033333;
-  letter-spacing: 0.4px;
-  margin-bottom: 2rem;
-  padding-left: 2rem;
-  font-weight: normal;
-  line-height: 1.5rem;
-  font-size: 0.9rem;
-  color: var(--text-color);
-  font-family: 'Delius', cursive;
-}
-
-.rounded {
-  color: var(--dark-green);
-  font-size: 3rem;
-  padding: 2rem;
-  border-radius: 2rem;
-  margin: 1rem auto;
-}
-
 li {
   list-style: none;
 }
-
-.mentor-header-container {
-  text-align: center;
-  color: black;
-}
-
-.mentor-section {
-  margin-top: 5rem;
-}
-
-.text-block {
-  justify-self: end;
-  font-size: 1rem;
-}
-
-.mentor-section span {
-  color: #d93;
-}
-
-.mentor-section h2 {
-  color: var(--text-color);
-}
-
-.profile h3 {
-  font-size: 1.5rem;
-  font-weight: normal;
-  margin-top: 1rem;
-  color: var(--text-color);
-font-family: 'Delius', cursive;
-}
-
 .stay-in-touch-container h1 {
   color: var(--text-color);
   font-weight: normal;
@@ -847,16 +740,28 @@ justify-content: space-between;
   justify-content: center;
   height: 5vh;
   padding: 9px;
-  
-  
+  opacity: 0.5;
 }
-.up-arrow-icon{
-  position: absolute;
 
-  width: 40px;
-   top: 1.8rem;
-  height: 40px;
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border-radius: 100%;
+  outline: none;
+  background-image: url(./icons/arrow-alt-circle-up-regular.svg);
+  background-color: #2a7e5f;
+  cursor: pointer;
+  padding: 25px;
+/* padding-top: 3rem; */
 
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 
 /* //////////////////////////////////////////closed .footer_navigation */
