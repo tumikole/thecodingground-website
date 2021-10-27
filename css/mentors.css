@@ -30,31 +30,13 @@ h3{
 h5{
    font-family: 'Delius', cursive;
 }
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
- 
-  padding: 8px;
-  color:rgb(109, 88, 88);
-  background-color:#2a7e5f;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18x;
-  font-family: 'Delius', cursive;
-  
-}
+
 
 a {
   text-decoration: none;
   
   font-size: 22px;
   color: white;
-}
-.contact-btn{
-color:white;
-font-family: 'Delius', cursive;
 }
 
 /* .mentor-img{
