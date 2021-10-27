@@ -31,20 +31,12 @@ h5 {
   font-family: "Delius", cursive;
 }
 
+
 a {
   text-decoration: none;
 
   font-size: 22px;
   color: white;
-}
-.contact-btn {
-  color: white;
-  font-family: "Delius", cursive;
-}
-
-button:hover,
-a:hover {
-  opacity: 0.7;
 }
 
 /* .mentor-img{
