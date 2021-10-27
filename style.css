@@ -5,20 +5,23 @@
   float: left;
   margin-left: 4%;
 }
+/* 
+.drop {
+  margin: 0 !important;
+} */
 
 #nav {
   position: fixed;
   width: 100%;
   z-index: 50;
 }
-a.current1 {
+a.current {
   color: #2a7e5f;
-  background-color: #2a7e5f;
-  border-radius: 2rem;
 }
 .current{
   border: 1px solid #f9f9f9;
   border-radius: 2rem;
+  /* width: 6%; */
 }
 
 #current{
@@ -35,9 +38,10 @@ a.current1 {
 }
 
 .nav_bar .current {
+ /* background-color: #2a7e5f; */
  border: 1px solid #f9f9f9;
  border-radius: 2rem;
- width: 6% !important;
+ width: 6%;
 }
 
 .nav_bar a {
@@ -55,6 +59,7 @@ a.current1 {
   float: right;
   overflow: hidden;
   text-decoration: none !important;
+  /* margin-right: 4%; */
   margin-top: 1.5rem;
   margin-left: 1%;
 }
@@ -80,24 +85,33 @@ a.current1 {
 
 .nav_bar a:hover,
 .drop_down:hover .dropbtn {
+    /* background-color: #2a7e5f !important; */
     border: 1px solid #f9f9f9;
+    /* color: yellow; */
     font-size: 1.2rem;
     color: #f9f9f9;
     border-radius: 2rem;
+    /* width: 6% !important; */
+    /* text-decoration: underline !important; */
 }
 .nav_bar a:hover{
     width: 6% !important;
     font-size: 1.2rem;
+
+  /* background-color: #2a7e5f !important; */
+  /* text-decoration: underline !important; */
   color: #f9f9f9;
 }
 
 .dropdown-content {
+  /* margin-top: .5rem; */
   display: none !important;
   position: absolute !important;
   background-color: #f9f9f9 !important;
   min-width: 120px !important;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
   z-index: 1 !important;
+  /* top: 6.5rem; */
 }
 
 .dropdown-content a {
@@ -108,13 +122,18 @@ a.current1 {
   display: block !important;
   text-align: left !important;
   margin: 0 !important;
+  /* text-decoration: none !important; */
+
+
 }
 
 .dropdown-content a:hover {
-  background-color: #2a7e5f !important;
-  color: #f9f9f9 !important;
+  color: #2a7e5f !important;
   width: 100% !important;
   font-weight: bold;
+  /* color: yellow !important; */
+  
+  
 }
 
 .drop_down:hover .dropdown-content {
@@ -123,7 +142,9 @@ a.current1 {
   transition-duration: 1s;
 }
 
-
+.dropdown-content #active{
+ color: #2a7e5f;
+}
 /* //////////////////////////////////////////////////////////////////////////////// Navigation Closed */
 
 
@@ -649,7 +670,7 @@ body {
   font-size: 0.9rem;
 }
 a{
-   font-family: 'Delius', cursive; 
+   font-family: 'Delius', cursive; 4
 }
 
 blockquote {
