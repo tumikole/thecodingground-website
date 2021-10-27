@@ -5,16 +5,20 @@
   float: left;
   margin-left: 4%;
 }
+/* 
+.drop {
+  margin: 0 !important;
+} */
 
 #nav {
   position: fixed;
   width: 100%;
   z-index: 50;
 }
+
 .current1 {
   color: yellow !important;
   font-weight: bold;
-
 } 
 
  .current{
@@ -24,7 +28,6 @@
 
 #current{
 color: yellow !important;
-/* background-color: yellow; */
 font-weight: bold;
 }
 
@@ -37,6 +40,7 @@ font-weight: bold;
 }
 
 .nav_bar .current {
+
  color: yellow !important;
 }
 
@@ -55,6 +59,7 @@ font-weight: bold;
   float: right;
   overflow: hidden;
   text-decoration: none !important;
+  /* margin-right: 4%; */
   margin-top: 1.5rem;
   margin-left: 1%;
 }
@@ -84,22 +89,20 @@ font-weight: bold;
 
 .nav_bar a:hover{
   color: yellow !important;
-
+ font-size: 1.2rem;
+    font-weight: bold;
 }
 
 
 .drop_down:hover .dropbtn {
+
  font-size: 1.2rem;
  color: yellow !important;
  font-weight: bold;
 }
 
-.nav_bar a:hover{
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
 .dropdown-content {
+  /* margin-top: .5rem; */
   display: none !important;
   position: absolute !important;
   background-color: #033333 !important;
@@ -107,6 +110,7 @@ font-weight: bold;
   min-width: 105px !important;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
   z-index: 1 !important;
+
   margin-right: 10rem !important;
 }
 
@@ -118,12 +122,19 @@ font-weight: bold;
   display: block !important;
   text-align: left !important;
   margin: 0 !important;
+  /* text-decoration: none !important; */
+
+
 }
 
 .dropdown-content a:hover {
+
   color: yellow !important;
   width: 100% !important;
   font-weight: bold;
+  /* color: yellow !important; */
+  
+  
 }
 
 .drop_down:hover .dropdown-content {
@@ -132,7 +143,9 @@ font-weight: bold;
   transition-duration: 1s;
 }
 
-
+.dropdown-content #active{
+ color: #2a7e5f;
+}
 /* //////////////////////////////////////////////////////////////////////////////// Navigation Closed */
 
 
@@ -604,6 +617,7 @@ body {
   max-width: 30rem;
   font-family: 'Delius', cursive;
 }
+
 li {
   list-style: none;
 }
