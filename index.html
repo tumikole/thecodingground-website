@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./responsive/responsiveforAllScreen.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,7 +24,8 @@
 <body>
   <div id="nav">
     <div class="nav_bar">
-      <a style="margin-right: 4%" href="./htmlFiles/contact.html" target="">Contact</a>
+      <a class="current" href="./index.html" target="">Home</a>
+      <a href="./htmlFiles/about.html" target="">About</a>
       <img class="logo" src="./img/Logo-White-website.png">
       <div class="drop_down">
         <button class="dropbtn">Our Team <i class="fa fa-caret-down"></i></button>
@@ -32,8 +34,7 @@
           <a href="./htmlFiles/mentor.html" target="">Mentors</a>
         </div>
       </div>
-      <a href="./htmlFiles/about.html" target="">About</a>
-      <a class="current" href="./index.html" target="">Home</a>
+      <a style="margin-right: 4%" href="./htmlFiles/contact.html" target="">Contact</a>
     </div>
   </div>
 
@@ -240,20 +241,20 @@
               </li>
               <li>
                 <a href="https://www.devson.co.za/" target="_blank">
-                <img src="../img/1551263018231.jpeg" style="height:60px; width:60px; border-radius: 15px;" class="sponsorLogo" /></a>
+                <img src="../img/1551263018231.jpeg" style="height:70px; width:70px; border-radius: 15px;" class="sponsorLogo" /></a>
               </li>
             </ul>
             
             <div class="footerContact">
               <div class="socialIcons">
-              <a href="Tel:072 072 07200"><img src="./icons/whatsapp-brands.svg" class="img-fluid" /></a>
-              <a href="https://www.facebocom/CodeSchoolZA/"><img src="./icons/facebook-brands.svg" style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
+                <a href="Tel:082 779 9875"><img src="../icons/phone-solid.svg" class="img-fluid" /></a>
+                <a href="https://www.facebocom/CodeSchoolZA/"><img src="./icons/facebook-brands.svg" style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
               </a>
               <a href="https://www.linkedin.com/company/the-coding-ground/about/"><img src="./icons/linkedin-in-brands.svg" class="img-fluid"></a>
           </div>
-          <div class="up-arrowDiv">
-            <a href="#home"><img class="up-arrow-icon" src="../icons/arrow-alt-circle-up-regular.svg" alt=""></a>
-          </div>
+          
+          <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
         </div>
       </div>
     </div>
