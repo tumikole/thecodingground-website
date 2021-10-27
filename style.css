@@ -11,19 +11,21 @@
   width: 100%;
   z-index: 50;
 }
-a.current1 {
-  color: #2a7e5f;
-  background-color: #2a7e5f;
-  border-radius: 2rem;
-}
-.current{
-  border: 1px solid #f9f9f9;
-  border-radius: 2rem;
-}
+.current1 {
+  color: yellow !important;
+  font-weight: bold;
+
+} 
+
+ .current{
+  color:  yellow !important;
+  font-weight: bold;
+} 
 
 #current{
-  border: 1px solid #f9f9f9;
-  border-radius: 2rem;
+color: yellow !important;
+/* background-color: yellow; */
+font-weight: bold;
 }
 
 .nav_bar {
@@ -35,14 +37,12 @@ a.current1 {
 }
 
 .nav_bar .current {
- border: 1px solid #f9f9f9;
- border-radius: 2rem;
- width: 6% !important;
+ color: yellow !important;
 }
 
 .nav_bar a {
   float: right;
-  font-size: 1.2rem ;
+  font-size: 1.2rem !important;
   color: white ;
   text-align: center ;
   padding: 10px 12px ;
@@ -60,8 +60,12 @@ a.current1 {
 }
 
 .drop_down a:active {
-  background-color: #2a7e5f;
+  color: yellow !important;
 
+}
+
+.dropbtn{
+  padding-top: .8rem;
 }
 
 .drop_down .dropbtn {
@@ -69,7 +73,7 @@ a.current1 {
   border: none;
   outline: none ;
   color:  #f9f9f9 ;
-  padding: 10px 12px !important;
+  /* padding: 10px 12px !important; */
   background-color: inherit ;
   font-family: inherit ;
   margin: 0 !important;
@@ -78,31 +82,37 @@ a.current1 {
   background-color: #2a7e5f;
 }
 
-.nav_bar a:hover,
-.drop_down:hover .dropbtn {
-    border: 1px solid #f9f9f9;
-    font-size: 1.2rem;
-    color: #f9f9f9;
-    border-radius: 2rem;
-}
 .nav_bar a:hover{
-    width: 6% !important;
+  color: yellow !important;
+
+}
+
+
+.drop_down:hover .dropbtn {
+ font-size: 1.2rem;
+ color: yellow !important;
+ font-weight: bold;
+}
+
+.nav_bar a:hover{
     font-size: 1.2rem;
-  color: #f9f9f9;
+    font-weight: bold;
 }
 
 .dropdown-content {
   display: none !important;
   position: absolute !important;
-  background-color: #f9f9f9 !important;
-  min-width: 120px !important;
+  background-color: #033333 !important;
+  /* background-color:  #2a7e5f !important; */
+  min-width: 105px !important;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
   z-index: 1 !important;
+  margin-right: 10rem !important;
 }
 
 .dropdown-content a {
   float: none !important;
-  color: black !important;
+  color: white !important;
   padding: 10px 12px !important;
   text-decoration: none !important;
   display: block !important;
@@ -111,8 +121,7 @@ a.current1 {
 }
 
 .dropdown-content a:hover {
-  background-color: #2a7e5f !important;
-  color: #f9f9f9 !important;
+  color: yellow !important;
   width: 100% !important;
   font-weight: bold;
 }
