@@ -57,10 +57,6 @@ color:white;
 font-family: 'Delius', cursive;
 }
 
-button:hover, a:hover {
-  opacity: 0.7;
-}
-
 /* .mentor-img{
   height: 350px !important;
 
