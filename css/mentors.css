@@ -108,6 +108,9 @@ hr{
   width: 89% ; 
   margin: auto;
 }
+.mentor-text{
+  display: flex;
+}
 
 
 
