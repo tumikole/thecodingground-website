@@ -24,17 +24,18 @@
 <body>
   <div id="nav">
     <div class="nav_bar">
-      <a class="current" href="./index.html" target="">Home</a>
-      <a href="./htmlFiles/about.html" target="">About</a>
+      <a style="margin-right: 4%" href="./htmlFiles/contact.html" target="">Contact</a>
       <img class="logo" src="./img/Logo-White-website.png">
       <div class="drop_down">
-        <button class="dropbtn">Our Team <i class="fa fa-caret-down"></i></button>
+        <button class="dropbtn">Team <i class="fa fa-caret-down"></i></button>
         <div class="dropdown-content">
           <a href="./htmlFiles/students.html" target="">Students</a>
           <a href="./htmlFiles/mentor.html" target="">Mentors</a>
         </div>
       </div>
-      <a style="margin-right: 4%" href="./htmlFiles/contact.html" target="">Contact</a>
+      <a href="./htmlFiles/about.html" target="">About</a>
+      <a class="current" href="./index.html" target="">Home</a>
+      
     </div>
   </div>
 
@@ -56,7 +57,7 @@
         <div class="sub-header">
           <h3>craft your future.</h3>
         </div>
-        <a id="" class="btn btn-apply" data-toggle="modal" data-target="#exampleModal" href="">apply for 2022</a>
+        <a id="applyBtn" class="btn btn-apply" data-toggle="modal" data-target="#exampleModal" href="">apply for 2022</a>
         <div style="margin-top:10rem !important;" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -69,35 +70,30 @@
                     <hr>
                     <div class="form-group">
                       <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
                         <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Firstname"
                           required="required">
                       </div>
                     </div>
                     <div class="form-group">
                       <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
                         <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Lastname"
                           required="required">
                       </div>
                     </div>
                     <div class="form-group">
                       <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                         <input type="number" class="form-control" id="contact" name="contact" placeholder="Contact No"
                           required="required">
                       </div>
                     </div>
                     <div class="form-group">
                       <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                         <input type="number" class="form-control" id="id" name="id" placeholder="Id No"
                           required="required">
                       </div>
                     </div>
                     <div class="form-group">
                       <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
                         <input type="email" class="form-control" id="email" name="" placeholder="Email Address"
                           required="required">
                       </div>
@@ -105,14 +101,12 @@
 
                     <div class="form-group">
                       <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                         <textarea type="text" class="form-control" id="address" name="" placeholder="Residential Address"
                           required="required" ></textarea>
                       </div>
                     </div>
                     <!-- <div class="form-group">
                       <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
                         <input type="file" class="form-control" id="file" name="attachment" accept="image/png, image/jpeg, file/pdf"
                           required="required">
                       </div>
