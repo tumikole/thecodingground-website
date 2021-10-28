@@ -10,10 +10,20 @@
 
 li {
     list-style: none;
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
 }
 
 a {
     text-decoration: none;
+}
+
+#nav-item{
+padding: 1.5rem !important;
+}
+
+#nav-item1{
+  padding: 8px, 24px !important;
 }
 
 .header-nav{
@@ -50,7 +60,18 @@ a {
   background-color: #101010;
 }
 
+a.current{
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold; 
+  font-size: 1.5rem;
+}
 
+a.current:hover{
+text-decoration: none;
+color: yellow;
+
+}
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -65,11 +86,14 @@ a {
   font-weight: 400;
   color:white;
   font-size: 1.5rem !important;
+  font-weight: 400;
+
 }
 
 .nav-link:hover{
-  color: yellow;
+  color: yellow !important;
   font-weight: bold;
+  
 }
 
 span{

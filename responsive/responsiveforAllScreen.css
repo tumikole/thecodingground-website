@@ -36,12 +36,13 @@
             cursor: pointer;
             height: 10rem;
             position:relative;
-            top: 1rem;
+            top: 0.5rem;
             font-size: 4rem;
-      
         }
+
         .hamburger.active .bar:nth-child(2) {
           opacity: 0;
+          
       }
       
       .hamburger.active .bar:nth-child(1) {
@@ -152,6 +153,7 @@ width: 80% !important;
 #myBtn{
     display: none !important;
 }
+
 /* Card for home page */
 
 .card-text{

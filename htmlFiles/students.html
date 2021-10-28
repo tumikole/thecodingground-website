@@ -1,86 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Alfa Slab One
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Alfa Slab One
     ">
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../responsive/responsiveforAllScreen.css">
+  <link rel="stylesheet" href="../css/students.css" />
+  <link rel="stylesheet" href="../style.css" />
 
-    <link rel="stylesheet" href="../css/students.css" />
-    <link rel="stylesheet" href="../style.css" />
+  <linkrel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
-"
-    />
-
-    <title>STUDENTS - THE CODING GROUND</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+" />
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <title>STUDENTS - THE CODING GROUND</title>
   <link rel="icon" type="image/png" href="/img/green-favicon.ico" sizes="16x16">
 
 </head>
+
 <body>
 
 
   <header class="header-nav">
     <nav class="navbar">
-        <a href="#" ><img class="nav-logo" src="../img/Logo-White-website.png"></a>
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="../index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="../htmlFiles/about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="../htmlFiles/students.html" class="nav-link">Students</a>
-            </li>
-            <li class="nav-item">
-              <a href="../htmlFiles/mentor.html" class="nav-link">Mentors</a>
-          </li>
-            <li class="nav-item">
-                <a href="../htmlFiles/contact.html" class="nav-link">Contact</a>
-            </li>
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
+      <a href="#"><img class="nav-logo" src="../img/Logo-White-website.png"></a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a id="nav-item" href="../htmlFiles/about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a  class="current" href="../htmlFiles/students.html" class="nav-link">Students</a>
+        </li>
+        <li class="nav-item">
+          <a href="../htmlFiles/mentor.html" class="nav-link">Mentors</a>
+        </li>
+        <li class="nav-item">
+          <a href="../htmlFiles/contact.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span style="background-color: white" class="bar"></span>
+        <span style="background-color: white" class="bar"></span>
+        <span style="background-color: white" class="bar"></span>
+      </div>
     </nav>
   </header>
-
-
-<!-- <div  id="students" class="students"> -->
-
-<div class="header-h1">
   
-</div>
+  <div class="header-h1">
 
-<div class="welcome-students">
-  MEET OUR STUDENTS 
-</div>
+  </div>
 
+  <div class="welcome-students">
+    MEET OUR STUDENTS
+</div>
 <di id="students" class="students">
 
   <div class="bio-container">
@@ -317,8 +311,7 @@ of herself as self-motivated, a critical, and an analytical thinker. One of the 
     coding.
   </p>
   </div>
- 
-<div class="card-container">
+
 
   
 <img src="../img/sbonokuhle.jpg" alt="Sbonokuhle Nkabinde" class="resize">
@@ -328,90 +321,244 @@ of herself as self-motivated, a critical, and an analytical thinker. One of the 
 </div>
 
 
+        <img src="../img/wongani.jpg" alt="Wongani Skosana" class="resize">
+        <figcaption><strong>
+            <h2>Wongani Skosana</h2>
+          </strong></figcaption>
+        <div class="social">
 
-<footer>
-  <div class="footer">
-    <!-- <div class="columns">
+          <a href="https://www.linkedin.com/in/wongani-skosana-55ba53224/"><i class="fab fa-linkedin fa-2x"
+              style="color: rgb(25, 49, 58);"></i></a>
+
+        </div>
+      </div>
+      <div class="bio">
+
+
+        <p>
+          Wongani Skosana is a competent young adult whose goal has been nothing but to aim for the stars. He always
+          believed in self-motivation because growing
+          up in a crowded location required him to trust himself more than he trusted others. Wongani was born in South
+          Africa, Gauteng, and was raised in a small
+          overcrowded township,located north of Johannesburg called Diepsloot. His situation never stopped him from
+          conquering it pushed him to work extra hard so
+          he can escape his earlier life.Before Coding found him he had dreams of becoming a mechanical engineer, yet
+          he's very grateful for falling in love with
+          coding and making it his priority. With Coding he managed to find a better version of himself, spending most
+          of his time thinking and talking about code
+          made him realize how much he wanted to change the world with coding. He's elated for finding his calling in
+          coding and plans on staying true to it. He has
+          been a student of The Coding Ground for 13 full months, and he's thankful to The Coding Ground for helping him
+          reach his full potential. The coding ground
+          helped him acquire some skills which he needed in the Tech industry. Wongani Skosana believes in divide and
+          conquer because he believes that working alone
+          helps you think deeper within yourself and your working speed automatically rises.
+        </p>
+      </div>
+    </div>
+    <hr style="border: 1px solid black;">
+    <div class="bio-container">
+      <div class="bio">
+        <p>
+          Kwanele Mkhwanazi is a software developer student at The Coding Ground, a software craftsmanship academy that
+          focuses on the art and science of
+          cultivating software developers with in-demand technical. She finds honesty, creativity, and dedication to be
+          the most valuable qualities for success in
+          the world of software. She is a young innovative single parent of two beautiful girls. She describes herself
+          as a funny, generous, open-minded, and good
+          listener. She was born in the local municipality situated along the northern coastal belt of KwaZulu-Natal and
+          in the south-eastern corner of the uMkhanyakude
+          District Mtubatuba and grew in a densely populated township in Gauteng, South Africa(Diepsloot). She believes
+          that software delivers new and innovative
+          solutions to different companies ranging from tiny startups to major corporations with massive information
+          technology and programming needs.
+        </p>
+      </div>
+      <div class="card-container">
+
+        <figure>
+          <img src="../img/kwanele.jpg" alt="Kwanele Mkhwanazi" class="resize">
+          <figcaption><strong>
+              <h2>Kwanele Mkhwanazi</h2>
+            </strong></figcaption>
+          <div class="social">
+
+            <a href="https://www.linkedin.com/in/kwanele-mkhwanazi-aa8ab41a3/"><i class="fab fa-linkedin fa-2x"
+                style="color: rgb(25, 49, 58);"></i></a>
+            </ </div>
+        </figure>
+
+      </div>
+    </div>
+    <hr style="border: 1px solid black;">
+    <div class="bio-container">
+
+      <div class="card-container">
+
+
+        <img src="../img/njabulo.jpg" alt="Njabulo Zulu" class="resize">
+        <figcaption><strong>
+            <h2>Njabulo Zulu</h2>
+          </strong></figcaption>
+
+        <div class="social">
+
+          <a href="https://za.linkedin.com/in/njabulo-zulu-10094915b"><i class="fab fa-linkedin fa-2x"
+              style="color: rgb(25, 49, 58);"></i></a>
+        </div>
+      </div>
+      <div class="bio">
+
+        <p>
+          Hi, My name is Njabulo Zulu, and to lighten up the mood I would say a joke but just to save electricity and
+          the computer's ink let's just get into it.
+          I am originally from KZN in a small town called Eshowe, but I grew up in Gauteng mostly in Pretoria centurion
+          Olievenhoutbosch. I am an individual
+          who strongly believes in the butterfly effect, In which a tiny change can have a huge impact on a person's
+          life. For example, the path that I am on is
+          being a software engineer, if my parents never decided to leave Tembisa where we used to live, I don't think I
+          would be here today. lucky enough they
+          made a choice of moving to a different place which led to us ending up living in Olievenhoutbosch where I met
+          one of my best friends who introduced me
+          to playing video games. This also led to us falling in love with building computers and that led to him being
+          introduced to coding and programming and
+          that was passed down to me because of our friendship. ever since that day, I fell in love with it. To add on
+          top of that just to speak about my strengths
+          and weaknesses, what I can say is I show my strength through my actions and weaknesses by being aware of them
+          and trying to better myself. My biggest
+          weakness is time management, which is trying to manage my time to work better for me, and I think that is
+          caused by me trying to do a lot of things at once.
+        </p>
+      </div>
+    </div>
+    <hr style="border: 1px solid black;">
+
+    <div class="bio-container">
+      <div class="bio">
+
+        <p>
+          My name is Sibonokuhle Nkabinde, I was born on the 27th of November 1999 in a township called Lady Smith
+          located in the province of Kwa-Zulu Natal.
+          I am a humble, down-to-earth kind person. I follow my heart and most important I believe in myself. I have a
+          steady source of motivation that drives
+          me to do my best. My ambitions are driven by my passion to conquer and do what makes me happy. I always thrive
+          on challenges and constantly set a goal
+          for myself. Settling is out of my comfort zone hence I'm always looking for an opportunity to do better and
+          achieve greatness. I am also highly organized
+          I always take notes and I use serious tools to help myself stay on top of deadlines. looking for positivity in
+          everything is an essential trait of mine, I
+          believe that every negative detail has a tiny positive detail in it. My past does not determine my future. I
+          am currently doing software development at The
+          Coding Ground, I started this journey in the year 2020. The Coding Ground taught me what code is and how to
+          code. I didn't know anything about code, their
+          patience with me is what motivated me and kept me on my feet. For the time I have spent here, I managed to
+          grab a few skills and more knowledge about
+          coding.
+        </p>
+      </div>
+
+      <div class="card-container">
+
+
+        <img src="../img/sbonokuhle.jpg" alt="Sbonokuhle Nkabinde" class="resize">
+        <figcaption><strong>
+            <h2>Sbonokuhle Nkabinde</h2>
+          </strong></figcaption>
+        <div class="social">
+
+          <a href="https://www.linkedin.com/in/lindokuhle-angel-486420201/"><i class="fab fa-linkedin fa-2x"
+              style="color: rgb(25, 49, 58);"></i></a>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="footer">
+        <!-- <div class="columns">
           <h5
           <img src="./img/Logo-White.png" alt="tcg logo" />
           </h5>
         </div> -->
-    <!-- <div class="columns">
+        <!-- <div class="columns">
          
         </div> -->
-    <div class="columns">
-      <h3 style="color:white; text-align:center">Affiliated and proudly sponsored by</h3>
-      <br>
-      <ul>
-        <li>
-          <a href="https://www.inreality.com/" target="_blank">
+        <div class="columns">
+          <h3 style="color:white; text-align:center">Affiliated and proudly sponsored by</h3>
+          <br>
+          <ul>
+            <li>
+              <a href="https://www.inreality.com/" target="_blank">
 
-          <img src="../img/inreality.svg" class="sponsorLogo" /></a>
-        </li>
+                <img src="../img/inreality.svg" class="sponsorLogo" /></a>
+            </li>
 
-        <li>
-          <a href="https://www.riversandsihub.co.za/" target="_blank">
+            <li>
+              <a href="https://www.riversandsihub.co.za/" target="_blank">
 
-          <img src="../img/riversandsihub.png" class="sponsorLogo" /></a>
-        </li>
-        <li>
-          <a href="https://www.sourceworx.co.za/#" target="_blank">
+                <img src="../img/riversandsihub.png" class="sponsorLogo" /></a>
+            </li>
+            <li>
+              <a href="https://www.sourceworx.co.za/#" target="_blank">
 
-          <img src="../img/source-worx.svg" class="sponsorLogo" /></a>
-        </li>
+                <img src="../img/source-worx.svg" class="sponsorLogo" /></a>
+            </li>
 
-        <li>
-          <a href="https://techways.online/" target="_blank">
+            <li>
+              <a href="https://techways.online/" target="_blank">
 
-          <img src="../img/Techways.png" class="sponsorLogo" /></a>
-        </li>
-        <li>
-          <a href="https://hrwgrp.com/" target="_blank">
+                <img src="../img/Techways.png" class="sponsorLogo" /></a>
+            </li>
+            <li>
+              <a href="https://hrwgrp.com/" target="_blank">
 
-          <img src="../img/HRW_RECRUITMENT.png" class="sponsorLogo" /></a>
-        </li>
-        <li>
-          <a href="https://www.devson.co.za/" target="_blank">
-            <img src="../img/1551263018231.jpeg" style="height:70px; width:70px; border-radius: 15px;" class="sponsorLogo" /></a>
-          </li>
-      </ul>
-      
-      <div class="footerContact">
-        <div class="socialIcons">
-        <a href="Tel:082 779 9875"><img src="../icons/phone-solid.svg" class="img-fluid" /></a>
-        <a href="https://www.facebocom/CodeSchoolZA/"><img src="../icons/facebook-brands.svg" style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
-        </a>
-        <a href="https://www.linkedin.com/company/the-coding-ground/about/"><img class="img-fluid"
-          src="../icons/linkedin-in-brands.svg" />
-        </a>
+                <img src="../img/HRW_RECRUITMENT.png" class="sponsorLogo" /></a>
+            </li>
+            <li>
+              <a href="https://www.devson.co.za/" target="_blank">
+                <img src="../img/1551263018231.jpeg" style="height:70px; width:70px; border-radius: 15px;"
+                  class="sponsorLogo" /></a>
+            </li>
+          </ul>
+
+          <div class="footerContact">
+            <div class="socialIcons">
+              <a href="Tel:082 779 9875"><img src="../icons/phone-solid.svg" class="img-fluid" /></a>
+              <a href="https://www.facebocom/CodeSchoolZA/"><img src="../icons/facebook-brands.svg"
+                  style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
+              </a>
+              <a href="https://www.linkedin.com/company/the-coding-ground/about/"><img class="img-fluid"
+                  src="../icons/linkedin-in-brands.svg" />
+              </a>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+          </div>
         </div>
-        <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
-
       </div>
-    </div>
-  </div>
-  <div class="footerTextContainer">
-    <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2021</h5>
-  </div>
+      <div class="footerTextContainer">
+        <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2021</h5>
+      </div>
 
-</footer>
-  <script src="../student.js"></script>
-  <script src="../script.js"></script>
+    </footer>
+    <script src="../student.js"></script>
+    <script src="../script.js"></script>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
 </body>
+
 </html>
