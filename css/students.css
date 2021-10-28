@@ -71,11 +71,9 @@ h2{
 }
 
 p {
-  font-family: 'Delius', cursive;
-  white-space: pre-wrap; 
-  padding-bottom: 13rem;
-  padding-top: 3rem;
-  float: left;
+
+font-family: 'Delius', cursive;
+white-space: pre-wrap; 
 }
 
 
