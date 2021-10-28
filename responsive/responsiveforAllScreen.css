@@ -52,7 +52,7 @@
           transform: translateY(-8px) rotate(-45deg);
       }
       
-      }
+      
 
     /* ////////////////////Home page img */
     .imgContainer{
@@ -135,19 +135,39 @@ width: 100% !important;
     grid-template-columns: 1fr;
     background-color: grey;
     color: white;
-    padding-top: 3rem;
+ 
     /* grid-gap: 9rem; */
-    padding-bottom: 3rem;
+    
     line-height: 1.5rem;
 }
 .learn-side-2Logo
  {
   width:80%;
-  margin:auto;
+  margin-top :-6rem;;
 }
 
 #myBtn{
     display: none !important;
+}
+
+/* Card for home page */
+
+.card-text{
+ margin: 3rem;
+ font-size: 15px;
+ 
+}
+        
+.header-text{
+    text-align:center;
+    font-size: 20px;
+
+}
+.learn-side-1 ul{
+    font-size: 15px !important;
+}
+.learn-side-1 ul{
+font: 15px !important;
 }
  }
 
