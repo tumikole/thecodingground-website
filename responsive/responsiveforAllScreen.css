@@ -98,7 +98,9 @@ width: 100% !important;
   margin:auto;
 }
 
-
+#myBtn{
+    display: none !important;
+}
  }
 
 /* Small devices (landscape phones, 576px and up) */
