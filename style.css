@@ -1,14 +1,85 @@
 /* ////////////////////////////////////////// Navigationbar */
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
-.logo {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-nav{
+  position: fixed;
+  width: 100%;
+  background-color: #033333;
+  /* border-bottom: 1px solid #E2E8F0; */
+}
+
+.navbar {
+  position: fixed;
+  display: grid !important;
+  grid-template-columns: auto auto!important;
+  justify-content: space-between !important;
+  align-items: center  !important;
+  padding: 1rem 1rem !important;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-weight: 400;
+  color:white;
+  font-size: 1.5rem !important;
+}
+
+.nav-link:hover{
+  color: yellow;
+  font-weight: bold;
+}
+
+
+/* /////////////////////////////////muano */
+
+
+/* .logo {
   float: left;
   margin-left: 4%;
 }
-/* 
-.drop {
-  margin: 0 !important;
-} */
+
 
 #nav {
   position: fixed;
@@ -31,7 +102,7 @@ color: yellow !important;
 font-weight: bold;
 }
 
-.nav_bar {
+.nav-bar {
   overflow: hidden;
   background-color: #033333;
   font-family: "Courier New", Courier, monospace;
@@ -39,32 +110,31 @@ font-weight: bold;
 
 }
 
-.nav_bar .current {
+.nav-bar .current {
 
  color: yellow !important;
 }
 
-.nav_bar a {
+.nav-bar a {
   float: right;
   font-size: 1.2rem !important;
   color: white ;
   text-align: center ;
   padding: 10px 12px ;
   text-decoration: none !important;
-  margin-top: 1.5rem;
+  margin-top: 1.7rem;
   margin-left: 1%;
 }
 
-.drop_down {
+.drop-down {
   float: right;
   overflow: hidden;
   text-decoration: none !important;
-  /* margin-right: 4%; */
-  margin-top: 1.5rem;
+  margin-top: 1.6rem;
   margin-left: 1%;
 }
 
-.drop_down a:active {
+.drop-down a:active {
   color: yellow !important;
 
 }
@@ -73,12 +143,11 @@ font-weight: bold;
   padding-top: .8rem;
 }
 
-.drop_down .dropbtn {
+.drop-down .dropbtn {
   font-size: 1.2rem ;
   border: none;
   outline: none ;
   color:  #f9f9f9 ;
-  /* padding: 10px 12px !important; */
   background-color: inherit ;
   font-family: inherit ;
   margin: 0 !important;
@@ -87,7 +156,7 @@ font-weight: bold;
   background-color: #2a7e5f;
 }
 
-.nav_bar a:hover{
+.nav-bar a:hover{
   color: yellow !important;
  font-size: 1.2rem;
     font-weight: bold;
@@ -102,16 +171,14 @@ font-weight: bold;
 }
 
 .dropdown-content {
-  /* margin-top: .5rem; */
   display: none !important;
   position: absolute !important;
+  right: 0.1rem;
   background-color: #033333 !important;
-  /* background-color:  #2a7e5f !important; */
-  min-width: 105px !important;
+  min-width: 120px !important;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
   z-index: 1 !important;
-
-  margin-right: 10rem !important;
+  margin-right: 12rem !important;
 }
 
 .dropdown-content a {
@@ -122,7 +189,7 @@ font-weight: bold;
   display: block !important;
   text-align: left !important;
   margin: 0 !important;
-  /* text-decoration: none !important; */
+  margin-bottom: 0 !important;
 
 
 }
@@ -132,12 +199,12 @@ font-weight: bold;
   color: yellow !important;
   width: 100% !important;
   font-weight: bold;
-  /* color: yellow !important; */
+
   
   
 }
 
-.drop_down:hover .dropdown-content {
+.drop-down:hover .dropdown-content {
   display: block !important;
   margin-left: 0.5rem;
   transition-duration: 1s;
@@ -145,7 +212,8 @@ font-weight: bold;
 
 .dropdown-content #active{
  color: #2a7e5f;
-}
+} */
+
 /* //////////////////////////////////////////////////////////////////////////////// Navigation Closed */
 
 
