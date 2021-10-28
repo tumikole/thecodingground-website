@@ -1,5 +1,5 @@
 /* Extra small devices (portrait phones, less than 576px) */
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 576px) {
 
         .navbar{
              height: 5rem;
@@ -53,7 +53,103 @@
       }
       
       }
- 
+
+    /* ////////////////////Home page img */
+    .imgContainer{
+        display:grid;
+    }
+    .homeImg{
+        padding-top:5rem;
+        height:80%;
+        width:20%;
+        margin: 0 auto;
+    }
+
+    .header-container {
+        align-self: center;
+        margin: 0rem;
+        text-align: center;
+      }
+    .header {
+        font-size: 3rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 1.8;
+        color: white;
+      }
+      .header-medium {
+        font-size: 2rem;
+        text-align: center;
+      
+        font-weight: bold;
+        color: white;
+      }
+      .sub-header-container {
+        display: grid;
+        justify-content: center;
+        color: white;
+        margin: 0rem;
+        line-height: 2rem;
+        
+      }
+
+      .sub-header {
+        /* background-color: rgba(255, 255, 255, 0.795); */
+        text-align: center;
+        letter-spacing: 0.2rem;
+        align-self: center;
+        padding: 0.5rem 3rem;
+        border-radius: 0.5rem;
+        font-size: 2rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 0.3rem;
+        margin-top: 0rem;
+        color: #033333;
+        letter-spacing: 0.2rem;
+        font-family: 'Delius', cursive;
+        /* width: 90%; */
+        margin:auto;
+      }
+
+          /* ////////////////////End of Home page img */
+
+          #applyBtn{
+              width: 30%;
+          }
+#exampleModal{
+height: 70% !important;
+width: 100% !important;
+}
+
+.input-group{
+    width: 80% !important;
+}
+
+.btn-lg{
+    width: 80% !important;
+}
+
+.what-to-learn-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: grey;
+    color: white;
+    padding-top: 3rem;
+    /* grid-gap: 9rem; */
+    padding-bottom: 3rem;
+    line-height: 1.5rem;
+}
+.learn-side-2Logo
+ {
+  width:80%;
+  margin:auto;
+}
+
+#myBtn{
+    display: none !important;
+}
+ }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { }
