@@ -20,6 +20,7 @@ a {
   position: fixed;
   width: 100%;
   background-color: #033333;
+  z-index: 50;
   /* border-bottom: 1px solid #E2E8F0; */
 }
 
