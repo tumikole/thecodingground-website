@@ -36,12 +36,13 @@
             cursor: pointer;
             height: 10rem;
             position:relative;
-            top: 1rem;
+            top: 0.5rem;
             font-size: 4rem;
-      
         }
+
         .hamburger.active .bar:nth-child(2) {
           opacity: 0;
+          
       }
       
       .hamburger.active .bar:nth-child(1) {
@@ -52,7 +53,7 @@
           transform: translateY(-8px) rotate(-45deg);
       }
       
-      }
+      
 
     /* ////////////////////Home page img */
     .imgContainer{
@@ -149,7 +150,7 @@ width: 100% !important;
 #myBtn{
     display: none !important;
 }
- }
+    }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { }
