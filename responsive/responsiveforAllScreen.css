@@ -37,12 +37,13 @@
             cursor: pointer;
             height: 10rem;
             position:relative;
-            top: 1rem;
+            top: 0.5rem;
             font-size: 4rem;
-      
         }
+
         .hamburger.active .bar:nth-child(2) {
           opacity: 0;
+          
       }
       
       .hamburger.active .bar:nth-child(1) {
@@ -52,8 +53,7 @@
       .hamburger.active .bar:nth-child(3) {
           transform: translateY(-8px) rotate(-45deg);
       }
-      
-    
+     
 
     /* ////////////////////Home page img */
     .imgContainer{
@@ -112,44 +112,114 @@
         /* width: 90%; */
         margin:auto;
       }
-
-          /* ////////////////////End of Home page img */
-
-          #applyBtn{
-              width: 30%;
-          }
+      #applyBtn{
+          width: 30%;
+      }
 #exampleModal{
 height: 70% !important;
 width: 100% !important;
 }
 
 .input-group{
-    width: 80% !important;
+width: 80% !important;
 }
 
 .btn-lg{
-    width: 80% !important;
+width: 80% !important;
 }
+
+          /* ////////////////////End of Home page img */
+
+
+
 
 .what-to-learn-container{
     display: grid;
     grid-template-columns: 1fr;
     background-color: grey;
     color: white;
-    padding-top: 3rem;
+ 
     /* grid-gap: 9rem; */
-    padding-bottom: 3rem;
+    
     line-height: 1.5rem;
 }
 .learn-side-2Logo
  {
   width:80%;
-  margin:auto;
+  margin-top :-6rem;;
 }
+
 
 #myBtn{
     display: none !important;
 }
+
+/* Card for home page */
+
+.card-text{
+ margin: 3rem;
+ font-size: 15px;
+ 
+}
+        
+.header-text{
+    text-align:center;
+    font-size: 20px;
+
+}
+.learn-side-1 ul{
+    font-size: 15px !important;
+}
+.learn-side-1 ul{
+font: 15px !important;
+}
+/* ////////////footer */
+.footerContact{
+    display: none;
+  
+  
+  }
+
+  .columns{
+      padding: 0px 0px 0px 0px;
+  }
+
+  .columns
+  h3{
+      font-size: 15px;
+      text-align: center;
+      padding-top: 15px;
+  }
+
+  .columns ul {
+ display: grid;
+ grid-template-columns: 2fr 2fr;
+  justify-content: space-between;
+    color: white;
+    width: 100%;
+    margin: auto; 
+  }
+
+  .columns ul li {
+padding-right: 1rem; 
+}
+
+  .sponsorLogo {
+    width: 90px;
+    margin: 0 auto !important;
+  }
+
+  #sponsorLogo{
+    height:43px;
+     width:40px;
+      border-radius: 10px;
+  }
+
+ .footerText{
+    font-size: 10px;
+    text-align: center;
+ }
+
  }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
