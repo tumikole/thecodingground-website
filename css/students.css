@@ -2,10 +2,16 @@
 
 
 .bio-container {
-    margin: 20px;
-    padding: 56px, ;
-    width: 100%;   
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 1%;
+    margin-right: 1% ;
+    /* width:90%; */
+    /* margin:auto; */
+    /* gap:2rem; */
 }
+
+
 h3{
    font-family: 'Delius', cursive;
 }
@@ -18,57 +24,42 @@ h5{
 
  h1 {
    text-align: center;
-font-family: 'Delius', cursive;
+   font-family: 'Delius', cursive;
  }
 
 .resize {
     margin-top: 2rem;
     width: 600px;
     height: auto;
-    border-radius: 8px;
     max-width: 100%;
-    display: block;
-    
-  }
-  .resize1{
-    margin-top: 2rem;
-    height: 25rem;
+    display: flex;
+    float: left;
     border: 1px solid black;
-    max-width: 100%;
-    display: block;
-    
-  } 
-
-.students {
-    /* padding: 80px;
-    margin: 78px; */
-    margin-top: 1rem;
-    
+    background-color: grey;
+  }
+       
+hr .newline {
+  border: 5px solid rgb(10, 10, 10);
 }
-.resize2{
-    margin-top: 2rem;
-    width: 25rem;
-    height: 25rem;
-    border-radius: 8px;
-    max-width: 100%;
-    display: block;
-   
+
+.welcome-students{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
 }
 
 .card-container {
-  font-size: 1rem;
-  justify-content: space-evenly;
-  border-radius: 23px;
-  display: flex;
-  align-items: center;
-  
+  /* font-size: 1rem;
+  display: flex; */
+
 }
 
 .header-h1, h1 {
   
   padding-top: 13rem;
-  /* color: rgb(235, 98, 48); */
-font-family: 'Delius', cursive;
+  font-family: 'Delius', cursive;
 }
 
 .header-h1{
@@ -81,19 +72,18 @@ font-family: 'Delius', cursive;
 }
 
 h2{
-font-family: 'Delius', cursive;
+  font-family: 'Delius', cursive;
 }
+
 p {
-font-family: 'Delius', cursive;
-text-align: ;
-white-space: pre-wrap; 
+  font-family: 'Delius', cursive;
+  white-space: pre-wrap; 
+  padding-bottom: 13rem;
+  padding-top: 3rem;
+  float: left;
 }
 
 
- /* .card-container {
-  position: relative;
-  width: 50%;
-} 
- */
+
 
 
