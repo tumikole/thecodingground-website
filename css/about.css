@@ -217,11 +217,27 @@ h5{
 }
 
 @media screen and (max-width: 450px) {
-  .info {
-    display: block;
-    text-align: center;
-  }
-  .info h1 {
+
+    .card h1 {
     margin: 0;
+    font-size: 20px;
+    line-height: 1.2em;
+    justify-content: center;
+    font-family: 'Delius', cursive;
+  } 
+  
+  .card p {
+    font-size: 15px;
+    font-family: 'Open Sans';
+    margin-top: 1em;
+    line-height: 2em;
   }
+
+   .card i {
+  padding: 0.5rem;
+} 
+.card{
+  height: 13em;
+}
+
 }
