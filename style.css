@@ -72,6 +72,10 @@ a {
   font-weight: bold;
 }
 
+span{
+  color:white;
+}
+
 
 /* /////////////////////////////////muano */
 
@@ -798,9 +802,9 @@ justify-content: space-between;
 .sponsorLogo {
   width: 180px;
 }
-.up-arrowDiv{
-  position: absolute;
-  right: 7rem;
+
+#sponsorLogo{
+  height:70px; width:70px; border-radius: 15px;
 }
 
 .socialIcons{

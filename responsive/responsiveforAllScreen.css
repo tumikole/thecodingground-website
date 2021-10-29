@@ -111,24 +111,26 @@
         /* width: 90%; */
         margin:auto;
       }
-
-          /* ////////////////////End of Home page img */
-
-          #applyBtn{
-              width: 30%;
-          }
+      #applyBtn{
+          width: 30%;
+      }
 #exampleModal{
 height: 70% !important;
 width: 100% !important;
 }
 
 .input-group{
-    width: 80% !important;
+width: 80% !important;
 }
 
 .btn-lg{
-    width: 80% !important;
+width: 80% !important;
 }
+
+          /* ////////////////////End of Home page img */
+
+
+
 
 .what-to-learn-container{
     display: grid;
@@ -146,10 +148,10 @@ width: 100% !important;
   margin-top :-6rem;;
 }
 
+
 #myBtn{
     display: none !important;
 }
-
 /* Card for home page */
 
 .card-text{
@@ -169,6 +171,53 @@ width: 100% !important;
 .learn-side-1 ul{
 font: 15px !important;
 }
+/* ////////////footer */
+.footerContact{
+    display: none;
+  
+  
+  }
+
+  .columns{
+      padding: 0px 0px 0px 0px;
+  }
+
+  .columns
+  h3{
+      font-size: 15px;
+      text-align: center;
+      padding-top: 15px;
+  }
+
+  .columns ul {
+ display: grid;
+ grid-template-columns: 2fr 2fr;
+  justify-content: space-between;
+    color: white;
+    width: 100%;
+    margin: auto; 
+  }
+
+  .columns ul li {
+padding-right: 1rem; 
+}
+
+  .sponsorLogo {
+    width: 90px;
+    margin: 0 auto !important;
+  }
+
+  #sponsorLogo{
+    height:43px;
+     width:40px;
+      border-radius: 10px;
+  }
+
+ .footerText{
+    font-size: 10px;
+    text-align: center;
+ }
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
