@@ -206,6 +206,7 @@ h5{
  @media screen and (max-width: 900px) {
   .cards-wrapper {
     grid-template-columns: 1fr;
+  
   }
 } 
 
@@ -240,6 +241,7 @@ h5{
 } 
 .card{
   height: 13em;
+
 }
 
 }
