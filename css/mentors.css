@@ -27,16 +27,16 @@ border: 2px solid rgba(255, 255, 255, 0.479) ;
 .title {
   color: rgba(255, 255, 255, 0.479);
   font-size: 20px;
-  font-family: "Delius", cursive;
+  font-family: 'Raleway' !important;
 }
 h3 {
-  font-family: "Delius", cursive;
+  font-family: 'Raleway' !important;
   color: white;
 
 }
 h5 {
   color: white;
-  font-family: "Delius", cursive;
+  font-family: 'Raleway' !important;
 }
 
 
@@ -68,11 +68,11 @@ h5 {
 h1 {
   width: 100%;
   margin:auto;
-  font-size: 26px !important;
+  font-size: 3rem;
   color: white;
   background-color: black;
-  
-  font-family: "Delius", cursive;
+  text-transform: uppercase;
+  font-family: 'Raleway';
 }
 
 
@@ -120,7 +120,7 @@ hr{
 
 .right-column
 p{
-  font-family: "Delius", cursive;
+  font-family: 'Raleway';
 
   color: white;
 }
