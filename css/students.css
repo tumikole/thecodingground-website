@@ -15,18 +15,20 @@
 
 
 h3{
-   font-family: 'Delius', cursive;
+   font-family: 'Raleway';
 }
 h5{
-   font-family: 'Delius', cursive;
+   font-family: 'Raleway';
 }
 .footerText{
-    font-family: 'Delius', cursive;
+    font-family: 'Raleway';
 }
 
  h1 {
    text-align: center;
-   font-family: 'Delius', cursive;
+   font-family: 'Raleway';
+   text-transform: uppercase;
+   font-size: 3rem;
  }
 
 .resize {
@@ -45,7 +47,12 @@ h5{
 
 .welcome-students{
   text-align: center;
-  amily: 'Delius', cursive;
+  font-family: 'Delius', cursive;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-family: 'Raleway';
 }
 
 
@@ -53,7 +60,7 @@ h5{
 .header-h1, h1 {
   margin-top: 0;
   padding-top: 13rem;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 
 .header-h1{
@@ -66,7 +73,7 @@ h5{
 }
 
 h2{
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway' !important;
   margin-left: 6rem;
 }
 
@@ -74,9 +81,8 @@ h2{
 .bio p {
   margin-top: 2rem;
 margin-bottom: 4rem;
-font-family: 'Delius', cursive;
-/* white-space: pre-wrap;  */
-/* margin-left: 2rem; */
+font-family: 'Raleway';
+
 }
 
 .social{
@@ -86,8 +92,8 @@ font-family: 'Delius', cursive;
 
 
 hr{
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 

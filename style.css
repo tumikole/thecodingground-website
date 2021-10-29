@@ -8,13 +8,15 @@
     box-sizing: border-box;
 }
 
-li {
+.navbar
+ ul 
+ li {
     list-style: none;
     margin-left: 1.5rem !important;
     margin-right: 1.5rem !important;
 }
 
-a {
+.navbar a {
     text-decoration: none;
 }
 
@@ -101,151 +103,6 @@ span{
 }
 
 
-/* /////////////////////////////////muano */
-
-
-/* .logo {
-  float: left;
-  margin-left: 4%;
-}
-
-
-#nav {
-  position: fixed;
-  width: 100%;
-  z-index: 50;
-}
-
-.current1 {
-  color: yellow !important;
-  font-weight: bold;
-} 
-
- .current{
-  color:  yellow !important;
-  font-weight: bold;
-} 
-
-#current{
-color: yellow !important;
-font-weight: bold;
-}
-
-.nav-bar {
-  overflow: hidden;
-  background-color: #033333;
-  font-family: "Courier New", Courier, monospace;
-  padding: 0.5rem 0;
-
-}
-
-.nav-bar .current {
-
- color: yellow !important;
-}
-
-.nav-bar a {
-  float: right;
-  font-size: 1.2rem !important;
-  color: white ;
-  text-align: center ;
-  padding: 10px 12px ;
-  text-decoration: none !important;
-  margin-top: 1.7rem;
-  margin-left: 1%;
-}
-
-.drop-down {
-  float: right;
-  overflow: hidden;
-  text-decoration: none !important;
-  margin-top: 1.6rem;
-  margin-left: 1%;
-}
-
-.drop-down a:active {
-  color: yellow !important;
-
-}
-
-.dropbtn{
-  padding-top: .8rem;
-}
-
-.drop-down .dropbtn {
-  font-size: 1.2rem ;
-  border: none;
-  outline: none ;
-  color:  #f9f9f9 ;
-  background-color: inherit ;
-  font-family: inherit ;
-  margin: 0 !important;
-}
-.nav .dropbtn {
-  background-color: #2a7e5f;
-}
-
-.nav-bar a:hover{
-  color: yellow !important;
- font-size: 1.2rem;
-    font-weight: bold;
-}
-
-
-.drop_down:hover .dropbtn {
-
- font-size: 1.2rem;
- color: yellow !important;
- font-weight: bold;
-}
-
-.dropdown-content {
-  display: none !important;
-  position: absolute !important;
-  right: 0.1rem;
-  background-color: #033333 !important;
-  min-width: 120px !important;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
-  z-index: 1 !important;
-  margin-right: 12rem !important;
-}
-
-.dropdown-content a {
-  float: none !important;
-  color: white !important;
-  padding: 10px 12px !important;
-  text-decoration: none !important;
-  display: block !important;
-  text-align: left !important;
-  margin: 0 !important;
-  margin-bottom: 0 !important;
-
-
-}
-
-.dropdown-content a:hover {
-
-  color: yellow !important;
-  width: 100% !important;
-  font-weight: bold;
-
-  
-  
-}
-
-.drop-down:hover .dropdown-content {
-  display: block !important;
-  margin-left: 0.5rem;
-  transition-duration: 1s;
-}
-
-.dropdown-content #active{
- color: #2a7e5f;
-} */
-
-/* //////////////////////////////////////////////////////////////////////////////// Navigation Closed */
-
-
 :root {
   --red: black;
   --dark-green: #033333;
@@ -327,25 +184,19 @@ input{
 
 textarea{
   border-radius: 0.5rem !important; 
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 
 /* ///////////////form end*/
 
 
-h1 {
-  font-size: 3rem;
-  font-weight: 400;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-family: 'Delius', cursive;
-}
+
 
 h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 
 .btn {
@@ -364,12 +215,7 @@ p {
   line-height: 1.8;
   font-weight: 400;
   font-size: 1.1rem;
-  font-family: 'Delius', cursive;
-}
-
-* {
-  padding: 0px;
-  margin: 0px;
+  font-family: 'Raleway';
 }
 
 
@@ -407,33 +253,26 @@ h1 {
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
+  text-transform: uppercase;
 }
 
 h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
-
-
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
-
 
 
 body {
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Raleway";
   font-size: 14px;
   font-weight: 300;
   color: #333;
   /* line-height: 2rem; */
   color: white;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 html {
   overflow: scroll;
@@ -490,7 +329,7 @@ html ::-webkit-scrollbar {
   margin-top: 0rem;
   color: #033333;
   letter-spacing: 0.2rem;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 
 .btn-apply {
@@ -524,7 +363,7 @@ html ::-webkit-scrollbar {
 }
 li {
   list-style: none;
- font-family: 'Delius', cursive;
+ font-family: 'Raleway';
 }
 
 .mentor-header-container {
@@ -561,19 +400,13 @@ li {
 }
 
 
-h1 {
-  font-size: 3rem;
-  font-weight: 400;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-family: 'Delius', cursive;
-}
+
 
 h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 
 .btn {
@@ -592,22 +425,19 @@ p {
   line-height: 1.8;
   font-weight: 400;
   font-size: 1.1rem;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 
-* {
-  padding: 0px;
-  margin: 0px;
-}
+
 h3{
- font-family: 'Delius', cursive; 
+ font-family: 'Raleway'; 
 }
 h5{
- font-family: 'Delius', cursive; 
+ font-family: 'Raleway'; 
 }
 
 body {
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Raleway";
   font-size: 14px;
   font-weight: 300;
   color: #333;
@@ -644,17 +474,6 @@ body {
   text-align: center;
   color: #555555;
 }
-
-/* .container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-  margin-bottom: 8rem;
-  margin-top: 8rem;
-  margin-right: 5rem;
-  margin-left: 5rem;
-  color: black;
-} */
 
 
 .what-to-learn-container {
@@ -712,7 +531,7 @@ body {
 
 .what-to-learn-container p {
   max-width: 30rem;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 
 li {
@@ -771,7 +590,7 @@ h4 {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   font-weight: normal;
-  font-family: 'Delius', cursive;
+  font-family: 'Raleway';
 }
 
 
