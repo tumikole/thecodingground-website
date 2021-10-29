@@ -26,7 +26,7 @@
             left: 0;
             padding: 2rem;
         }
-      
+    
         .nav-item {
             /* margin: 2.5rem 0; */
             margin-top: 0rem;
@@ -60,10 +60,12 @@
         display:grid;
     }
     .homeImg{
-        padding-top:5rem;
-        height:80%;
-        width:20%;
-        margin: 0 auto;
+        display: none;
+    }
+
+    .img-container{
+      position: relative;
+      top:15rem;
     }
 
     .header-container {
@@ -218,8 +220,55 @@ padding-right: 1rem;
  .footerText{
     font-size: 10px;
     text-align: center;
- }
 
+    /* ///////////////////// About */
+ }
+.tcgimg{
+  display: none;
+}
+.intro-section{
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 1rem;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.intro-section p {
+font-size: 15px;
+width:100%;
+margin-left: 0%;
+}
+.intro-section h1{
+  font-size: 20px;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* //////////////////// About */
+
+
+/* ////////////////////////// Contact */
+
+.contact-us{
+  margin-top: 0rem;
+}
+.contact-us h1{
+  padding-top: 7rem;
+  font-size: 20px;
+}
+
+.hr{
+  margin-top: 1rem;
+}
+
+/* .wrapper-form{
+  display: block;
+}
+.form{
+  height: 100%; 
+
+ } */
+/* /////////////////////////////////// Contact */
  }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
