@@ -68,10 +68,10 @@ h5 {
 h1 {
   width: 100%;
   margin:auto;
-  font-size: 26px !important;
+  font-size: 3rem;
   color: white;
   background-color: black;
-  
+  text-transform: uppercase;
   font-family: 'Raleway';
 }
 
