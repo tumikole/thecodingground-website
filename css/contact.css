@@ -11,6 +11,11 @@
     padding-top: 4rem;
     color: white;
 }
+
+.icon li i{
+    font-size: 4rem;
+    margin-top: 2rem;
+}
 .footerText{
     font-family: 'Raleway';
 }
@@ -106,12 +111,12 @@ min-width: 140px;
 }
 .sub-map1{
 margin-top: 3rem;
-margin-left: 2rem;
+margin-left: 2.5rem;
 }
 
 .sub-map2{
     margin-top: 3rem;
-    margin-left: 1rem;
+    margin-left: .5rem;
 
 }
 .bold{
