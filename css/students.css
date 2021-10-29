@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
 
+.students {
+  margin-left: 2rem;
+  margin-right: 2rem;
 
+}
 .bio-container {
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 1%;
-    margin-right: 1% ;
-   
+    margin-left: 2%;
+    margin-right: 2% ;
+   gap:2rem;
 }
 
 
@@ -37,9 +41,7 @@ h5{
     border-radius: 5px;
   }
        
-hr .newline {
-  border: 5px solid rgb(10, 10, 10);
-}
+
 
 .welcome-students{
   text-align: center;
@@ -72,10 +74,13 @@ h2{
   margin-left: 6rem;
 }
 
-p {
 
+.bio p {
+  margin-top: 2rem;
+margin-bottom: 4rem;
 font-family: 'Delius', cursive;
-white-space: pre-wrap; 
+/* white-space: pre-wrap;  */
+/* margin-left: 2rem; */
 }
 
 .social{
@@ -88,6 +93,7 @@ hr{
   margin-left: 1%;
   margin-right: 1%;
 }
+
 
 
 

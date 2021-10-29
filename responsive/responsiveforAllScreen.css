@@ -60,10 +60,12 @@
         display:grid;
     }
     .homeImg{
-        padding-top:5rem;
-        height:80%;
-        width:20%;
-        margin: 0 auto;
+        display: none;
+    }
+
+    .img-container{
+      position: relative;
+      top:15rem;
     }
 
     .header-container {
