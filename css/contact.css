@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
+
 .contact-us{
     margin-top: 8rem;
     margin-left: 10%;
@@ -28,6 +28,8 @@ h3{
 
 .wrapper{
     background: #818181 !important;
+    height: fit-content !important
+
    
 }
 .form{
@@ -70,7 +72,6 @@ color: black;
     margin-top: 1rem;
     color: white;
     font-family: 'Raleway';
-
 }
 
 .label{
@@ -107,15 +108,15 @@ min-width: 140px;
     color: white;
 }
 .sub-map{
-    margin-top: 2rem
+    margin-top: 3rem
 }
 .sub-map1{
-margin-top: 3rem;
+margin-top: 4rem;
 margin-left: 2.5rem;
 }
 
 .sub-map2{
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-left: .5rem;
 
 }

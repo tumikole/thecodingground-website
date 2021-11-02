@@ -22,7 +22,7 @@ INTRO */
 
 .intro-section h1 {
   text-align: center;
-  padding: 4rem;
+  padding: 2rem;
   margin: 0px;
   line-height: 3rem;
   color:rgb(255,255,255); 
@@ -30,7 +30,7 @@ INTRO */
 }
 
 .intro-section p {
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   font-size: 1.5rem;
   color:rgb(255,255,255);
   font-family: 'Raleway';
@@ -79,8 +79,11 @@ body {
   justify-content: center;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4rem;
-  padding: 4rem;
+  grid-gap: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: 2%;
+  margin-right: 2%;
   margin: 0 auto;
   width: max-content;
 }
@@ -89,7 +92,7 @@ body {
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
   height: 15em;
-  width: 18em;
+  width: 17em;
   font-size: 1.5em;
   color: white;
   border-radius: 1em !important;
@@ -212,10 +215,10 @@ h5{
 
 @media screen and (max-width: 500px) {
   .cards-wrapper {
-    padding: 4rem 2rem;
+    padding: 4rem 2rem !important;
   }
   .card {
-    max-width: calc(100vw - 4rem);
+    max-width: calc(100vw - 4rem) !important;
   }
 }
 
