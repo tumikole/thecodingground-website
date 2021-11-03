@@ -126,7 +126,6 @@ body {
   margin-top: 1em;
   line-height: 2em;
 }
-
 .card:before, .card:after {
   content: '';
   transform: scale(0);
