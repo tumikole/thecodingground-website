@@ -160,17 +160,7 @@
     
   }
 
-/* ////////////////////Home page img */
-.imgContainer{
-   display:grid;
-}
-.homeImg{
-   padding-top:5rem;
-   height:80%;
-   width:20%;
-   margin: 0 auto;
-}
-
+/* ////////////////////END FOOTER */
 
   .header-h1 {
     margin-top: 1rem;
@@ -277,6 +267,10 @@
   }
   .icon li i{
     font-size: 1rem
+  }
+
+  .form-button{
+    height: 2rem;
   }
   
   /* /////////////////////////////////// END MEDIA QUERIES CONTACT */
@@ -385,9 +379,95 @@
   .contact-us h1{
     padding-top: 8.5rem;
   }
+.form-button{
+  margin-left: 18%;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 320px){
+.navbar{
+height: 7rem;
+}
+.hamburger {
+  top: 1.5rem !important;
+}
+
+.intro-section{
+  padding-top: 2rem;
+}
+.contact-us h1{
+  padding-top: 10rem !important;
+}
+
+}
+
+@media (min-width: 375px) and (max-width: 375px){
+  .navbar{
+    height: 7rem !important;
+    } 
+    .hamburger {
+      top: 1.5rem !important;
+    }
+
+.intro-section{
+  padding-top: 2rem;
+}
+
+.contact-us h1{
+  padding-top: 10rem !important;
+}
 
 
 }
+
+@media (min-width: 425px) and (max-width: 425px){
+  .navbar{
+    height: 7rem !important;
+    } 
+    .hamburger {
+      top: 1.5rem !important;
+    }
+
+.intro-section{
+  padding-top: 2rem;
+}
+.contact-us h1{
+  padding-top: 10rem !important;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 768px){
+  .navbar{
+    height: 7rem !important;
+    } 
+    .hamburger {
+      top: 1.5rem !important;
+    }
+
+.intro-section{
+  padding-top: 2rem;
+}
+
+    
+}
+
+/* @media (min-width: 1024px) and (max-width: 1024px){
+  .intro-section h1{
+margin-top: 20rem;
+  }
+} */
+
+@media (min-width: 1440px) and (max-width: 1440px){
+  .navbar{
+    height: 7rem !important;
+    } 
+    .hamburger {
+      top: 1.5rem !important;
+    }
+}
+
 @media (min-width: 281px) and (max-width: 320px){
   .hamburger {
     display: block;
@@ -521,7 +601,7 @@
     cursor: pointer;
     height: 10rem;
     position: relative;
-    top: 0.5rem;
+    top: 1.5rem;
     font-size: 4rem;
   }
   .nav-logo {
@@ -560,8 +640,34 @@
   padding-top:  7.5rem;
 }
 }
+@media (min-height: 568px) and (max-height: 568px){
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    height: 10rem;
+    position: relative;
+    top: .5rem !important;
+    font-size: 4rem;
+  }
+  .navbar {
+    height: 5rem;
+  }
 
+}
+@media (min-height: 667px) and (max-height: 667px){
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    height: 10rem;
+    position: relative;
+    top: .5rem !important;
+    font-size: 4rem;
+  }
+  .navbar {
+    height: 5rem !important;
+  }
 
+}
 @media (min-width: 411px) and (max-width: 411px){
   .nav-logo {
     height: 10vh !important;
@@ -571,7 +677,14 @@
   .navbar {
     height: 5.5rem;
   }
-
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    height: 10rem;
+    position: relative;
+    top: .5rem;
+    font-size: 4rem;
+  }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -614,7 +727,21 @@
 .nav-logo{
   height: 20vh !important;
 }
+.intro-section h1{
+  margin-top: 10rem !important;
 }
+
+}
+
+@media (min-height : 800px) and (max-height: 800px){
+  .navbar {
+    height: 6rem;
+  }
+ 
+  .intro-section h1{
+    margin-top: 5rem !important;
+  }
+  }
 
 @media (min-height : 1024px) and (max-height: 1024px){
   .navbar {
@@ -641,8 +768,9 @@
     font-size: 2rem;
   }
   .contact-us h1{
-    padding-top: 12rem !important;
+    padding-top: 15rem !important;
   }
+ 
 }
 
 @media (min-height : 1366px) and (max-height: 1366px){
@@ -673,7 +801,7 @@
 
 @media (min-height : 812px) and (max-height: 812px){
   .navbar {
-    height: 6rem;
+    height: 6rem !important;
   }
   .hamburger {
     display: block;
@@ -804,8 +932,13 @@
 }
 
 .contact-us h1{
-  padding-top:  7.5rem;
+  padding-top:  10rem;
 }
+.form-button{
+  margin-left: 15%;
+  height: 2rem;
+}
+
 }
 
 
@@ -821,7 +954,7 @@
     font-family: "Raleway";
     padding-bottom: 2rem;
     padding-top: 2rem;
-    margin-top: 9.5rem;
+    margin-top: 13rem;
   }
 body{
   padding-top: 0 !important;
@@ -865,16 +998,16 @@ li{
     font-size: 15px;
     font-family: "Raleway";
   }
-
-  .contact-us h1{
-    padding-top:  10rem;
-  }
+.form-button{
+  height: 2rem;
+  margin-left: 24% !important;
+}
 
 }
 
 
 
-@media (min-width: 1025) and (max-width: 1440px){
+@media (min-width: 1025px) and (max-width: 1440px){
 .nav-logo{
  height:10vh !important;
  position: absolute;
@@ -887,7 +1020,79 @@ li{
 padding-top: 10rem;
 }
 .card{
-  width: 1em;
+  width: 27em;
+}
+.form-button{
+  height: 2.5rem;
+}
+
+}
+
+
+@media (min-width: 540px) and (max-width: 540px){
+.wrapper-form{
+  display: block;
+}
+
+hr:nth-child(4) {
+display: none;
+}
+
+.wrapper{
+height: fit-content !important;
+}
+.wrapper-form{
+display: block;
+}
+.sub-contact{
+margin-bottom: 0;
+}
+
+.map{
+display: block;
+
+}
+.map li{
+
+font-size: medium;
+}
+
+.map i{
+font-size: 16px;
+}
+
+.sub-map{
+margin-top: 0rem;
+font-size: 15px;
+}
+.sub-map1{
+margin-top: 0rem;
+margin-left: 0rem;
+font-size: 15px;
+}
+.sub-map2{
+margin-bottom: 0;
+margin-top: 0rem;
+margin-left: 0rem;
+padding-bottom: 2rem;
+font-size: 15px;
+}
+.label{
+font-size: 15px;
+}
+.form{
+height: 70% !important;
+}
+.icon li{
+height: fit-content;
+}
+.icon li i{
+font-size: 1rem
+}
+
+.form-button{
+height: 2rem;
+margin-left: 24%;
 }
 
 }
@@ -943,6 +1148,13 @@ font-size: 20px;
     margin-top: 4rem;
   }
   
+}
+
+@media (min-height : 1672px) and (max-height: 1672px){
+  .card{
+    width: 49em;
+    height: 20em;
+  }
 }
 
 /* /////////////////END MEDIA QUERIES NAVBAR, CONTACT AND ABOUT */
