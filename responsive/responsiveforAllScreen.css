@@ -30,7 +30,7 @@
   }
   .map li{
     
-    font-size: medium;
+    font-size: 12px;
   }
   
   .map i{
@@ -195,7 +195,7 @@
   }
 
   .columns h3 {
-    font-size: 15px;
+    font-size: 1.3rem;
     text-align: center;
     padding-top: 15px;
   }
@@ -363,7 +363,7 @@
   }
 
   .columns h3 {
-    font-size: 15px;
+    font-size: 1.3rem;
     text-align: center;
     padding-top: 15px;
   }
@@ -700,7 +700,7 @@ hr:nth-child(4) {
     margin-left: 0%;
   }
   .contact-us h1{
-    padding-top: 8.5rem;
+    padding-top: 7.5rem;
   }
 
 
@@ -730,7 +730,7 @@ hr:nth-child(4) {
     padding-right: 4%;
   }
   .intro-section h1{
-    font-size: 20px;
+    font-size: 12px;
     margin-top: 4rem;
     padding-top: 3rem;
   }
@@ -739,13 +739,13 @@ hr:nth-child(4) {
   }
 
   .intro-section p {
-    font-size: 15px;
+    font-size: 12px;
     width: 100%;
     margin-left: 0%;
   }
 
   .contact-us h1{
-    padding-top:  7.5rem;
+    padding-top:  1.5rem;
   }
 
 
@@ -806,7 +806,7 @@ hr:nth-child(4) {
   }
 
   .intro-section p {
-    font-size: 15px;
+    font-size: 12px;
     width: 100%;
     margin-left: 0%;
   }
@@ -826,7 +826,7 @@ hr:nth-child(4) {
   height: 20em;
 }
 .contact-us h1{
-  padding-top:  7.5rem;
+  padding-top:  8.5rem;
 }
 
 }
@@ -860,11 +860,11 @@ hr:nth-child(4) {
 .intro-section h1{
   padding-top: 4rem !important;
   margin-top: 4rem;
-  font-size: 20px;
+  font-size: 1.5rem;
  
 }
 .intro-section p {
-  font-size: 15px;
+  font-size: 12px;
   width: 100%;
 }
 .card{
@@ -939,7 +939,7 @@ hr:nth-child(4) {
   }
 
   .intro-section h1{
-    font-size: 20px;
+    font-size: 12px;
     margin-top: 7rem !important;
     padding-top: 3rem;
   }
@@ -1086,14 +1086,14 @@ hr:nth-child(4) {
 
 }
 .intro-section h1{
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: "Raleway";
   padding-bottom: 2rem;
   padding-top: 2rem;
   margin-top: 5rem;
 }
 .intro-section p{
-  font-size: 15px;
+  font-size: 12px;
   font-family: "Raleway";
 }
 
@@ -1112,11 +1112,11 @@ hr:nth-child(4) {
 }
 
 .card h1{
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: "Relway";
 }
 .card p{
-  font-size: 15px;
+  font-size: 12px;
   font-family: "Relway";
 }
 
@@ -1261,5 +1261,5 @@ font-size: 20px;
   }
   
 }
-
+}
 /* /////////////////END MEDIA QUERIES NAVBAR, CONTACT AND ABOUT */
