@@ -1,9 +1,77 @@
-/* Extra small devices (portrait phones, less than 576px) */
+/* Extra small devices (portrait phones, less than 425px) */
 @media only screen and (max-width: 425px) {
+  /* ////////////////////////// MEDIA QUERIES CONTACT */
+
+    .contact-us {
+      margin-top: 0rem;
+    }
+    .contact-us h1 {
+      padding-top: 4rem;
+      font-size: 20px;
+    }
+  
+  hr:nth-child(4) {
+    display: none;
+  }
+  
+  .wrapper{
+    height: fit-content !important;
+  }
+  .wrapper-form{
+    display: block;
+  }
+  .sub-contact{
+    margin-bottom: 0;
+  }
+  
+  .map{
+    display: block;
+  
+  }
+  .map li{
+    
+    font-size: medium;
+  }
+  
+  .map i{
+    font-size: 16px;
+  }
+  
+  .sub-map{
+    margin-top: 0rem;
+    font-size: 15px;
+  }
+  .sub-map1{
+    margin-top: 0rem;
+    margin-left: 0rem;
+    font-size: 15px;
+  }
+  .sub-map2{
+    margin-bottom: 0;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    padding-bottom: 2rem;
+    font-size: 15px;
+  }
+  .label{
+    font-size: 15px;
+  }
+  .form{
+    height: 70% !important;
+  }
+  .icon li{
+    height: fit-content;
+  }
+  .icon li i{
+    font-size: 1rem
+  }
+  
+  /* /////////////////////////////////// END MEDIA QUERIES CONTACT */
 
   /* ////////////////////Home page img */
   .imgContainer {
     display: grid;
+    height:100vh;
   }
   .homeImg {
     display: none;
@@ -18,8 +86,188 @@
     align-self: center;
     margin: 0rem;
     text-align: center;
+    
   }
   .header {
+    font-size: 3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.8;
+    color: white;
+  }
+  .header-medium {
+    font-size: 2rem;
+    text-align: center;
+
+    font-weight: bold;
+    color: white;
+  }
+  .sub-header-container {
+    display: grid;
+    justify-content: center;
+    color: white;
+    margin: 0rem;
+    line-height: 2rem;
+    gap:0.5rem;
+  }
+
+  .sub-header {
+    /* background-color: rgba(255, 255, 255, 0.795); */
+    text-align: center;
+    letter-spacing: 0.2rem;
+    align-self: center;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+    margin-top: 0rem;
+    color: #033333;
+    letter-spacing: 0.2rem;
+    font-family: "Delius", cursive;
+    /* width: 99.5%; */
+    margin: auto;
+  }
+  #applyBtn {
+    width: 30%;
+  }
+  #exampleModal {
+    height: 70% !important;
+    width: 100% !important;
+  }
+
+  .input-group {
+    width: 80% !important;
+    height: 70% !important;
+  }
+
+  .btn-lg {
+    width: 80% !important;
+  }
+
+  /* ////////////////////End of Home page img */
+  
+/* ////////////////////What will i learn */
+  .what-to-learn-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: grey;
+    color: white;
+
+    /* grid-gap: 9rem; */
+
+    line-height: 1.5rem;
+  }
+  .learn-side-2Logo {
+    width: 80%;
+    margin-top: -6rem;
+  }
+
+  #myBtn {
+    display: none !important;
+  }
+
+  /* Card for home page */
+
+  .card-text {
+    margin: 3rem;
+    font-size: 15px;
+  }
+
+  .header-text {
+    text-align: center;
+    font-size: 20px;
+  }
+  .learn-side-1 ul {
+    font-size: 15px !important;
+  }
+  .learn-side-1 ul {
+    font: 15px !important;
+  }
+  /* ////////////footer */
+  .footerContact {
+    display: none;
+  }
+
+  .columns {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .columns h3 {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    margin: auto;
+  }
+
+  .columns ul li {
+    padding-right: 1rem;
+  }
+
+  .sponsorLogo {
+    width: 90px;
+    margin: 0 auto !important;
+  }
+
+  #sponsorLogo {
+    height: 43px;
+    width: 40px;
+    border-radius: 10px;
+  }
+
+  .footerText {
+    font-size: 10px;
+    text-align: center;  
+  }
+
+/* ////////////////////END FOOTER */
+
+  .header-h1 {
+    margin-top: 1rem;
+    width: 100%;
+    height: 38vh !important;
+    background-image: url("../img/group_pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+/* ////////////////////End of footer */
+  
+  /* ////////////////////End of footer */
+
+
+    }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 426px) and (max-width: 768px) {
+
+/* ////////////////////Home page img */
+.imgContainer{
+   display:grid;
+}
+.homeImg{
+  display: none;
+   /* padding-top:5rem;
+   height:80%;
+   width:20%;
+   margin: 0 auto; */
+}
+/* ////////////////////End 0f Home page img */
+.header-container {
+    align-self: center;
+    margin: 0rem;
+    text-align: center;
+  
+  }
+  .header {
+     margin: 0rem !important;
     font-size: 3rem;
     font-weight: normal;
     text-transform: uppercase;
@@ -153,127 +401,213 @@
     border-radius: 10px;
   }
 
-  .footerText {
-    font-size: 10px;
-    text-align: center;
-
-    
-  }
-
-/* ////////////////////END FOOTER */
-
-  .header-h1 {
-    margin-top: 1rem;
-    width: 100%;
-    height: 38vh !important;
-    background-image: url("../img/group_pic.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .welcome-students {
-    text-align: center;
-    font-family: "Delius", cursive;
-    padding-top: 15px;
-    font-size: 20px;
-  }
-  .bio-container {
-    display: grid;
-    grid-template-columns: auto;
-  }
-
-  .card-container h2{
-    font-size: 18px;
-    font-weight: 400px;
-  }
-
-  .resize {
-    margin-top: 1rem;
-    width: 400px;
-    height: auto;
-    max-width: 100%;
-    display: flex;
-    float: left;
-    border: 1px solid black;
-    background-color: grey;
-    border-radius: 5px;
-  }
-
-  .bio p{
-    font-size: 14px;
-  }
-
-    /* ////////////////////////// MEDIA QUERIES CONTACT */
-
-    .contact-us {
-      margin-top: 0rem;
-    }
-    .contact-us h1 {
-      padding-top: 4rem;
-      font-size: 20px;
-    }
-  
-  hr:nth-child(4) {
-    display: none;
-  }
-  
-  .wrapper{
-    height: fit-content !important;
-  }
-  .wrapper-form{
-    display: block;
-  }
-  .sub-contact{
-    margin-bottom: 0;
-  }
-  
-  .map{
-    display: block;
-  
-  }
-  .map li{
-    
-    font-size: medium;
-  }
-  
-  .map i{
-    font-size: 16px;
-  }
-  
-  .sub-map{
-    margin-top: 0rem;
-    font-size: 15px;
-  }
-  .sub-map1{
-    margin-top: 0rem;
-    margin-left: 0rem;
-    font-size: 15px;
-  }
-  .sub-map2{
-    margin-bottom: 0;
-    margin-top: 0rem;
-    margin-left: 0rem;
-    padding-bottom: 2rem;
-    font-size: 15px;
-  }
-  .label{
-    font-size: 15px;
-  }
-  .form{
-    height: 70% !important;
-  }
-  .icon li{
-    height: fit-content;
-  }
-  .icon li i{
-    font-size: 1rem
-  }
-
   .form-button{
     height: 2rem;
   }
   
   /* /////////////////////////////////// END MEDIA QUERIES CONTACT */
+  .footerText {
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/* ////////////////////Home page img */
+.imgContainer{
+display:grid;
+}
+.homeImg{
+  display: none;
+}
+.imgContainer {
+  position: relative;
+  /* top: 25rem; */
+  height: 100vh;
+}
+
+.img-container{
+  padding-top: 36rem;
+}
+
+.header-container {
+  align-self: center;
+  margin: 0rem;
+  text-align: center;
+}
+.header {
+  font-size: 7rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.8;
+  color: white;
+}
+.header-medium {
+  font-size: 4rem;
+  text-align: center;
+
+  font-weight: bold;
+  color: white;
+}
+.sub-header-container {
+  display: grid;
+  justify-content: center;
+  color: white;
+  margin: 0rem;
+  line-height: 2rem;
+  gap: 1.5rem;
+}
+
+.sub-header {
+  text-align: center;
+  letter-spacing: 0.2rem;
+  align-self: center;
+  padding: 0.5rem 3rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+  /* margin-top: 0rem; */
+  color: #033333;
+  letter-spacing: 0.2rem;
+  font-family: "Delius", cursive;
+  margin: auto;
+}
+#applyBtn {
+  width: 30%;
+}
+#exampleModal {
+  height: 70% !important;
+  width: 100% !important;
+}
+
+.input-group {
+  width: 100% !important;
+  height: 70% !important;
+}
+
+.btn-lg {
+  width: 100% !important;
+}
+
+/* ////////////////////End of Home page img */
+
+.what-to-learn-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  background-color: grey;
+  color: white;
+  line-height: 1.5rem;
+}
+.learn-side-2Logo {
+  display:grid;
+  width: 80%;
+  grid-gap: 1rem;
+  margin-top: -6rem;
+}
+
+
+/* Card for home page */
+
+.card-text {
+  margin: 3rem;
+  font-size: 15px;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 20px;
+}
+.learn-side-1 ul {
+  font-size: 15px !important;
+}
+.learn-side-1 ul {
+  font: 15px !important;
+}
+/* ////////////footer */
+.footerContact {
+  display: none;
+}
+
+.columns {
+  padding: 0px 0px 0px 0px;
+}
+
+.columns h3 {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.columns ul {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+
+.columns ul li {
+  padding-right: 1rem;
+}
+
+.sponsorLogo {
+  width: 90px;
+  /* margin: 0 auto !important; */
+}
+
+#sponsorLogo {
+   height: 33px !important;
+  width: 10px !important;
+  border-radius: 10px; 
+}
+
+.footerText {
+  font-size: 10px;
+  text-align: center;
+  }
+
+
+.header-h1 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 94vh !important;
+  background-image: url("../img/group_pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* ///////mentors// */
+.meet-our-mentors{
+  padding-top: 6rem !important;
+}
+.vl{
+  display: none;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 3rem !important;
+}
+
+#mentor-imgMoral{
+  width: 100%;
+  position: relative;
+  top:0
+}
 }
 
 /* /////////////////MEDIA QUERIES NAVBAR, CONTACT AND ABOUT */
@@ -294,17 +628,20 @@
    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 
 }
+
 .nav-logo{
   height:7vh !important;
   position: absolute;
   top: 0.5rem
+
+  }
+hr:nth-child(4) {
+  display: none;
 }
 .nav-menu.active {
    left: 0;
    padding: 2rem;
-
 }
-
 .nav-item {
    margin-top: 0rem;
    margin-right: 5rem;
@@ -331,7 +668,7 @@
 } 
 
   
-}
+
 
 
 @media (min-width : 0px) and (max-width: 280px){
@@ -719,6 +1056,8 @@ margin-top: 20rem;
 
   .contact-us h1{
     padding-top: 9rem;
+    font-family: 'Raleway';
+    font-size: 2rem;
   }
 }
 
@@ -749,9 +1088,10 @@ margin-top: 20rem;
   }
 
   .intro-section h1{
-    font-size: 20px;
+    font-size: 2rem;
     margin-top: 7rem !important;
     padding-top: 3rem;
+    font-family: 'Raleway';
   }
   .nav-logo {
     height: 12vh !important;
@@ -769,6 +1109,9 @@ margin-top: 20rem;
   }
   .contact-us h1{
     padding-top: 15rem !important;
+    padding-top: 12rem !important;
+    font-size: 2rem;
+    font-family: 'Raleway';
   }
  
 }
@@ -776,12 +1119,15 @@ margin-top: 20rem;
 @media (min-height : 1366px) and (max-height: 1366px){
 
   .intro-section h1{
-    font-size: 20px;
+    font-size: 2rem;
     margin-top: 18rem !important;
     padding-top: 3rem;
+    font-family: 'Raleway';
   }
   .contact-us h1{
     padding-top: 18rem !important;
+    font-size: 2rem;
+    font-family: 'Raleway';
   }
 }
 
@@ -814,6 +1160,8 @@ margin-top: 20rem;
 
   .contact-us h1{
     padding-top: 9rem;
+    font-size: 2rem;
+    font-family: 'Raleway';
   }
 }
 
@@ -950,7 +1298,7 @@ margin-top: 20rem;
   
   }
   .intro-section h1{
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Raleway";
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -960,7 +1308,7 @@ body{
   padding-top: 0 !important;
 }
 h1{
-  font-size: 20px;
+  font-size: 2rem;
 }
 p{
   font-size: 15px; 
@@ -981,7 +1329,7 @@ li{
   }
 
   .card h1{
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Raleway";
   }
   .card p{
@@ -1003,6 +1351,12 @@ li{
   margin-left: 24% !important;
 }
 
+  .contact-us h1{
+    padding-top:  10rem;
+    font-size: 2rem;
+    font-family: 'Raleway';
+  }
+
 }
 
 
@@ -1018,6 +1372,8 @@ li{
 }
 .contact-us h1{
 padding-top: 10rem;
+font-size: 2rem;
+font-family: 'Raleway';
 }
 .card{
   width: 27em;
@@ -1112,6 +1468,8 @@ margin-left: 24%;
 
 .intro-section h1{
   padding-top: 4rem !important;
+  font-size: 2rem;
+  font-family: 'Raleway';
 }
 .wrapper{
   margin-top: 30rem !important;
@@ -1132,6 +1490,8 @@ margin-left: 24%;
 
   .card h1{
 font-size: 20px;
+font-size: 2rem;
+font-family: 'Raleway';
   }
   .card p{
     font-family: 15px;
@@ -1139,6 +1499,8 @@ font-size: 20px;
 
   .contact-us h1{
     padding-top: 15rem;
+    font-size: 2rem;
+    font-family: 'Raleway';
   }
   .wrapper{
     padding-bottom: 5rem;
