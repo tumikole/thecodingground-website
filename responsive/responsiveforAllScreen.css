@@ -614,17 +614,19 @@ display:grid;
    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 
 }
+
 .nav-logo{
   height:7vh !important;
   position: absolute;
-  top: 0.5rem
+  top: 0.5rem;
+}
 hr:nth-child(4) {
   display: none;
 }
 .nav-menu.active {
    left: 0;
    padding: 2rem;
-
+}
 .nav-item {
    margin-top: 0rem;
    margin-right: 5rem;

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 
 /* ////////////////////////////////////////// NAVIGATIONBAR CSS //////////////////////////////// */
+
 * {
     margin: 0;
     padding: 0;
@@ -112,6 +113,8 @@ span{
 }
 
 /* ///////////////form */
+
+
 .form-control, .form-control:focus, .input-group-addon {
   border-color: #e1e1e1;
 }
@@ -539,7 +542,7 @@ li {
   list-style: none;
 }
 
-.stay-in-touch-container h1 {
+/* .stay-in-touch-container h1 {
   color: var(--text-color);
   font-weight: normal;
 }
@@ -586,7 +589,7 @@ li {
 
 .input {
   height: 2rem;
-}
+} */
 
 h4 {
   font-size: 1.2rem;
@@ -674,7 +677,6 @@ justify-content: space-between;
   background-color: #2a7e5f;
   cursor: pointer;
   padding: 25px;
-/* padding-top: 3rem; */
 
 }
 
