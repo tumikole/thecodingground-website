@@ -1011,6 +1011,76 @@
   
   }
 
+  @media (min-height : 1180px) and (max-height: 1180px){
+    
+    .navbar{
+      height: 5rem;
+  }
+  .nav-menu {
+     position: fixed;
+     left: -100%;
+     top: 0rem;
+     flex-direction: column;
+     background-color: #033333;
+     width: 100%;
+     text-align: center;
+     transition: 0.3s;
+     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  
+  }
+  
+  .nav-logo{
+    height:7vh !important;
+    position: absolute;
+    top: 0.5rem
+  
+    }
+  hr:nth-child(4) {
+    display: none;
+  }
+  .nav-menu.active {
+     left: 0;
+     padding: 2rem;
+  }
+  .nav-item {
+     margin-top: 0rem;
+     margin-right: 5rem;
+  }
+  .hamburger {
+     display: block;
+     cursor: pointer;
+     height: 10rem;
+     position:relative;
+     top: 1rem;
+     font-size: 4rem;
+  
+  }
+  .hamburger.active .bar:nth-child(2) {
+   opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1) {
+   transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3) {
+   transform: translateY(-8px) rotate(-45deg);
+  } 
+
+  .cards-wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
+   
+  .card{
+    width: 20em !important;
+    height: 25em !important;
+  }
+        
+  hr:nth-child(4) {
+    display: block !important;
+  }
+    }
+  
   @media (min-height : 0px) and (max-height: 585px){
     .navbar {
       height: 5.5rem;
@@ -1028,29 +1098,20 @@
     }
   }
   
-  @media (min-width:1441) and (max-width: 2560px){
-    .cards-wrapper{
-      grid-template-columns: 1fr 1fr 1fr;
+  @media (min-width:1441px) and (max-width: 2560px){
+    .nav-logo{
+      height:9vh !important;
+      position: absolute;
+      top: 0.5rem;
     }
-   .card{
-     width: 15rem;
-   }
-   .nav-logo{
-    height:10vh !important;
-    position: absolute;
-    top: 0.5rem;
   }
   
-  .intro-section h1{
-    padding-top: 4rem !important;
-    font-size: 2rem;
-    font-family: 'Raleway';
+  @media (min-height : 747px) and (max-height: 747px){
+    .navbar {
+      height: 5.8rem;
+    }
   }
-  .wrapper{
-    margin-top: 30rem !important;
-  }
-  }
-  
+
   @media (min-height : 1452px) and (max-height: 1452px){
     body{
       font-family: "Raleway";
