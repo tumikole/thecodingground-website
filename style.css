@@ -469,16 +469,6 @@ body {
   color: white;
 }
 
-.service-body h3 {
-  margin-top: 2rem;
-}
-
-.service {
-  justify-self: center;
-  text-align: center;
-  color: #555555;
-}
-
 
 .what-to-learn-container {
   display: grid;
@@ -538,58 +528,9 @@ body {
   font-family: 'Raleway';
 }
 
-li {
+.what-to-learn-container li {
   list-style: none;
 }
-
-/* .stay-in-touch-container h1 {
-  color: var(--text-color);
-  font-weight: normal;
-}
-
-.touch-2-col-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 2fr 2fr 2fr;
-}
-
-.stay-in-touch-container {
-  color: black;
-  margin-left: 2rem;
-}
-
-.stay-in-touch-container form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1rem 1rem;
-  grid-gap: 1rem;
-}
-
-.stay-in-touch-container textarea {
-  height: 7rem;
-}
-
-.input-wrapper {
-  display: grid;
-}
-
-.input-wrapper {
-  color: var(--dark-green);
-  font-weight: bold;
-}
-
-.submit {
-  margin-top: 8rem;
-  width: 5rem;
-  height: 2rem;
-  background-color: var(--dark-green);
-  color: white;
-  border: none;
-}
-
-.input {
-  height: 2rem;
-} */
 
 h4 {
   font-size: 1.2rem;

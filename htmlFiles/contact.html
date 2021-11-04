@@ -10,15 +10,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Raleway|Alfa Slab One">
   <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="../responsive/responsiveforAllScreen.css">
+  <link rel="stylesheet" href="../responsive/navaboutcontactresponsive.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../responsive/responsiveforAllScreen.css">
+    
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
   <link rel="icon" type="image/png" href="/img/green-favicon.ico" sizes="16x16">
   <title>CONTACT-THE CODING GROUND</title>
@@ -65,20 +66,28 @@
   <div class="wrapper-form">
     <div class="form">
       <form action="https://formspree.io/f/mdoyvlyg" method="POST">
+        
+          <!-- <label class="label">First Name<span class="required"> *</span></label>
+            <input id="firstname" class="form-control"  type="text"/> -->
+            
+        
         <div class="main-label">
-          <label class="label">First Name<span class="required"> *</span></label>
-            <input id="firstname" class="form-control"  type="text">
+          <label class="label">Last Name<span class="required"> *</span></label>
+            <input id="lastname" class="form-control"  type="text"/>
+            
         </div>
         <div class="main-label">
-          <label class="label">Last Name<span class="required"> *</span</label>
-            <input id="lastname" class="form-control" type="text">
+          
+          <label class="label">Last Name<span class="required"> *</span></label>
+            <input id="lastname" class="form-control" type="text"/>
+            
         </div>
         <div class="main-label">
-          <label class="label">Email<span class="required"> *</span</label>
-            <input id="email" class="form-control" type="text">
+          <label class="label">Email<span class="required"> *</span></label>
+            <input id="email" class="form-control" type="text"/>
         </div>
         <div class="main-label">
-          <label class="label">Message <span class="required"> *</span</label>
+          <label class="label">Message <span class="required"> *</span></label>
           <textarea id="message" class="form-control" style="height: 10rem;padding: 1rem;" type="text" placeholder="Write your message here" ></textarea>
         </div>
         <button onclick="submitMessage()" class="form-button" type="button" >SEND</button>
