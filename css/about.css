@@ -5,7 +5,7 @@
   padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 3rem;
-  margin-top: 12rem;
+  margin-top: 10rem;
   margin-left: 5%;
   margin-right: 5%;
  
@@ -91,7 +91,7 @@ body {
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
   height: 22em;
-  width: 25.5em;
+  width: 25.5em !important;
   font-size: 15px;
   color: white;
   border-radius: 1em !important;
