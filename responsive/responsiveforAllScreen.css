@@ -1,7 +1,5 @@
 /* Extra small devices (portrait phones, less than 425px) */
 @media only screen and (max-width: 425px) {
-<<<<<<< HEAD
-=======
   /* ////////////////////////// MEDIA QUERIES CONTACT */
     .contact-us {
       margin-top: 0rem;
@@ -64,7 +62,6 @@
   }
   
   /* /////////////////////////////////// END MEDIA QUERIES CONTACT */
->>>>>>> 51625ed7ef19b9173ec21196f7274cb4efc4b71c
 
   /* ////////////////////Home page img */
   .imgContainer {
@@ -272,9 +269,6 @@ margin-bottom:0;
   grid-template-columns: 1fr;
   padding-top: 3rem;
     }
-<<<<<<< HEAD
-  }
-=======
 .card-container
 .vl{
   display:none;
@@ -292,11 +286,7 @@ height:80vh;
 width:100%;
 }
 
-footer{
-  }
-}
 
->>>>>>> 51625ed7ef19b9173ec21196f7274cb4efc4b71c
 
 @media (min-width: 426px) and (max-width: 768px) {
 
@@ -705,8 +695,6 @@ display:grid;
 }
 }
 
-<<<<<<< HEAD
-=======
 /* /////////////////MEDIA QUERIES NAVBAR, CONTACT AND ABOUT */
 
 @media (min-width: 0px) and (max-width: 768px){
@@ -1608,4 +1596,5 @@ font-family: 'Raleway';
 }
 
 /* /////////////////END MEDIA QUERIES NAVBAR, CONTACT AND ABOUT */
->>>>>>> 51625ed7ef19b9173ec21196f7274cb4efc4b71c
+
+}
