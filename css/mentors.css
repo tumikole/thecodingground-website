@@ -5,20 +5,16 @@
 background-image: linear-gradient(315deg, #98de5b  10%, #2a7e5f 74%);
 }
 
+.meet-our-mentors{
+  padding-top: 7rem;
+}
 .card-container {
   display: grid;
-  grid-template-columns: 40% 5% 55%;
+  grid-template-columns: 35% 5% 60%;
   padding: 10rem;
   gap: 2rem;
   padding-left: 3rem;
-}
-
-.left-column {
-border: 2px solid rgba(255, 255, 255, 0.479) ;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-
+  padding-top: 5rem;
 
 }
 
@@ -27,22 +23,17 @@ border: 2px solid rgba(255, 255, 255, 0.479) ;
   font-size: 20px;
   font-family: 'Raleway' !important;
 }
+
 h3 {
   font-family: 'Raleway' !important;
   color: white;
-
 }
+
 h5 {
   color: white;
   font-family: 'Raleway' !important;
 }
 
-.mentor-imgMoral {
-  /* border-radius: 100%; */
-  height: 340px !important;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-}
 
 .media-container {
   display: grid;
@@ -50,10 +41,25 @@ h5 {
   gap: 10px;
   margin: auto !important;
 }
+
 .media {
   width: 20px;
-  
-  
+}
+
+.mentor-text{
+  display: flex;
+}
+
+.left-column {
+  border: 2px solid rgba(255, 255, 255, 0.479) ;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.left-column{
+  color: white;
+  width: 70% !important;
 }
 .left-column
 h1 {
@@ -66,11 +72,22 @@ h1 {
   font-family: 'Raleway';
 }
 
-
 .vl {
   border-left: 6px solid white;
-  height: 500px;
+  height: 526px;
   opacity: 0.3;
+}
+
+.right-column
+p{
+  font-family: 'Raleway';
+  color: white;
+}
+
+.right-column
+h2{
+  font-size: 2rem;
+  color: white;
 }
 
 .social-media{
@@ -83,44 +100,26 @@ h1 {
   height: 3vh;
   /* background-color: grey; */
   margin-bottom: 1rem ;
-  
-  
-  
-
 }
+
 .social-media
 a {
   text-decoration: none;
-
   font-size: 22px;
 }
 
 .social-media,
 .social-media-icons{
-   gap: 1rem;
+  gap: 1rem;
 }
-
+.mentor-imgMoral {
+  /* border-radius: 100%; */
+  height: 340px !important;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
 hr{
   background-color:  rgba(255, 255, 255, 0.555) !important;
   width: 89% ; 
   margin: auto;
-}
-.mentor-text{
-  display: flex;
-}
-
-.right-column
-p{
-  font-family: 'Raleway';
-
-  color: white;
-}
-
-.left-column{
-  color: white;
-}
-
-.right-column
-h2{
-  color: white;
 }
