@@ -29,6 +29,8 @@ h5{
    font-family: 'Raleway';
    text-transform: uppercase;
    font-size: 3rem;
+   margin-top: 3rem;
+   padding: 9rem;
  }
 
 .resize {
@@ -49,13 +51,15 @@ h5{
   text-align: center;
   font-family: 'Delius', cursive;
   font-size: 2rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   font-weight: 900;
   letter-spacing: 3px;
   font-family: 'Raleway';
 }
 
-
+/* .students-class{
+  margin-top: 3rem;
+} */
 
 .header-h1, h1 {
   margin-top: 0;
@@ -79,8 +83,8 @@ h2{
 
 
 .bio p {
-  margin-top: 2rem;
-margin-bottom: 4rem;
+  margin-top: 4rem; 
+  margin-bottom: 4rem; 
 font-family: 'Raleway';
 
 }
