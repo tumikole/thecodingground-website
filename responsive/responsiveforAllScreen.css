@@ -242,6 +242,7 @@ margin-bottom:0;
     background-image: url("../img/group_pic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
 /* ////////////////////End of footer */
   
 .header-h1{
@@ -463,6 +464,7 @@ footer{
   .footerText {
     font-size: 10px;
     text-align: center;
+  }
 .header-h1{
 padding-top: 2rem;
 height: 55vh;
