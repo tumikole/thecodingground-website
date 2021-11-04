@@ -1,0 +1,1167 @@
+
+
+/* /////////////////MEDIA QUERIES NAVBAR, CONTACT AND ABOUT */
+  @media (min-height: 640px) and (max-height: 640px){
+     .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: .5rem !important;
+      font-size: 4rem;
+    } 
+  }
+
+    @media (min-height: 740px) and (max-height: 740px){
+      .navbar{
+        height: 5.5rem !important;
+      }
+    }
+    @media (min-height: 533px) and (max-height: 533px){
+      .navbar{
+        height: 5rem !important;
+      }
+    }
+    @media (min-height: 926px) and (max-height: 926px){
+      .navbar{
+        height: 5.7rem !important;
+      }
+      .nav-logo{ 
+        height: 9vh !important;
+        position: absolute;
+        top: 0.5rem;
+      }
+      .hamburger {
+        display: block;
+        cursor: pointer;
+        height: 10rem;
+        position: relative;
+        top: 1.2rem !important;
+        font-size: 4rem;
+      } 
+      .wrapper-form{
+        display: block;
+      }
+
+        
+    hr:nth-child(4) {
+      display: none !important;
+    }
+    
+    .wrapper{
+      height: fit-content !important;
+    }
+
+    .sub-contact{
+      margin-bottom: 0;
+    }
+    
+    .map{
+      display: block;
+    
+    }
+    .map li{
+      
+      font-size: medium;
+    }
+    
+    .map i{
+      font-size: 16px;
+    }
+    
+    .sub-map{
+      margin-top: 0rem;
+      font-size: 15px;
+    }
+    .sub-map1{
+      margin-top: 0rem;
+      margin-left: 0rem;
+      font-size: 15px;
+    }
+    .sub-map2{
+      margin-bottom: 0;
+      margin-top: 0rem;
+      margin-left: 0rem;
+      padding-bottom: 2rem;
+      font-size: 15px;
+    }
+    .label{
+      font-size: 15px;
+    }
+    .form{
+      height: 70% !important;
+    }
+    .icon li{
+      height: fit-content;
+    }
+    .icon li i{
+      font-size: 1rem
+    }
+  }
+    
+    
+
+@media (min-height: 769px) and (max-height: 1440px){
+.nav-logo{ 
+  height:12vh !important;
+  position: absolute;
+  top: 0.5rem;
+}
+.navbar{
+  height: 6.5rem !important;
+}
+}
+
+@media (min-width: 0px) and (max-width: 768px){
+    .navbar{
+      height: 5rem;
+  }
+  .nav-menu {
+     position: fixed;
+     left: -100%;
+     top: 0rem;
+     flex-direction: column;
+     background-color: #033333;
+     width: 100%;
+     text-align: center;
+     transition: 0.3s;
+     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  
+  }
+  
+  .nav-logo{
+    height:7vh !important;
+    position: absolute;
+    top: 0.5rem
+  
+    }
+  hr:nth-child(4) {
+    display: none;
+  }
+  .nav-menu.active {
+     left: 0;
+     padding: 2rem;
+  }
+  .nav-item {
+     margin-top: 0rem;
+     margin-right: 5rem;
+  }
+  .hamburger {
+     display: block;
+     cursor: pointer;
+     height: 10rem;
+     position:relative;
+     top: 1rem;
+     font-size: 4rem;
+  
+  }
+  .hamburger.active .bar:nth-child(2) {
+   opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1) {
+   transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3) {
+   transform: translateY(-8px) rotate(-45deg);
+  } 
+  
+  }
+  
+  
+  
+  @media (min-width : 0px) and (max-width: 280px){
+    .navbar{
+      height: 6.5rem !important;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: 1rem;
+      font-size: 4rem;
+    }
+    .nav-logo {
+      height: 13vh !important;
+      position: absolute;
+      top: 0.5rem;
+    }
+    .tcgimg {
+      display: none;
+    }
+    .intro-section{
+      margin-top: 0rem;
+      width: 100%;
+      margin-left: 0%;
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+    .intro-section h1{
+      font-size: 20px;
+      margin-top: 6rem;
+      padding-top: 2rem;
+    }
+    .card{
+    height: 26em !important;
+    width: 20em !important;
+    }
+  
+    .intro-section p {
+      font-size: 15px;
+      width: 100%;
+      margin-left: 0%;
+    }
+    .contact-us h1{
+      padding-top: 8.5rem;
+    }
+  .form-button{
+    margin-left: 18%;
+  }
+  
+  }
+  
+  @media (min-width: 320px) and (max-width: 320px){
+  .navbar{
+  height: 7rem;
+  }
+  .hamburger {
+    top: 1.5rem !important;
+  }
+  
+  .intro-section{
+    padding-top: 2rem;
+  }
+  .contact-us h1{
+    padding-top: 8rem !important;
+  }
+  
+  }
+  
+  @media (min-width: 375px) and (max-width: 375px){
+    /* .navbar{
+      height: 7rem !important;
+      }  */
+      .hamburger {
+        top: 1.5rem !important;
+      }
+  
+  .intro-section{
+    padding-top: 2rem;
+  }
+  
+  .contact-us h1{
+    padding-top: 10rem !important;
+  }
+  
+  
+  }
+  
+  @media (min-width: 425px) and (max-width: 425px){
+    /* .navbar{
+      height: 7rem !important;
+      }  */
+      .hamburger {
+        top: 1.5rem !important;
+      }
+  
+  .intro-section{
+    padding-top: 2rem;
+  }
+  .contact-us h1{
+    padding-top: 10rem !important;
+  }
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 768px){
+    /* .navbar{
+      height: 7rem !important;
+      }  */
+      .hamburger {
+        top: 1.5rem !important;
+      }
+  
+  .intro-section{
+    padding-top: 2rem;
+  }  
+      
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1024px){
+    .intro-section h1{
+  margin-top: 20rem;
+    }
+  }
+  
+  @media (min-width: 1440px) and (max-width: 1440px){
+    /* .navbar{
+      height: 7rem !important;
+      }  */
+      .hamburger {
+        top: 1.5rem !important;
+      }
+  }
+  
+  @media (min-width: 281px) and (max-width: 320px){
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: 0.5rem;
+      font-size: 4rem;
+    }
+    .nav-logo {
+      height: 10vh !important;
+      position: absolute;
+      top: 0.5rem;
+    }
+    .tcgimg {
+      display: none;
+    }
+    .intro-section{
+      margin-top: 0rem;
+      width: 100%;
+      margin-left: 0%;
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+    .intro-section h1{
+      font-size: 20px;
+      margin-top: 4rem;
+      padding-top: 3rem;
+    }
+    .card{
+    height: 23em !important;
+    }
+  
+    .intro-section p {
+      font-size: 15px;
+      width: 100%;
+      margin-left: 0%;
+    }
+  
+    .contact-us h1{
+      padding-top:  7.5rem;
+    }
+  .form-button{
+    height: 2rem;
+  }
+  
+  }
+  
+  @media (min-width: 321px) and (max-width: 375px){
+    .navbar {
+      height: 5rem;
+    }
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 0rem;
+      flex-direction: column;
+      background-color: #033333;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    .nav-logo {
+      height: 10vh !important;
+      position: absolute;
+      top: 0.5rem;
+    }
+    .nav-menu.active {
+      left: 0;
+      padding: 2rem;
+    }
+  
+    .nav-item {
+      margin-top: 0rem;
+      margin-right: 5rem;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: 0.5rem;
+      font-size: 4rem;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .tcgimg {
+      display: none;
+    }
+  
+    .intro-section p {
+      font-size: 15px;
+      width: 100%;
+      margin-left: 0%;
+    }
+  .intro-section{
+    margin-top: 0rem;
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .intro-section h1{
+    padding-top: 4rem;
+    margin-top: 4rem;
+  }
+  
+  .card{
+    height: 20em;
+  }
+  .contact-us h1{
+    padding-top:  7.5rem;
+  }
+  .form-button{
+    height: 2rem;
+  }
+  
+  }
+  
+  
+  @media (min-width: 376px) and (max-width: 425px){
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: 1.5rem;
+      font-size: 4rem;
+    }
+    .nav-logo {
+    height: 10vh !important;
+    position: absolute;
+    top: 0.5rem;
+  }
+  
+  .tcgimg {
+    display: none;
+  }
+  .intro-section{
+    margin-top: 0rem !important;
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .intro-section h1{
+    padding-top: 4rem !important;
+    margin-top: 4rem;
+    font-size: 20px;
+   
+  }
+  .intro-section p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .card{
+    height: 20em;
+  }
+  .cards-wrapper{
+    grid-template-columns: 1fr;
+  }
+  .contact-us h1{
+    padding-top:  7.5rem;
+  }
+  .form-button{
+    height: 2rem;
+  }
+  }
+
+  @media (min-height: 568px) and (max-height: 568px){
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: .5rem !important;
+      font-size: 4rem;
+    }
+    .navbar {
+      height: 5rem;
+    }
+   
+  
+  }
+  @media (min-height: 667px) and (max-height: 667px){
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: .5rem !important;
+      font-size: 4rem;
+    }
+    .navbar {
+      height: 5rem !important;
+    }
+  
+  }
+  @media (min-width: 411px) and (max-width: 411px){
+    .nav-logo {
+      height: 10vh !important;
+      position: absolute;
+      top: 0.5rem;
+    }
+    .navbar {
+      height: 5.5rem;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: .5rem;
+      font-size: 4rem;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .contact-us h1{
+      padding-top: 8.5rem;
+    }
+  
+  }
+  
+
+  @media (min-height : 1660px) and (max-height: 1660px){
+.card{
+  width: 48em
+}
+.navbar {
+  height: 9rem;
+} 
+
+.contact-us h1{
+  padding-top: 15rem;
+  font-family: 'Raleway';
+  font-size: 2rem;
+}
+       }
+
+  @media (min-height : 823px) and (max-height: 823px){
+    .navbar {
+      height: 6rem;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 8rem !important;
+      position: relative;
+      top: 1rem !important;
+      font-size: 2rem;
+    }
+  
+    .contact-us h1{
+      padding-top: 9rem;
+      font-family: 'Raleway';
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-height : 830px) and (max-height: 830px){
+    .navbar {
+      height: 6rem;
+    } 
+  
+    .contact-us h1{
+      padding-top: 9rem;
+      font-family: 'Raleway';
+      font-size: 2rem;
+    }
+
+  }
+  
+
+  @media (min-height : 600px) and (max-height: 600px){
+  .nav-logo{
+    height: 20vh !important;
+  }
+  .intro-section h1{
+    margin-top: 10rem !important;
+  }
+  
+  }
+  
+  @media (min-height : 800px) and (max-height: 800px){
+    .navbar {
+      height: 6rem;
+    }
+   
+    .intro-section h1{
+      margin-top: 5rem !important;
+    }
+    }
+  
+  @media (min-height : 1024px) and (max-height: 1024px){
+    .navbar {
+      height: 12vh !important;
+    }
+  
+    .intro-section h1{
+      font-size: 2rem;
+      margin-top: 7rem !important;
+      padding-top: 3rem;
+      font-family: 'Raleway';
+    }
+    .nav-logo {
+      height: 12vh !important;
+      position: absolute;
+      top: 0.5rem;
+      opacity: 20em;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 8rem !important;
+      position: relative;
+      top: 1.5rem !important;
+      font-size: 2rem;
+    }
+    .contact-us h1{
+      padding-top: 15rem !important;
+      padding-top: 12rem !important;
+      font-size: 2rem;
+      font-family: 'Raleway';
+    }
+   
+  }
+  
+  @media (min-height : 1366px) and (max-height: 1366px){
+    .navbar {
+      height: 12vh !important;
+    }
+  
+    .intro-section h1{
+      font-size: 2rem;
+      margin-top: 15rem !important;
+      padding-top: 3rem;
+      font-family: 'Raleway';
+    }
+    .contact-us h1{
+      padding-top: 18rem !important;
+      font-size: 2rem;
+      font-family: 'Raleway';
+    }
+
+    .columns{
+      padding: 3rem;
+    }
+
+    .footerTextContainer{
+      padding: 4rem;
+    }
+
+    .wrapper{
+      padding-bottom: 4rem;
+    }
+  }
+  
+  @media (min-height : 720px) and (max-height: 720px){
+    .navbar {
+      height: 12vh !important;
+    }
+  
+    .cards-wrapper{
+      grid-template-columns: 1fr !important;
+    }
+    .card{
+      width: 20em !important;
+    }
+  }
+  
+  
+  @media (min-height : 812px) and (max-height: 812px){
+    .navbar {
+      height: 6rem !important;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 8rem !important;
+      position: relative;
+      top: 1rem !important;
+      font-size: 2rem;
+    }
+  
+    .contact-us h1{
+      padding-top: 9rem;
+      font-size: 2rem;
+      font-family: 'Raleway';
+    }
+  }
+  
+  @media (min-height : 736px) and (max-height: 736px){
+    .navbar {
+      height: 6rem;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 8rem !important;
+      position: relative;
+      top: 1rem !important;
+      font-size: 2rem;
+    }
+    .contact-us h1{
+      padding-top: 9rem;
+    }
+  }
+  
+  @media (min-width: 426px) and (max-width: 768px){
+    .navbar {
+      height: 5rem;
+    }
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 0rem;
+      flex-direction: column;
+      background-color: #033333;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    .nav-logo {
+      height: 10vh !important;
+      position: absolute;
+      top: 0.5rem;
+    }
+    .nav-menu.active {
+      left: 0;
+      padding: 2rem;
+    }
+  
+    .nav-item {
+      margin-top: 0rem;
+      margin-right: 5rem;
+    }
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      height: 10rem;
+      position: relative;
+      top: 0.5rem;
+      font-size: 4rem;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+  .imgtcg{
+    display: none;
+  }
+  
+  .intro-section{
+    margin-top: 0rem;
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 4%;
+    padding-right: 4%;
+  
+  }
+  .intro-section h1{
+    font-size: 20px;
+    font-family: "Raleway";
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 5rem;
+  }
+  .intro-section p{
+    font-size: 15px;
+    font-family: "Raleway";
+  }
+  
+  .cards-wrapper{
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0rem;
+    margin: 0 auto;
+  }
+  
+  .card{
+    width: 20em !important;
+    height: 22em !important; 
+  }
+  .label{
+    font-size: 15px;
+    font-family: "Raleway";
+  }
+  
+  .card h1{
+    font-size: 20px;
+    font-family: "Relway";
+  }
+  .card p{
+    font-size: 15px;
+    font-family: "Relway";
+  }
+  
+  .contact-us h1{
+    padding-top:  10rem;
+  }
+  .form-button{
+    margin-left: 15%;
+    height: 2rem;
+  }
+
+  hr:nth-child(4) {
+    display: block;
+  }
+  
+  }
+  
+  
+  @media (min-width: 769px) and (max-width: 1024px){
+  
+    .intro-section{
+      margin-top: 0rem !important;
+      padding-bottom: 2rem;
+    
+    }
+    .intro-section h1{
+      font-size: 2rem;
+      font-family: "Raleway";
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+      margin-top: 8rem;
+    }
+  body{
+    padding-top: 0 !important;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 15px; 
+  }
+  li{
+    font-size: 15px;
+  }
+    .intro-section p{
+      font-size: 15px;
+      font-family: "Raleway";
+    }
+    .tcgimg{
+      margin-top: 2rem;
+    }
+    .card{
+      height: 20em !important;
+      width: 28em !important;
+    }
+  
+    .card h1{
+      font-size: 2rem;
+      font-family: "Raleway";
+    }
+    .card p{
+      font-size: 15px;
+      font-family: "Raleway";
+    }
+    .nav-logo{
+      height: 10vh !important;
+    }
+    .imgtcg{
+      height: 25rem;
+    }
+    .label{
+      font-size: 15px;
+      font-family: "Raleway";
+    }
+  .form-button{
+    height: 2rem;
+    margin-left: 24% !important;
+  }
+  
+    .contact-us h1{
+      padding-top:  12rem;
+      font-size: 2rem;
+      font-family: 'Raleway';
+    }
+  
+  }
+  
+  
+  
+  @media (min-width: 1025px) and (max-width: 1440px){
+  .nav-logo{
+   height:10vh !important;
+   position: absolute;
+   top: 0.5rem
+  }
+  .tcgimg{
+    margin-top: 2rem; 
+  }
+  .contact-us h1{
+  padding-top: 10rem;
+  font-size: 2rem;
+  font-family: 'Raleway';
+  }
+  .card{
+    width: 27em;
+  }
+  .form-button{
+    height: 2.5rem;
+  }
+  
+  }
+  
+  
+  @media (min-width: 540px) and (max-width: 540px){
+  .wrapper-form{
+    display: block;
+  }
+  
+  hr:nth-child(4) {
+  display: none;
+  }
+  
+  .wrapper{
+  height: fit-content !important;
+  }
+  .wrapper-form{
+  display: block;
+  }
+  .sub-contact{
+  margin-bottom: 0;
+  }
+  
+  .map{
+  display: block;
+  
+  }
+  .map li{
+  
+  font-size: medium;
+  }
+  
+  .map i{
+  font-size: 16px;
+  }
+  
+  .sub-map{
+  margin-top: 0rem;
+  font-size: 15px;
+  }
+  .sub-map1{
+  margin-top: 0rem;
+  margin-left: 0rem;
+  font-size: 15px;
+  }
+  .sub-map2{
+  margin-bottom: 0;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  padding-bottom: 2rem;
+  font-size: 15px;
+  }
+  .label{
+  font-size: 15px;
+  }
+  .form{
+  height: 70% !important;
+  }
+  .icon li{
+  height: fit-content;
+  }
+  .icon li i{
+  font-size: 1rem
+  }
+  
+  .form-button{
+  height: 2rem;
+  margin-left: 24%;
+  }
+  
+  }
+
+  @media (min-height : 0px) and (max-height: 585px){
+    .navbar {
+      height: 5.5rem;
+    }
+
+    .nav-logo{
+      height:12vh !important;
+      position: absolute;
+      top: 0.5rem;
+    }
+    .hamburger{
+      position: relative;
+      top: 0.5rem !important;
+
+    }
+  }
+  
+  @media (min-width:1441) and (max-width: 2560px){
+    .cards-wrapper{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+   .card{
+     width: 15rem;
+   }
+   .nav-logo{
+    height:10vh !important;
+    position: absolute;
+    top: 0.5rem;
+  }
+  
+  .intro-section h1{
+    padding-top: 4rem !important;
+    font-size: 2rem;
+    font-family: 'Raleway';
+  }
+  .wrapper{
+    margin-top: 30rem !important;
+  }
+  }
+  
+  @media (min-height : 1452px) and (max-height: 1452px){
+    body{
+      font-family: "Raleway";
+    }
+    .cards-wrapper{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .card{
+      width: 36em !important;
+      height: 17em !important;
+    }
+  
+    .card h1{
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: 'Raleway';
+    }
+    .card p{
+      font-family: 15px;
+    }
+  
+    .contact-us h1{
+      padding-top: 15rem;
+      font-size: 2rem;
+      font-family: 'Raleway';
+    }
+    .wrapper{
+      padding-bottom: 5rem;
+  
+    }
+    .wrapper-form{
+      margin-top: 4rem;
+    }
+    
+  }
+  
+  @media (min-height : 1672px) and (max-height: 1672px){
+    .card{
+      width: 49em;
+      height: 20em;
+    }
+  }
+  
+  /* /////////////////END MEDIA QUERIES NAVBAR, CONTACT AND ABOUT */
+
+  @media only screen and (max-width: 425px) {
+    /* ////////////////////////// MEDIA QUERIES CONTACT */
+  
+      .contact-us {
+        margin-top: rem;
+      }
+      .contact-us h1 {
+        padding-top: 8rem;
+        font-size: 20px;
+      }
+    
+    hr:nth-child(4) {
+      display: none;
+    }
+    
+    .wrapper{
+      height: fit-content !important;
+    }
+    .wrapper-form{
+      display: block;
+    }
+    .sub-contact{
+      margin-bottom: 0;
+    }
+    
+    .map{
+      display: block;
+    
+    }
+    .map li{
+      
+      font-size: medium;
+    }
+    
+    .map i{
+      font-size: 16px;
+    }
+    
+    .sub-map{
+      margin-top: 0rem;
+      font-size: 15px;
+    }
+    .sub-map1{
+      margin-top: 0rem;
+      margin-left: 0rem;
+      font-size: 15px;
+    }
+    .sub-map2{
+      margin-bottom: 0;
+      margin-top: 0rem;
+      margin-left: 0rem;
+      padding-bottom: 2rem;
+      font-size: 15px;
+    }
+    .label{
+      font-size: 15px;
+    }
+    .form{
+      height: 70% !important;
+    }
+    .icon li{
+      height: fit-content;
+    }
+    .icon li i{
+      font-size: 1rem
+    }
+  }
+    
+    /* /////////////////////////////////// END MEDIA QUERIES CONTACT */
