@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
-*{
-  margin: 0;
+
+.students{
+  margin-left: 2rem;
+    margin-right: 2rem;
+  margin-bottom: 4rem;
 }
 
 .bio-container {
@@ -49,16 +52,12 @@ h5{
   text-align: center;
   font-family: 'Delius', cursive;
   font-size: 2rem;
-  /* margin-top: 2rem; */
+  margin-top: 2rem; 
   font-weight: 900;
   letter-spacing: 3px;
   font-family: 'Raleway';
-  /* padding-top:12rem; */
+  padding-top: 2rem; 
 }
-
-/* .students-class{
-  margin-top: 3rem;
-} */
 
 .header-h1, h1 {
   margin-top: 0;
@@ -100,10 +99,6 @@ font-size: 15px;
 hr{
   margin-left: 2%;
   margin-right: 2%;
-}
-
-.students{
-  margin-bottom: 4rem;
 }
 
 
