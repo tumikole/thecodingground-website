@@ -218,7 +218,7 @@ h2 {
 p {
   line-height: 1.8;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: 'Raleway';
 }
 
@@ -228,7 +228,7 @@ p {
   align-items: center;
   background-image: url(./img/RevSlider-V1.jpg);
   background-position: center;
-  grid-template-rows: repeat(1, 16rem);
+  /* grid-template-rows: repeat(1, 16rem); */
   justify-content: center;
   height: 100vh;
   background-repeat: no-repeat;
