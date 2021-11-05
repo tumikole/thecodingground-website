@@ -12,7 +12,7 @@
     text-align: center;
     padding-top: 12rem;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Raleway';
 }
 
@@ -26,9 +26,6 @@
 li{
      font-family: 'Raleway';
      font-size: 15px;
-}
-h3{
-     font-family: 'Raleway';
 }
 
 .wrapper{

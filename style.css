@@ -220,7 +220,7 @@ h2 {
 p {
   line-height: 1.8;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 15px;
   font-family: 'Raleway';
 }
 
@@ -255,7 +255,7 @@ p {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 2rem;
