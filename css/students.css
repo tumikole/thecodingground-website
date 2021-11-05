@@ -27,7 +27,7 @@ h5{
    text-align: center;
    font-family: 'Raleway';
    text-transform: uppercase;
-   font-size: 3rem;
+   font-size: 2rem;
  }
 
 .resize {
@@ -61,6 +61,7 @@ h5{
   margin-top: 0;
   padding-top: 13rem;
   font-family: 'Raleway';
+  font-size: 2rem;
 }
 
 .header-img{
@@ -75,6 +76,7 @@ h5{
 h2{
   font-family: 'Raleway' !important;
   margin-left: 6rem;
+  font-size: 1.5rem;
 }
 
 
@@ -82,6 +84,7 @@ h2{
   margin-top: 2rem;
 margin-bottom: 4rem;
 font-family: 'Raleway';
+font-size: 15px;
 
 }
 
