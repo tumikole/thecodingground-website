@@ -1,17 +1,17 @@
 /* /////////////////////////////////// CONTACT CSS ////////////////////////////////////////////////  */
-.contact-us{
-    margin-top: 0rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-    color: white;
+.contact-us {
+  margin-top: 0rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  color: white;
 }
-.contact-us h1{
-    text-align: center;
-    padding-top: 12rem;
-    color: white;
-    font-size: 2rem;
-    font-family: 'Raleway';
+.contact-us h1 {
+  text-align: center;
+  padding-top: 12rem;
+  color: white;
+  font-size: 2rem;
+  font-family: "Raleway";
 }
 
 .icon li i {
@@ -44,10 +44,10 @@ li {
   margin-top: 3rem;
 }
 
-.main-label{
-    margin-top: 1rem;
-    color: white;
-    font-family: 'Raleway';
+.main-label {
+  margin-top: 1rem;
+  color: white;
+  font-family: "Raleway";
 }
 
 .label {
@@ -80,67 +80,53 @@ li {
   justify-items: center;
   color: white;
 }
-.sub-map {
+
+.form-button {
+  width: 50%;
+  height: 3rem;
+  margin-top: 1.5rem;
+  margin-left: 25%;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  background: #19aa8d;
+  border: none;
+  min-width: 140px;
+  font-family: "Raleway";
+}
+
+.contact {
+  margin-bottom: 2rem;
+}
+
+.sub-contact {
+  display: flex;
+  gap: 20%;
+  justify-items: center;
+  color: white;
+}
+.location {
   margin-top: 3rem;
 }
-.sub-map1 {
+.phone-number {
   margin-top: 4rem;
   margin-left: 2.5rem;
 }
 
-.sub-map2 {
+.email {
   margin-top: 4rem;
   margin-left: 0.5rem;
-=======
-.form-button{
-
-    width: 50%;
-    height: 3rem;
-    margin-top: 1.5rem;
-    margin-left: 25%;
-    margin-bottom: 2rem;
-    border-radius: 0.5rem;
-    font-size: 15px;
-    font-weight: bold;
-background: #19aa8d;
-border: none;
-min-width: 140px;
-    font-family: 'Raleway';
-
 }
 
-.contact{
-    margin-bottom: 2rem;
-}
- 
-.sub-contact{
-    display: flex;
-    gap: 20%;
-    justify-items: center;
-    color: white;
-}
-.location{
-    margin-top: 3rem
-}
-.phone-number{
-margin-top: 4rem;
-margin-left: 2.5rem;
-}
-
-.email{
-    margin-top: 4rem;
-    margin-left: .5rem;
-
-}
-  
 .bold {
   font-weight: bold;
   font-family: "Raleway";
 }
 
-.hr{
-background-color: white;
-margin-top: 1rem;
+.hr {
+  background-color: white;
+  margin-top: 1rem;
 }
 
 .form-button:hover {
