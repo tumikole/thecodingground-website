@@ -5,17 +5,21 @@ const submitForm = () => {
   const id = document.getElementById("id").value;
   const email = document.getElementById("email").value;
   const address = document.getElementById("address").value;
+  const message = document.getElementById("message").value;
 
-  if (name && lastname && contact && id && email && address !== "") {
+
+  if (name && lastname && contact && id && email && address && message !== "") {
     fetch("https://formspree.io/f/xeqvwzvj", {
       method: "POST",
       body: JSON.stringify({
-        Firstname: name,
-        Lastname: lastname,
-        Id: id,
+        FirstName: name,
+        LastName: lastname,
+        DateOfBirth: id,
         Contact: contact,
         Email: email,
         Address: address,
+        message: message,
+
       }),
       headers: {
         Accept: "application/json",
