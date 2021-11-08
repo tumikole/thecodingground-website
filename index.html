@@ -72,7 +72,7 @@
           <h3>craft your future.</h3>
         </div>
         <a id="applyBtn" class="btn btn-apply" data-toggle="modal" data-target="#exampleModal" href="">apply for 2022</a>
-        <div style="margin-top:10rem !important;" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div style="margin-top:10rem !important;height:80% !important" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -80,50 +80,71 @@
                 <div class="signup-form">
                   <div action="https://formspree.io/f/xeqvwzvj" enctype="multipart/form-data" method="POST">
                     <h2>Application Form</h2>
-                    <p>Please fill in this form to apply for 2022 </p>
+                    <hr style="color: black">
+                    <p style="color: black">Please fill in this form to apply for 2022 learnership</p>
                     <hr>
-                    <div class="form-group">
+                    <div  class="form-group">
+                      <label for="message" style="color: black">First Name</label>
+
                       <div class="input-group">
-                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name"
+                        <input type="text" class="form-control" id="firstname" name="First Name" placeholder="First Name"
                           required="required">
                       </div>
                     </div>
                     <div class="form-group">
+                      <label for="message" style="color: black">Last Name</label>
+
                       <div class="input-group">
-                        <input type="text" class="form-control" id="lastname" name="last Name" placeholder="Lastname"
+                        <input type="text" class="form-control" id="lastname" name="Last Name" placeholder="Last Name"
                           required="required">
                       </div>
                     </div>
                     <div class="form-group">
+                      <label for="message" style="color: black">Contact Number</label>
+
                       <div class="input-group">
-                        <input type="number" class="form-control" id="contact" name="contact" placeholder="Contact No"
+                        <input type="number" class="form-control" id="contact" name="Contact" placeholder="Contact Number"
                           required="required">
                       </div>
                     </div>
                     <div class="form-group">
+                      <label for="message" style="color: black">Date Of Birth</label>
+
                       <div class="input-group">
-                        <input type="number" class="form-control" id="id" name="id" placeholder="Id No"
+                        <input type="date" class="form-control" id="id" name="Id"
                           required="required">
                       </div>
                     </div>
                     <div class="form-group">
+                      <label for="message" style="color: black">Email Address</label>
+
                       <div class="input-group">
-                        <input type="email" class="form-control" id="email" name="" placeholder="Email Address"
+                        <input type="email" class="form-control" id="email" name="Email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Email Address"
                           required="required">
                       </div>
                     </div>
 
                     <div class="form-group">
+                      <label for="message" style="color: black">Residential Address</label>
+
                       <div class="input-group">
-                        <textarea type="text" class="form-control" id="address" name="" placeholder="Residential Address"
+                        <textarea type="text" class="form-control" id="address" name="Address" placeholder="Residential Address"
                           required="required" ></textarea>
                       </div>
                     </div>
                   
+                    <div class="form-group">
+                      <label for="message" style="color: black">Message</label>
+                      <div class="input-group">
+                        <textarea type="text" class="form-control" id="message" name="Message" placeholder="Why do you want to be a software developer?"
+                          required="required" ></textarea>
+                      </div>
+                    </div>
                     
                    <div class="form-group">
                       <button  onclick="submitForm()" style="margin: auto !important;" class="btn btn-primary btn-lg">Apply</button>
                     </div>
+                    <hr style="color: black">
                   </div>
                 </div>
               </div>

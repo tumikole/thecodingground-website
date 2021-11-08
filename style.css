@@ -230,7 +230,7 @@ p {
   align-items: center;
   background-image: url(./img/RevSlider-V1.jpg);
   background-position: center;
-  grid-template-rows: repeat(1, 16rem);
+  /* grid-template-rows: repeat(1, 16rem); */
   justify-content: center;
   height: 100vh;
   background-repeat: no-repeat;
