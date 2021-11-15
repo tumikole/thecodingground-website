@@ -1,8 +1,10 @@
 
 .students{
   margin-left: 2rem;
-    margin-right: 2rem;
-  margin-bottom: 4rem;
+  margin-right: 2rem;
+  margin-top: -6rem;
+  /* margin-bottom: 4rem; */
+  
 }
 
 .bio-container {
@@ -10,7 +12,7 @@
     grid-template-columns: auto auto;
     margin-left: 2%;
     margin-right: 2% ;
-   gap:2rem;
+    gap:2rem;
 }
 
 h3{
@@ -51,11 +53,11 @@ h5{
   text-align: center;
   font-family: 'Delius', cursive;
   font-size: 2rem;
-  margin-top: 2rem; 
+  /* margin-top: 2rem;  */
   font-weight: 900;
   letter-spacing: 3px;
   font-family: 'Raleway';
-  padding-top: 2rem; 
+  padding-top: 7rem; 
 }
 
 .header-h1, h1 {
