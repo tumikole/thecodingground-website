@@ -11,8 +11,8 @@ const submitForm = () => {
 
 
   if (name && lastname && contact && id && email && address && message !== "") {
-    if (email.match(regexEmail)) {
     if (contact.match(regexContact)) {
+    if (email.match(regexEmail)) {
       return fetch("https://formspree.io/f/xeqvwzvj", {
         method: "POST",
         body: JSON.stringify({
@@ -31,13 +31,6 @@ const submitForm = () => {
         swal.fire("Succesfully registered");
         reset();
       });
-    }else{
-      return Swal.fire({
-        icon: "error",
-        title: "Oops...",
-        text: "You have entered an invalid contact number",
-      });
-    }
     } else {
       return Swal.fire({
         icon: "error",
@@ -45,6 +38,13 @@ const submitForm = () => {
         text: "You have entered an incorrect email address",
       });
     }
+  }else{
+    return Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "You have entered an invalid contact number",
+    });
+  }
   } else {
     Swal.fire({
       icon: "error",
