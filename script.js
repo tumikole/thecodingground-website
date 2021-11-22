@@ -6,46 +6,63 @@ const submitForm = () => {
   const email = document.getElementById("email").value;
   const address = document.getElementById("address").value;
   const message = document.getElementById("message").value;
+  let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  let regexContact = /^(\+?27|0)[6-8][0-9]{8}$/
 
 
   if (name && lastname && contact && id && email && address && message !== "") {
-    fetch("https://formspree.io/f/xeqvwzvj", {
-      method: "POST",
-      body: JSON.stringify({
-        FirstName: name,
-        LastName: lastname,
-        DateOfBirth: id,
-        Contact: contact,
-        Email: email,
-        Address: address,
-        message: message,
-
-      }),
-      headers: {
-        Accept: "application/json",
-      },
-    })
-      .then((response) => {
+    if (email.match(regexEmail)) {
+    if (contact.match(regexContact)) {
+      return fetch("https://formspree.io/f/xeqvwzvj", {
+        method: "POST",
+        body: JSON.stringify({
+          FirstName: name,
+          LastName: lastname,
+          DateOfBirth: id,
+          Contact: contact,
+          Email: email,
+          Address: address,
+          message: message,
+        }),
+        headers: {
+          Accept: "application/json",
+        },
+      }).then((response) => {
         swal.fire("Succesfully registered");
-      })
-      .catch((error) => {
-        swal.fire("error");
+        reset();
       });
+    }else{
+      return Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "You have entered an invalid contact number",
+      });
+    }
+    } else {
+      return Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "You have entered an incorrect email address",
+      });
+    }
   } else {
     Swal.fire({
-      title: "Please fill all required fields.",
-      width: 600,
-      padding: "3em",
-      // background: '#fff url(./icon/linkedin-in-brands.svg)',
-      backdrop: `
-      rgba(0,0,123,0.4)
-      url("")
-      left top
-      no-repeat
-    `,
+      icon: "error",
+      title: "Oops...",
+      text: "Please fill all the required fields",
     });
   }
 };
+
+function reset() {
+  document.getElementById("firstname").value = "";
+  document.getElementById("lastname").value = "";
+  document.getElementById("contact").value = "";
+  document.getElementById("id").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("address").value = "";
+  document.getElementById("message").value = "";
+}
 
 var mybutton = document.getElementById("myBtn");
 window.onscroll = function () {

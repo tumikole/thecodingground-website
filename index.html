@@ -78,7 +78,7 @@
             <div class="modal-content">
               <div class="modal-body">
                 <div class="signup-form">
-                  <div action="https://formspree.io/f/xeqvwzvj" enctype="multipart/form-data" method="POST">
+                  <div id="myForm" action="https://formspree.io/f/xeqvwzvj" onsubmit="reset()" enctype="multipart/form-data" method="POST">
                     <h2>Application Form</h2>
                     <hr style="color: black">
                     <p style="color: black">Please fill in this form to apply for <strong>2022</strong> learnership</p>
@@ -120,7 +120,7 @@
 
                       <div class="input-group">
                         <input type="email" class="form-control" id="email" name="Email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Email Address"
-                          required="required">
+                          required="requiredfield javascript">
                       </div>
                     </div>
 
@@ -142,7 +142,7 @@
                     </div>
                     
                    <div class="form-group">
-                      <button  onclick="submitForm()" style="margin: auto !important;" class="btn btn-primary btn-lg">Apply</button>
+                      <button  onclick="submitForm()" style="margin: auto !important; width: 100% !important" class="btn btn-primary btn-lg">Apply</button>
                     </div>
                     <hr style="color: black">
                   </div>

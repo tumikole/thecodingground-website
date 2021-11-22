@@ -3,39 +3,44 @@ const submitMessage = () => {
   const lastname = document.getElementById("lastname").value;
   const email = document.getElementById("email").value;
   const message = document.getElementById("message").value;
+  let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
   if (firstname && lastname && email && message !== "") {
-    fetch("https://formspree.io/f/mdoyvlyg", {
-      method: "POST",
-      body: JSON.stringify({
-        Firstname: firstname,
-        Lastname: lastname,
-        Email: email,
-        Message: message,
-      }),
-      headers: {
-        Accept: "application/json",
-      },
-    })
-      .then((response) => {
-        swal.fire("We'll get back to you as soon as we receive your request");
-      })
-      .catch((error) => {
-        swal.fire("error");
+    if (email.match(regexEmail)) {
+      return fetch("https://formspree.io/f/xeqvwzvj", {
+        method: "POST",
+        body: JSON.stringify({
+          FirstName: firstname,
+          LastName: lastname,
+          Email: email,
+          message: message,
+        }),
+        headers: {
+          Accept: "application/json",
+        },
+      }).then((response) => {
+        swal.fire("Succesfully registered");
+        reset();
       });
-    //   firstname.value= ""
+    } else {
+      return Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "You have entered an incorrect email address",
+      });
+    }
   } else {
     Swal.fire({
-      title: "Please fill all required fields.",
-      width: 600,
-      padding: "3em",
-      // background: '#fff url(./icon/linkedin-in-brands.svg)',
-      backdrop: `
-          rgba(0,0,123,0.4)
-          url("/img/warning.png")
-          left top
-          no-repeat
-        `,
+      icon: "error",
+      title: "Oops...",
+      text: "Please fill all the required fields",
     });
   }
 };
+
+function reset() {
+  document.getElementById("firstname").value = "";
+  document.getElementById("lastname").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("message").value = "";
+}
