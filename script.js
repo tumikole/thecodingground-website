@@ -13,7 +13,7 @@ const submitForm = () => {
   if (name && lastname && contact && id && email && address && message !== "") {
     if (contact.match(regexContact)) {
     if (email.match(regexEmail)) {
-      return fetch("https://formspree.io/f/xeqvwzvj", {
+      return fetch("https://formspree.io/f/mbjwrzey", {
         method: "POST",
         body: JSON.stringify({
           FirstName: name,
