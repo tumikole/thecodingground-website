@@ -353,7 +353,10 @@ html ::-webkit-scrollbar {
 .apply {
   display: grid;
 }
-
+/* 
+.form-links{
+  color: black;
+} */
 /* //////////////////////////////////////////////////////////// header section */
 
 /* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */

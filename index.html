@@ -1,150 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Raleway|Alfa Slab One"
+    />
+    <link rel="stylesheet" href="./responsive/responsiveforAllScreen.css" />
+    <link rel="stylesheet" href="./responsive/navaboutcontactresponsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Raleway|Alfa Slab One">
-  <link rel="stylesheet" href="./responsive/responsiveforAllScreen.css">
-  <link rel="stylesheet" href="./responsive/navaboutcontactresponsive.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-  <link rel="icon" type="image/png" href="/img/green-favicon.ico" sizes="16x16">
-  <title>HOME - THE CODING GROUND</title>
-</head>
-<body>
-<header class="header-nav">
-        <nav class="navbar">
-            <a href="#" ><img class="nav-logo" src="./img/Logo-White-website.png"></a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a  id="nav-item" class="current" href="./index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./htmlFiles/about.html" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./htmlFiles/students.html" class="nav-link">Students</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./htmlFiles/mentor.html" class="nav-link">Mentors</a>
-              </li>
-                <li class="nav-item">
-                    <a href="./htmlFiles/contact.html" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-
-                <span style="background-color:white" class="bar"></span>
-                <span style="background-color:white" class="bar"></span>
-                <span style="background-color:white" class="bar"></span>
-            </div>
-        </nav>
-</header>
- 
-  <div id="home" class="imgContainer">
-
-    <img class="homeImg" src="./img/Logo-White.png" alt="tcgLogo">
-    <div class="img-container">
-      <div class="header-container">
-        <h1 class="header">Welcome To</h1>
-        <h2 class="header-medium"><strong>THE CODING GROUND</strong></h2>
-      </div>
-<br>
-<br>
-
-      <div class="sub-header-container">
-        <div class="sub-header">
-          <h3>learn today.</h3>
+    <link
+      rel="icon"
+      type="image/png"
+      href="/img/green-favicon.ico"
+      sizes="16x16"
+    />
+    <title>HOME - THE CODING GROUND</title>
+  </head>
+  <body>
+    <header class="header-nav">
+      <nav class="navbar">
+        <a href="#"
+          ><img class="nav-logo" src="./img/Logo-White-website.png"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a
+              id="nav-item"
+              class="current"
+              href="./index.html"
+              class="nav-link"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./htmlFiles/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./htmlFiles/students.html" class="nav-link">Students</a>
+          </li>
+          <li class="nav-item">
+            <a href="./htmlFiles/mentor.html" class="nav-link">Mentors</a>
+          </li>
+          <li class="nav-item">
+            <a href="./htmlFiles/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span style="background-color: white" class="bar"></span>
+          <span style="background-color: white" class="bar"></span>
+          <span style="background-color: white" class="bar"></span>
         </div>
-        <div class="sub-header">
-          <h3>craft your future.</h3>
+      </nav>
+    </header>
+
+    <div id="home" class="imgContainer">
+      <img class="homeImg" src="./img/Logo-White.png" alt="tcgLogo" />
+      <div class="img-container">
+        <div class="header-container">
+          <h1 class="header">Welcome To</h1>
+          <h2 class="header-medium"><strong>THE CODING GROUND</strong></h2>
         </div>
-        <a id="applyBtn" class="btn btn-apply" data-toggle="modal" data-target="#exampleModal" href="">apply for 2022</a>
-        <div style="margin-top:10rem !important;height:80% !important" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <div class="signup-form">
-                  <div id="myForm" action="https://formspree.io/f/mbjwrzey" onsubmit="reset()" enctype="multipart/form-data" method="POST">
-                    <h2>Application Form</h2>
-                    <hr style="color: black">
-                    <p style="color: black">Please fill in this form to apply for <strong>2022</strong> learnership</p>
-                    <hr>
-                    <div  class="form-group">
-                      <label for="message" style="color: black">First Name</label>
+        <br />
+        <br />
 
-                      <div class="input-group">
-                        <input type="text" class="form-control" id="firstname" name="First Name" placeholder="First Name"
-                          required="required">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="message" style="color: black">Last Name</label>
+        <div class="sub-header-container">
+          <div class="sub-header">
+            <h3>learn today.</h3>
+          </div>
+          <div class="sub-header">
+            <h3>craft your future.</h3>
+          </div>
+          <a
+            id="applyBtn"
+            class="btn btn-apply"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            href=""
+            >apply for 2022</a
+          >
+          <div
+            style="margin-top: 10rem !important; height: 80% !important"
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="signup-form">
+                    <div
+                      id="myForm"
+                      accept-charset="utf-8"
+                      action="https://formspree.io/f/xeqvwzvj"
+                      https://formspree.io/f/mbjwrzey
+                      onsubmit="reset()"
+                      method="POST"
+                      enctype="multipart/form-data"
+                    >
+                      <h2>Application Form</h2>
+                      <hr style="color: black" />
+                      <h4 style="color: black">Step 1</h4>
+                      <p style="color: black">
+                        Create an account on
+                        <a
+                        style="color: #2a7e5f"                          href="https://www.cliquidity.co.uk/content/home"
+                          target="_blank"
+                          >cliquidity</a
+                        >. Complete the Adaptive Reasoning test, download the
+                        PDF and email it to
+                        <a
+                          style="color: #2a7e5f"
+                          href="mailto:tanille@thecodingground.com"
+                          target="_blank"
+                          >tanille@thecodingground.com</a
+                        >
+                        with your name, contact and Id copy.
+                      </p>
+                      <hr style="color: black" />
+                      <h4 style="color: black">Step 2</h4>
+                      <p style="color: black">
+                        Please fill in this form to apply for
+                        <strong>2022</strong> learnership
+                      </p>
+                      <hr />
+                      <div class="form-group">
+                        <label for="message" style="color: black"
+                          >First Name</label
+                        >
 
-                      <div class="input-group">
-                        <input type="text" class="form-control" id="lastname" name="Last Name" placeholder="Last Name"
-                          required="required">
+                        <div class="input-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="firstname"
+                            name="First Name"
+                            placeholder="First Name"
+                            required="required"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="message" style="color: black">Contact Number</label>
+                      <div class="form-group">
+                        <label for="message" style="color: black"
+                          >Last Name</label
+                        >
 
-                      <div class="input-group">
-                        <input type="number" class="form-control" id="contact" name="Contact" placeholder="Contact Number"
-                          required="required">
+                        <div class="input-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="lastname"
+                            name="Last Name"
+                            placeholder="Last Name"
+                            required="required"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="message" style="color: black">Date Of Birth</label>
+                      <div class="form-group">
+                        <label for="message" style="color: black"
+                          >Contact Number</label
+                        >
 
-                      <div class="input-group">
-                        <input type="date" class="form-control" id="id" name="Id"
-                          required="required">
+                        <div class="input-group">
+                          <input
+                            type="number"
+                            class="form-control"
+                            id="contact"
+                            name="Contact"
+                            placeholder="Contact Number"
+                            required="required"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="message" style="color: black">Email Address</label>
+                      <div class="form-group">
+                        <label for="message" style="color: black"
+                          >Date Of Birth</label
+                        >
 
-                      <div class="input-group">
-                        <input type="email" class="form-control" id="email" name="Email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Email Address"
-                          required="requiredfield javascript">
+                        <div class="input-group">
+                          <input
+                            type="date"
+                            class="form-control"
+                            id="id"
+                            name="Id"
+                            required="required"
+                          />
+                        </div>
                       </div>
-                    </div>
+                      <div class="form-group">
+                        <label for="message" style="color: black"
+                          >Email Address</label
+                        >
 
-                    <div class="form-group">
-                      <label for="message" style="color: black">Residential Address</label>
+                        <div class="input-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="Email"
+                            pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                            placeholder="Email Address"
+                            required="requiredfield javascript"
+                          />
+                        </div>
+                      </div>
 
-                      <div class="input-group">
-                        <textarea type="text" class="form-control" id="address" name="Address" placeholder="Residential Address"
-                          required="required" ></textarea>
+                      <div class="form-group">
+                        <label for="upload" style="color: black"> Your file:</label>
+                        
+                        <div class="input-group">
+                          <!--  -->
+                          <input
+                            type="file"
+                            class="form-control"
+                            id="file"
+                          name="upload" accept="image/png, image/jpeg, file/pdf"
+                            required="requiredfield javascript"
+                          />
+                        </div>
                       </div>
-                    </div>
-                  
-                    <div class="form-group">
-                      <label for="message" style="color: black">Message</label>
-                      <div class="input-group">
-                        <textarea type="text" class="form-control" id="message" name="Message" placeholder="Why do you want to be a software developer?"
-                          required="required" ></textarea>
+
+                      <div class="form-group">
+                        <label for="message" style="color: black"
+                          >Residential Address</label
+                        >
+
+                        <div class="input-group">
+                          <textarea
+                            type="text"
+                            class="form-control"
+                            id="address"
+                            name="Address"
+                            placeholder="Residential Address"
+                            required="required"
+                          ></textarea>
+                        </div>
                       </div>
+
+                      <div class="form-group">
+                        <label for="message" style="color: black"
+                          >Message</label
+                        >
+                        <div class="input-group">
+                          <textarea
+                            type="text"
+                            class="form-control"
+                            id="message"
+                            name="Message"
+                            placeholder="Why do you want to be a software developer?"
+                            required="required"
+                          ></textarea>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <button
+                          onclick="submitForm()"
+                          style="
+                            margin: auto !important;
+                            width: 100% !important;
+                          "
+                          class="btn btn-primary btn-lg"
+                        >
+                          Apply
+                        </button>
+                      </div>
+                      <hr style="color: black" />
                     </div>
-                    
-                   <div class="form-group">
-                      <button  onclick="submitForm()" style="margin: auto !important; width: 100% !important" class="btn btn-primary btn-lg">Apply</button>
-                    </div>
-                    <hr style="color: black">
                   </div>
                 </div>
               </div>
@@ -153,145 +309,168 @@
         </div>
       </div>
     </div>
-  </div>
 
-
-
-  <div class="card">
-  <div class="what-to-learn-container">
-    <div class="learn-side-1">
-      <div class="section">
-
-       <u><h1 class="header-text">WHAT WILL I LEARN?</h1></u> 
-        <p class="card-text">
-          Students will acquire the skills to become a well-rounded,
-          full-stack software developer.This means that the student will learn
-          to create websites, and server and mobile applications.Some terms
-          you will get to know really well during the course are:
-        </p>
-      </div>
-      <ul>
-        <li>
-          <i id="icon" class="fa fa-graduation-cap"></i>
-          Learning how to learn
-        </li>
-        <li>
-          <i class="fa fa-cogs"></i>
-          Problem-solving
-        </li>
-        <li>
-          <i class="fa fa-cube"></i>
-          Python, Javascript &amp; C#
-        </li>
-        <li>
-          <i class="fa fa-rocket"></i>
-          Web Development Fundamentals
-        </li>
-        <li>
-          <i class="fa fa-archive"></i>
-          Database Design and Use
-        </li>
-      </ul>
-    </div>
-
-    <div class="learn-side-2">
-       
-      <img class="learn-side-2Logo" src="img/APPLICATION-v2-875x516.png" alt="logo" />
-      <ul>
-        <li>
-          <i class="fa fa-bookmark"></i>
-          Computer Science Fundamentals
-        </li>
-        <li>
-          <i class="fa fa-balance-scale"></i>Software Engineering Fundamentals
-        </li>
-        <li>
-          <i class="fa fa-bullhorn"></i>
-          Dev-Ops
-        </li>
-        <li>
-          <i class="fa fa-database"></i>
-          API/ HTTP Request Programming
-        </li>
-        <li>
-          <i class="fa fa-power-off"></i>
-          Agile Software Development
-        </li>
-      </ul>
-    </div>
-  </div>
-  </div>
-          <footer>
-    <div class="footer">
-    
-          <div class="columns">
-            <h3 style="color:white; text-align:center">Affiliated and proudly sponsored by</h3>
-            <br>
-            <ul>
-              <li>
-                <a href="https://www.inreality.com/" target="_blank">
-      
-                <img src="./img/inreality.svg" class="sponsorLogo" /></a>
-              </li>
-      
-              <li>
-                <a href="https://www.riversandsihub.co.za/" target="_blank">
-      
-                <img src="./img/riversandsihub.png" class="sponsorLogo" /></a>
-              </li>
-              <li>
-                <a href="https://www.sourceworx.co.za/#" target="_blank">
-      
-                <img src="./img/source-worx.svg" class="sponsorLogo" /></a>
-              </li>
-      
-              <li>
-                <a href="https://techways.online/" target="_blank">
-      
-                <img src="./img/Techways.png" class="sponsorLogo" /></a>
-              </li>
-              <li>
-                <a href="https://hrwgrp.com/" target="_blank">
-      
-                <img src="./img/HRW_RECRUITMENT.png" class="sponsorLogo" /></a>
-              </li>
-              <li>
-                <a href="https://www.devson.co.za/" target="_blank">
-                <img src="./img/1551263018231.jpeg" id="sponsorLogo" class="sponsorLogo" /></a>
-              </li>
-            </ul>
-            
-            <div class="footerContact">
-              <div class="socialIcons">
-                <a href="https://wa.me/0827799875" target="_blank"><img src="./icons/whatsapp-brands.svg" class="img-fluid" /></a>
-                <a href="https://www.facebocom/CodeSchoolZA/" target="_blank"><img src="./icons/facebook-brands.svg" style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
-              </a>
-              <a href="https://www.linkedin.com/company/the-coding-ground/about/" target="_blank"><img src="./icons/linkedin-in-brands.svg" class="img-fluid"></a>
+    <div class="card">
+      <div class="what-to-learn-container">
+        <div class="learn-side-1">
+          <div class="section">
+            <u><h1 class="header-text">WHAT WILL I LEARN?</h1></u>
+            <p class="card-text">
+              Students will acquire the skills to become a well-rounded,
+              full-stack software developer.This means that the student will
+              learn to create websites, and server and mobile applications.Some
+              terms you will get to know really well during the course are:
+            </p>
           </div>
-          
-          <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
-          
+          <ul>
+            <li>
+              <i id="icon" class="fa fa-graduation-cap"></i>
+              Learning how to learn
+            </li>
+            <li>
+              <i class="fa fa-cogs"></i>
+              Problem-solving
+            </li>
+            <li>
+              <i class="fa fa-cube"></i>
+              Python, Javascript &amp; C#
+            </li>
+            <li>
+              <i class="fa fa-rocket"></i>
+              Web Development Fundamentals
+            </li>
+            <li>
+              <i class="fa fa-archive"></i>
+              Database Design and Use
+            </li>
+          </ul>
+        </div>
+
+        <div class="learn-side-2">
+          <img
+            class="learn-side-2Logo"
+            src="img/APPLICATION-v2-875x516.png"
+            alt="logo"
+          />
+          <ul>
+            <li>
+              <i class="fa fa-bookmark"></i>
+              Computer Science Fundamentals
+            </li>
+            <li>
+              <i class="fa fa-balance-scale"></i>Software Engineering
+              Fundamentals
+            </li>
+            <li>
+              <i class="fa fa-bullhorn"></i>
+              Dev-Ops
+            </li>
+            <li>
+              <i class="fa fa-database"></i>
+              API/ HTTP Request Programming
+            </li>
+            <li>
+              <i class="fa fa-power-off"></i>
+              Agile Software Development
+            </li>
+          </ul>
         </div>
       </div>
-    </div> 
-    <div class="footerTextContainer">
-      <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2021</h5>
     </div>
+    <footer>
+      <div class="footer">
+        <div class="columns">
+          <h3 style="color: white; text-align: center">
+            Affiliated and proudly sponsored by
+          </h3>
+          <br />
+          <ul>
+            <li>
+              <a href="https://www.inreality.com/" target="_blank">
+                <img src="./img/inreality.svg" class="sponsorLogo"
+              /></a>
+            </li>
 
-  </footer>
+            <li>
+              <a href="https://www.riversandsihub.co.za/" target="_blank">
+                <img src="./img/riversandsihub.png" class="sponsorLogo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.sourceworx.co.za/#" target="_blank">
+                <img src="./img/source-worx.svg" class="sponsorLogo"
+              /></a>
+            </li>
 
-  <script src="script.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <li>
+              <a href="https://techways.online/" target="_blank">
+                <img src="./img/Techways.png" class="sponsorLogo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://hrwgrp.com/" target="_blank">
+                <img src="./img/HRW_RECRUITMENT.png" class="sponsorLogo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.devson.co.za/" target="_blank">
+                <img
+                  src="./img/1551263018231.jpeg"
+                  id="sponsorLogo"
+                  class="sponsorLogo"
+              /></a>
+            </li>
+          </ul>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-</body>
+          <div class="footerContact">
+            <div class="socialIcons">
+              <a href="https://wa.me/0827799875" target="_blank"
+                ><img src="./icons/whatsapp-brands.svg" class="img-fluid"
+              /></a>
+              <a href="https://www.facebocom/CodeSchoolZA/" target="_blank"
+                ><img
+                  src="./icons/facebook-brands.svg"
+                  style="margin-left: 20px; margin-right: 20px"
+                  class="img-fluid"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/the-coding-ground/about/"
+                target="_blank"
+                ><img src="./icons/linkedin-in-brands.svg" class="img-fluid"
+              /></a>
+            </div>
 
+            <button
+              onclick="topFunction()"
+              id="myBtn"
+              title="Go to top"
+            ></button>
+          </div>
+        </div>
+      </div>
+      <div class="footerTextContainer">
+        <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2021</h5>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

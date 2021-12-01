@@ -6,14 +6,16 @@ const submitForm = () => {
   const email = document.getElementById("email").value;
   const address = document.getElementById("address").value;
   const message = document.getElementById("message").value;
+  const file = document.getElementById("file").value;
+
   let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   let regexContact = /^(\+?27|0)[6-8][0-9]{8}$/
 
 
-  if (name && lastname && contact && id && email && address && message !== "") {
+  if (name && lastname && contact && id && email && address && message && file!== "") {
     if (contact.match(regexContact)) {
     if (email.match(regexEmail)) {
-      return fetch("https://formspree.io/f/mbjwrzey", {
+      return fetch("https://formspree.io/f/xeqvwzvj", {
         method: "POST",
         body: JSON.stringify({
           FirstName: name,
@@ -23,6 +25,8 @@ const submitForm = () => {
           Email: email,
           Address: address,
           message: message,
+          file: file,
+
         }),
         headers: {
           Accept: "application/json",
@@ -62,6 +66,8 @@ function reset() {
   document.getElementById("email").value = "";
   document.getElementById("address").value = "";
   document.getElementById("message").value = "";
+  document.getElementById("file").value = "";
+
 }
 
 var mybutton = document.getElementById("myBtn");
