@@ -98,7 +98,6 @@ a.current:hover {
 span {
   color: white;
 }
-/*  //////////////////////////// END NAVIGATIONBAR CSS ////////////////////////////////////// */
 
 :root {
   --red: black;
@@ -109,7 +108,6 @@ span {
 
 
 
-/* ///////////////form */
 
 .form-control,
 .form-control:focus,
@@ -190,7 +188,6 @@ textarea {
   font-family: "Raleway";
 }
 
-/* ///////////////form end*/
 
 h2 {
   font-weight: normal;
