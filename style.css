@@ -1,38 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Delius&family=Sansita:ital@1&family=Urbanist:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
 
 /* ////////////////////////////////////////// NAVIGATIONBAR CSS //////////////////////////////// */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul.nav-menu{
+ul.nav-menu {
   margin-bottom: 0;
 }
-.navbar
- ul 
- li {
-    list-style: none;
-    margin-left: 1.5rem !important;
-    margin-right: 1.5rem !important;
+.navbar ul li {
+  list-style: none;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
 }
 
 .navbar a {
-    text-decoration: none;
-    text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-#nav-item{
-padding: 1.5rem !important;
+#nav-item {
+  padding: 1.5rem !important;
 }
 
-#nav-item1{
+#nav-item1 {
   padding: 8px, 24px !important;
 }
 
-.header-nav{
+.header-nav {
   position: fixed;
   width: 100%;
   background-color: #033333;
@@ -42,18 +40,17 @@ padding: 1.5rem !important;
 .navbar {
   position: fixed;
   display: grid !important;
-  grid-template-columns: auto auto!important;
+  grid-template-columns: auto auto !important;
   justify-content: space-between !important;
-  align-items: center  !important;
+  align-items: center !important;
   padding: 1rem 1rem !important;
   margin-left: 2%;
   margin-right: 2%;
 }
 
-
 .hamburger {
   display: none;
-} 
+}
 
 .bar {
   display: block;
@@ -65,17 +62,16 @@ padding: 1.5rem !important;
   background-color: #101010;
 }
 
-a.current{
+a.current {
   color: yellow;
   text-decoration: none;
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 15px;
 }
 
-a.current:hover{
-text-decoration: none;
-color: yellow;
-
+a.current:hover {
+  text-decoration: none;
+  color: yellow;
 }
 .nav-menu {
   display: flex;
@@ -87,25 +83,22 @@ color: yellow;
   margin-left: 5rem;
 }
 
-.nav-link{
+.nav-link {
   font-weight: 400;
-  color:white;
+  color: white;
   font-size: 15px !important;
   font-weight: 400;
-
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: yellow !important;
   font-weight: bold;
-  
 }
 
-span{
-  color:white;
+span {
+  color: white;
 }
 /*  //////////////////////////// END NAVIGATIONBAR CSS ////////////////////////////////////// */
-
 
 :root {
   --red: black;
@@ -114,34 +107,38 @@ span{
   --text-color: #555555;
 }
 
+
+
 /* ///////////////form */
 
-
-.form-control, .form-control:focus, .input-group-addon {
+.form-control,
+.form-control:focus,
+.input-group-addon {
   border-color: #e1e1e1;
 }
-  .form-control, .btn {        
-      border-radius: 3px;
-  }
+.form-control,
+.btn {
+  border-radius: 3px;
+}
 .signup-form {
   width: 390px;
   margin: 0 auto;
   padding: 30px 0;
 }
-  .signup-form form {
+.signup-form form {
   color: #999;
   border-radius: 3px;
-    margin-bottom: 15px;
-      background: #fff;
-      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-      padding: 30px;
-  }
+  margin-bottom: 15px;
+  background: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
 .signup-form h2 {
   color: #333;
   font-weight: bold;
-      margin-top: 0;
-  }
-  
+  margin-top: 0;
+}
+
 .signup-form .form-group {
   margin-bottom: 20px;
 }
@@ -152,25 +149,26 @@ span{
 .signup-form .form-control {
   min-height: 38px;
   box-shadow: none !important;
-}	
+}
 .signup-form .input-group-addon {
   max-width: 42px;
   text-align: center;
 }
 
-  .signup-form .btn{        
-      font-size: 16px;
-      font-weight: bold;
+.signup-form .btn {
+  font-size: 16px;
+  font-weight: bold;
   background: #19aa8d;
   border: none;
   min-width: 140px;
-  }
-.signup-form .btn:hover, .signup-form .btn:focus {
+}
+.signup-form .btn:hover,
+.signup-form .btn:focus {
   background: #179b81;
-      outline: none;
+  outline: none;
 }
 .signup-form a {
-  color: #fff;	
+  color: #fff;
   text-decoration: underline;
 }
 .signup-form a:hover {
@@ -179,30 +177,26 @@ span{
 .signup-form form a {
   color: #19aa8d;
   text-decoration: none;
-}	
+}
 .signup-form form a:hover {
   text-decoration: underline;
 }
-input{
+input {
   border-radius: 0.5rem !important;
 }
 
-
-textarea{
-  border-radius: 0.5rem !important; 
-  font-family: 'Raleway';
+textarea {
+  border-radius: 0.5rem !important;
+  font-family: "Raleway";
 }
 
 /* ///////////////form end*/
-
-
-
 
 h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .btn {
@@ -221,12 +215,15 @@ p {
   line-height: 1.8;
   font-weight: 400;
   font-size: 15px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
+.cliquidity{
+  background-color: #0333335d;
+  padding-top:10rem;
+}
 
 .imgContainer {
-  display: flex;
   align-items: center;
   background-image: url(./img/RevSlider-V1.jpg);
   background-position: center;
@@ -237,14 +234,25 @@ p {
   background-size: cover;
 }
 
+.homeContainerGrid {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  /* padding-top: 12rem; */
+  /* margin-left:5rem;
+  margin-right:5rem; */
+}
+
 .btn-apply {
   background-color: #033333 !important;
   color: white !important;
 }
+
+.img-logo{
+padding-left: 18%;
+}
 .homeImg {
   height: 60vh;
-  /* background-color: black; */
-  margin: 5rem;
+  margin: 2rem;
 }
 
 :root {
@@ -259,7 +267,7 @@ h1 {
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   text-transform: uppercase;
 }
 
@@ -267,9 +275,8 @@ h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
-
 
 body {
   font-family: "Raleway";
@@ -278,12 +285,11 @@ body {
   color: #333;
   /* line-height: 2rem; */
   color: white;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 html {
   overflow: scroll;
 }
-
 
 html ::-webkit-scrollbar {
   display: none;
@@ -335,7 +341,7 @@ html ::-webkit-scrollbar {
   margin-top: 0rem;
   color: #033333;
   letter-spacing: 0.2rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .btn-apply {
@@ -372,7 +378,7 @@ html ::-webkit-scrollbar {
 }
 li {
   list-style: none;
- font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .mentor-header-container {
@@ -408,14 +414,11 @@ li {
   color: var(--text-color);
 }
 
-
-
-
 h2 {
   font-weight: normal;
   margin: 1.2rem;
   font-size: 1.5rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .btn {
@@ -434,15 +437,14 @@ p {
   line-height: 1.8;
   font-weight: 400;
   font-size: 1.1rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
-
-h3{
- font-family: 'Raleway'; 
+h3 {
+  font-family: "Raleway";
 }
-h5{
- font-family: 'Raleway'; 
+h5 {
+  font-family: "Raleway";
 }
 
 body {
@@ -473,7 +475,6 @@ body {
 .icon {
   color: white;
 }
-
 
 .what-to-learn-container {
   display: grid;
@@ -510,11 +511,9 @@ body {
   align-self: end;
 }
 
-.learn-side-2Logo
- {
-  width:50%;
+.learn-side-2Logo {
+  width: 50%;
 }
-
 
 .logo-white {
   width: 186px;
@@ -530,7 +529,7 @@ body {
 
 .what-to-learn-container p {
   max-width: 30rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .what-to-learn-container li {
@@ -541,12 +540,10 @@ h4 {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   font-weight: normal;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
-
 .footer {
-
   background-color: #2a7e5f !important ;
 }
 
@@ -570,26 +567,23 @@ h4 {
   padding: 8px;
 }
 
-.footerContact{
+.footerContact {
   display: flex;
   justify-content: center;
   color: white;
   margin: auto;
-  width:100%;
+  width: 100%;
   height: 5vh;
-
 }
 
 .columns ul {
-
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
   color: white;
   margin: auto;
 }
 
 .columns li {
-
   color: white;
 }
 
@@ -597,11 +591,13 @@ justify-content: space-between;
   width: 180px;
 }
 
-#sponsorLogo{
-  height:70px; width:70px; border-radius: 15px;
+#sponsorLogo {
+  height: 70px;
+  width: 70px;
+  border-radius: 15px;
 }
 
-.socialIcons{
+.socialIcons {
   border: 2px solid white;
   width: 250px;
   justify-content: center;
@@ -623,7 +619,6 @@ justify-content: space-between;
   background-color: #2a7e5f;
   cursor: pointer;
   padding: 25px;
-
 }
 
 #myBtn:hover {
@@ -631,4 +626,3 @@ justify-content: space-between;
 }
 
 /* //////////////////////////////////////////closed .footer_navigation */
-
