@@ -19,7 +19,14 @@ const submitMessage = () => {
           Accept: "application/json",
         },
       }).then((response) => {
-        swal.fire("Succesfully registered");
+        swal.fire(
+          {
+             position: 'center',
+  icon: 'success',
+  title: "Thank you for your email, we will look into this and get back to you sooner",
+  showConfirmButton: false,
+  timer: 2000
+          })
         reset();
       });
     } else {

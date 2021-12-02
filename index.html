@@ -78,7 +78,7 @@
             <div class="modal-content">
               <div class="modal-body">
                 <div class="signup-form">
-                  <div id="myForm" action="https://formspree.io/f/mbjwrzey" onsubmit="reset()"
+                  <div id="myForm" action="https://formspree.io/f/mbjwrzey" method="POST" onsubmit="reset()"
                     enctype="multipart/form-data" method="POST">
                     <h2>Application Form</h2>
                     <hr style="color: black" />
@@ -162,9 +162,11 @@
                             margin: auto !important;
                             width: 100% !important;
                           " class="btn btn-primary btn-lg">
+                          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                         Apply
                       </button>
                     </div>
+                    
                     <hr style="color: black" />
                   </div>
                 </div>

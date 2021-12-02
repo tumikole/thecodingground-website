@@ -8,45 +8,49 @@ const submitForm = () => {
   const message = document.getElementById("message").value;
 
   let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-  let regexContact = /^(\+?27|0)[6-8][0-9]{8}$/
-
+  let regexContact = /^(\+?27|0)[6-8][0-9]{8}$/;
 
   if (name && lastname && contact && id && email && address && message !== "") {
     if (contact.match(regexContact)) {
-    if (email.match(regexEmail)) {
-      return fetch("https://formspree.io/f/mbjwrzey", {
-        method: "POST",
-        body: JSON.stringify({
-          FirstName: name,
-          LastName: lastname,
-          DateOfBirth: id,
-          Contact: contact,
-          Email: email,
-          Address: address,
-          message: message,
-
-        }),
-        headers: {
-          Accept: "application/json",
-        },
-      }).then((response) => {
-        swal.fire("Succesfully registered");
-        reset();
-      });
+      if (email.match(regexEmail)) {
+        return fetch("https://formspree.io/f/mbjwrzey", {
+          method: "POST",
+          body: JSON.stringify({
+            FirstName: name,
+            LastName: lastname,
+            DateOfBirth: id,
+            Contact: contact,
+            Email: email,
+            Address: address,
+            message: message,
+          }),
+          headers: {
+            Accept: "application/json",
+          },
+        }).then((response) => {
+          Swal.fire({
+            position: 'center',
+  icon: 'success',
+  title: 'Registered successfully',
+  showConfirmButton: false,
+  timer: 2000
+          });
+          reset();
+        });
+      } else {
+        return Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "You have entered an incorrect email address",
+        });
+      }
     } else {
       return Swal.fire({
         icon: "error",
         title: "Oops...",
-        text: "You have entered an incorrect email address",
+        text: "You have entered an invalid contact number",
       });
     }
-  }else{
-    return Swal.fire({
-      icon: "error",
-      title: "Oops...",
-      text: "You have entered an invalid contact number",
-    });
-  }
   } else {
     Swal.fire({
       icon: "error",
@@ -65,7 +69,6 @@ function reset() {
   document.getElementById("address").value = "";
   document.getElementById("message").value = "";
   document.getElementById("file").value = "";
-
 }
 
 var mybutton = document.getElementById("myBtn");
@@ -110,5 +113,3 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
-
-
