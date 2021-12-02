@@ -1,0 +1,55 @@
+@media (min-width: 0px) and (max-width: 768px){
+  .navbar{
+    height: 5rem;
+}
+.nav-menu {
+   position: fixed;
+   left: -100%;
+   top: 0rem;
+   flex-direction: column;
+   background-color: #033333;
+   width: 100%;
+   text-align: center;
+   transition: 0.3s;
+   box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav-logo{
+  height:11vh;
+  position: absolute;
+  top: 0.5rem
+
+  }
+hr:nth-child(4) {
+  display: none;
+}
+.nav-menu.active {
+   left: 0;
+   padding: 2rem;
+}
+.nav-item {
+   margin-top: 0rem;
+   margin-right: 5rem;
+}
+.hamburger {
+   display: block;
+   cursor: pointer;
+   position:relative;
+   top: -0.1rem;
+   font-size: 4rem;
+
+}
+.hamburger.active .bar:nth-child(2) {
+ opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+ transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+ transform: translateY(-8px) rotate(-45deg);
+} 
+
+}

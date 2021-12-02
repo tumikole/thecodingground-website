@@ -1,0 +1,138 @@
+/* /////////////////////////////////// CONTACT CSS ////////////////////////////////////////////////  */
+.contact-us {
+  margin-top: 0rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  color: white;
+}
+.contact-us h1 {
+  text-align: center;
+  padding-top: 12rem;
+  color: white;
+  font-size: 2rem;
+  font-family: "Raleway";
+}
+
+.icon li i {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+.footerText {
+  font-family: "Raleway";
+}
+li {
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+.wrapper {
+  background: #818181 !important;
+  height: fit-content !important;
+}
+.form {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-column-gap: 20%;
+  margin-top: 3rem;
+}
+
+.main-label {
+  margin-top: 1rem;
+  color: white;
+  font-family: "Raleway";
+}
+
+.label {
+  font-size: 15px;
+  font-family: "Raleway";
+}
+
+.form-button {
+  width: 50%;
+  height: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 25%;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  background: #19aa8d;
+  border: none;
+  min-width: 140px;
+  font-family: "Raleway";
+}
+
+.sub-contact {
+  margin-bottom: 2rem;
+}
+
+.map {
+  display: flex;
+  gap: 20%;
+  justify-items: center;
+  color: white;
+}
+
+.form-button {
+  width: 50%;
+  height: 3rem;
+  margin-top: 1.5rem;
+  margin-left: 25%;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  background: #19aa8d;
+  border: none;
+  min-width: 140px;
+  font-family: "Raleway";
+}
+
+.contact {
+  margin-bottom: 2rem;
+}
+
+.sub-contact {
+  display: flex;
+  gap: 20%;
+  justify-items: center;
+  color: white;
+}
+.location {
+  margin-top: 3rem;
+}
+.phone-number {
+  margin-top: 4rem;
+  margin-left: 2.5rem;
+}
+
+.email {
+  margin-top: 4rem;
+  margin-left: 0.5rem;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: "Raleway";
+}
+
+.hr {
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.form-button:hover {
+  background: #179b81;
+}
+
+.required {
+  color: red;
+}
