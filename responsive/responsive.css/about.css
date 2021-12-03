@@ -1,21 +1,26 @@
 
-@media (min-width: 320px ) and (max-width: 480px) {
+@media (min-width: 320px ) and (max-width: 375px) {
    
   }
 
-  @media (min-width: 481px ) and (max-width: 768px:) {
+  @media (min-width: 376px ) and (max-width: 425px) {
    
 }
 
-@media (min-width: 769px ) and (max-width: 1024px) {
+@media (min-width: 426px ) and (max-width: 768px) {
    
 }
 
-@media (min-width: 1025px ) and (max-width: 1200px) {
+@media (min-width: 768px ) and (max-width: 1440px) {
    
 }
 
-@media (min-width: 1201px  ){
+@media (min-width: 1440px ) and (max-width: 2560px) {
    
-}
+
   
+}
+
+@media (min-width: 2560px ) {
+   
+}
