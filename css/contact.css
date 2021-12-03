@@ -10,7 +10,7 @@
   text-align: center;
   padding-top: 12rem;
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Raleway";
 }
 
@@ -22,8 +22,8 @@
   font-family: "Raleway";
 }
 li {
-  font-family: "Raleway";
-  font-size: 15px;
+  font-family:"Raleway";
+  font-size: 18px;
 }
 
 .wrapper {
@@ -62,9 +62,9 @@ li {
   margin-left: 25%;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
-  background: #19aa8d;
+  background: #2a7e5f;
   border: none;
   min-width: 140px;
   font-family: "Raleway";
@@ -90,7 +90,7 @@ li {
   border-radius: 0.5rem;
   font-size: 15px;
   font-weight: bold;
-  background: #19aa8d;
+  background:#2a7e5f;
   border: none;
   min-width: 140px;
   font-family: "Raleway";
