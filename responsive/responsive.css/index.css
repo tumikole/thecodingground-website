@@ -1,0 +1,478 @@
+@media (min-width: 320px ) and (max-width: 375px) {
+   
+}
+
+@media (min-width: 376px ) and (max-width: 425px) {
+ 
+}
+
+@media (min-width: 426px ) and (max-width: 768px) {
+ 
+}
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+ .img-logo{
+     display: none;
+ }
+ .homeContainerGrid{
+     display: grid;
+     grid-template-columns: auto;
+ }
+
+ .cliquidity{
+    padding-top:5rem;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+ }
+
+ .header{
+     font-size: 6rem;
+ }
+
+ .header-medium{
+    font-size: 3rem;
+
+ }
+
+ .sub-header{
+    width: 35rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem 5rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 0rem;
+    letter-spacing: 0.1rem;
+ }
+ .what-to-learn-container{
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-gap: 5rem;
+ }
+
+ .header-text{
+    margin-left: 1rem;
+    font-size: 2rem;
+
+ }
+
+ .learn-side-1{
+    margin-left: 1rem;
+
+ }
+
+ .what-to-learn-container p {
+    max-width: 50rem;
+    font-family: "Raleway";
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+
+ .learn-side-2Logo {
+    width: 100%;
+    height: 23vh;
+}
+
+.learn-side-2 {
+    grid-gap: 2rem;
+ margin-right: 1rem;
+}
+
+/* ////////// */
+
+/* ///////////footer// */
+  
+  .img-fluid {
+    width: 20px;
+  }
+  .columns {
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .footerTextContainer {
+    background-color: #033333;
+    height: 40px;
+  }
+  
+  .footerText {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 8px;
+  }
+  
+  .footerContact {
+    display: none;
+   }
+  
+  .columns ul {
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin: auto;
+}
+  
+  .columns li {
+    color: white;
+  }
+  
+  .sponsorLogo {
+    width: 100px;
+  }
+  
+  #sponsorLogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+  }
+
+  #myBtn {
+  
+    bottom: 50px;
+    right: 40px;
+    z-index: 99;
+    font-size: 13px;
+    background-color: #2a7e5f !important;
+
+   }
+ 
+  /* ////////// */
+}
+
+@media (min-width: 1024px ) and (max-width: 1439px) {
+  .img-logo{
+    display: none;
+}
+.homeContainerGrid{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.cliquidity{
+   padding-top:10rem;
+   /* margin-left: 1rem; */
+   /* margin-right: 1rem; */
+}
+
+.header{
+    font-size: 6rem;
+}
+
+.header-medium{
+   font-size: 3rem;
+
+}
+
+.sub-header{
+   width: 35rem;
+   letter-spacing: 0.2rem;
+   padding: 1rem 5rem;
+   border-radius: 0.5rem;
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-top: 0rem;
+   letter-spacing: 0.1rem;
+}
+.what-to-learn-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5rem;
+}
+
+.header-text{
+   margin-left: 1rem;
+   font-size: 2rem;
+
+}
+
+.learn-side-1{
+   margin-left: 1rem;
+
+}
+
+.what-to-learn-container p {
+   max-width: 50rem;
+   font-family: "Raleway";
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+.learn-side-2Logo {
+   width: 100%;
+   height: 23vh;
+}
+
+.learn-side-2 {
+   grid-gap: 2rem;
+margin-right: 1rem;
+}
+
+/* ////////// */
+
+/* ///////////footer// */
+ 
+ .img-fluid {
+   width: 20px;
+ }
+ .columns {
+   padding: 3em;
+   text-align: center;
+ }
+ 
+ .footerTextContainer {
+   background-color: #033333;
+   height: 40px;
+ }
+ 
+ .footerText {
+   text-align: center;
+   margin: 0 auto;
+   color: white;
+   padding: 8px;
+ }
+ 
+ .footerContact {
+   display: none;
+  }
+ 
+ .columns ul {
+   display: flex;
+   justify-content: space-between;
+   /* color: white; */
+   margin: auto;
+}
+ 
+ .columns li {
+   color: white;
+ }
+ 
+ .sponsorLogo {
+   width: 100px;
+ }
+ 
+ #sponsorLogo {
+   height: 50px;
+   width: 50px;
+   border-radius: 15px;
+ }
+
+ #myBtn {
+ 
+   bottom: 50px;
+   right: 40px;
+   z-index: 99;
+   font-size: 13px;
+   background-color: #2a7e5f !important;
+
+  }
+}
+
+/* @media (min-width: 1440px ) and (max-width: 2559px) {
+.homeContainerGrid{
+}
+.img-logo{
+  width: 80%
+}
+
+.homeContainer{
+  width:80%;
+}
+
+.homeImg{
+  height: 100%;
+}
+
+.header{
+  font-size: 5rem;
+}
+
+.header-medium {
+  font-size: 3rem;
+}
+} */
+
+
+@media (min-width: 2560px ) {
+
+.cliquidity{
+   padding-top:10rem;
+ 
+}
+.cliquidity p {
+    margin-left: 1rem;
+   margin-right: 1rem;
+   font-size: 2rem;
+}
+
+.header{
+    font-size: 12rem;
+}
+
+.header-medium{
+   font-size: 8rem;
+   padding-top: 4rem;
+
+}
+
+.sub-header-container {
+  padding-top: 4rem;
+  height: 40%
+}
+.sub-header{
+     width: 60rem;
+   letter-spacing: 0.2rem;
+   padding: 2rem 6rem;
+   border-radius: 0.5rem;
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-top: 0rem;
+   letter-spacing: 0.1rem;
+}
+
+#applyBtn{
+font-size: 2rem;
+width: 50%;
+}
+
+.modal-content {
+  width: 200% !important;
+ 
+}
+
+#myForm{
+  width: 100%
+}
+
+#myForm h2{
+  font-size: 3rem;
+}
+
+#myForm p{
+  font-size: 2rem;
+}
+.signup-form {
+  width: 50rem;
+  margin: 0px auto;
+  padding: 30px 0px;
+}
+.what-to-learn-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5rem;
+}
+
+.header-text{
+   margin-left: 1rem;
+   font-size: 2rem;
+
+}
+
+.signup-form .btn {
+  font-size: 28px;
+  font-weight: bold;
+  background: #19aa8d;
+  border: none;
+  min-width: 140px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  height: 5vh;
+}
+
+.signup-form label {
+  font-weight: normal;
+  font-size: 30px;
+}
+.input-group input{
+height: 5vh;
+}
+
+
+
+.learn-side-1{
+   margin-left: 1rem;
+
+}
+
+.what-to-learn-container p {
+   max-width: 50rem;
+   font-family: "Raleway";
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+.learn-side-2Logo {
+   width: 100%;
+   height: 23vh;
+}
+
+.learn-side-2 {
+   grid-gap: 2rem;
+margin-right: 1rem;
+}
+
+/* ////////// */
+
+/* ///////////footer// */
+ 
+ .img-fluid {
+   width: 20px;
+ }
+ .columns {
+   padding: 3em;
+   text-align: center;
+ }
+ 
+ .footerTextContainer {
+   background-color: #033333;
+   height: 40px;
+ }
+ 
+ .footerText {
+   text-align: center;
+   margin: 0 auto;
+   color: white;
+   padding: 8px;
+ }
+ 
+ .footerContact {
+   display: none;
+  }
+ 
+ .columns ul {
+   display: flex;
+   justify-content: space-between;
+   /* color: white; */
+   margin: auto;
+}
+ 
+ .columns li {
+   color: white;
+ }
+ 
+ .sponsorLogo {
+   width: 100px;
+ }
+ 
+ #sponsorLogo {
+   height: 50px;
+   width: 50px;
+   border-radius: 15px;
+ }
+
+ #myBtn {
+ 
+   bottom: 50px;
+   right: 40px;
+   z-index: 99;
+   font-size: 13px;
+   background-color: #2a7e5f !important;
+
+  }
+}
