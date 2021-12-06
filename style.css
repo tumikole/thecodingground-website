@@ -63,7 +63,7 @@ ul.nav-menu {
 }
 
 a.current {
-  color: yellow;
+  color:#eeb50c;
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
@@ -71,7 +71,7 @@ a.current {
 
 a.current:hover {
   text-decoration: none;
-  color: yellow;
+  color:#eeb50c;
 }
 .nav-menu {
   display: flex;
@@ -91,7 +91,7 @@ a.current:hover {
 }
 
 .nav-link:hover {
-  color: yellow !important;
+  color:#eeb50c !important;
   font-weight: bold;
 }
 
@@ -254,9 +254,10 @@ padding-left: 18%;
 
 :root {
   --red: black;
-  --dark-green: #818181;
+  --dark-green: #033333;
   --light-green: #2a7e5f;
   --text-color: #555555;
+  --powder-green: #148583;
 }
 
 h1 {
