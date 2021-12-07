@@ -1,5 +1,5 @@
 
-@media (min-width: 0px ) and (max-width: 320px) {
+@media (min-width: 0px ) and (max-width: 425px) {
    .header-img{
     width: 100%;   
     margin-top: 7.4rem;
@@ -43,10 +43,8 @@ margin-bottom: 1.5rem;
 
 #dots{
     color: black;
-    /* display: none; */
   }
 #more {
-    /* color: black; */
     display: none;
   }
 
@@ -56,9 +54,11 @@ margin-bottom: 1.5rem;
 
 #myButton{
     display: inline;
-    height: 1.5rem;
-    width: 45%;
+    height: 2rem;
+    width: 30%;
     border-radius: .5rem;
+    color: none;
+    cursor: pointer;
     }
     
 .bio p {
@@ -84,12 +84,23 @@ margin-bottom: 1.5rem;
 
 
 
-@media (min-width: 320px ) and (max-width: 375px) {
-   
+@media (min-width: 321px ) and (max-width: 375px) {
+    
+    .header-img{
+        width: 100%;   
+        margin-top: 7.5rem;
+           height:28.5vh;
+           background-size: cover; 
+    }
 }
 
 @media (min-width: 376px ) and (max-width: 425px) {
- 
+    .header-img{
+        width: 100%;   
+        margin-top: 7.5rem;
+           height:32.5vh;
+           background-size: cover; 
+    }
 }
 
 @media (min-width: 426px ) and (max-width: 767px) {
@@ -99,8 +110,8 @@ margin-bottom: 1.5rem;
 @media (min-width: 768px ) and (max-width: 1023px) {
 
  .header-img {
-    margin-top: 9rem;
-     height: 78vh;
+    margin-top: 7.5rem;
+     height: 58vh;
  }
 
  .welcome-students {
