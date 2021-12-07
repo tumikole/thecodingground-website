@@ -2,7 +2,7 @@
 @media (min-width: 0px ) and (max-width: 425px) {
    .header-img{
     width: 100%;   
-    margin-top: 8 addrem;
+    margin-top: 8rem;
        height:36.5vh;
        background-size: cover; 
 }
@@ -88,7 +88,7 @@ margin-bottom: 1.5rem;
     .header-img{
         width: 100%;   
         margin-top: 8rem;
-           height:37.5vh;
+           height:43.5vh;
            background-size: cover; 
     }
 }
@@ -97,7 +97,7 @@ margin-bottom: 1.5rem;
     .header-img{
         width: 100%;   
         margin-top: 8rem;
-           height:48.5vh;
+           height:49.5vh;
            background-size: cover; 
     }
 }
