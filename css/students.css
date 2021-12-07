@@ -7,6 +7,22 @@
   
 }
 
+#myButton{
+height: 2rem;
+width: 25%;
+border-radius: .5rem;
+display: none;
+}
+
+#dots{
+  color: black;
+  /* display: none; */
+}
+#more {
+  color: black;
+  /* display: none; */
+}
+
 .bio-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -58,7 +74,7 @@ h5{
   letter-spacing: 3px;
   font-family: 'Raleway';
   padding-top: 7rem; 
-}
+} 
 
 .header-h1, h1 {
   margin-top: 0;
@@ -82,20 +98,24 @@ h2{
   font-size: 2.5rem;
 }
 
+.names-space{
+  margin-left: 0;
+  margin-top: 29rem;
+}
 
 .bio p {
-  margin-top: 2rem; 
-  /* margin-bottom: 4rem;  */
+padding-top: 1.7rem;
+margin: 0rem !important;
 font-family: 'Raleway';
 font-size: 16px;
 
 }
 
-.social{
-  /* font-size: 2rem;
-  margin-left: 10rem; */
-  display: none;
-}
+/* .social{
+  font-size: 2rem;
+  margin-left: 10rem;
+} */
+
 
 
 hr{

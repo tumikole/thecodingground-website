@@ -185,6 +185,24 @@ h1{
   text-transform: uppercase;
   font-size: 2rem;
 }
+
+#myButton{
+  height: 2rem;
+  width: 25%;
+  border-radius: .5rem;
+  display: none;
+  }
+ 
+  #dots{
+    color: black;
+    display: none;
+  }
+  #more {
+    color:white !important;
+    /* display: none; */
+    font-weight:normal !important;
+
+  }
 .footerText{
     font-family: 'Raleway';
 }
