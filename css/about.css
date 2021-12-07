@@ -192,15 +192,13 @@ h1{
   border-radius: .5rem;
   display: none;
   }
- 
+
   #dots{
-    color: black;
+    /* color: black; */
     display: none;
   }
   #more {
-    color:white !important;
-    /* display: none; */
-    font-weight:normal !important;
+    font-weight:normal;
 
   }
 .footerText{

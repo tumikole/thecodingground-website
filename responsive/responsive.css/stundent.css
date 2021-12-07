@@ -2,8 +2,8 @@
 @media (min-width: 0px ) and (max-width: 425px) {
    .header-img{
     width: 100%;   
-    margin-top: 7.4rem;
-       height:23.5vh;
+    margin-top: 8rem;
+       height:36.5vh;
        background-size: cover; 
 }
    .welcome-students{
@@ -58,7 +58,6 @@ margin-bottom: 1.5rem;
     width: 30%;
     border-radius: .5rem;
     color: none;
-    cursor: pointer;
     }
     
 .bio p {
@@ -88,8 +87,8 @@ margin-bottom: 1.5rem;
     
     .header-img{
         width: 100%;   
-        margin-top: 7.5rem;
-           height:28.5vh;
+        margin-top: 8rem;
+           height:31.5vh;
            background-size: cover; 
     }
 }
@@ -97,8 +96,8 @@ margin-bottom: 1.5rem;
 @media (min-width: 376px ) and (max-width: 425px) {
     .header-img{
         width: 100%;   
-        margin-top: 7.5rem;
-           height:32.5vh;
+        margin-top: 8rem;
+           height:48.5vh;
            background-size: cover; 
     }
 }

@@ -32,10 +32,10 @@
       <a href="../index.html"><img class="nav-logo" src="../img/Logo-White-website.png"></a>
       <ul class="nav-menu">
         <li class="nav-item">
-          <a id="nav-item1" href="../index.html" class="nav-link">Home</a>
+          <a  href="../index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-          <a id="nav-item" class="current" href="../htmlFiles/about.html" class="nav-link">About</a>
+          <a class="current" href="../htmlFiles/about.html" class="nav-link">About</a>
         </li>
         <li class="nav-item">
           <a href="../htmlFiles/students.html" class="nav-link">Students</a>
@@ -54,7 +54,7 @@
       </div>
     </nav>
   </header>
-  <div class="intro-section">
+  <div class="intro-section read" info-names="aboutInfo">
 
     <h1>ABOUT <span style="color: #eeb50c">THE CODING GROUND</span></h1>
 
@@ -62,9 +62,9 @@
       The Coding Ground is a South African FREE software craftsmanship academy that focuses on the art and science of
       cultivating software developers with in-demand technical, leadership, and interpersonal skills.
       Our intensive 18-month program helps students master core skills required to accelerate their careers in
-      Information Technology as well as change the trajectory of their lives forever. We are forging strategic
-      relationships with corporate sponsors who will sponsor the students’ tuition fees.
-      Our graduates will be able to work for all types of compa<span id="dots">...</span><span style="color: white" id="more">nies, from startups to Fortune 500 companies. Our
+      Information Technology as well as change the trajec<span id="dots">...</span><span id="more">tory of their lives forever. We are forging strategic
+      relationships with corporate sponsors who will sponsor the students tuition fees.
+      Our graduates will be able to work for all types of companies, from startups to Fortune 500 companies. Our
       dynamic, robust, and welcoming network of alumni will give our future apprentices a platform and network through
       which they can learn and share insights on their quest to software mastery. The remarkable fascination of The
       Coding Ground not only lies in upgrading students technology skills and knowledge but also in uplifting the
@@ -72,9 +72,8 @@
       community who will be able to change the community for the better when it's their turn to uplift the community.
       The Coding Ground believes that when one hand washes another poverty could only be a story to be told.</span>
     </p>
-    <button  onclick="myFunction()" id="myButton" class="btn btn-info">Read more</button>
+    <button onclick="readMore('aboutInfo')" id="myButton">Read more</button>
 
-    <!-- <input/>   -->
   </div>
   <div class="imgtcg-wrapper">
     <img class="img-tcg" src="../img/codingground3-Image-Web.jpg" />
@@ -148,7 +147,7 @@
       <div class="card"
         style="background-color: var( --powder-green);">
         <div>
-          <h1 ><i id="square" class="fa fa-gem square"></i> COSTS & FEES</h1>
+          <h1 class="h1-align1"><i id="square" class="fa fa-gem square"></i> COSTS & FEES</h1>
           <p>
             Students will be sponsored and you will have a requirement to work
             for an organisation as part of your tuition. Don't be fooled
