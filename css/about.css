@@ -89,8 +89,15 @@ body {
   --bg-filter-opacity: 0.5;
   /* background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img); */
   height: 20em;
+
+  width: 25em !important;
+  font-size: 16px;
+
   width: 27em !important;
   font-size: 15px;
+
+  width: 25em !important;
+  font-size: 16px;
   color: white;
   border-radius: .5em !important;
   padding: 1em;
@@ -121,7 +128,7 @@ body {
 }
 
 .card p {
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Raleway';
   margin-top: 1em;
   line-height: 2em;
@@ -176,8 +183,26 @@ p{
 h1{
   font-family: 'Raleway';
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2rem;
 }
+
+#myButton{
+  height: 2rem;
+  width: 25%;
+  border-radius: .5rem;
+  display: none;
+  }
+ 
+  #dots{
+    color: black;
+    display: none;
+  }
+  #more {
+    color:white !important;
+    /* display: none; */
+    font-weight:normal !important;
+
+  }
 .footerText{
     font-family: 'Raleway';
 }
@@ -222,7 +247,7 @@ h5{
   } 
   
   .card p {
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Raleway';
     margin-top: 1em;
     line-height: 2em;

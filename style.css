@@ -66,7 +66,7 @@ a.current {
   color:#eeb50c;
   text-decoration: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 a.current:hover {
@@ -86,7 +86,7 @@ a.current:hover {
 .nav-link {
   font-weight: 400;
   color: white;
-  font-size: 15px !important;
+  font-size: 16px !important;
   font-weight: 400;
 }
 
@@ -142,7 +142,7 @@ span {
 }
 .signup-form label {
   font-weight: normal;
-  font-size: 13px;
+  font-size: 16px;
 }
 .signup-form .form-control {
   min-height: 38px;
@@ -192,7 +192,7 @@ textarea {
 h2 {
   font-weight: normal;
   margin: 1.2rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-family: "Raleway";
 }
 
@@ -201,7 +201,7 @@ h2 {
   text-decoration: none;
   width: 14rem;
   padding: 1rem 1rem;
-  font-size: 1rem;
+  font-size: 2rem;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -268,14 +268,6 @@ h1 {
   font-family: "Raleway";
   text-transform: uppercase;
 }
-
-h2 {
-  font-weight: normal;
-  margin: 1.2rem;
-  font-size: 1.5rem;
-  font-family: "Raleway";
-}
-
 body {
   font-family: "Raleway";
   font-size: 14px;

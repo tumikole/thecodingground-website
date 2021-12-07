@@ -1,4 +1,20 @@
 @media (max-width: 320px) {
+
+  #dots{
+    color: white;
+    /* display: none; */
+  }
+#more {
+    color: white;
+    /* display: none; */
+  }
+
+#myButton{
+    display: inline;
+    /* height: 1.5rem; */
+    width: 45%;
+    border-radius: .5rem;
+    }
   .intro-section {
     margin-top: 7rem;
     margin-left: 0;
@@ -16,7 +32,6 @@
   padding-top: 3rem;
 }
       .intro-section p {
-        text-align: justify;
         margin-bottom: 0;    
       }
   
@@ -62,7 +77,6 @@ padding-bottom: 1.5rem;
   }
       
   .intro-section p {
-    text-align: justify;
     margin-bottom: 0;
   
   }
@@ -109,8 +123,9 @@ padding-bottom: 1.5rem;
         }
             
         .intro-section p {
-          text-align: justify;
           margin-bottom: 0;
+          /* justify-content: center; */
+          text-align: center;
         
         }
       
@@ -120,7 +135,7 @@ padding-bottom: 1.5rem;
       .card{
         height: 20em;
       }
-      
+
       .card h1{
         margin-top: 1rem;
         border: 1px solid black;
@@ -154,4 +169,14 @@ padding-bottom: 1.5rem;
 
 @media (min-width: 2561px ) {
    
+}
+
+@media (min-width: 1366px) and (max-width: 1366px){
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card{
+    width: 25em !important;
+  }
 }

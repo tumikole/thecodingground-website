@@ -7,6 +7,22 @@
   
 }
 
+#myButton{
+height: 2rem;
+width: 25%;
+border-radius: .5rem;
+display: none;
+}
+
+#dots{
+  color: black;
+  /* display: none; */
+}
+#more {
+  color: black;
+  /* display: none; */
+}
+
 .bio-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -54,19 +70,19 @@ h5{
 .welcome-students{
   text-align: center;
   font-family: 'Delius', cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   /* margin-top: 2rem;  */
   font-weight: 900;
   letter-spacing: 3px;
   font-family: 'Raleway';
   padding-top: 7rem; 
-}
+} 
 
 .header-h1, h1 {
   margin-top: 0;
   /* padding-top: 13rem; */
   font-family: 'Raleway';
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .header-img{
@@ -80,22 +96,27 @@ h5{
   font-family: 'Raleway' !important;
   font-size: 1.5rem;
   padding-top: 1rem;
+
 }
 
+.names-space{
+  margin-left: 0;
+  margin-top: 29rem;
+}
 
 .bio p {
-  margin-top: 2rem; 
-  /* margin-bottom: 4rem;  */
+padding-top: 1.7rem;
+margin: 0rem !important;
 font-family: 'Raleway';
-font-size: 15px;
+font-size: 16px;
 
 }
 
-.social{
-  /* font-size: 2rem;
-  margin-left: 10rem; */
-  display: none;
-}
+/* .social{
+  font-size: 2rem;
+  margin-left: 10rem;
+} */
+
 
 
 hr{
