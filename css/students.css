@@ -29,7 +29,9 @@ display: none;
     margin-left: 2%;
     margin-right: 2% ;
     gap:2rem;
+    
 }
+
 
 h3{
    font-family: 'Raleway';
@@ -78,24 +80,23 @@ h5{
 
 .header-h1, h1 {
   margin-top: 0;
-  padding-top: 13rem;
+  /* padding-top: 13rem; */
   font-family: 'Raleway';
   font-size: 3rem;
 }
 
 .header-img{
-  margin-top: 1rem;
-  width: 100%;
   height: 100vh;
   background-image: url('../img/group_pic.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-h2{
+.card-container h2{
   font-family: 'Raleway' !important;
-  margin-left: 6rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+
 }
 
 .names-space{
