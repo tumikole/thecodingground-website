@@ -115,19 +115,19 @@ function closeForm() {
 }
 
 
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myButton");
+function readMore(names) {
+    var dots = document.querySelector(`.read[info-names="${names}"] #dots`);
+    var moreText = document.querySelector(`.read[info-names="${names}"] #more`);
+    var btnText = document.querySelector(`.read[info-names="${names}"] #myButton`);
     
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "Read more"; 
+      btnText.textContent = "Read more"; 
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "Read less"; 
+      btnText.textContent = "Read less"; 
       moreText.style.display = "inline";
     }
   }
