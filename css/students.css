@@ -84,16 +84,17 @@ h2{
 
 
 .bio p {
-  margin-top: 4rem; 
-  margin-bottom: 4rem; 
+  margin-top: 2rem; 
+  /* margin-bottom: 4rem;  */
 font-family: 'Raleway';
 font-size: 15px;
 
 }
 
 .social{
-  font-size: 2rem;
-  margin-left: 10rem;
+  /* font-size: 2rem;
+  margin-left: 10rem; */
+  display: none;
 }
 
 
