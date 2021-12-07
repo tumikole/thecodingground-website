@@ -105,12 +105,37 @@ display: none;
     grid-template-columns: auto;
 }
 
-.resize{
-    }
+.reversed{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+
+  .resize {
+      margin: 0rem !important;
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card-container h2 {
+    font-family: 'Raleway' !important;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
 .bio p {
-    
+    padding-top: 0rem !important;
+    margin: 0rem !important;
+    font-family: 'Raleway';
+    font-size: 16px;
+    padding-bottom: 2rem
 }
 }
+
+  }
 
 @media (min-width: 1440px ) and (max-width: 2555px) {
  
