@@ -99,6 +99,9 @@ span {
   color: white;
 }
 
+
+
+
 :root {
   --red: black;
   --dark-green: #033333;
@@ -106,6 +109,40 @@ span {
   --text-color: #555555;
 }
 
+
+.fa-2x {
+  font-size: 1em !important;
+}
+
+.fa {
+  /* padding-top:5rem; */
+  background-color: none!important;
+  text-decoration: underline;
+  color: #033333 !important;
+}
+
+
+.arrow {
+  text-align: center;
+  margin: 4% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
 
 
 
