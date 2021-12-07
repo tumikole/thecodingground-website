@@ -9,14 +9,20 @@
 .contact-us h1 {
   text-align: center;
   padding-top: 12rem;
+<<<<<<< HEAD
   color: white;
   font-size: 3rem;
+=======
+  color:#0b6d6c;
+  font-size: 2rem;
+>>>>>>> 6886f0f595323b01377bf406c7b5e39606f8be89
   font-family: "Raleway";
 }
 
 .icon li i {
   font-size: 4rem;
   margin-top: 2rem;
+  color:#0b6d6c;
 }
 .footerText {
   font-family: "Raleway";
@@ -27,7 +33,7 @@ li {
 }
 
 .wrapper {
-  background: #818181 !important;
+  background: #ccc !important;
   height: fit-content !important;
 }
 .form {
@@ -46,7 +52,7 @@ li {
 
 .main-label {
   margin-top: 1rem;
-  color: white;
+  color: #0b6d6c;
   font-family: "Raleway";
 }
 
@@ -71,14 +77,26 @@ li {
 .form-button {
   width: 50%;
   height: 3rem;
+<<<<<<< HEAD
   margin-top: 1.5rem;
   /* margin-right: 25%rem; */
   margin-left: 48%;
   margin-bottom: 2rem;
+=======
+  float:right;
+  /* margin-top: 1.5rem;
+  margin-left: 25%;
+  margin-bottom: 2rem; */
+>>>>>>> 6886f0f595323b01377bf406c7b5e39606f8be89
   border-radius: 0.5rem;
   font-size: 16px;
   font-weight: bold;
+<<<<<<< HEAD
   background: darkgrey;
+=======
+  background: rgb(255, 153, 0);
+  color:white;
+>>>>>>> 6886f0f595323b01377bf406c7b5e39606f8be89
   border: none;
   min-width: 140px;
   font-family: "Raleway";
@@ -92,7 +110,7 @@ li {
   display: flex;
   gap: 20%;
   justify-items: center;
-  color: white;
+  color: #0b6d6c;
 }
 .location {
   margin-top: 3rem;

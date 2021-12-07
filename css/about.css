@@ -71,12 +71,11 @@ body {
   background: #fafafa;
 }
 
-
 .cards-wrapper {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -88,10 +87,15 @@ body {
 
 .card {
   --bg-filter-opacity: 0.5;
-  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  /* background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img); */
   height: 20em;
+<<<<<<< HEAD
   width: 25em !important;
   font-size: 16px;
+=======
+  width: 27em !important;
+  font-size: 15px;
+>>>>>>> 6886f0f595323b01377bf406c7b5e39606f8be89
   color: white;
   border-radius: .5em !important;
   padding: 1em;
@@ -113,11 +117,12 @@ body {
 
 .card h1 {
   margin: 0;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   font-size: 2rem;
   line-height: 1.2em;
   justify-content: center;
   font-family: 'Raleway';
+  
 }
 
 .card p {
@@ -125,6 +130,8 @@ body {
   font-family: 'Raleway';
   margin-top: 1em;
   line-height: 2em;
+justify-content: center;
+  
 }
 .card:before, .card:after {
   content: '';
@@ -144,6 +151,15 @@ body {
   width: 250%;
   height: 250%;
 }
+
+#h1-align{
+  display: flex;
+  /* grid-template-columns: 1fr; */
+  gap: .5rem;
+}
+/* .square{
+  border: none;
+} */
 
 .card:after {
   background: white;
