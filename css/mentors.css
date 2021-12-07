@@ -15,17 +15,17 @@ background-image: linear-gradient(315deg, #98de5b  10%, #2a7e5f 74%);
   gap: 2rem;
   padding-left: 3rem;
   padding-top: 5rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 
 }
 
 .card-container p{
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .title {
   color: rgba(255, 255, 255, 0.479);
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Raleway' !important;
 }
 
@@ -60,12 +60,11 @@ h5 {
   margin: auto;
   text-align: center;
   font-family: arial;
-}
-
-.left-column{
-  color: white;
+    color: white;
   width: 60% !important;
 }
+
+
 .left-column
 h1 {
   width: 100%;
