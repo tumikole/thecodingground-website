@@ -11,7 +11,7 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="../css/students.css" />
   <link rel="stylesheet" href="../style.css" />
-  <!-- <link rel="stylesheet" href="../responsive/responsiveforAllScreen.css"> -->
+  <link rel="stylesheet" href="../responsive/responsive.css/stundent.css">
   <link rel="stylesheet" href="../responsive/navaboutcontactresponsive.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
@@ -63,7 +63,8 @@
 
 <div>
   <h1 class="welcome-students">
-    MEET OUR STUDENTS</h1>
+    MEET OUR STUDENTS
+  </h1>
   </div>
   <div id="students" class="students">
 
@@ -72,14 +73,14 @@
 
         <img src="../img/kamvalethu.jpg" alt="Kamvalethu Zitho" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 6rem;">Kamvalethu Zitho</h2>
+            <h2 class="names-space">Kamvalethu Zitho</h2>
           </strong></figcaption>
-        <div class="social">
+        <!-- <div class="social">
           <a href=" https://www.linkedin.com/in/kamvalethu-zitho-152751217/" target="_blank"><i class="fab fa-linkedin "
               style="color: #007bb6;"></i></a>
           <a href="mailto:kamvalethu.zitho1705@gmail.com" target="_blank"><i class="far fa-envelope"
               style="color: rgb(202, 142, 11);"></i></a>
-        </div>
+        </div> -->
       </div>
       <div class="bio">
         <p style="margin-left: 2rem">
@@ -91,7 +92,7 @@
           you could see that she was going to be a very wise
           young person. Growing up Kamvalethu possessed a very good personality trait which is sympathy and that made
           her stand out from other children, she also
-          had excellent problem-solving skills. She showed interest in becoming a Lawyer specifically being an
+          had excel<span id="dots">...</span><span id="more">lent problem-solving skills. She showed interest in becoming a Lawyer specifically being an
           Administrative lawyer at the age of 14 and also being a
           Chef because it was one of her favorite things to do. She loved reading books, writing and also loved spending
           most of her time alone. She completed her
@@ -103,14 +104,16 @@
           orally and in writing. Kamvalethu likes to think
           of herself as self-motivated, a critical, and an analytical thinker. One of the mottos she says she lives by
           is 'Principles only mean something if you stick by them when they’re inconvenient and she still lives by it
-          till to date.
+          till to date.</span>
         </p>
+        <button onclick="myFunction()" id="myButton">Read more</button>
+
       </div>
     </div>
     <hr style="border: 1px solid rgb(124, 116, 116);">
     <div class="bio-container">
       <div class="bio">
-        <p>
+        <p class="reverse-p">
           My name is Ramollo Samuel Tumisang and I was born in the province of North West, in a small village called
           Madidi but currently residing at Centurion
           (Olievenhoutbosch). I was raised by my grandparents untill I became an adult. Since childhood, I have been
@@ -118,7 +121,7 @@
           designs. I completed my matric in 2009 and went to DSDC college the following year for a matric upgrade hoping
           to enroll at one of the best universities in
           Africa. I was hoping to do Multimedia design. In 2012 I enrolled at Sokhele college for a call center
-          certificate and Worked for Affinity mobile sponsored
+          certificate and Worked for Affin<span id="dots">...</span><span id="more">ity mobile sponsored
           by 8ta, based in Sunnyside Pretoria. I also completed a security grade E - C certificate in 2013. In 2015
           joined Imvula Quality Protection and served my
           three-year contract with no faulty issues. In 2016 I was awarded the commendation of service excellence at
@@ -128,26 +131,27 @@
           become the best software developers in the world. Currently, I’m doing frontend development. with the months
           that I have spent here, I was able to learn a few
           programming languages and frameworks. I am just glad that I got a chance to fulfill my dream of becoming a
-          software developer.
+          software developer.</span>
         </p>
+        <button onclick="myFunction()" id="myButton">Read more</button>
+
       </div>
-      <div class="card-container">
-
-
+      
+      <div id="card-container" class="card-container">
+        
+        
         <img src="../img/tumi.jpg" alt="Tumisang Ramollo" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 6rem;">Samuel Tumisang Ramollo</h2>
-          </strong></figcaption>
-        <div class="social">
-
+          <h2 class="names-space">Samuel Tumisang Ramollo</h2>
+        </strong></figcaption>
+        <!-- <div class="social">
+          
           <a href="https://za.linkedin.com/in/samuel-ramollo-1aa8a2202" target="_blank"><i class="fab fa-linkedin "
-              style="color: #007bb6;"></i></a>
-          <a href="mailto: ramollosamuel2@gmail.com" target="_blank"><i class="far fa-envelope"
+            style="color: #007bb6;"></i></a>
+            <a href="mailto: ramollosamuel2@gmail.com" target="_blank"><i class="far fa-envelope"
               style="color: rgb(202, 142, 11);"></i></a>
-
-
-
-        </div>
+              
+            </div> -->
       </div>
     </div>
     <hr style="border: 1px solid rgb(122, 113, 113);">
@@ -157,9 +161,9 @@
 
         <img src="../img/Lindo.jpg" alt="Lindokuhle Mazibuko" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 6rem;">Lindokuhle Angel Mazibuko</h2>
+            <h2 class="names-space">Lindokuhle Angel Mazibuko</h2>
           </strong></figcaption>
-        <div class="social" style="margin-left: 15rem;">
+        <!-- <div class="social">
 
           <a href="https://www.linkedin.com/in/lindokuhle-angel-486420201/" target="_blank"><i class="fab fa-linkedin"
               style="color: #007bb6;"></i></a>
@@ -169,7 +173,7 @@
               style="color: #00aced;"></i></a>
 
 
-        </div>
+        </div> -->
       </div>
 
 
@@ -181,7 +185,7 @@
           along the way and the important part is that I found myself again. As a kid I fell in love with literature and
           tried writing my own thoughts. The first time
           I ever fell in love with literature was when I first read the novel titled Two Of Kind Diaries(It's A Twin
-          Thing), and there I was falling in love with how
+          Thing), and there I was fall<span id="dots">...</span><span id="more">ing in love with how
           they played around with words and how they sent a fantasy message through rich language. For a long time I
           wanted to be a professional writer, I wanted to
           express my emotions through writing but realised that although writing was my passion, it still was a hobby.
@@ -189,8 +193,10 @@
           life looked like, I'm the kind of person who tries to escape life whenever she gets a chance hence I developed
           an interest in computers in general. From
           there on I fell in love with programming and I found my way to coding. The Coding Ground developed my life and
-          I've never been happier.
+          I've never been happier.</span>
         </p>
+        <button onclick="myFunction()" id="myButton">Read more</button>
+
       </div>
     </div>
     <hr style="border: 1px solid rgb(133, 124, 124);">
@@ -198,7 +204,7 @@
     <div class="bio-container">
       <div class="bio">
 
-        <p>
+        <p class="reverse-p">
           Muano Nevhufumba was born and bred in a small village called Tshiliwi in Limpopo. As a kid I grew up enjoying
           building things with my hands, I will build
           myself cars using wires and every kid would love the cars that I have built and they would ask me to also
@@ -206,7 +212,7 @@
           When I matriculated I wanted to study computer science, the reason behind studying computer science is that I
           saw the work that my brother was doing and I
           just instantly fell in love with the course, I remember a friend of mine who will always talk about C++ and
-          how challenging it was but it didn’t scare me
+          how challe<span id="dots">...</span><span id="more">nging it was but it didn’t scare me
           off, I still wanted to study it. I don’t know what changed my mind or how it did but I found myself studying
           Geology and deep down I knew I wanted to study
           computer science. I wanted to register for IT (information technology), that’s when I found out about The
@@ -215,17 +221,19 @@
           be a part of The Coding Ground. At the moment
           I am at The Coding Ground learning how to program. I’m enjoying every single day that I spend here, I have no
           regret that I left everything behind to finally
-          do something that I have always wanted to do.
+          do something that I have always wanted to do.</span>
         </p>
+        <button onclick="myFunction()" id="myButton">Read more</button>
+
       </div>
-      <div class="card-container">
+      <div id="card-container" class="card-container">
 
 
         <img src="../img/muano.jpg" alt="Muano Nevhufumba" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 10rem;">Muano Nevhufumba</h2>
+            <h2 class="names-space">Muano Nevhufumba</h2>
           </strong></figcaption>
-        <div class="social" style="margin-left: 17rem;">
+        <!-- <div class="social">
 
           <a href="https://www.linkedin.com/in/lindokuhle-angel-486420201/" target="_blank"><i class="fab fa-linkedin "
               style="color: #007bb6;"></i></a>
@@ -234,7 +242,7 @@
 
 
 
-        </div>
+        </div> -->
 
 
 
@@ -248,9 +256,9 @@
 
         <img src="../img/wongani.jpg" alt="Wongani Skosana" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 10rem;">Wongani Skosana</h2>
+            <h2 class="names-space">Wongani Skosana</h2>
           </strong></figcaption>
-        <div class="social" style="margin-left: 16rem;">
+        <!-- <div class="social">
 
           <a href="https://www.linkedin.com/in/wongani-skosana-55ba53224/" target="_blank"><i class="fab fa-linkedin "
               style="color: #007bb6;"></i></a>
@@ -258,7 +266,7 @@
               style="color: rgb(202, 142, 11);"></i></a>
 
 
-        </div>
+        </div> -->
       </div>
       <div class="bio">
 
@@ -272,7 +280,7 @@
           conquering it pushed him to work extra hard so
           he can escape his earlier life.Before Coding found him he had dreams of becoming a mechanical engineer, yet
           he's very grateful for falling in love with
-          coding and making it his priority. With Coding he managed to find a better version of himself, spending most
+          coding and making it his prior<span id="dots">...</span><span id="more">ity. With Coding he managed to find a better version of himself, spending most
           of his time thinking and talking about code
           made him realize how much he wanted to change the world with coding. He's elated for finding his calling in
           coding and plans on staying true to it. He has
@@ -280,45 +288,46 @@
           reach his full potential. The coding ground
           helped him acquire some skills which he needed in the Tech industry. Wongani Skosana believes in divide and
           conquer because he believes that working alone
-          helps you think deeper within yourself and your working speed automatically rises.
+          helps you think deeper within yourself and your working speed automatically rises.</span>
         </p>
+        <button onclick="myFunction()" id="myButton">Read more</button>
+
       </div>
     </div>
     <hr style="border: 1px solid rgb(138, 124, 124);">
     <div class="bio-container">
       <div class="bio">
-        <p>
+        <p class="reverse-p">
           Kwanele Mkhwanazi is a software developer student at The Coding Ground, a software craftsmanship academy that
           focuses on the art and science of
           cultivating software developers with in-demand technical. She finds honesty, creativity, and dedication to be
           the most valuable qualities for success in
           the world of software. She is a young innovative single parent of two beautiful girls. She describes herself
-          as a funny, generous, open-minded, and good
+          as a funny, gene<span id="dots">...</span><span id="more">rous, open-minded, and good
           listener. She was born in the local municipality situated along the northern coastal belt of KwaZulu-Natal and
           in the south-eastern corner of the uMkhanyakude
           District Mtubatuba and grew in a densely populated township in Gauteng, South Africa(Diepsloot). She believes
           that software delivers new and innovative
           solutions to different companies ranging from tiny startups to major corporations with massive information
-          technology and programming needs.
+          technology and programming needs.</span>
         </p>
-      </div>
-      <div class="card-container">
+        <button onclick="myFunction()" id="myButton">Read more</button>
 
-        <figure>
+      </div>
+      <div id="card-container" class="card-container">
+
           <img src="../img/kwanele.jpg" alt="Kwanele Mkhwanazi" class="resize">
           <figcaption><strong>
-              <h2 style="margin-left: 9rem;">Kwanele Mkhwanazi</h2>
+              <h2 class="names-space">Kwanele Mkhwanazi</h2>
             </strong></figcaption>
-          <div class="social" style="margin-left: 16rem;">
+          <!-- <div class="social">
 
             <a href="https://www.linkedin.com/in/kwanele-mkhwanazi-aa8ab41a3/" target="_blank"><i
                 class="fab fa-linkedin " style="color: #007bb6;"></i></a>
             <a href="mailto: mkhwanazikwanele62@gmail.com" target="_blank"><i class="far fa-envelope"
                 style="color: rgb(202, 142, 11);"></i></a>
 
-
-            </div>
-        </figure>
+     </div> -->
 
       </div>
     </div>
@@ -330,10 +339,10 @@
 
         <img src="../img/njabulo.jpg" alt="Njabulo Zulu" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 13rem;">Njabulo Zulu</h2>
+            <h2 class="names-space">Njabulo Zulu</h2>
           </strong></figcaption>
 
-        <div class="social" style="margin-left: 16rem;">
+        <!-- <div class="social">
 
           <a href="https://za.linkedin.com/in/njabulo-zulu-10094915b" target="_blank"><i class="fab fa-linkedin "
               style="color: #007bb6;"></i></a>
@@ -341,7 +350,7 @@
               style="color: rgb(202, 142, 11);"></i></a>
 
 
-        </div>
+        </div> -->
       </div>
       <div class="bio">
 
@@ -354,7 +363,7 @@
           life. For example, the path that I am on is
           being a software engineer, if my parents never decided to leave Tembisa where we used to live, I don't think I
           would be here today. lucky enough they
-          made a choice of moving to a different place which led to us ending up living in Olievenhoutbosch where I met
+          made a choice of moving to a diffe<span id="dots">...</span><span id="more">rent place which led to us ending up living in Olievenhoutbosch where I met
           one of my best friends who introduced me
           to playing video games. This also led to us falling in love with building computers and that led to him being
           introduced to coding and programming and
@@ -363,8 +372,9 @@
           and weaknesses, what I can say is I show my strength through my actions and weaknesses by being aware of them
           and trying to better myself. My biggest
           weakness is time management, which is trying to manage my time to work better for me, and I think that is
-          caused by me trying to do a lot of things at once.
+          caused by me trying to do a lot of things at once.</span>
         </p>
+        <button onclick="myFunction()" id="myButton">Read more</button>
       </div>
     </div>
     <hr style="border: 1px solid rgb(94, 90, 90);">
@@ -372,13 +382,13 @@
     <div class="bio-container">
       <div class="bio">
 
-        <p>
+        <p class="reverse-p">
           My name is Sibonokuhle Nkabinde, I was born on the 27th of November 1999 in a township called Lady Smith
           located in the province of Kwa-Zulu Natal.
           I am a humble, down-to-earth kind person. I follow my heart and most important I believe in myself. I have a
           steady source of motivation that drives
           me to do my best. My ambitions are driven by my passion to conquer and do what makes me happy. I always thrive
-          on challenges and constantly set a goal
+          on challenges and constantly set a go<span id="dots">...</span><span id="more">al
           for myself. Settling is out of my comfort zone hence I'm always looking for an opportunity to do better and
           achieve greatness. I am also highly organized
           I always take notes and I use serious tools to help myself stay on top of deadlines. looking for positivity in
@@ -389,16 +399,17 @@
           code. I didn't know anything about code, their
           patience with me is what motivated me and kept me on my feet. For the time I have spent here, I managed to
           grab a few skills and more knowledge about
-          coding.
+          coding.</span>
         </p>
+        <button onclick="myFunction()" id="myButton">Read more</button>
       </div>
 
-      <div class="card-container">
+      <div id="card-container" class="card-container">
 
 
       <img src="../img/sbonokuhle.jpg" alt="Sbonokuhle Nkabinde" class="resize">
       <figcaption><strong>
-          <h2 style="margin-left: 9rem;">Sbonokuhle Nkabinde</h2>
+          <h2 class="names-space" style="padding-bottom: 4rem;">Sbonokuhle Nkabinde</h2>
         </strong></figcaption>
 
     </div>
