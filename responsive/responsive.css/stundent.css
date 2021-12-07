@@ -48,6 +48,7 @@ padding-bottom: 4rem;
     width: 45%;
     border-radius: .5rem;
     }
+    
 .bio p {
     padding-bottom: .5rem;
     padding-top: 0;
@@ -131,6 +132,7 @@ display: none;
     font-family: 'Raleway';
     font-size: 16px;
     padding-bottom: 2rem
+}
 }
 
   }
