@@ -89,13 +89,15 @@ body {
   --bg-filter-opacity: 0.5;
   /* background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img); */
   height: 20em;
-<<<<<<< HEAD
+
   width: 25em !important;
   font-size: 16px;
-=======
+
   width: 27em !important;
   font-size: 15px;
->>>>>>> 6886f0f595323b01377bf406c7b5e39606f8be89
+
+  width: 25em !important;
+  font-size: 16px;
   color: white;
   border-radius: .5em !important;
   padding: 1em;
