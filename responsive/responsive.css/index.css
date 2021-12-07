@@ -1,5 +1,9 @@
-@media (min-width: 320px ) and (max-width: 375px) {
-   
+@media (min-width: 0px ) and (max-width: 320px) {
+  .img-logo{
+    display: none;
+}
+
+
 }
 
 @media (min-width: 376px ) and (max-width: 425px) {
