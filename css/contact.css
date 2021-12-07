@@ -9,8 +9,9 @@
 .contact-us h1 {
   text-align: center;
   padding-top: 12rem;
-  color:#0b6d6c;
-  font-size: 2rem;
+  color: white;
+  font-size: 3rem;
+
   font-family: "Raleway";
 }
 
@@ -24,7 +25,7 @@
 }
 li {
   font-family: "Raleway";
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .wrapper {
@@ -52,24 +53,11 @@ li {
 }
 
 .label {
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Raleway";
 }
 
-.form-button {
-  width: 50%;
-  height: 2rem;
-  margin-top: 1.5rem;
-  margin-left: 25%;
-  margin-bottom: 2rem;
-  border-radius: 0.5rem;
-  font-size: 15px;
-  font-weight: bold;
-  background: #19aa8d;
-  border: none;
-  min-width: 140px;
-  font-family: "Raleway";
-}
+
 
 .sub-contact {
   margin-bottom: 2rem;
@@ -85,15 +73,16 @@ li {
 .form-button {
   width: 50%;
   height: 3rem;
-  float:right;
-  /* margin-top: 1.5rem;
-  margin-left: 25%;
-  margin-bottom: 2rem; */
+  margin-top: 1.5rem;
+  /* margin-right: 25%rem; */
+  margin-left: 48%;
+  margin-bottom: 2rem;
+
   border-radius: 0.5rem;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
-  background: rgb(255, 153, 0);
-  color:white;
+  background: darkgrey;
+
   border: none;
   min-width: 140px;
   font-family: "Raleway";
@@ -133,7 +122,7 @@ li {
 }
 
 .form-button:hover {
-  background: #179b81;
+  background: white;
 }
 
 .required {
