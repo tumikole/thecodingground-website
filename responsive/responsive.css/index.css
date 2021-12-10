@@ -1,10 +1,27 @@
 @media (min-width: 0px ) and (max-width: 320px) {
-  .img-logo{
+  .homeContainerGrid{
+    display: block;
+    font-size: 1.5rem;
+  }
+ .header{
+   font-size: 3rem;
+ }
+  .homeImg{
     display: none;
+  } 
+  .header-medium{
+    font-size: 2rem
+  }
+  .sub-header{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0rem;
+  }
+  .sub1-header{
+    padding-top: .5rem;
+  }
 }
 
-
-}
 
 @media (min-width: 376px ) and (max-width: 425px) {
  
