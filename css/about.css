@@ -157,7 +157,7 @@ justify-content: center;
 #h1-align{
   display: flex;
   /* grid-template-columns: 1fr; */
-  gap: .5rem;
+  /* gap: .5rem; */
 }
 /* .square{
   border: none;

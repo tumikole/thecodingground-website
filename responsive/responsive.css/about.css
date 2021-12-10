@@ -101,7 +101,7 @@ padding-bottom: 1.5rem;
 }
 .h1-align{
   display: flex;
-  /* gap: .5rem; */
+  gap: .5rem;
 }
  
 .cards-wrapper{
