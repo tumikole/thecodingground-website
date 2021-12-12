@@ -10,26 +10,335 @@
     display: none;
   } 
   .header-medium{
-    font-size: 2rem
+    font-size: 1.5rem
   }
   .sub-header{
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 0rem;
     padding-top: 0rem;
   }
   .sub1-header{
     padding-top: .5rem;
+    
   }
+  #applyBtn{
+    margin-top:3rem;
+  }
+  .header-container{
+    padding-top: 1rem !important;
+  }
+
+  .what-to-learn-container {
+    display: block;
+    padding-top:8rem !important ; 
+    gap: 0;
+    padding-left:  3%;
+    padding-right: 3%;
+  }
+  .header-text{
+    text-align: center;
+  }
+.card-text{ 
+  text-align: center;
+}
+.learn-side-2Logo{
+  position:absolute;
+  top: 0;
+  margin-left: 25%;
+  padding-top: 2rem;
+}
+.imgContainer {
+  justify-content: center;
+  height:136vh;
+}
+.arrow{
+  margin-top: 0rem;
+}
+.learn-side-1 ul{
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
+#icon{
+  font-size: 1.5rem;
+}
+
+#icon2{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  
+}
+.learn-side-2 ul{
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.what-to-learn-container{
+  padding-top: 10rem;
+}
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 0;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  padding-right: 2rem;
+}
+.socialIcons{
+  display: none;
+}
+
+.sponsorLogo {
+  width: 150%;
+}
+#sponsorLogo {
+  height: 3.5rem;
+  width: 85%;
+  border-radius: 15px;
+  margin-top: .5rem
+
+}
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 10%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+.cliquidity{
+  padding-top: 8.6rem;
+}
+}
+
+
+@media (min-width: 321px ) and (max-width: 375px) {
+  #icon2{
+    display: grid;
+    grid-template-columns: 15% 85%;
+  }
+  #icon{
+    font-size: 1.5rem;
+  }
+  .imgContainer {
+    justify-content: center;
+    height:126vh;
+  }  
+  .homeContainerGrid{
+    display: block;
+    font-size: 1.5rem;
+  }
+ .header{
+   font-size: 3rem;
+ }
+  .homeImg{
+    display: none;
+  } 
+  .header-medium{
+    font-size: 1.5rem
+  }
+  .sub-header{
+    margin-bottom: 0;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+  .sub1-header{
+    padding-top: .5rem;
+    
+  }
+  #applyBtn{
+    margin-top:3rem;
+  }
+  .header-container{
+    padding-top: 1rem !important;
+  }
+
+  .what-to-learn-container {
+    display: block;
+    padding-top:8rem;
+    gap: 0;
+    padding-left:  3%;
+    padding-right: 3%;
+  }
+  .header-text{
+    text-align: center;
+  }
+.card-text p{
+  text-align: center;
+  padding-top: 3rem;
+  margin-left: 2% !important;
+}
+.learn-side-2Logo{
+  position:absolute;
+  top: 0;
+  margin-left: 25%;
+  padding-top: 2rem;
+}
+.arrow{
+  margin-top: 0rem;
+}
+.learn-side-1 ul{
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.learn-side-2 ul{
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.what-to-learn-container{
+  padding-top: 10rem;
+}
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 0;
+  row-gap: 1.5rem;
+  column-gap: 4rem;
+  padding-right: 2rem;
+}
+.socialIcons{
+  display: none;
+}
+
+.sponsorLogo {
+  width: 150%;
+  
+}
+#sponsorLogo {
+  height: 4rem;
+  width: 85%;
+  border-radius: 15px;
+  margin-top: .5rem
+
+}
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 8%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+.footerText{
+  padding-top: 1.3rem;
+}
+
+.cliquidity{
+  padding-top: 8.6rem;
+}
+}
 
 @media (min-width: 376px ) and (max-width: 425px) {
- 
+  #icon2{
+    display: grid;
+    grid-template-columns: 15% 85%;
+  }
+  #icon{
+    font-size: 1.5rem;
+  }
+  .imgContainer {
+    justify-content: center;
+    height:120vh;
+  }  
+  .homeContainerGrid{
+    display: block;
+    font-size: 1.5rem;
+  }
+ .header{
+   font-size: 3rem;
+ }
+  .homeImg{
+    display: none;
+  } 
+  .header-medium{
+    font-size: 1.5rem
+  }
+  .sub-header{
+    margin-bottom: 0;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+  .sub1-header{
+    padding-top: .5rem;
+    
+  }
+  #applyBtn{
+    margin-top:3rem;
+  }
+  .header-container{
+    padding-top: 1rem !important;
+  }
+
+  .what-to-learn-container {
+    display: block;
+    padding-top:8rem;
+    gap: 0;
+    padding-left:  3%;
+    padding-right: 3%;
+  }
+  .header-text{
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+.card-text p{
+  text-align: center;
+  padding-top: 3rem;
+  margin-left: 2% !important;
+}
+.learn-side-2Logo{
+  position:absolute;
+  top: 0;
+  margin-left: 25%;
+  padding-top: 2rem;
+}
+.arrow{
+  margin-top: 0rem;
+}
+.learn-side-1 ul{
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.learn-side-2 ul{
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.what-to-learn-container{
+  padding-top: 10rem;
+}
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 0;
+  row-gap: 1.5rem;
+  column-gap: 5rem;
+  padding-right: 3rem;
+}
+.socialIcons{
+  display: none;
 }
 
-@media (min-width: 426px ) and (max-width: 768px) {
- 
+.sponsorLogo {
+  width: 150%;
 }
+#sponsorLogo {
+  height: 4.5rem;
+  width: 85%;
+  border-radius: 15px;
+  margin-top: .5rem
+
+}
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 6%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+.footerText{
+  padding-top: 1.3rem;
+}
+.cliquidity{
+  padding-top: 8.6rem;
+}
+}
+
 
 @media (min-width: 768px ) and (max-width: 1023px) {
  .img-logo{
