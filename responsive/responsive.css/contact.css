@@ -6,6 +6,11 @@
         margin-left: 10%;
         margin-right: 10%;
 }
+.contact-us h1{
+  font-size: 1.5rem;
+  padding-top: 10.5rem;
+
+}
 
 hr:nth-child(4) {
   display: none;
@@ -36,6 +41,10 @@ hr:nth-child(4) {
       margin-left: 0;
   }
     
+.icon li i {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
 }
 
 @media (min-width: 425px ) and (max-width: 768px) {    
@@ -59,12 +68,125 @@ hr:nth-child(4) {
   }
 }
 
-@media (min-width: 376px ) and (max-width: 425px) {
+@media (min-width: 0px ) and (max-width: 320px){
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 2rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+  
+  .sponsorLogo {
+    width: 150%;
+  }
+  #sponsorLogo {
+    height: 3.5rem;
+    width: 85%;
+    border-radius: 15px;
+  }
+  .columns{
+    padding-bottom: 1rem;
+    padding-left: 10%;
+  }
+  .footerTextContainer{
+  padding-bottom: 4rem;
+  }
+  .cliquidity{
+    padding-top: 8.6rem;
+  }
+}
+
+@media (min-width: 321px ) and (max-width:375px) {
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 4rem;
+    padding-right: 2rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+  
+  .sponsorLogo {
+    width: 150%;
+    
+  }
+  #sponsorLogo {
+    height: 4rem;
+    width: 85%;
+    border-radius: 15px;
+  }
+  .columns{
+    padding-bottom: 1rem;
+    padding-left: 8%;
+  }
+  .footerTextContainer{
+  padding-bottom: 4rem;
+  }
+  .footerText{
+    padding-top: 1.3rem;
+  }
  
 }
 
-@media (min-width: 426px ) and (max-width: 768px) {
- 
+@media (min-width: 376px ) and (max-width: 425px) {
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 5rem;
+    padding-right: 3rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+  
+  .sponsorLogo {
+    width: 150%;
+  }
+  #sponsorLogo {
+    height: 4.5rem;
+    width: 85%;
+    border-radius: 15px;
+  
+  }
+  .columns{
+    padding-bottom: 1rem;
+    padding-left: 6%;
+  }
+  .footerTextContainer{
+  padding-bottom: 4rem;
+  }
+  .footerText{
+    padding-top: 1.3rem;
+  }
+  .cliquidity{
+    padding-top: 8.6rem;
+  }
+  .location {
+    margin-top: 1rem;
+  }
+  .phone-number {
+    margin-top: 2rem;
+    margin-left: .5rem;
+  }
+  
+  .email {
+    margin-top: 2rem;
+    margin-left: 0.1rem;
+  }
+  .sub-contact{
+    margin-top: 1.5rem;
+  }
+  
 }
 
 @media (min-width: 769px ) and (max-width: 1440px) {

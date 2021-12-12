@@ -32,6 +32,7 @@
       
 .intro-section h1{
   padding-top: 3rem;
+  font-size: 1.5rem;
 }
       .intro-section p {
         margin-bottom: .5rem;    
@@ -58,9 +59,53 @@
     .cards-wrapper{
       padding-top: 1rem !important;
     }
+    .columns ul{
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      padding-left: 0;
+      row-gap: 1.5rem;
+      column-gap: 3rem;
+      padding-right: 2rem;
+    }
+    .socialIcons{
+      display: none;
+    }
+    
+    .sponsorLogo {
+      width: 150%;
+    }
+    #sponsorLogo {
+      height: 3.5rem;
+      width: 85%;
+      border-radius: 15px;
+    }
+    .columns{
+      padding-bottom: 1rem;
+      padding-left: 10%;
+    }
+    .footerTextContainer{
+    padding-bottom: 4rem;
+    }
+    .cliquidity{
+      padding-top: 8.6rem;
+    }
 
 }
 @media (min-width: 321px ) and (max-width: 375px) {
+  #dots{
+    color: white;
+  }
+#more {
+    display: none;
+  }
+
+#myButton{
+    display: inline;
+    height: 2rem;
+    color: none;
+    width: 35%;
+    border-radius: .5rem;
+    }
   .intro-section {
 margin-top: 7rem;
 margin-left: 0;
@@ -76,6 +121,7 @@ padding-bottom: 1.5rem;
 
   .intro-section h1{
     padding-top: 3rem;
+    font-size: 1.5rem;
   }
       
   .intro-section p {
@@ -99,7 +145,7 @@ padding-bottom: 1.5rem;
   display: flex;
   gap: .5rem;
 }
-.h1-align{
+#h1-align1{
   display: flex;
   gap: .5rem;
 }
@@ -107,10 +153,55 @@ padding-bottom: 1.5rem;
 .cards-wrapper{
   padding-top: 1rem !important;
 }
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 0;
+  row-gap: 1.5rem;
+  column-gap: 4rem;
+  padding-right: 2rem;
+}
+.socialIcons{
+  display: none;
+}
+
+.sponsorLogo {
+  width: 150%;
+  
+}
+#sponsorLogo {
+  height: 4rem;
+  width: 85%;
+  border-radius: 15px;
+}
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 8%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+.footerText{
+  padding-top: 1.3rem;
+}
 
   }
 
   @media (min-width: 376px ) and (max-width: 425px) {
+    #dots{
+      color: white;
+    }
+  #more {
+      display: none;
+    }
+  
+  #myButton{
+      display: inline;
+      height: 2rem;
+      color: none;
+      width: 30%;
+      border-radius: .5rem;
+      }
     .intro-section {
       margin-top: 7rem;
       margin-left: 0;
@@ -125,12 +216,13 @@ padding-bottom: 1.5rem;
         }
         .intro-section h1{
           padding-top: 3rem;
+          font-size: 1.5rem;
         }
             
         .intro-section p {
           margin-bottom: 0;
           /* justify-content: center; */
-          text-align: center;
+          /* text-align: center; */
         
         }
       
@@ -151,15 +243,55 @@ padding-bottom: 1.5rem;
         display: flex;
         gap: 0.5rem;
       }
+      #h1-align1{
+        display: flex;
+        gap: .5rem;
+      }
        
       .cards-wrapper{
         padding-top: 1rem !important;
       }
+      .columns ul{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        padding-left: 0;
+        row-gap: 1.5rem;
+        column-gap: 5rem;
+        padding-right: 3rem;
+      }
+      .socialIcons{
+        display: none;
+      }
+      
+      .sponsorLogo {
+        width: 150%;
+      }
+      #sponsorLogo {
+        height: 4.5rem;
+        width: 85%;
+        border-radius: 15px;
+      
+      }
+      .columns{
+        padding-bottom: 1rem;
+        padding-left: 6%;
+      }
+      .footerTextContainer{
+      padding-bottom: 4rem;
+      }
+      .footerText{
+        padding-top: 1.3rem;
+      }
+      .cliquidity{
+        padding-top: 8.6rem;
+      }
    
 }
 
-@media (min-width: 426px ) and (max-width: 768px) {
-
+@media (min-width: 360px ) and (max-width: 360px) {
+.card{
+  height: 24em;
+}
 }
 
 @media (min-width: 769px ) and (max-width: 1440px) {
@@ -184,4 +316,25 @@ padding-bottom: 1.5rem;
   .card{
     width: 24em !important;
   }
+
+  #h1-align{
+    display: flex;
+    gap: .5rem
+  }
+  #dots{
+    display: none;
+  }
+#more {
+    display: inline;
+  }
+
+  #myButton{
+    display: inline;
+    height: 2rem;
+    color: none;
+    width: 10%;
+    border-radius: .5rem;
+    /* display: none; */
+    }
+
 }
