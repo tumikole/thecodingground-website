@@ -4,6 +4,19 @@
 background-image: linear-gradient(315deg, #98de5b  10%, #2a7e5f 74%);
 }
 
+#myButton{
+  height: 2rem;
+  width: 25%;
+  border-radius: .5rem;
+  /* display: none; */
+  font-size: 1rem;
+  }  
+    #dots{
+      display: none;
+    }
+    #more {
+      color: white;
+    }
 .meet-our-mentors{
   padding-top: 7rem;
   font-size: 2rem;

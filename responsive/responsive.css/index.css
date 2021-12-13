@@ -1,8 +1,13 @@
 @media (min-width: 0px ) and (max-width: 320px) {
+
+.signup-form{
+  width: 267px !important;
+}
   .homeContainerGrid{
     display: block;
     font-size: 1.5rem;
   }
+  
  .header{
    font-size: 3rem;
  }
@@ -37,6 +42,7 @@
   }
   .header-text{
     text-align: center;
+    padding-top: 2rem;
   }
 .card-text{ 
   text-align: center;
@@ -45,7 +51,7 @@
   position:absolute;
   top: 0;
   margin-left: 25%;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 .imgContainer {
   justify-content: center;
@@ -111,6 +117,9 @@ padding-bottom: 4rem;
 
 
 @media (min-width: 321px ) and (max-width: 375px) {
+  .signup-form{
+    width: 322px;
+  }
   #icon2{
     display: grid;
     grid-template-columns: 15% 85%;
@@ -160,6 +169,7 @@ padding-bottom: 4rem;
   }
   .header-text{
     text-align: center;
+    padding-top: 2rem;
   }
 .card-text p{
   text-align: center;
@@ -170,7 +180,7 @@ padding-bottom: 4rem;
   position:absolute;
   top: 0;
   margin-left: 25%;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 .arrow{
   margin-top: 0rem;
@@ -226,6 +236,9 @@ padding-bottom: 4rem;
 }
 
 @media (min-width: 376px ) and (max-width: 425px) {
+  .signup-form{
+    width: 376px;
+  }
   #icon2{
     display: grid;
     grid-template-columns: 15% 85%;
@@ -276,6 +289,7 @@ padding-bottom: 4rem;
   .header-text{
     text-align: center;
     margin-bottom: 1.5rem;
+    padding-top: 2rem;
   }
 .card-text p{
   text-align: center;
@@ -286,7 +300,7 @@ padding-bottom: 4rem;
   position:absolute;
   top: 0;
   margin-left: 25%;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 .arrow{
   margin-top: 0rem;
