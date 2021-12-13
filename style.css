@@ -250,8 +250,10 @@ p {
 }
 
 .cliquidity {
+position: fixed;
   background-color: #0333335d;
   padding-top: 10rem;
+  width: 100%;
 }
 
 .imgContainer {
@@ -268,7 +270,7 @@ p {
 .homeContainerGrid {
   display: grid;
   grid-template-columns: 35% 65%;
-  /* padding-top: 12rem; */
+  padding-top: 12rem;
   /* margin-left:5rem;
   margin-right:5rem; */
 }

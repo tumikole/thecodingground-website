@@ -294,7 +294,32 @@ padding-bottom: 4rem;
 }
 }
 
-@media (min-width: 769px ) and (max-width: 1440px) {
+@media (min-width: 768px ) and (max-width: 1439px) {
+  .intro-section {
+    background-color: var(--light-green);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 8rem;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.imgtcg-wrapper {
+display: none;
+}
+
+.cards-wrapper {
+  grid-template-columns:  1fr 1fr;
+}
+
+.card {
+  height: 25em;
+
+  width: 20em !important;
+  font-size: 16px;
+
+}
    
 }
 
