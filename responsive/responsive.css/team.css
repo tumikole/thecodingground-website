@@ -2,10 +2,20 @@
 @media (min-width: 0px ) and (max-width: 320px) {
     .card-container{
         display: block;
+        padding-top: 2rem;
+        padding-left: 1rem;
       }
       .vl{
           display: none}
-        
+          
+        .left-column{
+            width: 200% !important;
+        }
+
+        .mentor-imgMoral{
+            height: 20vh !important;
+        }
+
     .columns ul{
         display: grid;
         grid-template-columns: 2fr 2fr;
