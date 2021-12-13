@@ -63,7 +63,7 @@ ul.nav-menu {
 }
 
 a.current {
-  color:#eeb50c;
+  color: #eeb50c;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
@@ -71,7 +71,7 @@ a.current {
 
 a.current:hover {
   text-decoration: none;
-  color:#eeb50c;
+  color: #eeb50c;
 }
 .nav-menu {
   display: flex;
@@ -91,16 +91,13 @@ a.current:hover {
 }
 
 .nav-link:hover {
-  color:#eeb50c !important;
+  color: #eeb50c !important;
   font-weight: bold;
 }
 
 span {
   color: white;
 }
-
-
-
 
 :root {
   --red: black;
@@ -109,18 +106,16 @@ span {
   --text-color: #555555;
 }
 
-
 .fa-2x {
   font-size: 1em !important;
 }
 
 .fa {
   /* padding-top:5rem; */
-  background-color: none!important;
+  background-color: none !important;
   text-decoration: underline;
   color: #033333 !important;
 }
-
 
 .arrow {
   text-align: center;
@@ -133,7 +128,11 @@ span {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -143,8 +142,6 @@ span {
     transform: translateY(-10px);
   }
 }
-
-
 
 .form-control,
 .form-control:focus,
@@ -225,7 +222,6 @@ textarea {
   font-family: "Raleway";
 }
 
-
 h2 {
   font-weight: normal;
   margin: 1.2rem;
@@ -252,9 +248,9 @@ p {
   font-family: "Raleway";
 }
 
-.cliquidity{
+.cliquidity {
   background-color: #0333335d;
-  padding-top:10rem;
+  padding-top: 10rem;
 }
 
 .imgContainer {
@@ -281,8 +277,8 @@ p {
   color: white !important;
 }
 
-.img-logo{
-padding-left: 18%;
+.img-logo {
+  padding-left: 18%;
 }
 .homeImg {
   height: 60vh;
@@ -514,11 +510,25 @@ body {
   line-height: 1.5rem;
 }
 
+.what-to-learn-container ul {
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+
 .what-to-learn-container li {
   margin: 1rem;
   font-size: 1rem;
   list-style: none;
   word-spacing: 0.2rem;
+}
+
+.header-text {
+  background-color: grey;
+  text-align: center;
+  margin: 0 !important;
+  color: white !important;
+  /* padding-top: 1rem; */
 }
 
 .learn-side-1 {
@@ -642,7 +652,7 @@ h4 {
   font-size: 18px;
   border-radius: 100%;
   outline: none;
-  background-image: url('/icons/arrow-alt-circle-up-regular.svg');
+  background-image: url("/icons/arrow-alt-circle-up-regular.svg");
   background-color: #2a7e5f;
   cursor: pointer;
   padding: 25px;
