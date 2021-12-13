@@ -4,23 +4,66 @@
         display: block;
         padding-top: 2rem;
         padding-left: 1rem;
+        padding-bottom: 1.5rem;
       }
-      .vl{
+.right-column{
+    display: grid;
+    width: 200%
+}
 
-          display: none;
-        }
-          
-        .left-column{
-            width: 200% !important;
-        }
+.social-media{
+    display: none;
+}
+.vl{
+    display: none;
+}
+    
+.right-column h3{
+padding-top: 2rem;
+}
+    
+.meet-our-mentors{
+    padding-top: 9rem !important;
+}
 
-        .mentor-imgMoral{
-            height: 20vh !important;
-        }
+.left-column h3{
+padding-top: 2rem;
+}
+.left-column{
+    width: 200% !important;
+}
 
+.mentor-imgMoral{
+    height: 30vh !important;
+}
+
+
+#dots{
+    color: white;
+}
+#more {
+    display: none;
+  }
+
+#myButton{
+    display: inline;
+    border: none;
+    font-weight: bold;
+    height: 2rem;
+    width: 40%;
+    border-radius: .5rem;
+    color: none;
+    font-size: 1.2rem;
+    }
+    #myButton :hover{
+        background-color: black;
+        color: white;
+        border: none;
+    }
+     
     .columns ul{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
+        display: grid !important;
+        grid-template-columns: 2fr 2fr !important;
         padding-left: 0;
         row-gap: 1.5rem;
         column-gap: 3rem;
@@ -31,27 +74,61 @@
       }
       
       .sponsorLogo {
-        width: 150%;
+        width: 150% !important;
       }
       #sponsorLogo {
-        height: 3.5rem;
-        width: 85%;
-        border-radius: 15px;
+        height: 3rem !important;
+        width: 85% !important;
+        border-radius: 15px !important;
       }
       .columns{
         padding-bottom: 1rem;
         padding-left: 10%;
       }
+
       .footerTextContainer{
       padding-bottom: 4rem;
       }
-      .cliquidity{
-        padding-top: 8.6rem;
-      }
+     
 }
 
 @media (min-width: 321px ) and (max-width: 375px) {
- 
+    
+    .card-container{
+        display: block;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+      }
+
+.social-media{
+    display: none;
+}
+.right-column{
+    display: grid;
+    width: 172%
+}
+
+.right-column h3{
+padding-top: 2rem;
+}
+.vl{
+    display: none;
+}
+.meet-our-mentors{
+    padding-top: 9rem !important;
+}
+
+.left-column h3{
+padding-top: 2rem;
+}
+.left-column{
+    width: 172% !important;
+}
+
+.mentor-imgMoral{
+    height: 30vh !important;
+}
     .columns ul{
         display: grid;
         grid-template-columns: 2fr 2fr;
@@ -84,7 +161,7 @@
         padding-top: 1.3rem;
       }
       .columns ul{
-        display: grid;
+        display: grid !important;
         grid-template-columns: 2fr 2fr;
         padding-left: 0;
         row-gap: 1.5rem;
@@ -96,13 +173,13 @@
       }
       
       .sponsorLogo {
-        width: 150%;
+        width: 150% !important;
         
       }
       #sponsorLogo {
-        height: 4rem;
-        width: 85%;
-        border-radius: 15px;
+        height: 4rem !important;
+        width: 85 !important;
+        border-radius: 15px !important;
       }
       .columns{
         padding-bottom: 1rem;
@@ -114,11 +191,45 @@
       .footerText{
         padding-top: 1.3rem;
       }
+    }
+@media (min-width: 376px ) and (max-width: 425px) {
+    .card-container{
+        display: block;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+      }
+.right-column{
+    display: grid;
+    width: 158%;
 }
 
-@media (min-width: 376px ) and (max-width: 425px) {
+.social-media{
+    display: none;
+}
+.vl{
+    display: none}
+    
+.right-column h3{
+padding-top: 2rem;
+}
+    
+.meet-our-mentors{
+    padding-top: 9rem !important;
+}
+
+.left-column h3{
+padding-top: 2rem;
+}
+.left-column{
+    width: 158% !important;
+}
+
+.mentor-imgMoral{
+    height: 30vh !important;
+}
     .columns ul{
-        display: grid;
+        display: grid !important;
         grid-template-columns: 2fr 2fr;
         padding-left: 0;
         row-gap: 1.5rem;
@@ -130,12 +241,12 @@
       }
       
       .sponsorLogo {
-        width: 150%;
+        width: 150% !important;
       }
       #sponsorLogo {
-        height: 4.5rem;
-        width: 85%;
-        border-radius: 15px;
+        height: 4.5rem !important;
+        width: 85% !important;
+        border-radius: 15px !important;
       
       }
       .columns{
