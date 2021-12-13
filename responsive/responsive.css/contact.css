@@ -189,8 +189,19 @@ hr:nth-child(4) {
   
 }
 
-@media (min-width: 769px ) and (max-width: 1440px) {
- 
+@media (min-width: 768px ) and (max-width: 1440px) {
+  .location {
+    margin-top: 1rem;
+  }
+  .phone-number {
+    margin-top: 1.6rem;
+    margin-left: 0rem;
+  }
+  
+  .email {
+    margin-top: 1.6rem;
+    margin-left: 0rem;
+  }
 }
 
 @media (min-width: 1440px ) and (max-width: 2560px) {
