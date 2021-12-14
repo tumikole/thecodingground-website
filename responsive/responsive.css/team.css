@@ -62,33 +62,54 @@ padding-top: 2rem;
     }
      
     .columns ul{
-        display: grid !important;
-        grid-template-columns: 2fr 2fr !important;
-        padding-left: 0;
-        row-gap: 1.5rem;
-        column-gap: 3rem;
-        padding-right: 2rem;
-      }
-      .socialIcons{
-        display: none;
-      }
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      padding-left: 1rem;
+      row-gap: 1.5rem;
+      column-gap: 3rem;
+      padding-right: 1rem;
+    }
+    .socialIcons{
+      display: none;
+    }
+    
+    .footerContact{
+      display: none;
+    }
+    
+    .sponsorLogo {
+      width: 130%;
+    }
+    #sponsorLogo {
+      height: 40px;
+        width:40px;
+      border-radius: 15px;
+      margin-top: .5rem;
+      margin-right: 3rem;
+    
+    }
+    
+    
+    #sponsorLogoHrw {
+      margin-left: -.5rem;
+    }
+    
+    #sponsorLogoSrcwrx {
+      margin-left: -.7rem;
+    }
+    
+    .columns{
+      padding-bottom: 1rem;
+      padding-left: 10%;
+    }
+    .footerTextContainer{
+    padding-bottom: 4rem;
+    }
+    
+    #myBtn {
+      display: none !important;
       
-      .sponsorLogo {
-        width: 150% !important;
-      }
-      #sponsorLogo {
-        height: 3rem !important;
-        width: 85% !important;
-        border-radius: 15px !important;
-      }
-      .columns{
-        padding-bottom: 1rem;
-        padding-left: 10%;
-      }
-
-      .footerTextContainer{
-      padding-bottom: 4rem;
-      }
+    }
      
 }
 

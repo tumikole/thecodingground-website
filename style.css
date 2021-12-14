@@ -110,12 +110,11 @@ span {
   font-size: 1em !important;
 }
 
-.fa {
-  /* padding-top:5rem; */
+/* .fa {
   background-color: none !important;
   text-decoration: underline;
   color: #033333 !important;
-}
+} */
 
 .arrow {
   text-align: center;
@@ -147,8 +146,9 @@ span {
 .form-control:focus,
 .input-group-addon {
   border-color: #e1e1e1;
-  
 }
+
+
 .form-control,
 .btn {
   border-radius: 3px;
@@ -621,6 +621,7 @@ h4 {
   justify-content: space-between;
   color: white;
   margin: auto;
+  padding: 0;
 }
 
 .columns li {
@@ -635,8 +636,12 @@ h4 {
   height: 70px;
   width: 70px;
   border-radius: 15px;
+  margin-top: 1rem;
 }
 
+#sponsorLogo1{
+  padding-top: 1.5rem;
+}
 .socialIcons {
   border: 2px solid white;
   width: 250px;

@@ -16,6 +16,8 @@
 }
 .navbar a{
    padding-left: 0;
+   width: 100%;
+   text-align: left;
 }
 .nav-link{
    float: left;

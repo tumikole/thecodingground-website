@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 320px) {
+@media (min-width: 0px ) and (max-width: 320px) {
 
   #dots{
     color: white;
@@ -12,11 +12,16 @@
 #myButton{
     display: inline;
     height: 2rem;
-    color: none;
-    width: 40%;
-    border-radius: .5rem;
-    }
-
+    color:  #eeb50c;
+    width: 32%;
+    font-size: .5rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    opacity: 0.5;
+  }
   .intro-section {
     margin-top: 7rem;
     margin-left: 0;
@@ -55,40 +60,69 @@
       display: flex;
       gap: .5rem;
     }
+
+    .h1-align1{
+      display: flex;
+      gap: 0.5rem;
+    }
+    #h1-align1{
+      display: flex;
+      gap: 0.5rem;
+    }
      
     .cards-wrapper{
       padding-top: 1rem !important;
     }
     .columns ul{
-      display: grid;
-      grid-template-columns: 2fr 2fr;
-      padding-left: 0;
-      row-gap: 1.5rem;
-      column-gap: 3rem;
-      padding-right: 2rem;
-    }
-    .socialIcons{
-      display: none;
-    }
-    
-    .sponsorLogo {
-      width: 150%;
-    }
-    #sponsorLogo {
-      height: 3.5rem;
-      width: 85%;
-      border-radius: 15px;
-    }
-    .columns{
-      padding-bottom: 1rem;
-      padding-left: 10%;
-    }
-    .footerTextContainer{
-    padding-bottom: 4rem;
-    }
-    .cliquidity{
-      padding-top: 8.6rem;
-    }
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 1rem;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  padding-right: 1rem;
+}
+.socialIcons{
+  display: none;
+}
+
+.footerContact{
+  display: none;
+}
+
+.sponsorLogo {
+  width: 130%;
+}
+#sponsorLogo {
+  height: 40px;
+    width:40px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  margin-right: 3rem;
+
+}
+
+
+#sponsorLogoHrw {
+  margin-left: -.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -.7rem;
+}
+
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 10%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+
+#myBtn {
+  display: none !important;
+  
+}
+
 
 }
 @media (min-width: 321px ) and (max-width: 375px) {
@@ -99,13 +133,19 @@
     display: none;
   }
 
-#myButton{
+  #myButton{
     display: inline;
     height: 2rem;
-    color: none;
-    width: 35%;
-    border-radius: .5rem;
-    }
+    color:  #eeb50c;
+    width: 29%;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    opacity: 0.5;
+  }
   .intro-section {
 margin-top: 7rem;
 margin-left: 0;
@@ -156,33 +196,52 @@ padding-bottom: 1.5rem;
 .columns ul{
   display: grid;
   grid-template-columns: 2fr 2fr;
-  padding-left: 0;
+  padding-left: .5rem;
   row-gap: 1.5rem;
-  column-gap: 4rem;
-  padding-right: 2rem;
+  column-gap: 3rem;
+  padding-right: 1.5rem;
 }
 .socialIcons{
   display: none;
 }
-
+.footerContact{
+  display: none;
+}
 .sponsorLogo {
-  width: 150%;
-  
+  width: 120%;
 }
 #sponsorLogo {
-  height: 4rem;
-  width: 85%;
+  height: 50px;
+    width:50px;
   border-radius: 15px;
+  margin-top: .7rem;
+  margin-right: 4rem;
+
 }
+
+
+#sponsorLogoHrw {
+  margin-left: -.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -.5rem;
+}
+
 .columns{
   padding-bottom: 1rem;
-  padding-left: 8%;
+  padding-left: 10%;
 }
 .footerTextContainer{
 padding-bottom: 4rem;
 }
 .footerText{
-  padding-top: 1.3rem;
+  padding-top: 1.4rem;
+}
+
+#myBtn {
+  display: none !important;
+  
 }
 
   }
@@ -195,13 +254,19 @@ padding-bottom: 4rem;
       display: none;
     }
   
-  #myButton{
+    #myButton{
       display: inline;
       height: 2rem;
-      color: none;
-      width: 30%;
-      border-radius: .5rem;
-      }
+      color:  #eeb50c;
+      width: 24%;
+      font-size: 1rem;
+      border-radius: .2rem;
+      border: none;
+      outline: none;
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      opacity: 0.5;
+    }
     .intro-section {
       margin-top: 7rem;
       margin-left: 0;
@@ -245,7 +310,7 @@ padding-bottom: 4rem;
       }
       #h1-align1{
         display: flex;
-        gap: .5rem;
+        gap: .7rem;
       }
        
       .cards-wrapper{
@@ -254,36 +319,51 @@ padding-bottom: 4rem;
       .columns ul{
         display: grid;
         grid-template-columns: 2fr 2fr;
-        padding-left: 0;
-        row-gap: 1.5rem;
-        column-gap: 5rem;
-        padding-right: 3rem;
+        padding-left: 1rem;
+        row-gap: .5rem;
+        column-gap: 3rem;
+        padding-right: 1rem;
       }
       .socialIcons{
         display: none;
       }
-      
+      .footerContact{
+        display: none;
+      }
       .sponsorLogo {
-        width: 150%;
+        width: 100%;
       }
       #sponsorLogo {
-        height: 4.5rem;
-        width: 85%;
+        height: 50px;
+          width:50px;
         border-radius: 15px;
+        margin-top: .5rem;
+        margin-right: 5rem;
       
       }
+      
+      
+      #sponsorLogoHrw {
+        margin-left: -.9rem;
+      }
+      
+      #sponsorLogoSrcwrx {
+        margin-left: -.5rem;
+      }
+      
       .columns{
         padding-bottom: 1rem;
-        padding-left: 6%;
+        padding-left: 10%;
       }
       .footerTextContainer{
       padding-bottom: 4rem;
       }
       .footerText{
-        padding-top: 1.3rem;
+        padding-top: 1.4rem;
       }
-      .cliquidity{
-        padding-top: 8.6rem;
+      #myBtn {
+        display: none !important;
+        
       }
    
 }
@@ -294,7 +374,130 @@ padding-bottom: 4rem;
 }
 }
 
-@media (min-width: 768px ) and (max-width: 1439px) {
+
+@media (min-width: 426px ) and (max-width: 767px) {
+  #dots{
+    color: white;
+  }
+#more {
+    display: none;
+  }
+
+  .h1-align1{
+    display: flex;
+    gap: .5rem;
+  }
+
+  #myButton{
+    display: inline;
+    height: 2rem;
+    color:  #eeb50c;
+    width: 15%;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    opacity: 0.5;
+  }
+  .intro-section {
+    margin-top: 7rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5rem;
+      }
+    
+      .img-tcg{
+        display: none;
+      }
+      .intro-section h1{
+        padding-top: 3rem;
+        font-size: 1.5rem;
+      }
+          
+      .intro-section p {
+        margin-bottom: 0;
+        /* justify-content: center; */
+        /* text-align: center; */
+      
+      }
+    
+    .square{
+      border: none;
+    }
+    .card{
+      height: 20em;
+    }
+
+    .card h1{
+      margin-top: 1rem;
+      border: 1px solid black;
+      border-radius: 0.5rem;
+    }
+     
+    .cards-wrapper{
+      padding-top: 1rem !important;
+    
+    }
+    .columns ul{
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      padding-left: 0;
+      row-gap: 1.5rem;
+      column-gap: 3rem;
+      padding-right: 3rem;
+    }
+    .socialIcons{
+      display: none;
+    }
+    .footerContact{
+      display: none;
+    }
+    
+    .sponsorLogo {
+      width: 120%;
+    }
+    #sponsorLogo {
+      height: 70px;
+        width:70px;
+      border-radius: 15px;
+      margin-top: .7rem;
+      margin-right: 4rem;
+    
+    }
+    
+    
+    #sponsorLogoHrw {
+      margin-left: -.5rem;
+    }
+    
+    #sponsorLogoSrcwrx {
+      margin-left: -.5rem;
+      margin-top: 2rem
+    }
+    
+    .columns{
+      padding-bottom: 1rem;
+      padding-left: 10%;
+    }
+    .footerTextContainer{
+    padding-bottom: 4rem;
+    }
+    .footerText{
+      padding-top: 1.4rem;
+    }
+    
+    #myBtn {
+      display: none !important;
+      
+    }
+}
+
+
+@media (min-width: 768px ) and (max-width: 1023px) {
   .intro-section {
     background-color: var(--light-green);
     padding-left: 3rem;
@@ -305,32 +508,222 @@ padding-bottom: 4rem;
     margin-right: 0%;
 }
 
-.imgtcg-wrapper {
-display: none;
-}
 
-.cards-wrapper {
-  grid-template-columns:  1fr 1fr;
-}
+.square{
+        border: none;
+      }
+      .card{
+        height: 23em;
+        width: 21em !important
+      }
 
-.card {
-  height: 25em;
-
-  width: 20em !important;
-  font-size: 16px;
-
-}
+      .card h1{
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+      }
+       
+      .cards-wrapper{
+        display: grid; 
+        grid-template-columns:  1fr 1fr;
+        padding-top: 3rem !important;
+      }
+      .columns ul{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        padding-left: 0;
+        row-gap: 1.5rem;
+        column-gap: 3rem;
+        padding-right: 1rem;
+      }
+      .socialIcons{
+        display: none;
+      }
+      
+      .sponsorLogo {
+        width: 100%;
+      }
+      #sponsorLogo {
+        height: 70px;
+          width:70px;
+        border-radius: 15px;
+        margin-top: .7rem;
+        margin-right: 6rem;
+      
+      }
+      
+      
+      #sponsorLogoHrw {
+        margin-left: -.5rem;
+      }
+      
+      #sponsorLogoSrcwrx {
+        margin-left: -.5rem;
+      }
+      
+      .columns{
+        padding-bottom: 1rem;
+        padding-left: 10%;
+      }
+      .footerTextContainer{
+      padding-bottom: 4rem;
+      }
+      .footerText{
+        padding-top: 1.4rem;
+      }
+      #myBtn {
+        display: none !important;
+        
+      }
    
+      
 }
 
-@media (min-width: 1441px ) and (max-width: 2560px) {
-   
+@media (min-width: 1024px ) and (max-width: 1439px) {
+  .card{
+    width: 27.8em !important;
+  }
+  #h1-align{
+    gap: 0.5rem;
+  }
+  .columns {
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .footerTextContainer {
+    background-color: #033333;
+    height: 40px;
+  }
+  
+  .footerText {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 8px;
+  }
+  
+  .footerContact {
+    display: none !important;
+   }
+  
+  .columns ul {
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin: auto;
+ }
+  
+  .columns li {
+    color: white;
+  }
+  
+  .sponsorLogo {
+    width: 100px;
+  }
+  
+  #sponsorLogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-top: .2rem;
+  }
+  #sponsorLogo1{
+    padding-top: 1rem;
+  }
 
+  #sponsorLogoSrcwrx{
+    padding-top: .8rem;
+
+  }
+ 
+  #myBtn {
+  
+    bottom: 50px;
+    right: 40px;
+    z-index: 99;
+    font-size: 13px;
+    background-color: #2a7e5f !important;
+ 
+   }
   
 }
 
-@media (min-width: 2561px ) {
-   
+@media (min-width: 1440px ) and (max-width: 2560px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card{
+    width: 25.5em !important;
+  }
+
+  #h1-align{
+    gap: 0.5rem;
+  }
+
+  .columns {
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .footerTextContainer {
+    background-color: #033333;
+    height: 40px;
+  }
+  
+  .footerText {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 8px;
+  }
+.socialIcons{
+  display:none;
+}
+  .footerContact {
+    display: none;
+   }
+  
+  .columns ul {
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin: auto;
+ }
+  
+  .columns li {
+    color: white;
+  }
+  
+  .sponsorLogo {
+    width: 130px;
+  }
+  
+  #sponsorLogo {
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    margin-top: .5rem;
+  }
+  #sponsorLogo1{
+    padding-top: 1rem;
+  }
+
+  #sponsorLogoSrcwrx{
+    padding-top: .8rem;
+
+  }
+ 
+  #myBtn {
+  
+    bottom: 50px;
+    right: 40px;
+    z-index: 99;
+    font-size: 13px;
+    background-color: #2a7e5f !important;
+ 
+   }
 }
 
 @media (min-width: 1366px) and (max-width: 1366px){

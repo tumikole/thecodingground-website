@@ -32,8 +32,8 @@ padding-bottom: 4rem;
   }
 
 .students{
-    margin-right: 0.2rem;
-    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
     display: block;
 }
 
@@ -92,68 +92,52 @@ margin-bottom: 1.5rem;
            background-size: cover; 
     }
     .columns ul{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        padding-left: 0;
-        row-gap: 1.5rem;
-        column-gap: 4rem;
-        padding-right: 2rem;
-      }
-      .socialIcons{
-        display: none;
-      }
-      
-      .sponsorLogo {
-        width: 150%;
-        
-      }
-      #sponsorLogo {
-        height: 4rem;
-        width: 85%;
-        border-radius: 15px;
-      }
-      .columns{
-        padding-bottom: 1rem;
-        padding-left: 8%;
-      }
-      .footerTextContainer{
-      padding-bottom: 4rem;
-      }
-      .footerText{
-        padding-top: 1.3rem;
-      }
-}
-
-   .columns ul{
       display: grid;
       grid-template-columns: 2fr 2fr;
-      padding-left: 0;
+      padding-left: 1.5rem;
       row-gap: 1.5rem;
-      column-gap: 3rem;
-      padding-right: 2rem;
+      column-gap: 2rem;
+      padding-right: 1rem;
     }
     .socialIcons{
       display: none;
     }
     
+    .footerContact{
+      display: none;
+    }
     .sponsorLogo {
-      width: 150%;
+      width: 100%;
+      
     }
     #sponsorLogo {
-      height: 3.5rem;
-      width: 85%;
+      height: 45px;
+      width: 45px;
       border-radius: 15px;
+      margin-top: .5rem;
+      margin-right: 4rem
+    
     }
+    
+    #sponsorLogoHrw {
+      margin-left: -.5rem;
+    }
+    
+    #sponsorLogoSrcwrx {
+      margin-left: -.7rem;
+    }
+    
     .columns{
       padding-bottom: 1rem;
-      padding-left: 10%;
+      padding-left: 8%;
     }
     .footerTextContainer{
     padding-bottom: 4rem;
     }
-    .cliquidity{
-      padding-top: 8.6rem;
+    .footerText{
+      padding-top: 1.3rem;
     }
+  }
 
 @media (min-width: 376px ) and (max-width: 425px) {
     .header-img{
@@ -163,72 +147,240 @@ margin-bottom: 1.5rem;
            background-size: cover; 
     }
     .columns ul{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        padding-left: 0;
-        row-gap: 1.5rem;
-        column-gap: 5rem;
-        padding-right: 3rem;
-      }
-      .socialIcons{
-        display: none;
-      }
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      padding-left: 1rem;
+      row-gap: 1rem;
+      column-gap: 3rem;
+      padding-right: 0;
+    }
+    .socialIcons{
+      display: none !important;
+    }
+    
+    .footerContact{
+      display: none;
+    }
+    
+    .sponsorLogo {
+      width: 100%;
+    }
+    #sponsorLogo {
+      height: 60px;
+      width: 60px;
+      border-radius: 15px;
+      margin-top: 0.8rem;
+      margin-left: -5rem;
+    
+    }
+    
+    #sponsorLogoHrw {
+      margin-left: -.9rem;
+    }
+    
+    #sponsorLogoSrcwrx {
+      margin-left: -.7rem;
+    }
+    
+    .columns{
+      padding-bottom: 1rem;
+      padding-left: 6%;
+    }
+    .footerTextContainer{
+    padding-bottom: 4rem;
+    }
+    .footerText{
+      padding-top: 1.3rem;
+    }
+    .cliquidity{
+      padding-top: 8.6rem;
+    }
+    
+    #myBtn {
+      display: none !important;
       
-      .sponsorLogo {
-        width: 150%;
-      }
-      #sponsorLogo {
-        height: 4.5rem;
-        width: 85%;
-        border-radius: 15px;
-      
-      }
-      .columns{
-        padding-bottom: 1rem;
-        padding-left: 6%;
-      }
-      .footerTextContainer{
-      padding-bottom: 4rem;
-      }
-      .footerText{
-        padding-top: 1.3rem;
-      }
-      .cliquidity{
-        padding-top: 8.6rem;
-      }
+    }
 }
 
 @media (min-width: 0px ) and (max-width: 320px) {
-    .columns ul{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        padding-left: 0;
-        row-gap: 1.5rem;
-        column-gap: 3rem;
-        padding-right: 2rem;
-      }
-      .socialIcons{
-        display: none;
-      }
-      
-      .sponsorLogo {
-        width: 150%;
-      }
-      #sponsorLogo {
-        height: 3.5rem;
-        width: 85%;
-        border-radius: 15px;
-      }
-      .columns{
-        padding-bottom: 1rem;
-        padding-left: 10%;
-      }
-      .footerTextContainer{
-      padding-bottom: 4rem;
-      }
-      .cliquidity{
-        padding-top: 8.6rem;
-      }
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 1rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+  
+  .footerContact{
+    display: none;
+  }
+  
+  .sponsorLogo {
+    width: 130%;
+  }
+  #sponsorLogo {
+    height: 45px;
+      width: 45px;
+    border-radius: 15px;
+    margin-top: .5rem;
+    margin-right: 3rem;
+  
+  }
+  
+  
+  #sponsorLogoHrw {
+    margin-left: -.5rem;
+  }
+  
+  #sponsorLogoSrcwrx {
+    margin-left: -.7rem;
+  }
+  
+  .columns{
+    padding-bottom: 1rem;
+    padding-left: 10%;
+  }
+  .footerTextContainer{
+  padding-bottom: 4rem;
+  }
+  .cliquidity{
+    padding-top: 8.6rem;
+    position:static;
+  }
+  
+  .cliquidity p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  }
+  #myBtn {
+    display: none !important;
+    
+  }
+}
+
+
+@media (min-width: 426px ) and (max-width: 767px){
+
+  .header-img{
+    width: 100%;   
+    margin-top: 8rem;
+       height:49.5vh;
+       background-size: cover; 
+}
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 1rem;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  padding-right: 0;
+}
+.socialIcons{
+  display: none !important;
+}
+
+.footerContact{
+  display: none;
+}
+
+.sponsorLogo {
+  width: 100%;
+}
+#sponsorLogo {
+  height: 60px;
+  width: 60px;
+  border-radius: 15px;
+  margin-top: 0.8rem;
+  margin-left: -5rem;
+
+}
+
+#sponsorLogoHrw {
+  margin-left: -.9rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -.7rem;
+}
+
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 6%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+.footerText{
+  padding-top: 1.3rem;
+}
+.cliquidity{
+  padding-top: 8.6rem;
+}
+
+#myBtn {
+  display: none !important;
+  
+}
+
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 1rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+
+
+  .sponsorLogo {
+    width: 100%;
+  }
+  #sponsorLogo {
+    height: 60px;
+      width:60px;
+    border-radius: 15px;
+    margin-top: .7rem;
+    margin-right: 6rem;
+  
+  }
+  
+  
+  #sponsorLogoHrw {
+    margin-left: -.5rem;
+  }
+  
+  #sponsorLogoSrcwrx {
+    margin-left: -.5rem;
+  }
+  
+  .columns{
+    padding-bottom: 1rem;
+    padding-left: 10%;
+  }
+  .footerTextContainer{
+  padding-bottom: 4rem;
+  }
+    
+.footerContact{
+  display: none;
+  }
+
+  .footerText{
+  padding-top: 1.4rem;
+  }
+  
+  #myBtn {
+    display: none !important;
+    
+  }
 }
 
 @media (min-width: 768px ) and (max-width: 1023px) {
@@ -282,7 +434,57 @@ display: none;
     font-size: 16px;
     padding-bottom: 2rem
 }
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  padding-left: 0;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  padding-right: 1rem;
+}
+.socialIcons{
+  display: none;
+}
 
+.sponsorLogo {
+  width: 100%;
+}
+#sponsorLogo {
+  height: 70px;
+    width:70px;
+  border-radius: 15px;
+  margin-top: .7rem;
+  margin-right: 6rem;
+
+}
+
+
+#sponsorLogoHrw {
+  margin-left: -.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -.5rem;
+}
+
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 10%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+
+.footerContact{
+  display: none;
+}
+.footerText{
+  padding-top: 1.4rem;
+}
+#myBtn {
+  display: none !important;
+  
+}
 
 }
 
@@ -340,7 +542,45 @@ display: none;
        font-size: 16px;
        padding-bottom: 2rem
    }
-
+   .columns ul {
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin: auto;
+  }
+  
+  .columns li {
+    color: white;
+  }
+  
+  .sponsorLogo {
+    width: 130px;
+  }
+  
+  #sponsorLogo {
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    margin-top: .5rem;
+  }
+  #sponsorLogo1{
+    padding-top: 1rem;
+  }
+  
+  #sponsorLogoSrcwrx{
+    padding-top: .8rem;
+  
+  }
+  
+  #myBtn {
+  
+    bottom: 50px;
+    right: 40px;
+    z-index: 99;
+    font-size: 13px;
+    background-color: #2a7e5f !important;
+  
+   }
    }
 
 
