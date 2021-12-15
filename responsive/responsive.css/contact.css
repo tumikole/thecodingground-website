@@ -1,5 +1,5 @@
 
-@media (min-width: 0px ) and (max-width: 768px)  {
+@media (min-width: 0px ) and (max-width: 320px)  {
     .wrapper-form {
         display: grid;
         grid-template-columns: 1fr;
@@ -45,123 +45,167 @@ hr:nth-child(4) {
   font-size: 2.5rem;
   margin-top: 1rem;
 }
+
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 0;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  padding-right: 1rem;
+}
+.socialIcons{
+  display: none;
 }
 
-@media (min-width: 425px ) and (max-width: 768px) {    
-  .sub-contact {
-    display: flex;
-    gap: 20%;
-    justify-items: center;
-    color: #0b6d6c;
-  }
-  .location {
-    margin-top: 3rem;
-  }
-  .phone-number {
-    margin-top: 4rem;
-    margin-left: 2.5rem;
-  }
+.footerContact{
+  display: none;
+}
+
+.sponsorLogo {
+  width: 130%;
+}
+#sponsorLogo {
+  height: 45px;
+    width: 45px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  margin-right: 3rem;
+
+}
+
+
+#sponsorLogoHrw {
+  margin-left: -.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -.7rem;
+}
+
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 10%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+.cliquidity{
+  padding-top: 8.6rem;
+  position:static;
+}
+
+.cliquidity p{
+margin-left: 1rem;
+margin-right: 1rem;
+
+}
+#myBtn {
+  display: none !important;
   
-  .email {
-    margin-top: 4rem;
-    margin-left: 0.5rem;
-  }
+}
 }
 
-@media (min-width: 0px ) and (max-width: 320px){
-  .columns ul{
+@media (min-width: 321px ) and (max-width: 375px){
+  .wrapper-form {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    padding-left: 0;
-    row-gap: 1.5rem;
-    column-gap: 3rem;
-    padding-right: 1rem;
-  }
-  .socialIcons{
-    display: none;
-  }
-  
-  .footerContact{
-    display: none;
-  }
-  
-  .sponsorLogo {
-    width: 130%;
-  }
-  #sponsorLogo {
-    height: 45px;
-      width: 45px;
-    border-radius: 15px;
-    margin-top: .5rem;
-    margin-right: 3rem;
-  
-  }
-  
-  
-  #sponsorLogoHrw {
-    margin-left: -.5rem;
-  }
-  
-  #sponsorLogoSrcwrx {
-    margin-left: -.7rem;
-  }
-  
-  .columns{
-    padding-bottom: 1rem;
-    padding-left: 10%;
-  }
-  .footerTextContainer{
-  padding-bottom: 4rem;
-  }
-  .cliquidity{
-    padding-top: 8.6rem;
-    position:static;
-  }
-  
-  .cliquidity p{
-  margin-left: 1rem;
-  margin-right: 1rem;
-  
-  }
-  #myBtn {
-    display: none !important;
-    
-  }
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contact-us h1{
+font-size: 1.5rem;
+padding-top: 10.5rem;
+
 }
 
-@media (min-width: 321px ) and (max-width:375px) {
-  .columns ul{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    padding-left: 0;
-    row-gap: 1.5rem;
-    column-gap: 4rem;
-    padding-right: 2rem;
-  }
-  .socialIcons{
-    display: none;
-  }
+hr:nth-child(4) {
+display: none;
+}
+.sub-contact{
+display: block;
+margin-bottom: 0rem;
+} 
+
+.hr {
+    height: 0.5px;
+}
+
+.location {
+margin-top: 0rem;
+}
+.phone-number {
+margin-top: 0rem;
+margin-left: 0;
+}
+.email {
+margin-top: 0rem;
+margin-left: 0rem;
+}
+.form button{
+  width: 100%;
+  height: 2.5rem;
+  margin-left: 0;
+}
+
+.icon li i {
+font-size: 2.5rem;
+margin-top: 1rem;
+}
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 1.5rem;
+  row-gap: 1.5rem;
+  column-gap: 2rem;
+  padding-right: 1rem;
+}
+.socialIcons{
+  display: none;
+}
+
+.footerContact{
+  display: none;
+}
+.sponsorLogo {
+  width: 100%;
   
-  .sponsorLogo {
-    width: 150%;
-    
-  }
-  #sponsorLogo {
-    height: 4rem;
-    width: 85%;
-    border-radius: 15px;
-  }
-  .columns{
-    padding-bottom: 1rem;
-    padding-left: 8%;
-  }
-  .footerTextContainer{
-  padding-bottom: 4rem;
-  }
-  .footerText{
-    padding-top: 1.3rem;
-  }
- 
+}
+#sponsorLogo {
+  height: 45px;
+  width: 45px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  margin-right: 4rem
+
+}
+
+#sponsorLogoHrw {
+  margin-left: -.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -.7rem;
+}
+
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 8%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+.footerText{
+  padding-top: 1.3rem;
+}
+
+.cliquidity{
+  padding-top: 8.6rem;
+}
+#myBtn {
+  display: none !important;
+  
+}
 }
 
 @media (min-width: 376px ) and (max-width: 425px) {
@@ -181,104 +225,81 @@ hr:nth-child(4) {
   .sub-contact{
     margin-top: 1.5rem;
   }
-  
+  .wrapper-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contact-us h1{
+font-size: 1.5rem;
+padding-top: 10.5rem;
+
 }
 
-@media (min-width: 426px ) and (max-width: 767px) {
+hr:nth-child(4) {
+display: none;
+}
+.sub-contact{
+display: block;
+margin-bottom: 0rem;
+} 
+
+.hr {
+    height: 0.5px;
+}
+
+.location {
+margin-top: 0rem;
+}
+.phone-number {
+margin-top: 0rem;
+margin-left: 0;
+}
+.email {
+margin-top: 0rem;
+margin-left: 0rem;
+}
+.form button{
+  width: 100%;
+  height: 2.5rem;
+  margin-left: 0;
+}
+
+.icon li i {
+font-size: 2.5rem;
+margin-top: 1rem;
+}
+
 .columns ul{
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  padding-left: 0;
-  row-gap: 1.5rem;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 1rem;
+  row-gap: .5rem;
   column-gap: 3rem;
   padding-right: 1rem;
 }
 .socialIcons{
   display: none;
 }
-
-
 .footerContact{
-display: none;
+  display: none;
 }
 .sponsorLogo {
   width: 100%;
 }
 #sponsorLogo {
-  height: 60px;
-    width:60px;
-  border-radius: 15px;
-  margin-top: .7rem;
-  margin-right: 6rem;
-
-}
-
-
-#sponsorLogoHrw {
-  margin-left: -.5rem;
-}
-
-#sponsorLogoSrcwrx {
-  margin-left: -.5rem;
-}
-
-.columns{
-  padding-bottom: 1rem;
-  padding-left: 10%;
-}
-.footerTextContainer{
-padding-bottom: 4rem;
-}
-
-#myBtn {
-  display: none !important;
-  
-}
-}
-@media (min-width: 768px ) and (max-width: 1440px) {
-  .location {
-    margin-top: 1rem;
-  }
-  .phone-number {
-    margin-top: 1.6rem;
-    margin-left: 0rem;
-  }
-  
-  .email {
-    margin-top: 1.6rem;
-    margin-left: 0rem;
-  }
-}
-
-.columns ul{
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  padding-left: .5rem;
-  row-gap: 1.5rem;
-  column-gap: 3rem;
-  padding-right: 1.5rem;
-}
-.socialIcons{
-  display: none;
-}
-.footerContact{
-  display: none;
-}
-.sponsorLogo {
-  width: 120%;
-}
-#sponsorLogo {
   height: 50px;
     width:50px;
   border-radius: 15px;
-  margin-top: .7rem;
-  margin-right: 4rem;
+  margin-top: .5rem;
+  margin-right: 5rem;
 
 }
 
 
 #sponsorLogoHrw {
-  margin-left: -.5rem;
+  margin-left: -.9rem;
 }
 
 #sponsorLogoSrcwrx {
@@ -295,11 +316,141 @@ padding-bottom: 4rem;
 .footerText{
   padding-top: 1.4rem;
 }
-
 #myBtn {
   display: none !important;
   
 }
+  
+}
+
+
+@media (min-width: 426px ) and (max-width: 768px) {    
+  .wrapper-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contact-us h1{
+font-size: 1.5rem;
+padding-top: 10.5rem;
+
+}
+
+.form{
+margin-bottom: 2rem;
+}
+
+hr:nth-child(4) {
+display: none;
+}
+.sub-contact{
+display: block;
+margin-bottom: 0rem;
+} 
+
+.hr {
+    height: 0.5px;
+}
+
+.location {
+margin-top: 0rem;
+}
+.phone-number {
+margin-top: 0rem;
+margin-left: 0;
+}
+.email {
+margin-top: 0rem;
+margin-left: 0rem;
+}
+.form button{
+  width: 100%;
+  height: 2.5rem;
+  margin-left: 0;
+}
+
+.icon li i {
+font-size: 2.5rem;
+margin-top: 1rem;
+}
+
+   .sub-contact {
+    display: flex;
+    gap: 20%;
+    justify-items: center;
+    color: #0b6d6c;
+    padding-bottom: 1rem;
+  
+  }
+
+  .location {
+    margin-top: 1rem;
+  }
+  .phone-number { 
+    margin-top: 2.3rem;
+    margin-left: .5rem;
+  }
+  
+  .email {
+    margin-top: 2.4rem;
+    margin-left: 0rem;
+  }
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 1rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+
+  
+.footerContact{
+display: none;
+}
+  .sponsorLogo {
+    width: 100%;
+  }
+  #sponsorLogo {
+    height: 60px;
+      width:60px;
+    border-radius: 15px;
+    margin-top: .7rem;
+    margin-right: 6rem;
+  
+  }
+  
+  
+  #sponsorLogoHrw {
+    margin-left: -.5rem;
+  }
+  
+  #sponsorLogoSrcwrx {
+    margin-left: -.5rem;
+  }
+  
+  .columns{
+    padding-bottom: 1rem;
+    padding-left: 10%;
+  }
+  .footerTextContainer{
+  padding-bottom: 4rem;
+  }
+
+  .footerText{
+    padding-top: 1.4rem;
+  }
+  
+  #myBtn {
+    display: none !important;
+    
+  }
+}
+
 
 @media (min-width: 1440px ) and (max-width: 2560px) {
  

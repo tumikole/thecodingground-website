@@ -13,14 +13,15 @@
     display: inline;
     height: 2rem;
     color:  #eeb50c;
+    font-weight: bold;
     width: 32%;
-    font-size: .5rem;
+    font-size: 1rem;
     border-radius: .2rem;
     border: none;
     outline: none;
     background-color: Transparent;
     background-repeat:no-repeat;
-    opacity: 0.5;
+    /* opacity: 0.5; */
   }
   .intro-section {
     margin-top: 7rem;
