@@ -1,50 +1,51 @@
+@media (min-width: 0px) and (max-width: 320px) {
+  .header-img1 {
+    width: 100%;
+    height: 50vh;
+    padding-top: 8rem;
+  }
 
-@media (min-width: 0px ) and (max-width: 425px) {
-   .header-img{
-    width: 100%;   
-    margin-top: 8rem;
-       height:36.5vh;
-       background-size: cover; 
-}
-   .welcome-students{
+  .welcomeStudents{
+    padding-top: 1rem;
+
+  }
+  .welcome-students {
     font-size: 1.5rem;
-position: relative;
-left: 3rem;
-padding-left: 2rem;
-margin-bottom: 4rem;
-margin-top: 0;
-padding-top: 4rem;
-padding-bottom: 4rem;
-   }
-.block{
+    position: relative;
+    left: 3rem;
+    padding-left: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+  .block {
     display: block;
-}
+  }
 
-.bottom-spacing{
-
+  .bottom-spacing {
     padding-bottom: 2rem;
-}
-   .reversed{
+  }
+  .reversed {
     display: flex;
     flex-direction: column-reverse;
     gap: 0rem;
-
   }
 
-.students{
+  .students {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     display: block;
-}
+  }
 
-.resize {
-margin-bottom: 1.5rem;
-}
+  .resize {
+    /* margin-bottom: 1.5rem; */
+  }
 
-#dots{
+  #dots {
     color: black;
   }
-#more {
+  #more {
     display: none;
   }
 
@@ -52,158 +53,33 @@ margin-bottom: 1.5rem;
     display: flex;
   }
 
-#myButton{
+  #myButton {
     display: inline;
     height: 2rem;
     width: 30%;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     color: none;
-    }
-    
-.bio p {
-    padding-bottom: .5rem;
+  }
+
+  .bio p {
+    padding-bottom: 0.5rem;
     padding-top: 1rem;
-    margin-top: 0; 
+    margin-top: 0;
     margin-bottom: 4rem;
-    margin-left: 0; 
-  font-family: 'Raleway';
-  font-size: 15px;
-  padding-right: 0.5rem;
-  /* justify-content: center; */
-  
+    margin-left: 0;
+    font-family: "Raleway";
+    font-size: 15px;
+    padding-right: 0.5rem;
+    /* justify-content: center; */
   }
 
-  .names-space{
-      padding-top: 18.5rem;
-      margin-left: 0;
-      margin-top: 1rem;
+  .names-space {
+    padding-top: 18.5rem;
+    margin-left: 0;
+    margin-top: 1rem;
   }
 
-}
-
-
-
-@media (min-width: 321px ) and (max-width: 375px) {
-    
-    .header-img{
-        width: 100%;   
-        margin-top: 8rem;
-           height:43.5vh;
-           background-size: cover; 
-    }
-    .columns ul{
-      display: grid;
-      grid-template-columns: 2fr 2fr;
-      padding-left: 1.5rem;
-      row-gap: 1.5rem;
-      column-gap: 2rem;
-      padding-right: 1rem;
-    }
-    .socialIcons{
-      display: none;
-    }
-    
-    .footerContact{
-      display: none;
-    }
-    .sponsorLogo {
-      width: 100%;
-      
-    }
-    #sponsorLogo {
-      height: 45px;
-      width: 45px;
-      border-radius: 15px;
-      margin-top: .5rem;
-      margin-right: 4rem
-    
-    }
-    
-    #sponsorLogoHrw {
-      margin-left: -.5rem;
-    }
-    
-    #sponsorLogoSrcwrx {
-      margin-left: -.7rem;
-    }
-    
-    .columns{
-      padding-bottom: 1rem;
-      padding-left: 8%;
-    }
-    .footerTextContainer{
-    padding-bottom: 4rem;
-    }
-    .footerText{
-      padding-top: 1.3rem;
-    }
-  }
-
-@media (min-width: 376px ) and (max-width: 425px) {
-    .header-img{
-        width: 100%;   
-        margin-top: 8rem;
-           height:49.5vh;
-           background-size: cover; 
-    }
-    .columns ul{
-      display: grid;
-      grid-template-columns: 2fr 2fr;
-      padding-left: 1rem;
-      row-gap: 1rem;
-      column-gap: 3rem;
-      padding-right: 0;
-    }
-    .socialIcons{
-      display: none !important;
-    }
-    
-    .footerContact{
-      display: none;
-    }
-    
-    .sponsorLogo {
-      width: 100%;
-    }
-    #sponsorLogo {
-      height: 60px;
-      width: 60px;
-      border-radius: 15px;
-      margin-top: 0.8rem;
-      margin-left: -5rem;
-    
-    }
-    
-    #sponsorLogoHrw {
-      margin-left: -.9rem;
-    }
-    
-    #sponsorLogoSrcwrx {
-      margin-left: -.7rem;
-    }
-    
-    .columns{
-      padding-bottom: 1rem;
-      padding-left: 6%;
-    }
-    .footerTextContainer{
-    padding-bottom: 4rem;
-    }
-    .footerText{
-      padding-top: 1.3rem;
-    }
-    .cliquidity{
-      padding-top: 8.6rem;
-    }
-    
-    #myBtn {
-      display: none !important;
-      
-    }
-}
-
-@media (min-width: 0px ) and (max-width: 320px) {
-  .columns ul{
+  .columns ul {
     display: grid;
     grid-template-columns: 2fr 2fr;
     padding-left: 0;
@@ -211,23 +87,404 @@ margin-bottom: 1.5rem;
     column-gap: 3rem;
     padding-right: 1rem;
   }
-  .socialIcons{
+  .socialIcons {
     display: none;
   }
-  
-  .footerContact{
+
+  .footerContact {
     display: none;
   }
-  
+
   .sponsorLogo {
     width: 130%;
   }
   #sponsorLogo {
     height: 45px;
-      width: 45px;
+    width: 45px;
     border-radius: 15px;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     margin-right: 3rem;
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+
+  .columns {
+    padding-bottom: 1rem;
+    padding-left: 10%;
+  }
+  .footerTextContainer {
+    padding-bottom: 4rem;
+  }
+  .cliquidity {
+    padding-top: 8.6rem;
+    position: static;
+  }
+
+  .cliquidity p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #myBtn {
+    display: none !important;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .header-img1 {
+    width: 100%;
+    height: 55vh;
+    padding-top: 8rem;
+  }
+
+
+  .welcome-students {
+    font-size: 1.5rem;
+    position: relative;
+    left: 3rem;
+    padding-left: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+  .block {
+    display: block;
+  }
+
+  .bottom-spacing {
+    padding-bottom: 2rem;
+  }
+  .reversed {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0rem;
+  }
+
+  .students {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: block;
+  }
+
+  .resize {
+    /* margin-bottom: 1.5rem; */
+  }
+
+  #dots {
+    color: black;
+  }
+  #more {
+    display: none;
+  }
+
+  hr:nth-child(4) {
+    display: flex;
+  }
+
+  #myButton {
+    display: inline;
+    height: 2rem;
+    width: 30%;
+    border-radius: 0.5rem;
+    color: none;
+  }
+
+  .bio p {
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    font-family: "Raleway";
+    font-size: 15px;
+    padding-right: 0.5rem;
+    /* justify-content: center; */
+  }
+
+  .names-space {
+    padding-top: 18.5rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 1.5rem;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+    padding-right: 1rem;
+  }
+  .socialIcons {
+    display: none;
+  }
+
+  .footerContact {
+    display: none;
+  }
+  .sponsorLogo {
+    width: 100%;
+  }
+  #sponsorLogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+    margin-right: 4rem;
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+
+  .columns {
+    padding-bottom: 1rem;
+    padding-left: 8%;
+  }
+  .footerTextContainer {
+    padding-bottom: 4rem;
+  }
+  .footerText {
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .header-img1 {
+    width: 100%;
+    height: 60vh;
+    padding-top: 8rem;
+  }
+
+
+  .welcome-students {
+    font-size: 1.5rem;
+    position: relative;
+    left: 3rem;
+    padding-left: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+  .block {
+    display: block;
+  }
+
+  .bottom-spacing {
+    padding-bottom: 2rem;
+  }
+  .reversed {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0rem;
+  }
+
+  .students {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: block;
+  }
+
+  .resize {
+    /* margin-bottom: 1.5rem; */
+  }
+
+  #dots {
+    color: black;
+  }
+  #more {
+    display: none;
+  }
+
+  hr:nth-child(4) {
+    display: flex;
+  }
+
+  #myButton {
+    display: inline;
+    height: 2rem;
+    width: 30%;
+    border-radius: 0.5rem;
+    color: none;
+  }
+
+  .bio p {
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    font-family: "Raleway";
+    font-size: 15px;
+    padding-right: 0.5rem;
+    /* justify-content: center; */
+  }
+
+  .names-space {
+    padding-top: 18.5rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 1.5rem;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+    padding-right: 1rem;
+  }
+  .socialIcons {
+    display: none;
+  }
+
+  .footerContact {
+    display: none;
+  }
+  .sponsorLogo {
+    width: 100%;
+  }
+  #sponsorLogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+    margin-right: 4rem;
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+
+  .columns {
+    padding-bottom: 1rem;
+    padding-left: 8%;
+  }
+  .footerTextContainer {
+    padding-bottom: 4rem;
+  }
+  .footerText {
+    padding-top: 1.3rem;
+  }
+}
+
+
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .header-img1 {
+    width: 100%;
+    height: 60vh;
+    padding-top: 8rem;
+  }
+
+
+  .welcome-students {
+    font-size: 1.5rem;
+    position: relative;
+    left: 3rem;
+    padding-left: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+  .block {
+    display: block;
+  }
+
+  .bottom-spacing {
+    padding-bottom: 2rem;
+  }
+  .reversed {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0rem;
+  }
+
+  .students {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: block;
+  }
+
+  .resize {
+    /* margin-bottom: 1.5rem; */
+  }
+
+  #dots {
+    color: black;
+  }
+  #more {
+    display: none;
+  }
+
+  hr:nth-child(4) {
+    display: flex;
+  }
+
+  #myButton {
+    display: inline;
+    height: 2rem;
+    width: 30%;
+    border-radius: 0.5rem;
+    color: none;
+  }
+
+  .bio p {
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    font-family: "Raleway";
+    font-size: 15px;
+    padding-right: 0.5rem;
+    /* justify-content: center; */
+  }
+
+  .names-space {
+    padding-top: 18.5rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 3rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+  .footerContact{
+    display: none;
+  }
+  
+  .sponsorLogo {
+    width: 120%;
+  }
+  #sponsorLogo {
+    height: 70px;
+      width:70px;
+    border-radius: 15px;
+    margin-top: .7rem;
+    margin-right: 4rem;
   
   }
   
@@ -237,7 +494,8 @@ margin-bottom: 1.5rem;
   }
   
   #sponsorLogoSrcwrx {
-    margin-left: -.7rem;
+    margin-left: -.5rem;
+    margin-top: 2rem
   }
   
   .columns{
@@ -247,87 +505,67 @@ margin-bottom: 1.5rem;
   .footerTextContainer{
   padding-bottom: 4rem;
   }
-  .cliquidity{
-    padding-top: 8.6rem;
-    position:static;
+  .footerText{
+    padding-top: 1.4rem;
   }
   
-  .cliquidity p{
-  margin-left: 1rem;
-  margin-right: 1rem;
-  
-  }
   #myBtn {
     display: none !important;
     
   }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-img1 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 8rem;
+  }
+  .welcome-students {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -5rem;
+    letter-spacing: 3px;
+    padding-top: 8rem;
+  }
 
-@media (min-width: 426px ) and (max-width: 767px){
+  .social {
+    display: none;
+  }
 
-  .header-img{
-    width: 100%;   
-    margin-top: 8rem;
-       height:49.5vh;
-       background-size: cover; 
-}
-.columns ul{
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  padding-left: 1rem;
-  row-gap: 1rem;
-  column-gap: 3rem;
-  padding-right: 0;
-}
-.socialIcons{
-  display: none !important;
-}
+  .bio-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
 
-.footerContact{
-  display: none;
-}
+  .reversed {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-.sponsorLogo {
-  width: 100%;
-}
-#sponsorLogo {
-  height: 60px;
-  width: 60px;
-  border-radius: 15px;
-  margin-top: 0.8rem;
-  margin-left: -5rem;
+  .resize {
+    margin: 0rem !important;
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
 
-}
-
-#sponsorLogoHrw {
-  margin-left: -.9rem;
-}
-
-#sponsorLogoSrcwrx {
-  margin-left: -.7rem;
-}
-
-.columns{
-  padding-bottom: 1rem;
-  padding-left: 6%;
-}
-.footerTextContainer{
-padding-bottom: 4rem;
-}
-.footerText{
-  padding-top: 1.3rem;
-}
-.cliquidity{
-  padding-top: 8.6rem;
-}
-
-#myBtn {
-  display: none !important;
-  
-}
-
-  .columns ul{
+  .card-container h2 {
+    font-family: "Raleway" !important;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem !important;
+  }
+  .bio p {
+    padding-top: 0rem !important;
+    margin: 0rem !important;
+    font-family: "Raleway";
+    font-size: 16px;
+    padding-bottom: 2rem;
+  }
+  .columns ul {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     padding-left: 0;
@@ -335,255 +573,178 @@ padding-bottom: 4rem;
     column-gap: 3rem;
     padding-right: 1rem;
   }
-  .socialIcons{
+  .socialIcons {
     display: none;
   }
-
 
   .sponsorLogo {
     width: 100%;
   }
   #sponsorLogo {
-    height: 60px;
-      width:60px;
+    height: 70px;
+    width: 70px;
     border-radius: 15px;
-    margin-top: .7rem;
+    margin-top: 0.7rem;
     margin-right: 6rem;
-  
   }
-  
-  
+
   #sponsorLogoHrw {
-    margin-left: -.5rem;
+    margin-left: -0.5rem;
   }
-  
+
   #sponsorLogoSrcwrx {
-    margin-left: -.5rem;
+    margin-left: -0.5rem;
   }
-  
-  .columns{
+
+  .columns {
     padding-bottom: 1rem;
     padding-left: 10%;
   }
-  .footerTextContainer{
-  padding-bottom: 4rem;
-  }
-    
-.footerContact{
-  display: none;
+  .footerTextContainer {
+    padding-bottom: 4rem;
   }
 
-  .footerText{
-  padding-top: 1.4rem;
+  .footerContact {
+    display: none;
   }
-  
+  .footerText {
+    padding-top: 1.4rem;
+  }
   #myBtn {
     display: none !important;
-    
   }
 }
 
-@media (min-width: 768px ) and (max-width: 1023px) {
-
- .header-img {
-    margin-top: 7.5rem;
-     height: 58vh;
- }
-
- .welcome-students {
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .header-img1 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 8rem;
+  }
+  .welcome-students {
     text-align: center;
     font-size: 2rem;
-    margin-top: -5rem;
+    /* margin-top: -5rem; */
     letter-spacing: 3px;
-}
+    padding-top: 4rem;
 
-.social {
-display: none;
-}
+  }
 
-.bio-container {
+  .social {
+    display: none;
+  }
+
+  .bio-container {
     display: grid;
     grid-template-columns: auto;
-}
+  }
 
-.reversed{
+  .reversed {
     display: flex;
     flex-direction: column-reverse;
   }
 
-
   .resize {
-      margin: 0rem !important;
     width: 100%;
     height: auto;
     display: flex;
     border: 1px solid black;
     border-radius: 5px;
-}
+    /* background: none; */
+  }
 
-.card-container h2 {
-    font-family: 'Raleway' !important;
+  .card-container h2 {
+    font-family: "Raleway" !important;
     font-size: 2rem;
     padding-top: 2rem;
     padding-bottom: 0rem !important;
-}
-.bio p {
+    margin-top: 2rem;
+  }
+  .bio p {
     padding-top: 0rem !important;
     margin: 0rem !important;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-size: 16px;
-    padding-bottom: 2rem
-}
-.columns ul{
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  padding-left: 0;
-  row-gap: 1.5rem;
-  column-gap: 3rem;
-  padding-right: 1rem;
-}
-.socialIcons{
-  display: none;
-}
-
-.sponsorLogo {
-  width: 100%;
-}
-#sponsorLogo {
-  height: 70px;
-    width:70px;
-  border-radius: 15px;
-  margin-top: .7rem;
-  margin-right: 6rem;
-
-}
-
-
-#sponsorLogoHrw {
-  margin-left: -.5rem;
-}
-
-#sponsorLogoSrcwrx {
-  margin-left: -.5rem;
-}
-
-.columns{
-  padding-bottom: 1rem;
-  padding-left: 10%;
-}
-.footerTextContainer{
-padding-bottom: 4rem;
-}
-
-.footerContact{
-  display: none;
-}
-.footerText{
-  padding-top: 1.4rem;
-}
-#myBtn {
-  display: none !important;
-  
-}
-
-}
-
-
-  
-
-@media (min-width: 1024px ) and (max-width: 1439px) {
-
-    .header-img {
-        height: 70vh;
-    }
-   
-    .welcome-students {
-       text-align: center;
-       font-size: 2rem;
-       margin-top: -5rem;
-       letter-spacing: 3px;
-   }
-   
-   .social {
-   display: none;
-   }
-   
-   .bio-container {
-       display: grid;
-       grid-template-columns: auto;
-   }
-   
-   .reversed{
-       display: flex;
-       flex-direction: column-reverse;
-     }
-   
-   
-     .resize {
-       width: 100%;
-       height: auto;
-       display: flex;
-       border: 1px solid black;
-       border-radius: 5px;
-       /* background: none; */
-   }
-   
-   .card-container h2 {
-       font-family: 'Raleway' !important;
-       font-size: 2rem;
-       padding-top: 2rem;
-       padding-bottom: 0rem !important;
-       margin-top: 2rem;
-   }
-   .bio p {
-       padding-top: 0rem !important;
-       margin: 0rem !important;
-       font-family: 'Raleway';
-       font-size: 16px;
-       padding-bottom: 2rem
-   }
-   .columns ul {
+    padding-bottom: 2rem;
+  }
+  .columns ul {
     display: flex;
     justify-content: space-between;
     /* color: white; */
     margin: auto;
   }
-  
+
   .columns li {
     color: white;
   }
-  
+
   .sponsorLogo {
     width: 130px;
   }
-  
+
   #sponsorLogo {
     height: 60px;
     width: 60px;
     border-radius: 15px;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
-  #sponsorLogo1{
+  #sponsorLogo1 {
     padding-top: 1rem;
   }
-  
-  #sponsorLogoSrcwrx{
-    padding-top: .8rem;
-  
+
+  #sponsorLogoSrcwrx {
+    padding-top: 0.8rem;
   }
-  
+
+  .footerContact {
+    display: none;
+}
+
   #myBtn {
-  
     bottom: 50px;
     right: 40px;
     z-index: 99;
     font-size: 13px;
     background-color: #2a7e5f !important;
-  
-   }
-   }
+  }
+}
 
+@media (min-width: 1440px) and (max-width: 2559px) {
+  .header-img1 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 9rem;
+  }
+  .welcome-students {
+    text-align: center;
+    font-size: 2rem;
+    /* margin-top: -5rem; */
+    letter-spacing: 3px;
+    padding-top: 2rem;
 
-@media (min-width: 2560px ) {
- 
+  }
+
+  .footerContact {
+    display: none;
+}
+}
+
+@media (min-width: 2560px) {
+  .header-img1 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 8rem;
+  }
+  .welcome-students {
+    text-align: center;
+    font-size: 2rem;
+    /* margin-top: -5rem; */
+    letter-spacing: 3px;
+    padding-top: 4rem;
+
+  }
+
+  .footerContact {
+    display: none;
+}
 }
