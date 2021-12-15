@@ -1,5 +1,5 @@
 
-@media (min-width: 0px ) and (max-width: 425px) {
+@media (min-width: 0px ) and (max-width: 320px) {
    .header-img{
     width: 100%;   
     margin-top: 8rem;
@@ -52,13 +52,20 @@ margin-bottom: 1.5rem;
     display: flex;
   }
 
-#myButton{
+  
+  #myButton{
     display: inline;
     height: 2rem;
-    width: 30%;
-    border-radius: .5rem;
-    color: none;
-    }
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+  }
     
 .bio p {
     padding-bottom: .5rem;
@@ -77,6 +84,64 @@ margin-bottom: 1.5rem;
       padding-top: 18.5rem;
       margin-left: 0;
       margin-top: 1rem;
+  }
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 1rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+  
+  .footerContact{
+    display: none;
+  }
+  
+  .sponsorLogo {
+    width: 130%;
+  }
+  #sponsorLogo {
+    height: 45px;
+      width: 45px;
+    border-radius: 15px;
+    margin-top: .5rem;
+    margin-right: 3rem;
+  
+  }
+  
+  
+  #sponsorLogoHrw {
+    margin-left: -.5rem;
+  }
+  
+  #sponsorLogoSrcwrx {
+    margin-left: -.7rem;
+  }
+  
+  .columns{
+    padding-bottom: 1rem;
+    padding-left: 10%;
+  }
+  .footerTextContainer{
+  padding-bottom: 4rem;
+  }
+  .cliquidity{
+    padding-top: 8.6rem;
+    position:static;
+  }
+  
+  .cliquidity p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  }
+  #myBtn {
+    display: none !important;
+    
   }
 
 }
@@ -200,67 +265,6 @@ margin-bottom: 1.5rem;
       display: none !important;
       
     }
-}
-
-@media (min-width: 0px ) and (max-width: 320px) {
-  .columns ul{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    padding-left: 0;
-    row-gap: 1.5rem;
-    column-gap: 3rem;
-    padding-right: 1rem;
-  }
-  .socialIcons{
-    display: none;
-  }
-  
-  .footerContact{
-    display: none;
-  }
-  
-  .sponsorLogo {
-    width: 130%;
-  }
-  #sponsorLogo {
-    height: 45px;
-      width: 45px;
-    border-radius: 15px;
-    margin-top: .5rem;
-    margin-right: 3rem;
-  
-  }
-  
-  
-  #sponsorLogoHrw {
-    margin-left: -.5rem;
-  }
-  
-  #sponsorLogoSrcwrx {
-    margin-left: -.7rem;
-  }
-  
-  .columns{
-    padding-bottom: 1rem;
-    padding-left: 10%;
-  }
-  .footerTextContainer{
-  padding-bottom: 4rem;
-  }
-  .cliquidity{
-    padding-top: 8.6rem;
-    position:static;
-  }
-  
-  .cliquidity p{
-  margin-left: 1rem;
-  margin-right: 1rem;
-  
-  }
-  #myBtn {
-    display: none !important;
-    
-  }
 }
 
 
@@ -487,8 +491,6 @@ padding-bottom: 4rem;
 }
 
 }
-
-
   
 
 @media (min-width: 1024px ) and (max-width: 1439px) {

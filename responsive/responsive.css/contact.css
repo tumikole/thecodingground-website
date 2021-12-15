@@ -324,7 +324,7 @@ padding-bottom: 4rem;
 }
 
 
-@media (min-width: 426px ) and (max-width: 768px) {    
+@media (min-width: 426px ) and (max-width: 767px) {    
   .wrapper-form {
     display: grid;
     grid-template-columns: 1fr;
@@ -452,9 +452,219 @@ display: none;
 }
 
 
-@media (min-width: 1440px ) and (max-width: 2560px) {
- 
+@media (min-width: 768px ) and (max-width: 1023px) {
 
+
+  .sub-contact {
+    gap: 10%;
+  padding-top: 0;
+  }
+ 
+  .location {
+    margin-top: 2rem;
+  }
+  .phone-number {
+    margin-top: 4.5rem;
+    margin-left: 2.5rem;
+  }
+  .email {
+    margin-top: 4.7rem;
+    margin-left: 0rem;
+  }
+  .form{
+    padding-top: .7rem;
+    }
+  .form button{
+      width: 100%;
+      height: 2.5rem;
+      margin-left: 0;
+  }
+  .columns ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 1rem;
+  }
+  .socialIcons{
+    display: none;
+  }
+  
+  .sponsorLogo {
+    width: 100%;
+  }
+  #sponsorLogo {
+    height: 70px;
+      width:70px;
+    border-radius: 15px;
+    margin-top: .7rem;
+    margin-right: 6rem;
+  
+  }
+  
+  
+  #sponsorLogoHrw {
+    margin-left: -.5rem;
+  }
+  
+  #sponsorLogoSrcwrx {
+    margin-left: -.5rem;
+  }
+  
+  .columns{
+    padding-bottom: 1rem;
+    padding-left: 10%;
+  }
+  .footerTextContainer{
+  padding-bottom: 4rem;
+  }
+  .footerText{
+    padding-top: 1.4rem;
+  }
+
+  .footerContact{
+    display: none;
+  }
+  #myBtn {
+    display: none !important;
+    
+  }
+  
+
+}
+
+@media (min-width: 1024px ) and (max-width: 1439px) {
+  .sub-contact {
+    gap: 10%;
+  padding-top: 0;
+  }
+  .location {
+    margin-top: 2rem;
+  }
+  .phone-number {
+    margin-top: 4.5rem;
+    margin-left: 2.5rem;
+  }
+  .email {
+    margin-top: 4.7rem;
+    margin-left: 0rem;
+  }
+  .form{
+    padding-top: .7rem;
+    }
+  .form button{
+      width: 100%;
+      height: 2.5rem;
+      margin-left: 0;
+  }
+  .columns ul {
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin: auto;
+  }
+  
+  .columns li {
+    color: white;
+  }
+  
+  .sponsorLogo {
+    width: 130px;
+  }
+  
+  #sponsorLogo {
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    margin-top: .5rem;
+  }
+  #sponsorLogo1{
+    padding-top: 1rem;
+  }
+  
+  #sponsorLogoSrcwrx{
+    padding-top: .8rem;
+  
+  }
+
+  .footerContact{
+    display: none ;
+  }
+  
+  #myBtn {
+  
+    bottom: 50px;
+    right: 40px;
+    z-index: 99;
+    font-size: 13px;
+    background-color: #2a7e5f !important;
+  
+   }
+
+}
+
+
+
+@media (min-width: 1440px ) and (max-width: 2560px) {
+  .sub-contact {
+    gap: 10%;
+  padding-top: 0;
+  }
+  .location {
+    margin-top: 2rem;
+  }
+  .phone-number {
+    margin-top: 4.5rem;
+    margin-left: 2.5rem;
+  }
+  .email {
+    margin-top: 4.7rem;
+    margin-left: 0rem;
+  }
+  .form{
+    padding-top: .7rem;
+    }
+  .form button{
+      width: 100%;
+      height: 2.5rem;
+      margin-left: 0;
+  }
+   
+  .footerContact {
+    display: none;
+   }
+  
+  .columns ul {
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin: auto;
+  }
+  
+  .columns li {
+    color: white;
+  }
+  .sponsorLogo {
+   width: 130px;
+ }
+ 
+ #sponsorLogo {
+   height: 60px;
+   width: 60px;
+   border-radius: 15px;
+   margin-top: .5rem;
+ }
+  
+  #myBtn {
+  
+    bottom: 50px;
+    right: 40px;
+    z-index: 99;
+    font-size: 13px;
+    background-color: #2a7e5f !important;
+  
+   }
 
 }
 

@@ -21,7 +21,6 @@
     outline: none;
     background-color: Transparent;
     background-repeat:no-repeat;
-    /* opacity: 0.5; */
   }
   .intro-section {
     margin-top: 7rem;
@@ -134,18 +133,19 @@ padding-bottom: 4rem;
     display: none;
   }
 
+
   #myButton{
     display: inline;
     height: 2rem;
     color:  #eeb50c;
-    width: 29%;
+    font-weight: bold;
+    width: 32%;
     font-size: 1rem;
     border-radius: .2rem;
     border: none;
     outline: none;
     background-color: Transparent;
     background-repeat:no-repeat;
-    opacity: 0.5;
   }
   .intro-section {
 margin-top: 7rem;
@@ -255,19 +255,20 @@ padding-bottom: 4rem;
       display: none;
     }
   
-    #myButton{
-      display: inline;
-      height: 2rem;
-      color:  #eeb50c;
-      width: 24%;
-      font-size: 1rem;
-      border-radius: .2rem;
-      border: none;
-      outline: none;
-      background-color: Transparent;
-      background-repeat:no-repeat;
-      opacity: 0.5;
-    }
+  
+#myButton{
+  display: inline;
+  height: 2rem;
+  color:  #eeb50c;
+  font-weight: bold;
+  width: 32%;
+  font-size: 1rem;
+  border-radius: .2rem;
+  border: none;
+  outline: none;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+}
     .intro-section {
       margin-top: 7rem;
       margin-left: 0;
