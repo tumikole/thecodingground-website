@@ -212,8 +212,8 @@ padding-bottom: 1.5rem;
   width: 120%;
 }
 #sponsorLogo {
-  height: 50px;
-    width:50px;
+  height: 40px ;
+    width:40px;
   border-radius: 15px;
   margin-top: .7rem;
   margin-right: 4rem;
@@ -237,7 +237,7 @@ padding-bottom: 1.5rem;
 padding-bottom: 4rem;
 }
 .footerText{
-  padding-top: 1.4rem;
+  padding-top: 1.3rem;
 }
 
 #myBtn {
@@ -460,11 +460,11 @@ padding-bottom: 4rem;
     }
     
     .sponsorLogo {
-      width: 120%;
+      width: 100%;
     }
     #sponsorLogo {
-      height: 70px;
-        width:70px;
+      height: 50px;
+        width:50px;
       border-radius: 15px;
       margin-top: .7rem;
       margin-right: 4rem;

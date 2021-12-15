@@ -100,7 +100,7 @@ padding-top: 0rem !important;
 .footerTextContainer{
   height: 65px !important;
 }
-}
+
 
 @media (min-width: 321px ) and (max-width: 375px) {
   #myButton{
