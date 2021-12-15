@@ -61,55 +61,60 @@ padding-top: 2rem;
         border: none;
     }
      
-    .columns ul{
-      display: grid;
-      grid-template-columns: 2fr 2fr;
-      padding-left: 1rem;
-      row-gap: 1.5rem;
-      column-gap: 3rem;
-      padding-right: 1rem;
-    }
-    .socialIcons{
-      display: none;
-    }
-    
-    .footerContact{
-      display: none;
-    }
-    
-    .sponsorLogo {
-      width: 130%;
-    }
-    #sponsorLogo {
-      height: 40px;
-        width:40px;
-      border-radius: 15px;
-      margin-top: .5rem;
-      margin-right: 3rem;
-    
-    }
-    
-    
-    #sponsorLogoHrw {
-      margin-left: -.5rem;
-    }
-    
-    #sponsorLogoSrcwrx {
-      margin-left: -.7rem;
-    }
-    
-    .columns{
-      padding-bottom: 1rem;
-      padding-left: 10%;
-    }
-    .footerTextContainer{
+    .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 1rem;
+  }
+  .socialIcons {
+    display: none;
+  }
+
+  .footerContact {
+    display: none;
+  }
+
+  .sponsorLogo {
+    width: 130%;
+  }
+  #sponsorLogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+
+  .columns {
+    padding-bottom: 1rem;
+    padding-left: 10%;
+  }
+  .footerTextContainer {
     padding-bottom: 4rem;
-    }
-    
-    #myBtn {
-      display: none !important;
-      
-    }
+  }
+  .cliquidity {
+    padding-top: 8.6rem;
+    position: static;
+  }
+
+  .cliquidity p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #myBtn {
+    display: none !important;
+  }
      
 }
 
