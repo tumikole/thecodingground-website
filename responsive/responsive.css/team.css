@@ -1,5 +1,13 @@
 
 @media (min-width: 0px ) and (max-width: 320px) {
+
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  #intro-section{
+    padding-bottom: 0rem;
+  }
     .card-container{
         display: block;
         padding-top: 2rem;
@@ -32,9 +40,11 @@ padding-top: 2rem;
 .left-column{
     width: 200% !important;
 }
-
+.columns{
+  padding: -20rem
+}
 .mentor-imgMoral{
-    height: 30vh !important;
+    height: 30% !important;
 }
 
 
@@ -44,81 +54,69 @@ padding-top: 2rem;
 #more {
     display: none;
   }
-
-#myButton{
+  
+  #myButton{
     display: inline;
-    border: none;
-    font-weight: bold;
     height: 2rem;
-    width: 40%;
-    border-radius: .5rem;
-    color: none;
-    font-size: 1.2rem;
-    }
-    #myButton :hover{
-        background-color: black;
-        color: white;
-        border: none;
-    }
-     
-    .columns ul {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    padding-left: 0;
-    row-gap: 1.5rem;
-    column-gap: 3rem;
-    padding-right: 1rem;
-  }
-  .socialIcons {
-    display: none;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: .85rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
   }
 
-  .footerContact {
-    display: none;
-  }
-
-  .sponsorLogo {
-    width: 130%;
-  }
-  #sponsorLogo {
-    height: 45px;
-    width: 45px;
-    border-radius: 15px;
-    margin-top: 0.5rem;
-    margin-right: 3rem;
-  }
-
-  #sponsorLogoHrw {
-    margin-left: -0.5rem;
-  }
-
-  #sponsorLogoSrcwrx {
-    margin-left: -0.7rem;
-  }
-
-  .columns {
-    padding-bottom: 1rem;
-    padding-left: 10%;
-  }
-  .footerTextContainer {
-    padding-bottom: 4rem;
-  }
-  .cliquidity {
-    padding-top: 8.6rem;
-    position: static;
-  }
-
-  .cliquidity p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  #myBtn {
+  #myBtn{
     display: none !important;
   }
-     
+
+  .columns ul{
+display: grid !important;
+grid-template-columns: 3fr 3fr !important;
+row-gap: 1.5rem !important;
+  }
+  .socialIcons{
+    display: none;
+  }  
+
+  .sponsorLogo{
+    width: 75% !important;
+  }
+  #sponsorLogo{
+    height: 45px !important;
+    width: 45px !important;
+margin-top: 0rem !important;
+margin-left: -2rem !important
+  }
+  #sponsorLogo1{
+padding-top: 0rem !important;
+}
+.footerContact{
+  display: none !important;
+}
+.footerTextContainer{
+  height: 65px !important;
 }
 
+
 @media (min-width: 321px ) and (max-width: 375px) {
+  #myButton{
+    display: inline;
+    height: 2rem;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 28%;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+  }
+
     
     .card-container{
         display: block;
@@ -153,72 +151,53 @@ padding-top: 2rem;
 }
 
 .mentor-imgMoral{
-    height: 30vh !important;
+    height: 30% !important;
 }
-    .columns ul{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        padding-left: 0;
-        row-gap: 1.5rem;
-        column-gap: 4rem;
-        padding-right: 2rem;
-      }
-      .socialIcons{
-        display: none;
-      }
-      
-      .sponsorLogo {
-        width: 150%;
-        
-      }
-      #sponsorLogo {
-        height: 4rem;
-        width: 85%;
-        border-radius: 15px;
-      }
-      .columns{
-        padding-bottom: 1rem;
-        padding-left: 8%;
-      }
-      .footerTextContainer{
-      padding-bottom: 4rem;
-      }
-      .footerText{
-        padding-top: 1.3rem;
-      }
-      .columns ul{
-        display: grid !important;
-        grid-template-columns: 2fr 2fr;
-        padding-left: 0;
-        row-gap: 1.5rem;
-        column-gap: 4rem;
-        padding-right: 2rem;
-      }
-      .socialIcons{
-        display: none;
-      }
-      
-      .sponsorLogo {
-        width: 150% !important;
-        
-      }
-      #sponsorLogo {
-        height: 4rem !important;
-        width: 85 !important;
-        border-radius: 15px !important;
-      }
-      .columns{
-        padding-bottom: 1rem;
-        padding-left: 8%;
-      }
-      .footerTextContainer{
-      padding-bottom: 4rem;
-      }
-      .footerText{
-        padding-top: 1.3rem;
-      }
+.columns ul{
+  display: grid !important;
+  grid-template-columns: 3fr 3fr !important;
+  row-gap: 1.5rem !important;
+    }
+    .socialIcons{
+      display: none;
+    }  
+  
+    .sponsorLogo{
+      width: 80% !important;
+    }
+    #sponsorLogo{
+      height: 50px !important;
+      width: 50px !important;
+  margin-top: 0.5rem !important;
+  margin-left: -2rem !important
+    }
+    #sponsorLogo1{
+  padding-top: 0rem !important;
+  }
+  .footerContact{
+    display: none !important;
+  }
+  .footerTextContainer{
+    height: 65px !important;
+  }
+  .footerText{
+    padding-top: 1.4rem !important;
+  }
     }
 @media (min-width: 376px ) and (max-width: 425px) {
+  #myButton{
+    display: inline;
+    height: 2rem;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+  }
     .card-container{
         display: block;
         padding-top: 2rem;
@@ -252,42 +231,92 @@ padding-top: 2rem;
 }
 
 .mentor-imgMoral{
-    height: 30vh !important;
+    height: 30% !important;
 }
-    .columns ul{
-        display: grid !important;
-        grid-template-columns: 2fr 2fr;
-        padding-left: 0;
-        row-gap: 1.5rem;
-        column-gap: 5rem;
-        padding-right: 3rem;
+.columns ul{
+  display: grid !important;
+  grid-template-columns: 3fr 3fr !important;
+  row-gap: 1.5rem !important;
+    }
+    .socialIcons{
+      display: none;
+    }  
+  
+    .sponsorLogo{
+      width: 80% !important;
+    }
+    #sponsorLogo{
+      height: 50px !important;
+      width: 50px !important;
+  margin-top: 0.5rem !important;
+  margin-left: -2rem !important
+    }
+    #sponsorLogo1{
+  padding-top: 0rem !important;
+  }
+  .footerContact{
+    display: none !important;
+  }
+  .footerTextContainer{
+    height: 65px !important;
+  }
+  .footerText{
+    padding-top: 1.4rem !important;
+  }
+}
+
+
+@media (min-width: 426px ) and (max-width: 767px) {
+  #myButton{
+    display: inline;
+    height: 2rem;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+  }
+    .card-container{
+        display: block;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
       }
-      .socialIcons{
-        display: none;
-      }
-      
-      .sponsorLogo {
-        width: 150% !important;
-      }
-      #sponsorLogo {
-        height: 4.5rem !important;
-        width: 85% !important;
-        border-radius: 15px !important;
-      
-      }
-      .columns{
-        padding-bottom: 1rem;
-        padding-left: 6%;
-      }
-      .footerTextContainer{
-      padding-bottom: 4rem;
-      }
-      .footerText{
-        padding-top: 1.3rem;
-      }
-      .cliquidity{
-        padding-top: 8.6rem;
-      }
+.right-column{
+    display: grid;
+    width: 158%;
+}
+
+.social-media{
+    display: none;
+}
+.vl{
+    display: none}
+    
+.right-column h3{
+padding-top: 2rem;
+}
+    
+.meet-our-mentors{
+    padding-top: 9rem !important;
+}
+
+.left-column h3{
+padding-top: 2rem;
+}
+.left-column{
+    width: 158% !important;
+}
+
+.mentor-imgMoral{
+    height: 30% !important;
+}
+    
+
 }
 
 @media (min-width: 768px ) and (max-width: 1439px) {

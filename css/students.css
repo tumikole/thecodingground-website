@@ -17,7 +17,7 @@ display: none;
   color: black;
 }
 #more {
-  color: black;
+  display: none;
 }
 
 .bio-container {

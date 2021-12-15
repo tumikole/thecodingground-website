@@ -618,6 +618,7 @@ h4 {
 
 .columns ul {
   display: flex;
+  
   justify-content: space-between;
   color: white;
   margin: auto;
