@@ -156,12 +156,17 @@ justify-content: center;
 
 #h1-align{
   display: flex;
-  /* grid-template-columns: 1fr; */
   gap: .5rem;
 }
-/* .square{
+
+
+.h1-align1{
+  /* display: flex; */
+  gap: .5rem;
+}
+.square{
   border: none;
-} */
+}
 
 .card:after {
   background: white;
@@ -185,6 +190,23 @@ h1{
   text-transform: uppercase;
   font-size: 2rem;
 }
+
+#myButton{
+  display: inline;
+  height: 2rem;
+  width: 25%;
+  display: none;
+  color: none;
+  outline: none;
+  }
+
+  #dots{
+    color: white;
+  }
+  #more {
+    font-weight:normal;
+
+  }
 .footerText{
     font-family: 'Raleway';
 }
@@ -199,6 +221,7 @@ h5{
 @media screen and (max-width: 1285px) {
   .cards-wrapper {
     grid-template-columns: 1fr 1fr;
+    
   }
 }
  

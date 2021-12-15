@@ -63,7 +63,7 @@ ul.nav-menu {
 }
 
 a.current {
-  color:#eeb50c;
+  color: #eeb50c;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
@@ -71,7 +71,7 @@ a.current {
 
 a.current:hover {
   text-decoration: none;
-  color:#eeb50c;
+  color: #eeb50c;
 }
 .nav-menu {
   display: flex;
@@ -91,7 +91,7 @@ a.current:hover {
 }
 
 .nav-link:hover {
-  color:#eeb50c !important;
+  color: #eeb50c !important;
   font-weight: bold;
 }
 
@@ -106,14 +106,49 @@ span {
   --text-color: #555555;
 }
 
+.fa-2x {
+  font-size: 1em !important;
+}
 
+/* .fa {
+  background-color: none !important;
+  text-decoration: underline;
+  color: #033333 !important;
+} */
 
+.arrow {
+  text-align: center;
+  margin: 4% 0;
+}
+.bounce {
+  -moz-animation: bounce 5s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
 
 .form-control,
 .form-control:focus,
 .input-group-addon {
   border-color: #e1e1e1;
 }
+
+
 .form-control,
 .btn {
   border-radius: 3px;
@@ -188,7 +223,6 @@ textarea {
   font-family: "Raleway";
 }
 
-
 h2 {
   font-weight: normal;
   margin: 1.2rem;
@@ -215,9 +249,11 @@ p {
   font-family: "Raleway";
 }
 
-.cliquidity{
+.cliquidity {
+position: fixed;
   background-color: #0333335d;
-  padding-top:10rem;
+  padding-top: 10rem;
+  width: 100%;
 }
 
 .imgContainer {
@@ -234,7 +270,7 @@ p {
 .homeContainerGrid {
   display: grid;
   grid-template-columns: 35% 65%;
-  /* padding-top: 12rem; */
+  padding-top: 12rem;
   /* margin-left:5rem;
   margin-right:5rem; */
 }
@@ -244,8 +280,8 @@ p {
   color: white !important;
 }
 
-.img-logo{
-padding-left: 18%;
+.img-logo {
+  padding-left: 18%;
 }
 .homeImg {
   height: 60vh;
@@ -477,11 +513,25 @@ body {
   line-height: 1.5rem;
 }
 
+.what-to-learn-container ul {
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+
 .what-to-learn-container li {
   margin: 1rem;
   font-size: 1rem;
   list-style: none;
   word-spacing: 0.2rem;
+}
+
+.header-text {
+  background-color: grey;
+  text-align: center;
+  margin: 0 !important;
+  color: white !important;
+  /* padding-top: 1rem; */
 }
 
 .learn-side-1 {
@@ -534,7 +584,7 @@ h4 {
 }
 
 .footer {
-  background-color: #2a7e5f !important ;
+  background-color: #168a87 !important ;
 }
 
 .img-fluid {
@@ -571,6 +621,7 @@ h4 {
   justify-content: space-between;
   color: white;
   margin: auto;
+  padding: 0;
 }
 
 .columns li {
@@ -585,8 +636,12 @@ h4 {
   height: 70px;
   width: 70px;
   border-radius: 15px;
+  margin-top: 1rem;
 }
 
+#sponsorLogo1{
+  padding-top: 1.5rem;
+}
 .socialIcons {
   border: 2px solid white;
   width: 250px;
@@ -605,7 +660,7 @@ h4 {
   font-size: 18px;
   border-radius: 100%;
   outline: none;
-  background-image: url('/icons/arrow-alt-circle-up-regular.svg');
+  background-image: url("/icons/arrow-alt-circle-up-regular.svg");
   background-color: #2a7e5f;
   cursor: pointer;
   padding: 25px;

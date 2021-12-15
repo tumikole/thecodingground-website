@@ -3,8 +3,21 @@
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: -6rem;
-  /* margin-bottom: 4rem; */
   
+}
+
+#myButton{
+height: 2rem;
+width: 25%;
+border-radius: .5rem;
+display: none;
+}
+
+#dots{
+  color: black;
+}
+#more {
+  color: black;
 }
 
 .bio-container {
@@ -13,7 +26,9 @@
     margin-left: 2%;
     margin-right: 2% ;
     gap:2rem;
+    
 }
+
 
 h3{
    font-family: 'Raleway';
@@ -53,48 +68,49 @@ h5{
   text-align: center;
   font-family: 'Delius', cursive;
   font-size: 3rem;
-  /* margin-top: 2rem;  */
   font-weight: 900;
   letter-spacing: 3px;
   font-family: 'Raleway';
-  padding-top: 7rem; 
-}
+  padding-top: 0rem; 
+} 
 
 .header-h1, h1 {
   margin-top: 0;
-  padding-top: 13rem;
   font-family: 'Raleway';
   font-size: 3rem;
 }
 
 .header-img{
-  margin-top: 1rem;
-  width: 100%;
-  height: 100vh;
-  background-image: url('../img/group_pic.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-h2{
+.header-img1{
+  margin-top: 0;
+width:100%;
+  height: 63rem;
+
+}
+
+.card-container h2{
   font-family: 'Raleway' !important;
-  margin-left: 6rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+
 }
 
+.bottom-spacing{
+  padding-bottom: 8rem;
+}
+.names-space{
+  margin-left: 0;
+  margin-top: 27rem;
+}
 
 .bio p {
-  margin-top: 2rem; 
-  /* margin-bottom: 4rem;  */
+padding-top: 1.7rem;
+margin: 0rem !important;
 font-family: 'Raleway';
 font-size: 16px;
 
-}
-
-.social{
-  /* font-size: 2rem;
-  margin-left: 10rem; */
-  display: none;
 }
 
 
