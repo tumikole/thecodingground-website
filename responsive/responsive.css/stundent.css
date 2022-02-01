@@ -38,7 +38,7 @@
   }
 
   .resize {
-    /* margin-bottom: 1.5rem; */
+    margin-bottom: 1.5rem;
   }
 
   #dots {
@@ -46,6 +46,7 @@
   }
   #more {
     display: none;
+    color: black;
   }
 
   hr:nth-child(4) {
@@ -58,7 +59,7 @@
     color:  #eeb50c;
     font-weight: bold;
     width: 25%;
-    font-size: 1rem;
+    font-size: .8rem;
     border-radius: .2rem;
     border: none;
     outline: none;
@@ -142,7 +143,7 @@
     
   }
 
-  .columns ul {
+  /* .columns ul {
     display: grid;
     grid-template-columns: 2fr 2fr;
     padding-left: 0;
@@ -178,7 +179,7 @@
   }
 
   .columns {
-    padding-bottom: 1rem;
+    padding-bottom: 0rem1rem;
     padding-left: 10%;
   }
   .footerTextContainer {
@@ -195,7 +196,7 @@
   }
   #myBtn {
     display: none !important;
-  }
+  } */
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
@@ -235,7 +236,7 @@
   }
 
   .resize {
-    /* margin-bottom: 1.5rem; */
+    margin-bottom: 1.5rem;
   }
 
   #dots {
@@ -243,19 +244,27 @@
   }
   #more {
     display: none;
+    color: black;
   }
 
   hr:nth-child(4) {
     display: flex;
   }
 
-  #myButton {
+  #myButton{
     display: inline;
     height: 2rem;
-    width: 30%;
-    border-radius: 0.5rem;
-    color: none;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: .8rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
   }
+    
 
   .bio p {
     padding-bottom: 0.5rem;
@@ -290,13 +299,13 @@
     display: none;
   }
   .sponsorLogo {
-    width: 100%;
+    width: 110%;
   }
   #sponsorLogo {
-    height: 40px;
-    width: 40px;
+    height: 70%;
+    width: 70%;
     border-radius: 15px;
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     margin-right: 4rem;
   }
 
@@ -358,7 +367,7 @@
   }
 
   .resize {
-    /* margin-bottom: 1.5rem; */
+    margin-bottom: 1.5rem;
   }
 
   #dots {
@@ -366,18 +375,24 @@
   }
   #more {
     display: none;
+    color: black;
   }
 
   hr:nth-child(4) {
     display: flex;
   }
-
-  #myButton {
+  #myButton{
     display: inline;
     height: 2rem;
-    width: 30%;
-    border-radius: 0.5rem;
-    color: none;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: .8rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
   }
 
   .bio p {
@@ -483,7 +498,7 @@
   }
 
   .resize {
-    /* margin-bottom: 1.5rem; */
+    margin-bottom: 1.5rem;
   }
 
   #dots {
@@ -491,18 +506,24 @@
   }
   #more {
     display: none;
+    color: black;
   }
 
   hr:nth-child(4) {
     display: flex;
   }
-
-  #myButton {
+  #myButton{
     display: inline;
     height: 2rem;
-    width: 30%;
-    border-radius: 0.5rem;
-    color: none;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: .8rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
   }
 
   .bio p {
@@ -590,7 +611,9 @@
     letter-spacing: 3px;
     padding-top: 8rem;
   }
-
+#more{
+  color: black;
+}
   .social {
     display: none;
   }
