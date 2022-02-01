@@ -118,7 +118,7 @@ span {
 
 .arrow {
   text-align: center;
-  margin: 4% 0;
+  /* margin: 4% 0; */
 }
 .bounce {
   -moz-animation: bounce 5s infinite;
@@ -156,7 +156,7 @@ span {
 .signup-form {
   width: 390px;
   margin: 0 auto;
-  padding: 30px 0;
+  /* padding: 30px 0; */
 }
 .signup-form form {
   color: #999;
@@ -368,6 +368,50 @@ html ::-webkit-scrollbar {
   color: #033333;
   letter-spacing: 0.2rem;
   font-family: "Raleway";
+}
+.box{
+  width: 100%;
+  margin:auto;
+
+}
+
+
+
+.inner {
+
+  margin-bottom: 0.3rem;
+  margin-top: 0rem;
+	height: 60px;
+	line-height: 100px;
+	font-size: 1.5rem;
+  font-family: "Raleway";
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.inner:first-child {
+	transform-origin: right;
+	transform: perspective(100px) rotateY(0deg);
+}
+.inner span {
+	position: absolute;
+	animation: marquee 18s linear infinite;
+}
+
+.inner:first-child span {
+	animation-delay: 0s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
 }
 
 .btn-apply {
