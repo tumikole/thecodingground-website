@@ -301,16 +301,26 @@
   .sponsorLogo {
     width: 110%;
   }
-  #sponsorLogo {
+  /* #sponsorLogo {
     height: 70%;
     width: 70%;
     border-radius: 15px;
     margin-top: 0.2rem;
     margin-right: 4rem;
+  } */
+  #sponsorLogo {
+    height: 45px;
+      width: 45px;
+    border-radius: 15px;
+    margin-top: .5rem;
+    margin-right: 3rem;
+  
   }
 
   #sponsorLogoHrw {
     margin-left: -0.5rem;
+    width: 125%;
+
   }
 
   #sponsorLogoSrcwrx {
@@ -431,8 +441,8 @@
     width: 100%;
   }
   #sponsorLogo {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     border-radius: 15px;
     margin-top: 0.5rem;
     margin-right: 4rem;
@@ -562,18 +572,26 @@
   .sponsorLogo {
     width: 120%;
   }
-  #sponsorLogo {
+  /* #sponsorLogo {
     height: 70px;
       width:70px;
     border-radius: 15px;
     margin-top: .7rem;
     margin-right: 4rem;
   
-  }
+  } */
+  #sponsorLogo {
+    height: 45px;
+      width: 45px;
+    border-radius: 15px;
+    margin-top: .5rem;
+    margin-right: 4rem;
   
+  }
   
   #sponsorLogoHrw {
     margin-left: -.5rem;
+    width: 100%;
   }
   
   #sponsorLogoSrcwrx {
