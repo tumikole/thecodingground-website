@@ -84,14 +84,14 @@
     margin-left: 0;
     margin-top: 1rem;
   }
-  .columns ul{
+  /* .columns ul{
     display: grid;
     grid-template-columns: 2fr 2fr;
     padding-left: 0;
     row-gap: 1.5rem;
     column-gap: 3rem;
     padding-right: 1rem;
-  }
+  } */
   .socialIcons{
     display: none;
   }
@@ -99,8 +99,35 @@
   .footerContact{
     display: none;
   }
-  
+
+  .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 1rem;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    /* padding-right: 1rem; */
+  }
   .sponsorLogo {
+    width: 75%;
+  }
+  #sponsorLogo {
+    height: 37px;
+    width: 37px;
+    border-radius: 15px;
+    margin-top: 0rem;
+    margin-right: 1.8rem;
+}
+
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+  
+  /* .sponsorLogo {
     width: 130%;
   }
   #sponsorLogo {
@@ -119,7 +146,7 @@
   
   #sponsorLogoSrcwrx {
     margin-left: -.7rem;
-  }
+  } */
   
   .columns{
     padding-bottom: 1rem;
@@ -256,7 +283,7 @@
     height: 2rem;
     color:  #eeb50c;
     font-weight: bold;
-    width: 25%;
+    width: 21%;
     font-size: .8rem;
     border-radius: .2rem;
     border: none;
@@ -283,14 +310,14 @@
     margin-left: 0;
     margin-top: 1rem;
   }
-  .columns ul {
+  /* .columns ul {
     display: grid;
     grid-template-columns: 2fr 2fr;
     padding-left: 1.5rem;
     row-gap: 1.5rem;
     column-gap: 2rem;
     padding-right: 1rem;
-  }
+  } */
   .socialIcons {
     display: none;
   }
@@ -298,16 +325,37 @@
   .footerContact {
     display: none;
   }
+
+  .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 1.5rem;
+    row-gap: 1rem;
+    column-gap: 2.5rem;
+    padding-right: 1rem;
+  }
   .sponsorLogo {
+    width: 100%;
+  }
+  #sponsorLogo {
+    height: 37px;
+    width: 37px;
+    border-radius: 15px;
+    margin-top: 0.4rem;
+    margin-right: 2.8rem;
+}
+
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+  /* .sponsorLogo {
     width: 110%;
   }
-  /* #sponsorLogo {
-    height: 70%;
-    width: 70%;
-    border-radius: 15px;
-    margin-top: 0.2rem;
-    margin-right: 4rem;
-  } */
+
   #sponsorLogo {
     height: 45px;
       width: 45px;
@@ -325,7 +373,7 @@
 
   #sponsorLogoSrcwrx {
     margin-left: -0.7rem;
-  }
+  } */
 
   .columns {
     padding-bottom: 1rem;
@@ -338,8 +386,191 @@
     padding-top: 0.5rem;
   }
 }
-
+@media (min-width: 375px) and (max-width: 375px) {
+  #sponsorLogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    margin-top: 0.4rem;
+    margin-right: 3.5rem;
+}
+}
 @media (min-width: 376px) and (max-width: 425px) {
+  .header-img1 {
+    width: 100%;
+    height: 60vh;
+    padding-top: 8rem;
+  }
+
+
+  .welcome-students {
+    font-size: 1.5rem;
+    position: relative;
+    left: 3rem;
+    padding-left: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+  .block {
+    display: block;
+  }
+
+  .bottom-spacing {
+    padding-bottom: 2rem;
+  }
+  .reversed {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0rem;
+  }
+
+  .students {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: block;
+  }
+
+  .resize {
+    margin-bottom: 1.5rem;
+  }
+
+  #dots {
+    color: black;
+  }
+  #more {
+    display: none;
+    color: black;
+  }
+
+  hr:nth-child(4) {
+    display: flex;
+  }
+  #myButton{
+    display: inline;
+    height: 2rem;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 19%;
+    font-size: .8rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+  }
+
+  .bio p {
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    font-family: "Raleway";
+    font-size: 15px;
+    padding-right: 0.5rem;
+    /* justify-content: center; */
+  }
+
+  .names-space {
+    padding-top: 18.5rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  /* .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 1.5rem;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+    padding-right: 1rem;
+  } */
+  .socialIcons {
+    display: none;
+  }
+
+  .footerContact {
+    display: none;
+  }
+
+  .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 1rem;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    padding-right: 0;
+  }
+  .sponsorLogo {
+    width: 80%;
+  }
+  #sponsorLogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    margin-top: .3rem;
+    margin-right: 3rem;
+
+  }
+
+  #sponsorLogo1 {
+   padding-top: .5rem;
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -0.9rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+
+  /* .sponsorLogo {
+    width: 100%;
+  }
+  #sponsorLogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+    margin-right: 4rem;
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+    width: 80% !important;
+
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  } */
+
+  .columns {
+    padding-bottom: 1rem;
+    padding-left: 8%;
+  }
+  .footerTextContainer {
+    padding-bottom: 4rem;
+  }
+  .footerText {
+    padding-top: 1.3rem;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 425px){
+  #sponsorLogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    margin-top: .3rem;
+    margin-right: 4.5rem;
+
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
   .header-img1 {
     width: 100%;
     height: 60vh;
@@ -422,166 +653,54 @@
     margin-left: 0;
     margin-top: 1rem;
   }
-  .columns ul {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    padding-left: 1.5rem;
-    row-gap: 1.5rem;
-    column-gap: 2rem;
-    padding-right: 1rem;
-  }
-  .socialIcons {
-    display: none;
-  }
 
-  .footerContact {
-    display: none;
-  }
-  .sponsorLogo {
-    width: 100%;
-  }
-  #sponsorLogo {
-    height: 45px;
-    width: 45px;
-    border-radius: 15px;
-    margin-top: 0.5rem;
-    margin-right: 4rem;
-  }
-
-  #sponsorLogoHrw {
-    margin-left: -0.5rem;
-    width: 80% !important;
-
-  }
-
-  #sponsorLogoSrcwrx {
-    margin-left: -0.7rem;
-  }
-
-  .columns {
-    padding-bottom: 1rem;
-    padding-left: 8%;
-  }
-  .footerTextContainer {
-    padding-bottom: 4rem;
-  }
-  .footerText {
-    padding-top: 1.3rem;
-  }
-}
-
-
-
-@media (min-width: 426px) and (max-width: 767px) {
-  .header-img1 {
-    width: 100%;
-    height: 60vh;
-    padding-top: 8rem;
-  }
-
-
-  .welcome-students {
-    font-size: 1.5rem;
-    position: relative;
-    left: 3rem;
-    padding-left: 2rem;
-    margin-bottom: 4rem;
-    margin-top: 0;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
-  }
-  .block {
-    display: block;
-  }
-
-  .bottom-spacing {
-    padding-bottom: 2rem;
-  }
-  .reversed {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 0rem;
-  }
-
-  .students {
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-    display: block;
-  }
-
-  .resize {
-    margin-bottom: 1.5rem;
-  }
-
-  #dots {
-    color: black;
-  }
-  #more {
-    display: none;
-    color: black;
-  }
-
-  hr:nth-child(4) {
-    display: flex;
-  }
-  #myButton{
-    display: inline;
-    height: 2rem;
-    color:  #eeb50c;
-    font-weight: bold;
-    width: 25%;
-    font-size: .8rem;
-    border-radius: .2rem;
-    border: none;
-    outline: none;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-  }
-
-  .bio p {
-    padding-bottom: 0.5rem;
-    padding-top: 1rem;
-    margin-top: 0;
-    margin-bottom: 4rem;
-    margin-left: 0;
-    font-family: "Raleway";
-    font-size: 15px;
-    padding-right: 0.5rem;
-    /* justify-content: center; */
-  }
-
-  .names-space {
-    padding-top: 18.5rem;
-    margin-left: 0;
-    margin-top: 1rem;
-  }
-
-  .columns ul{
+  /* .columns ul{
     display: grid;
     grid-template-columns: 2fr 2fr;
     padding-left: 0;
     row-gap: 1.5rem;
     column-gap: 3rem;
     padding-right: 3rem;
-  }
+  } */
   .socialIcons{
     display: none;
   }
   .footerContact{
     display: none;
   }
-  
+
+  .columns ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 0;
+    row-gap: 1.5rem;
+    column-gap: 3rem;
+    /* padding-right: 3rem; */
+  }
   .sponsorLogo {
+    width: 80%;
+  }
+  #sponsorLogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-top: 0.3rem;
+    margin-right: 4rem;
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* .sponsorLogo {
     width: 120%;
   }
-  /* #sponsorLogo {
-    height: 70px;
-      width:70px;
-    border-radius: 15px;
-    margin-top: .7rem;
-    margin-right: 4rem;
-  
-  } */
+
   #sponsorLogo {
     height: 45px;
       width: 45px;
@@ -599,7 +718,7 @@
   #sponsorLogoSrcwrx {
     margin-left: -.5rem;
     margin-top: 2rem
-  }
+  } */
   
   .columns{
     padding-bottom: 1rem;

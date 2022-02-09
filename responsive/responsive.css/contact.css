@@ -46,14 +46,14 @@ hr:nth-child(4) {
   margin-top: 1rem;
 }
 
-.columns ul{
+/* .columns ul{
   display: grid;
   grid-template-columns: 2fr 2fr;
   padding-left: 0;
   row-gap: 1.5rem;
   column-gap: 3rem;
   padding-right: 1rem;
-}
+} */
 .socialIcons{
   display: none;
 }
@@ -61,13 +61,38 @@ hr:nth-child(4) {
 .footerContact{
   display: none;
 }
-
+.columns ul {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 1rem;
+  row-gap: 1rem;
+  column-gap: 1.5rem;
+  /* padding-right: 1rem; */
+}
 .sponsorLogo {
+  width: 75%;
+}
+#sponsorLogo {
+  height: 37px;
+  width: 37px;
+  border-radius: 15px;
+  margin-top: 0rem;
+  margin-right: 1.8rem;
+}
+
+#sponsorLogoHrw {
+  margin-left: -0.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -0.7rem;
+}
+/* .sponsorLogo {
   width: 130%;
 }
 #sponsorLogo {
-  height: 45px;
-    width: 45px;
+  height: 40px;
+    width: 40px;
   border-radius: 15px;
   margin-top: .5rem;
   margin-right: 3rem;
@@ -81,7 +106,7 @@ hr:nth-child(4) {
 
 #sponsorLogoSrcwrx {
   margin-left: -.7rem;
-}
+} */
 
 .columns{
   padding-bottom: 1rem;
@@ -152,14 +177,14 @@ margin-left: 0rem;
 font-size: 2.5rem;
 margin-top: 1rem;
 }
-.columns ul{
+/* .columns ul{
   display: grid;
   grid-template-columns: 2fr 2fr;
   padding-left: 1rem;
   row-gap: 1.5rem;
   column-gap: 2.5rem;
   padding-right: 1rem;
-}
+} */
 .socialIcons{
   display: none;
 }
@@ -167,7 +192,33 @@ margin-top: 1rem;
 .footerContact{
   display: none;
 }
+.columns ul{
+display: grid;
+grid-template-columns: 2fr 2fr;
+padding-left: 1.5rem;
+row-gap: 1rem;
+column-gap: 2.5rem;
+padding-right: 1rem;
+}
 .sponsorLogo {
+width: 100%;
+}
+#sponsorLogo {
+height: 37px;
+width: 37px;
+border-radius: 15px;
+margin-top: 0.4rem;
+margin-right: 2.8rem;
+}
+
+#sponsorLogoHrw {
+margin-left: -0.5rem;
+}
+
+#sponsorLogoSrcwrx {
+margin-left: -0.7rem;
+}
+/* .sponsorLogo {
   width: 130%;
   
 }
@@ -187,7 +238,7 @@ margin-top: 1rem;
 
 #sponsorLogoSrcwrx {
   margin-left: -.7rem;
-}
+} */
 
 .columns{
   padding-bottom: 1rem;
@@ -209,6 +260,15 @@ padding-bottom: 4rem;
 }
 }
 
+@media (min-width: 375px) and (max-width: 375px) {
+  #sponsorLogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    margin-top: 0.4rem;
+    margin-right: 3.5rem;
+}
+}
 @media (min-width: 376px ) and (max-width: 425px) {
 
   .location {
@@ -272,39 +332,53 @@ font-size: 2.5rem;
 margin-top: 1rem;
 }
 
-.columns ul{
-  display: grid;
+/*.columns ul{
+   display: grid;
   grid-template-columns: 2fr 2fr;
   padding-left: 1rem;
   row-gap: .5rem;
   column-gap: 3rem;
   padding-right: 1rem;
-}
+} */
 .socialIcons{
   display: none;
 }
 .footerContact{
   display: none;
 }
-.sponsorLogo {
+/* .sponsorLogo {
   width: 100%;
+} */
+.columns ul {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 1rem;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  padding-right: 0;
+}
+.sponsorLogo {
+  width: 80%;
 }
 #sponsorLogo {
-  height: 40px;
-    width:40px;
+  height: 45px;
+  width: 45px;
   border-radius: 15px;
-  margin-top: .5rem;
-  margin-right: 5rem;
+  margin-top: .3rem;
+  margin-right: 3rem;
 
 }
 
+#sponsorLogo1 {
+ padding-top: .5rem;
+}
 
 #sponsorLogoHrw {
-  margin-left: -.9rem;
+  margin-left: -0.9rem;
 }
 
 #sponsorLogoSrcwrx {
-  margin-left: -.5rem;
+  margin-left: -0.7rem;
 }
 
 .columns{
@@ -324,7 +398,14 @@ padding-bottom: 4rem;
   
 }
 
+#sponsorLogo {
+  height: 45px;
+  width: 45px;
+  border-radius: 15px;
+  margin-top: .3rem;
+  margin-right: 4.5rem;
 
+}
 @media (min-width: 426px ) and (max-width: 767px) {    
   .wrapper-form {
     display: grid;
@@ -397,14 +478,14 @@ margin-top: 1rem;
     margin-top: 2.4rem;
     margin-left: 0rem;
   }
-  .columns ul{
+  /* .columns ul{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     padding-left: 0;
     row-gap: 1.5rem;
     column-gap: 3rem;
     padding-right: 1rem;
-  }
+  } */
   .socialIcons{
     display: none;
   }
@@ -413,7 +494,34 @@ margin-top: 1rem;
 .footerContact{
 display: none;
 }
-  .sponsorLogo {
+.columns ul {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 0;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  /* padding-right: 3rem; */
+}
+.sponsorLogo {
+  width: 80%;
+}
+#sponsorLogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  margin-top: 0.3rem;
+  margin-right: 4rem;
+}
+
+#sponsorLogoHrw {
+  margin-left: -0.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -0.5rem;
+  margin-top: 2rem;
+}
+  /* .sponsorLogo {
     width: 100%;
   }
   #sponsorLogo {
@@ -432,7 +540,7 @@ display: none;
   
   #sponsorLogoSrcwrx {
     margin-left: -.5rem;
-  }
+  } */
   
   .columns{
     padding-bottom: 1rem;
