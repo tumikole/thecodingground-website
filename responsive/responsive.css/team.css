@@ -96,16 +96,17 @@
   }
   .footerTextContainer {
     height: 65px !important;
-  }
+
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
   #myButton {
+
     display: inline;
     height: 2rem;
     color: #eeb50c;
     font-weight: bold;
-    width: 28%;
+    /* width: 28%; */
     font-size: 1rem;
     border-radius: 0.2rem;
     border: none;
@@ -171,6 +172,7 @@
     padding-top: 0rem !important;
   }
   .footerContact {
+
     display: none !important;
   }
   .footerTextContainer {
@@ -186,7 +188,7 @@
     height: 2rem;
     color: #eeb50c;
     font-weight: bold;
-    width: 25%;
+    /* width: 25%; */
     font-size: 1rem;
     border-radius: 0.2rem;
     border: none;
@@ -264,6 +266,7 @@
 
 @media (min-width: 426px) and (max-width: 767px) {
   #myButton {
+
     display: inline;
     height: 2rem;
     color: #eeb50c;
@@ -311,7 +314,40 @@
 
   .mentor-imgMoral {
     height: 30% !important;
+
+}
+
+.columns ul{
+  display: grid !important;
+  grid-template-columns: 3fr 3fr !important;
+  row-gap: 1.5rem !important;
+    }
+    .socialIcons{
+      display: none;
+    }  
+  
+    .sponsorLogo{
+      width: 80% !important;
+    }
+    #sponsorLogo{
+      height: 45px !important;
+      width: 45px !important;
+  margin-top: 0.5rem !important;
+  margin-left:-5rem !important
+    }
+    #sponsorLogo1{
+  padding-top: 0rem !important;
   }
+  .footerContact{
+    display: none !important;
+  }
+  .footerTextContainer{
+    height: 65px !important;
+  }
+  .footerText{
+    padding-top: 1.4rem !important;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1439px) {
@@ -554,3 +590,4 @@
   display: none !important;
 }
 }
+
