@@ -70,18 +70,18 @@ hr:nth-child(4) {
   /* padding-right: 1rem; */
 }
 .sponsorLogo {
-  width: 75%;
+  width: 75% !important;
 }
 #sponsorLogo {
-  height: 37px;
-  width: 37px;
-  border-radius: 15px;
-  margin-top: 0rem;
-  margin-right: 1.8rem;
+  height: 37px !important;
+  width: 37px !important;
+  border-radius: 15px !important;
+  margin-top: 0rem !important;
+  margin-right: 2.5rem !important;
 }
 
 #sponsorLogoHrw {
-  margin-left: -0.5rem;
+  margin-right: 1.2rem !important;
 }
 
 #sponsorLogoSrcwrx {
@@ -193,26 +193,26 @@ margin-top: 1rem;
   display: none;
 }
 .columns ul{
-display: grid;
-grid-template-columns: 2fr 2fr;
-padding-left: 1.5rem;
-row-gap: 1rem;
-column-gap: 2.5rem;
-padding-right: 1rem;
+display: grid !important;
+grid-template-columns: 2fr 2fr !important;
+padding-left: 1.5rem !important;
+row-gap: 1rem!important;
+column-gap: 2.5rem !important;
+padding-right: 1rem !important;
 }
 .sponsorLogo {
 width: 100%;
 }
 #sponsorLogo {
-height: 37px;
-width: 37px;
-border-radius: 15px;
-margin-top: 0.4rem;
-margin-right: 2.8rem;
+height: 37px !important;
+width: 37px !important;
+border-radius: 15px !important;
+margin-top: 0.4rem !important;
+margin-right: 2.8rem !important;
 }
 
 #sponsorLogoHrw {
-margin-left: -0.5rem;
+margin-left: -1rem !important;
 }
 
 #sponsorLogoSrcwrx {
@@ -262,11 +262,11 @@ padding-bottom: 4rem;
 
 @media (min-width: 375px) and (max-width: 375px) {
   #sponsorLogo {
-    height: 45px;
-    width: 45px;
-    border-radius: 15px;
-    margin-top: 0.4rem;
-    margin-right: 3.5rem;
+    height: 45px !important;
+    width: 45px !important;
+    border-radius: 15px !important;
+    margin-top: 0.4rem !important;
+    margin-right: 3.5rem !important;
 }
 }
 @media (min-width: 376px ) and (max-width: 425px) {
@@ -358,14 +358,14 @@ margin-top: 1rem;
   padding-right: 0;
 }
 .sponsorLogo {
-  width: 80%;
+  width: 80% !important;
 }
 #sponsorLogo {
-  height: 45px;
-  width: 45px;
-  border-radius: 15px;
-  margin-top: .3rem;
-  margin-right: 3rem;
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 15px !important;
+  margin-top: .3rem !important;
+  margin-right: 3rem !important;
 
 }
 
@@ -405,6 +405,22 @@ padding-bottom: 4rem;
   margin-top: .3rem;
   margin-right: 4.5rem;
 
+}
+
+@media (min-width: 425px) and (max-width: 425px){
+  #sponsorLogo {
+    height: 45px !important;
+    width: 45px !important;
+    border-radius: 15px !important;
+    margin-top: .3rem !important;
+    margin-right: 4.5rem !important;
+
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -1.5rem !important;
+  }
+  
 }
 @media (min-width: 426px ) and (max-width: 767px) {    
   .wrapper-form {
