@@ -366,15 +366,37 @@ padding-top: 2rem;
     padding-top: 8rem !important;
     font-size: 2rem;
   }
+
   .card-container {
     display: block;
     padding-top: 2rem !important;
     font-size: 2.5rem;
+    padding: 0px 0px;
+    margin-left:2rem;
+    margin-right:2rem;
+
   }
+
+.founders {
+  font-family: 'Raleway';
+  color: white;
+  text-align: center;
+  font-size:1.5rem;
+}
   
   .card-container p{
     font-size: 16px;
   }
+
+  .h1-align1 {
+    display: flex !important;
+    gap: 0.5rem !important;
+}
+
+.card h1 {
+  display: flex !important;
+    gap: 0.5rem !important;
+}
   
   .title {
     color: rgba(255, 255, 255, 0.479);
@@ -399,16 +421,18 @@ padding-top: 2rem;
   }
   
   .left-column {
-    /* border: none; */
     margin: 0 auto;
     text-align: center;
     font-family: arial;
       color: white;
-    width: 100% !important;
-    margin-left: 3.5rem;
+    width: 70% !important;
   }
-  
-  
+
+  .mentor-imgMoral{
+
+    height: 420px !important;
+  }
+
   .left-column
   h1 {
     width: 100%;
@@ -419,7 +443,16 @@ padding-top: 2rem;
     text-transform: uppercase;
     font-family: 'Raleway';
   }
-  
+
+  #dots {
+    display:none !important;
+  }
+  #more {
+     color: white !important;
+     display: inline!important;
+  }
+
+
   .vl {
 display: none;  }
   
@@ -444,6 +477,40 @@ display: none;  }
     width: 89% ; 
     margin: auto;
   }
+
+  #myButton{
+display: none !important;
+  }
+
+  #myBtn{
+    display: none !important;
+  }
+
+  .footerContact{
+    display: none !important;
+  }
+
+  .columns ul {
+    display: grid !important;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr !important;
+    width: 100%;
+  }
+  #sponsorLogo1 {
+    width: 100px;
+  }
+  .sponsorLogo {
+    width: 100px !important;
+}
+#sponsorLogo {
+height: 43px !important;
+width: 43px !important;
+border-radius: 15px !important;
+margin: 0 !important;
+}
+
+#sponsorLogo1{
+  margin-top: -12px;
+}
 }
 
 @media (min-width: 1440px ) and (max-width: 2560px) {
