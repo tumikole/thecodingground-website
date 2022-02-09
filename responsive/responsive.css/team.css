@@ -98,6 +98,7 @@
     height: 65px !important;
 
 }
+}
 
 @media (min-width: 321px) and (max-width: 375px) {
   #myButton {
@@ -350,7 +351,7 @@
 
 }
 
-@media (min-width: 768px) and (max-width: 1439px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   #intro-section {
     background-color: #2a7e5f;
     background-image: linear-gradient(315deg, #98de5b 10%, #2a7e5f 74%);
@@ -416,12 +417,12 @@
     margin: 0 auto;
     text-align: center;
     font-family: arial;
-    color: white;
-    width: 70% !important;
+    color: #ffffff;
+    width: 100% !important;
   }
 
   .mentor-imgMoral {
-    height: 420px !important;
+    height: 480px !important;
   }
 
   .left-column h1 {
@@ -501,35 +502,127 @@
   }
 }
 @media (min-width: 1024px) and (max-width: 1439px) {
+  #intro-section {
+    background-color: #2a7e5f;
+    background-image: linear-gradient(315deg, #98de5b 10%, #2a7e5f 74%);
+  }
+
+  .meet-our-mentors {
+    padding-top: 8rem !important;
+    font-size: 2rem;
+  }
+
+  .card-container {
+    display: block;
+    padding-top: 2rem !important;
+    font-size: 2.5rem;
+    padding: 0px 0px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .founders {
+    font-family: "Raleway";
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card-container p {
+    font-size: 16px;
+  }
+
+  .h1-align1 {
+    display: flex !important;
+    gap: 0.5rem !important;
+  }
+
+  .card h1 {
+    display: flex !important;
+    gap: 0.5rem !important;
+  }
+
+  .title {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 16px;
+    font-family: "Raleway" !important;
+  }
+
+  h3 {
+    font-family: "Raleway" !important;
+    color: white;
+    padding-top: 2rem;
+  }
+
+  h5 {
+    color: white;
+    font-family: "Raleway" !important;
+  }
+
+  .mentor-text {
+    display: flex !;
+  }
+
+  .left-column {
+    margin: 0 auto;
+    text-align: center;
+    font-family: arial;
+    color: #ffffff;
+    width: 70% !important;
+  }
+
   .mentor-imgMoral {
     height: 480px !important;
   }
-}
 
-@media (min-width: 1440px) and (max-width: 2559px) {
-  .card-container {
-    display: grid;
-    grid-template-columns: 50% 5% 45%;
-    padding: 10rem;
-    gap: 2rem;
-    padding-left: 3rem;
-    padding-top: 5rem;
-    font-size: 2.5rem;
-}
-  .columns {
-    padding: 3em !important;
-    text-align: center;
-  }
-
-  .footerTextContainer {
-    height: 40px;
-  }
-
-  .footerText {
-    text-align: center;
-    margin: 0 auto;
+  .left-column h1 {
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
     color: white;
-    padding: 8px;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: "Raleway";
+  }
+
+  #dots {
+    display: none !important;
+  }
+  #more {
+    color: white !important;
+    display: inline !important;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .right-column p {
+    font-family: "Raleway";
+    color: white;
+  }
+
+  .right-column h2 {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  hr {
+    background-color: rgba(255, 255, 255, 0.555) !important;
+    width: 89%;
+    margin: auto;
+  }
+
+  #myButton {
+    display: none !important;
+  }
+
+  #myBtn {
+    display: none !important;
   }
 
   .footerContact {
@@ -537,40 +630,101 @@
   }
 
   .columns ul {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-  }
-
-  .columns li {
-    color: white;
-  }
-
-  .sponsorLogo {
-    width: 100px;
-  }
-
-  #sponsorLogo {
-    height: 50px;
-    width: 50px;
-    border-radius: 15px;
-    margin-top: 0.2rem;
+    display: grid !important;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr !important;
+    width: 100%;
   }
   #sponsorLogo1 {
-    padding-top: 1rem;
+    width: 100px;
+  }
+  .sponsorLogo {
+    width: 100px !important;
+  }
+  #sponsorLogo {
+    height: 43px !important;
+    width: 43px !important;
+    border-radius: 15px !important;
+    margin: 0 !important;
   }
 
-  #sponsorLogoSrcwrx {
-    padding-top: 0.8rem !important;
+  #sponsorLogo1 {
+    margin-top: -12px;
   }
+}
 
-  #myBtn {
-    bottom: 50px;
-    right: 40px;
-    z-index: 99;
-    font-size: 13px;
-    background-color: #2a7e5f !important;
+@media (min-width: 1440px) and (max-width: 2559px) {
+  #dots {
+    display: none !important;
   }
+  #more {
+    color: white !important;
+    display: inline !important;
+  }
+  #myButton {
+    display: none;
+      }
+  .card-container {
+    display: grid;
+    grid-template-columns: 50% 3% 47%;
+    padding: 10rem;
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+}
+
+.vl{
+  height: 100%;
+}
+
+.left-column {
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+  color: #ffffff;
+  width: 90% !important;
+}
+
+.mentor-imgMoral {
+  height: 480px !important;
+}
+#myButton {
+  display: none !important;
+}
+#myBtn {
+  display: none !important;
+}
+
+.footerContact {
+  display: none !important;
+}
+
+.columns {
+  padding: 3em !important;
+  text-align: center !important;
+}
+
+.columns ul {
+  display: grid !important;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr !important;
+  width: 100%;
+}
+#sponsorLogo1 {
+  width: 100px;
+}
+.sponsorLogo {
+  width: 100px !important;
+}
+#sponsorLogo {
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 15px !important;
+  margin: 0 !important;
+}
+
+#sponsorLogo1 {
+  margin-top: -12px;
+}
 }
 
 @media (min-width: 2560px) {
