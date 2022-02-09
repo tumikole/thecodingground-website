@@ -46,6 +46,7 @@
   }
 
   #dots {
+    display: inline;
     color: white;
   }
   #more {
@@ -108,14 +109,21 @@
     color: #eeb50c;
     font-weight: bold;
     /* width: 28%; */
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 0.2rem;
     border: none;
     outline: none;
     background-color: Transparent;
     background-repeat: no-repeat;
   }
-
+  #dots {
+    display: inline;
+    color: white;
+  }
+  #more {
+    display: none;
+    color: white;
+  }
   .card-container {
     display: block;
     padding-top: 2rem;
@@ -190,12 +198,21 @@
     color: #eeb50c;
     font-weight: bold;
     /* width: 25%; */
-    font-size: 1rem;
+    font-size: .8rem;
     border-radius: 0.2rem;
     border: none;
     outline: none;
     background-color: Transparent;
     background-repeat: no-repeat;
+  }
+
+  #dots {
+    display: inline;
+    color: white;
+  }
+  #more {
+    display: none;
+    color: white;
   }
   .card-container {
     display: block;
