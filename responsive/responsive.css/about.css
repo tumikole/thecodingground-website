@@ -154,11 +154,10 @@ padding-bottom: 4rem;
     display: none;
   }
 
-  #h1-align{
+  /* #h1-align{
 display: flex;
 gap: 0.5rem;
-  }   
-
+  }    */
 /* h1{ */
   /* display: flex; */
   /* justify-content: center; */
@@ -213,15 +212,15 @@ padding-bottom: 1.5rem;
   border-radius: 0.5rem;
   font-size: 1.5rem;
 }
-
+/* 
 #who-qualifies{
   display: flex ;
   gap: .5rem ;
-}
-/* .h1-align1{
+} */
+.h1-align1{
   display: flex ;
   gap: .5rem ;
-} */
+}
 /* 
 #h1-align1{
   display: flex;
@@ -314,6 +313,8 @@ padding-bottom: 4rem;
       margin-top: 0.4rem;
       margin-right: 3.5rem;
   }
+
+
 }
 
   @media (min-width: 376px ) and (max-width: 425px) {
