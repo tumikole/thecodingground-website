@@ -6,9 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/mentors.css" />
+  <link rel="stylesheet" href="../responsive/responsive.css/team.css">
   <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Raleway|Alfa Slab One">
   <link rel="stylesheet" href="../responsive/navaboutcontactresponsive.css">
+
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -34,7 +36,7 @@
           <a href="../htmlFiles/students.html" class="nav-link">Students</a>
         </li>
         <li class="nav-item">
-          <a id="nav-item" class="current" href="../htmlFiles/mentor.html" class="nav-link">Mentors</a>
+          <a class="current" href="../htmlFiles/mentor.html" class="nav-link">Team</a>
         </li>
         <li class="nav-item">
           <a href="../htmlFiles/contact.html" class="nav-link">Contact</a>
@@ -50,14 +52,18 @@
 
   <hr>
 
+
   <div class="mentors">
-    <h1 style="text-align:center;padding-top:11rem;color:white;" class="meet-our-mentors">MEET OUR MENTORS</h1>
     <hr>
+  </p> 
+    <h1 style="text-align:center;padding-top:8rem;color:white;" class="meet-our-mentors">MEET OUR TEAM</h1>
+    <hr>
+  <p class="founders">This is an initiative that started with great minds.
     <div class="card-container">
       <div class="left-column">
         <img class="mentor-imgMoral" src="../img/Jason.png " alt="Jason">
         <h1>JASON SUTTIE</h1>
-        <p class="title">Founder</p>
+        <p class="title">FOUNDER</p>
         <p>THE CODING GROUND</p>
         <div class="social-media">
           <a class="social-media-icons" href="#"><img class="media" src="../icons/linkedin-in-brands.svg" alt=""></a>
@@ -96,26 +102,31 @@
 
       <div class="vl"></div>
 
-      <div class="right-column">
+      <div class="right-column read" info-names="Moral">
         <h3>ABOUT ME</h3>
         <p>
           Moral Jera grew up in South Africa, Gauteng in a township called Olievenhoutbosch. He was raised by a single
           mother who made sure that she passed down a lot of valuable aspects of life to him. He was a little bit lucky
-          because his mother managed to take him to a private school. After all, it introduced him to better education
-          and better resources. He became fixated with computers in general, whilst doing grade 10 by that time he had
-          no idea how computers operated, he just loved their physical appearance and went head over heels when he heard
-          the sound his fingers made when dancing on the keyboard. He embarked on his software development journey in
-          2018 when he joined The Coding Ground. He is a devoted guy who tries by all means to perfect his work. He
-          dedicated all of his energy and time to his Tech work. Because of consecrating his time he finished studying
-          with The Coding Ground Earlier than expected and landed himself a job in a company called Devson. He also
-          helps and assists students at The coding Ground in their growth and learning. His special fascination not only
-          lies in uplifting himself but also in helping others understand how to solve problems that they encounter in
-          their coding journey. As the saying goes when one hand washes another poverty could only be a story to be
-          told, he did wash a lot of hands to help them reach their full potential. Dedication uplifted his life, so you
-          can also do it.</p>
+          because his mother managed to take him to a private school. After all, it introduced him to better ed<span id="dots">...</span><span style="display: none" id="more">uca
+            tion
+            and better resources. He became fixated with computers in general, whilst doing grade 10 by that time he had
+            no idea how computers operated, he just loved their physical appearance and went head over heels when he
+            heard
+            the sound his fingers made when dancing on the keyboard. He embarked on his software development journey in
+            2018 when he joined The Coding Ground. He is a devoted guy who tries by all means to perfect his work. He
+            dedicated all of his energy and time to his Tech work. Because of consecrating his time he finished studying
+            with The Coding Ground Earlier than expected and landed himself a job in a company called Devson. He also
+            helps and assists students at The coding Ground in their growth and learning. His special fascination not
+            only
+            lies in uplifting himself but also in helping others understand how to solve problems that they encounter in
+            their coding journey. As the saying goes when one hand washes another poverty could only be a story to be
+            told, he did wash a lot of hands to help them reach their full potential. Dedication uplifted his life, so
+            you
+            can also do it.</span><button onclick="readMore('Moral')" id="myButton">Read more</button>
+        </p>
       </div>
     </div>
-   <hr>
+    <hr>
     <div class="card-container">
       <div class="left-column">
         <img class="mentor-imgMoral" src="../img/Tin.jpg" alt="Tanille">
@@ -130,12 +141,15 @@
 
       <div class="vl"></div>
 
-      <div class="right-column">
+      <div class="right-column read" info-names="Tanille">
         <h3>ABOUT ME</h3>
         <p>
-As an entrepreneur, I value clever systems and the power of communication and connecting people. Working with The Coding Ground has been a dream come true - a smart model, using tech to solve a South African challenge – giving smart, determined people an opportunity that they might not otherwise have had. 
+          As an entrepreneur, I value clever systems and the power of communication and connecting people. Working with
+          The Coding Ground has been a dream come true - a smart model, using tech to solve a South African challenge –
+          giving smart, determined people an opportunity that they mig<span id="dots">...</span><span style="display: none" id="more">ht not otherwise have had.
 
-Being part of the TCG family is a joy and a privilege. We are always working to improve and expand – giving value to both the lives of our students and the South African software development market.
+          Being part of the TCG family is a joy and a privilege. We are always working to improve and expand – giving
+          value to both the lives of our students and the South African software development market.</span><button onclick="readMore('Tanille')" id="myButton">Read more</button>
         </p>
       </div>
     </div>
@@ -144,11 +158,11 @@ Being part of the TCG family is a joy and a privilege. We are always working to 
 
 
     <hr>
-     <div class="card-container">
+    <div class="card-container">
       <div class="left-column">
         <img class="mentor-imgMoral" src="../img/Mandla.jpg" alt="MANDLA">
         <h1>MANDLA MAGAGULA</h1>
-        <p class="title">Founder</p>
+        <p class="title">FOUNDER</p>
         <p>THE CODING GROUND</p>
 
 
@@ -162,7 +176,7 @@ Being part of the TCG family is a joy and a privilege. We are always working to 
       <div class="vl"></div>
 
       <div class="right-column">
-        <h2>ABOUT ME</h2>
+        <h3>ABOUT ME</h3>
 
         <p>Having spent over 10 years building software I have seen how
           software has enabled people, myself included, to not only
@@ -175,12 +189,12 @@ Being part of the TCG family is a joy and a privilege. We are always working to 
     <hr>
 
 
-    
+
     <div class="card-container">
       <div class="left-column">
         <img class="mentor-imgMoral" src="../img/Theo.jpg" alt="Theo">
         <h1>THEO BOHNEN</h1>
-        <p class="title">Founder</p>
+        <p class="title">FOUNDER</p>
 
         <p>THE CODING GROUND</p>
 
@@ -193,26 +207,25 @@ Being part of the TCG family is a joy and a privilege. We are always working to 
       </div>
       <div class="vl"></div>
 
-      <div class="right-column">
-        <h2>ABOUT ME</h2>
+      <div class="right-column read" info-names="Theo">
+        <h3>ABOUT ME</h3>
 
         <p>Software development has been one of my many passions since I
           was 12 years old. Professionally, I've been programming for
           finance and health research. Understanding how to work with
           customers to really understand the problems and taking small
           steps towards solving these problems in a sustainable way, is
-          even harder than writing code. Being guided through all aspects
+          even har<span id="dots">...</span><span style="display: none" id="more">der than writing code. Being guided through all aspects
           close to nine years in various industries including education,
           of software development by an experienced mentor leads software
-          craftsmen on a journey to mastery</p>
+          craftsmen on a journey to mastery.</span><button onclick="readMore('Theo')" id="myButton">Read more</button>
+        </p>
       </div>
     </div>
-        <hr>
+    <hr>
+  <!-- </div>
+  </div> -->
 
-  </div>
-  </div>
-  </div>
-  
   <footer>
     <div class="footer">
       <div class="columns">
@@ -221,53 +234,46 @@ Being part of the TCG family is a joy and a privilege. We are always working to 
         <ul>
           <li>
             <a href="https://www.inreality.com/" target="_blank">
-              <img src="../img/inreality.svg" class="sponsorLogo" /></a>
+              <img src="../img/inreality.svg" id="sponsorLogo1" class="sponsorLogo" /></a>
           </li>
           <li>
             <a href="https://www.riversandsihub.co.za/" target="_blank">
-              <img src="../img/riversandsihub.png" class="sponsorLogo" /></a>
+              <img src="../img/riversandsihub.png" id="sponsorLogo1" class="sponsorLogo" /></a>
           </li>
           <li>
-            <a href="https://www.sourceworx.co.za/#" target="_blank">
-              <img src="../img/source-worx.svg" class="sponsorLogo" /></a>
+            <a href="https://www.sourceworx.co.za/#" target="_blank" id="sponsorLogoSrcwrx">
+              <img src="../img/source-worx.svg" id="sponsorLogo1" class="sponsorLogo" /></a>
           </li>
           <li>
             <a href="https://techways.online/" target="_blank">
-              <img src="../img/Techways.png" class="sponsorLogo" /></a>
+              <img src="../img/Techways.png" id="sponsorLogo1" class="sponsorLogo" /></a>
           </li>
           <li>
             <a href="https://hrwgrp.com/" target="_blank">
-              <img src="../img/HRW_RECRUITMENT.png" class="sponsorLogo" /></a>
+              <img src="../img/HRW_RECRUITMENT.png" id="sponsorLogoHrw" class="sponsorLogo" /></a>
           </li>
           <li>
             <a href="https://www.devson.co.za/" target="_blank">
-              <img src="../img/1551263018231.jpeg" style="height:70px; width:70px; border-radius: 15px;"
-                class="sponsorLogo" /></a>
+              <img src="../img/1551263018231.jpeg" id="sponsorLogo" class="sponsorLogo" /></a>
           </li>
         </ul>
 
         <div class="footerContact">
-          <div class="socialIcons">
-            <a href="https://wa.me/0827799875" target="_blank"><img src="../icons/whatsapp-brands.svg" class="img-fluid" /></a>
-            <a href="https://www.facebocom/CodeSchoolZA/" target="_blank"><img src="../icons/facebook-brands.svg"
-                style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
-            </a>
-            <a href="https://www.linkedin.com/company/the-coding-ground/about/" target="_blank"><img
-                src="../icons/linkedin-in-brands.svg" class="img-fluid"></a>
-          </div>
+       
           <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
 
         </div>
       </div>
     </div>
     <div class="footerTextContainer">
-      <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2021</h5>
+      <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2023</h5>
     </div>
 
   </footer>
 
 
   <script src="../script.js"></script>
+  <script src="../mentors.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

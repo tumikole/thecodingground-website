@@ -113,3 +113,22 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
+
+
+function readMore(names) {
+    var dots = document.querySelector(`.read[info-names="${names}"] #dots`);
+    var moreText = document.querySelector(`.read[info-names="${names}"] #more`);
+    var btnText = document.querySelector(`.read[info-names="${names}"] #myButton`);
+    console.log("dot", dots)
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.textContent = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.textContent = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+

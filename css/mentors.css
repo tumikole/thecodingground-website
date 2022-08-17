@@ -1,9 +1,22 @@
 
 #intro-section{
   background-color: #2a7e5f;
-background-image: linear-gradient(315deg, #98de5b  10%, #2a7e5f 74%);
+background-image: linear-gradient(315deg, #eeb50c  10%, #179b81 74%);
 }
-
+/* 
+#myButton{
+  height: 2rem;
+  width: 25%;
+  border-radius: .5rem;
+  display: none;
+  font-size: 1rem;
+  }   */
+    #dots{
+      display: none;
+    }
+    #more {
+      color: white;
+    }
 .meet-our-mentors{
   padding-top: 7rem;
   font-size: 2rem;
@@ -15,17 +28,17 @@ background-image: linear-gradient(315deg, #98de5b  10%, #2a7e5f 74%);
   gap: 2rem;
   padding-left: 3rem;
   padding-top: 5rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 
 }
 
 .card-container p{
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .title {
   color: rgba(255, 255, 255, 0.479);
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Raleway' !important;
 }
 
@@ -60,12 +73,11 @@ h5 {
   margin: auto;
   text-align: center;
   font-family: arial;
-}
-
-.left-column{
-  color: white;
+    color: white;
   width: 60% !important;
 }
+
+
 .left-column
 h1 {
   width: 100%;
@@ -79,7 +91,7 @@ h1 {
 
 .vl {
   border-left: 6px solid white;
-  height: 526px;
+  height: 520px;
   opacity: 0.3;
 }
 
@@ -94,7 +106,14 @@ h2{
   font-size: 2rem;
   color: white;
 }
-
+.founders{
+   font-family: 'Raleway';
+  color: white;
+  text-align: center; 
+}
+u{
+  color: white;
+}
 .social-media{
   display:flex;
   padding-left: 2rem;
@@ -128,4 +147,5 @@ hr{
   background-color:  rgba(255, 255, 255, 0.555) !important;
   width: 89% ; 
   margin: auto;
+ 
 }

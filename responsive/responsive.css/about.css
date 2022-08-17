@@ -1,26 +1,892 @@
 
-@media (min-width: 320px ) and (max-width: 375px) {
-   
+
+@media (min-width: 0px ) and (max-width: 320px) {
+
+  #dots{
+    color: white;
+  }
+#more {
+    display: none;
   }
 
-  @media (min-width: 376px ) and (max-width: 425px) {
-   
+#myButton{
+    display: inline;
+    height: 2rem;
+    color:  #eeb50c;
+    font-weight: bold;
+    width: 32%;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+  }
+  .intro-section {
+    margin-top: 7rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5rem;
+      }
+
+      .img-tcg{
+        display: none;
+      }
+      
+.intro-section h1{
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+      .intro-section p {
+        margin-bottom: .5rem;    
+      }
+  
+    .square{
+      border: none;
+    }
+    .card{
+      height: 25em;
+    }
+     .card h1{
+       margin-top: 1rem;
+       font-size: 1.5rem;
+       border: 1px solid black;
+       border-radius: 0.5rem;
+     }
+
+    .h1-align{
+      display: flex;
+      gap: .5rem;
+    }
+
+    .h1-align1{
+      display: flex;
+      gap: 0.5rem;
+    }
+    #h1-align1{
+      display: flex;
+      gap: 0.5rem;
+    }
+     
+    .cards-wrapper{
+      padding-top: 1rem !important;
+    }
+    .columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 1rem;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  /* padding-right: 1rem; */
 }
 
-@media (min-width: 426px ) and (max-width: 768px) {
-   
+
+.sponsorLogo {
+  width: 75%;
+}
+#sponsorLogo {
+  height: 37px;
+  width: 37px;
+  border-radius: 15px;
+  margin-top: 0rem;
+  margin-right: 1.8rem;
 }
 
-@media (min-width: 768px ) and (max-width: 1440px) {
-   
+#sponsorLogoHrw {
+  margin-left: -0.5rem;
 }
 
-@media (min-width: 1440px ) and (max-width: 2560px) {
-   
+#sponsorLogoSrcwrx {
+  margin-left: -0.7rem;
+}
 
+.socialIcons{
+  display: none;
+}
+
+.footerContact{
+  display: none;
+}
+
+/* .sponsorLogo {
+  width: 130%;
+}
+#sponsorLogo {
+  height: 40px;
+    width:40px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  margin-right: 3rem;
+
+}
+
+
+#sponsorLogoHrw {
+  margin-left: -.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -.7rem;
+} */
+
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 10%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+
+#myBtn {
+  display: none !important;
   
 }
 
-@media (min-width: 2560px ) {
+
+}
+@media (min-width: 321px ) and (max-width: 375px) {
+  #dots{
+    color: white;
+  }
+#more {
+    display: none;
+  }
+
+  /* #h1-align{
+display: flex;
+gap: 0.5rem;
+  }    */
+/* h1{ */
+  /* display: flex; */
+  /* justify-content: center; */
+/* } */
+
+#myButton{
+  display: inline;
+  height: 2rem;
+  color:  #eeb50c;
+  font-weight: bold;
+  width: 32%;
+  font-size: 1rem;
+  border-radius: .2rem;
+  border: none;
+  outline: none;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+}
+  .intro-section {
+margin-top: 7rem;
+margin-left: 0;
+margin-right: 0;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 1.5rem;
+  }
+
+  .img-tcg{
+    display: none;
+  }
+
+  .intro-section h1{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+  }
+      
+  .intro-section p {
+    margin-bottom: 0;
+  
+  }
+
+.square{
+  border: none;
+}
+.card{
+  height: 25em;
+}
+
+.card h1{
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+/* 
+#who-qualifies{
+  display: flex ;
+  gap: .5rem ;
+} */
+.h1-align1{
+  display: flex ;
+  gap: .5rem ;
+}
+/* 
+#h1-align1{
+  display: flex;
+  gap: .5rem ;
+} */
+ 
+.cards-wrapper{
+  padding-top: 1rem !important;
+}
+.columns ul{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: .5rem;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  /* padding-right: 1.5rem; */
+}
+.socialIcons{
+  display: none;
+}
+.footerContact{
+  display: none;
+}
+
+
+
+.sponsorLogo {
+  width: 100%;
+}
+#sponsorLogo {
+  height: 37px;
+  width: 37px;
+  border-radius: 15px;
+  margin-top: 0.4rem;
+  margin-right: 2.8rem;
+}
+
+#sponsorLogoHrw {
+  margin-left: -0.5rem;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -0.7rem;
+}
+/* .sponsorLogo {
+  width: 70%;
+}
+#sponsorLogo {
+  height: 40px;
+    width:40px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  margin-right: 3rem;
+
+}
+
+
+#sponsorLogoHrw {
+  margin-left: -.5rem;
+  width: 100% !important;
+}
+
+#sponsorLogoSrcwrx {
+  margin-left: -.5rem;
+} */
+
+.columns{
+  padding-bottom: 1rem;
+  padding-left: 10%;
+}
+.footerTextContainer{
+padding-bottom: 4rem;
+}
+.footerText{
+  padding-top: 1.3rem;
+}
+
+#myBtn {
+  display: none !important;
+  
+}
+
+  }
+
+  @media (min-width: 375px) and (max-width: 375px) {
+    #sponsorLogo {
+      height: 45px;
+      width: 45px;
+      border-radius: 15px;
+      margin-top: 0.4rem;
+      margin-right: 3.5rem;
+  }
+
+
+}
+
+  @media (min-width: 376px ) and (max-width: 425px) {
+    #dots{
+      color: white;
+    }
+  #more {
+      display: none;
+    }
+  
+  
+#myButton{
+  display: inline;
+  height: 2rem;
+  color:  #eeb50c;
+  font-weight: bold;
+  width: 32%;
+  font-size: 1rem;
+  border-radius: .2rem;
+  border: none;
+  outline: none;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+}
+    .intro-section {
+      margin-top: 7rem;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 1.5rem;
+        }
+      
+        .img-tcg{
+          display: none;
+        }
+        .intro-section h1{
+          padding-top: 3rem;
+          font-size: 1.5rem;
+        }
+            
+        .intro-section p {
+          margin-bottom: 0;
+          /* justify-content: center; */
+          /* text-align: center; */
+        
+        }
+      
+      .square{
+        border: none;
+      }
+      .card{
+        height: 20em;
+      }
+
+      .card h1{
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+      }
+.h1-align1{
+  display: flex ;
+  gap: .5rem ;
+}
+      #h1-align{
+        display: flex;
+        gap: 0.5rem;
+      }
+      #h1-align1{
+        display: flex;
+        gap: .7rem;
+      }
+       
+      .cards-wrapper{
+        padding-top: 1rem !important;
+      }
+      /* .columns ul{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        padding-left: 1rem;
+        row-gap: .5rem;
+        column-gap: 3rem;
+        padding-right: 0rem;
+      } */
+      .columns ul{           
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      padding-left: 1rem;
+      row-gap: 1.5rem;
+      column-gap: 3rem;
+      padding-right: 0;
+    }
+      .socialIcons{
+        display: none;
+      }
+      .footerContact{
+        display: none;
+      }
+
+      .sponsorLogo {
+        width: 80%;
+      }
+      #sponsorLogo {
+        height: 45px;
+        width: 45px;
+        border-radius: 15px;
+        margin-top: .3rem;
+        margin-right: 3rem;
+    
+      }
+    
+      #sponsorLogo1 {
+       padding-top: .5rem;
+      }
+    
+      #sponsorLogoHrw {
+        margin-left: -0.9rem;
+      }
+    
+      #sponsorLogoSrcwrx {
+        margin-left: -0.7rem;
+      }
+      /* .sponsorLogo {
+        width: 100%;
+      }
+      #sponsorLogo {
+        height: 40px;
+          width:40px;
+        border-radius: 15px;
+        margin-top: .5rem;
+        margin-right: 5rem;
+      
+      }
+      
+      
+      #sponsorLogoHrw {
+        margin-left: -.9rem;
+        width: 80% !important;
+      }
+      
+      #sponsorLogoSrcwrx {
+        margin-left: -.5rem;
+      } */
+      
+      .columns{
+        padding-bottom: 1rem;
+        padding-left: 10%;
+      }
+      .footerTextContainer{
+      padding-bottom: 4rem;
+      }
+      .footerText{
+        padding-top: 1.4rem;
+      }
+      #myBtn {
+        display: none !important;
+        
+      }
    
+}
+
+@media (min-width: 360px ) and (max-width: 360px) {
+.card{
+  height: 24em;
+}
+}
+
+@media (min-width: 425px) and (max-width: 425px){
+  #sponsorLogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    margin-top: .3rem;
+    margin-right: 4.5rem;
+
+  }
+
+}
+
+@media (min-width: 426px ) and (max-width: 767px) {
+  #dots{
+    color: white;
+  }
+#more {
+    display: none;
+  }
+
+  .h1-align1{
+    display: flex;
+    gap: .5rem;
+  }
+
+  #myButton{
+    display: inline;
+    height: 2rem;
+    color:  #eeb50c;
+    width: 25%;
+    font-size: 1rem;
+    border-radius: .2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+  }
+  .intro-section {
+    margin-top: 7rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1.5rem;
+      }
+    
+      .img-tcg{
+        display: none;
+      }
+      .intro-section h1{
+        padding-top: 3rem;
+        font-size: 1.5rem;
+      }
+          
+      .intro-section p {
+        margin-bottom: 0;
+        /* justify-content: center; */
+        /* text-align: center; */
+      
+      }
+    
+    .square{
+      border: none;
+    }
+    .card{
+      height: 20em;
+    }
+
+    .card h1{
+      margin-top: 1rem;
+      border: 1px solid black;
+      border-radius: 0.5rem;
+    }
+     
+    .cards-wrapper{
+      padding-top: 1rem !important;
+    
+    }
+    /* .columns ul{
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      padding-left: 0;
+      row-gap: 1.5rem;
+      column-gap: 3rem;
+      padding-right: 3rem;
+    } */
+
+    .columns ul {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      padding-left: 0;
+      row-gap: 1.5rem;
+      column-gap: 3rem;
+      /* padding-right: 3rem; */
+    }
+
+    .sponsorLogo {
+      width: 80%;
+    }
+    #sponsorLogo {
+      height: 50px;
+      width: 50px;
+      border-radius: 15px;
+      margin-top: 0.3rem;
+      margin-right: 4rem;
+    }
+  
+    #sponsorLogoHrw {
+      margin-left: -0.5rem;
+    }
+  
+    #sponsorLogoSrcwrx {
+      margin-left: -0.5rem;
+      margin-top: 2rem;
+    }
+  
+    .socialIcons{
+      display: none;
+    }
+    .footerContact{
+      display: none;
+    }
+/*     
+    .sponsorLogo {
+      width: 100%;
+    }
+    
+    #sponsorLogo {
+      height: 45px;
+        width:45px;
+      border-radius: 15px;
+      margin-top: .5rem;
+      margin-right: 5rem;
+    
+    }
+    
+    #sponsorLogoHrw {
+      margin-left: -.5rem;
+      width: 80%;
+    }
+    
+    #sponsorLogoSrcwrx {
+      margin-left: -.5rem;
+      margin-top: 2rem
+    }
+     */
+    .columns{
+      padding-bottom: 1rem;
+      padding-left: 10%;
+    }
+    .footerTextContainer{
+    padding-bottom: 4rem;
+    }
+    .footerText{
+      padding-top: 1.4rem;
+    }
+    
+    #myBtn {
+      display: none !important;
+      
+    }
+}
+
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+  .intro-section {
+    background-color: var(--light-green);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 8rem;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+.square{
+        border: none;
+      }
+      .card{
+        height: 23em;
+        width: 21em !important
+      }
+
+      .card h1{
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+      }
+       
+      .cards-wrapper{
+        display: grid; 
+        grid-template-columns:  1fr 1fr;
+        padding-top: 3rem !important;
+      }
+      #myButton{
+        display: none !important;
+          }
+        
+          #myBtn{
+            display: none !important;
+          }
+        
+          .footerContact{
+            display: none !important;
+          }
+        
+          .columns ul {
+            display: grid !important;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr !important;
+            width: 100%;
+          }
+          #sponsorLogo1 {
+            width: 100px;
+          }
+          .sponsorLogo {
+            width: 100px !important;
+        }
+        #sponsorLogo {
+        height: 43px !important;
+        width: 43px !important;
+        border-radius: 15px !important;
+        margin: 0 !important;
+        }
+        
+        #sponsorLogo1{
+          margin-top: -12px;
+        }
+   
+      
+}
+
+@media (min-width: 1024px ) and (max-width: 1439px) {
+  .card{
+    width: 27.8em !important;
+  }
+  #h1-align{
+    gap: 0.5rem;
+  }
+  .columns {
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .footerTextContainer {
+    background-color: #033333;
+    height: 40px;
+  }
+  
+  .footerText {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 8px;
+  }
+  
+  .footerContact {
+    display: none !important;
+   }
+  
+  .columns ul {
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin: auto;
+ }
+  
+  .columns li {
+    color: white;
+  }
+  
+  .sponsorLogo {
+    width: 100px;
+  }
+  
+  #sponsorLogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-top: .2rem;
+  }
+  #sponsorLogo1{
+    padding-top: 1rem;
+  }
+
+  #sponsorLogoSrcwrx{
+    padding-top: .8rem;
+
+  }
+ 
+  #myBtn {
+  
+    bottom: 50px;
+    right: 40px;
+    z-index: 99;
+    font-size: 13px;
+    background-color: #2a7e5f !important;
+ 
+   }
+  
+}
+
+@media (min-width: 1440px ) and (max-width: 2560px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card{
+    width: 25.5em !important;
+  }
+
+  #h1-align{
+    gap: 0.5rem;
+  }
+
+  @media (min-width: 1440px) and (max-width: 2559px){
+    .columns {
+      padding: 3em;
+      text-align: center;
+    }
+    
+    .footerTextContainer {
+      background-color: #033333;
+      height: 40px;
+    }
+    
+    .footerText {
+      text-align: center;
+      margin: 0 auto;
+      color: white;
+      padding: 8px;
+    }
+    
+    .footerContact {
+      display: none !important;
+     }
+    
+    .columns ul {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+   }
+    
+    .columns li {
+      color: white;
+    }
+    
+    .sponsorLogo {
+      width: 100px;
+    }
+    
+    #sponsorLogo {
+      height: 50px;
+      width: 50px;
+      border-radius: 15px;
+      margin-top: .2rem;
+    }
+    #sponsorLogo1{
+      padding-top: 1rem;
+    }
+  
+    #sponsorLogoSrcwrx{
+      padding-top: .8rem;
+  
+    }
+   
+    #myBtn {
+    
+      bottom: 50px;
+      right: 40px;
+      z-index: 99;
+      font-size: 13px;
+      background-color: #2a7e5f !important;
+   
+     }
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1366px){
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card{
+    width: 24em !important;
+  }
+
+  #h1-align{
+    display: flex;
+    gap: .5rem
+  }
+  #dots{
+    display: none;
+  }
+#more {
+    display: inline;
+  }
+
+  #myButton{
+    display: inline;
+    height: 2rem;
+    color: none;
+    width: 10%;
+    border-radius: .5rem;
+    /* display: none; */
+    }
+
 }
