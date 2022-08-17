@@ -1,26 +1,978 @@
+@media (min-width: 0px) and (max-width: 320px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  #intro-section {
+    padding-bottom: 0rem;
+  }
+  .card-container {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .right-column {
+    display: grid;
+    width: 200%;
+  }
 
-@media (min-width: 320px ) and (max-width: 375px) {
-   
+  .social-media {
+    display: none;
+  }
+  .vl {
+    display: none;
+  }
+
+  .right-column h3 {
+    padding-top: 2rem;
+  }
+
+  .meet-our-mentors {
+    padding-top: 9rem !important;
+  }
+
+  .left-column h3 {
+    padding-top: 2rem;
+  }
+  .left-column {
+    width: 200% !important;
+  }
+  /* .columns {
+    padding: -20rem;
+  } */
+
+
+  .columns {
+    padding-bottom: 1rem !important;
+    padding-left: 10% !important;
+  }
+  .mentor-imgMoral {
+    height: 30% !important;
+  }
+
+  #dots {
+    display: inline;
+    color: white;
+  }
+  #more {
+    display: none;
+  }
+
+  #myButton {
+    display: inline;
+    height: 2rem;
+    color: #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: 0.85rem;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+  }
+
+  #myBtn {
+    display: none !important;
+  }
+
+  /* .columns ul {
+    display: grid !important;
+    grid-template-columns: 3fr 3fr !important;
+    row-gap: 1.5rem !important;
+  } */
+  .socialIcons {
+    display: none;
+  }
+  .columns ul {
+    display: grid !important;
+    grid-template-columns: 2fr 2fr !important;
+    padding-left: 1rem !important;
+    row-gap: 1rem !important;
+    column-gap: 1.5rem !important;
+    /* padding-right: 1rem; */
+  }
+  .sponsorLogo {
+    width: 75% !important;
+  }
+  #sponsorLogo {
+    height: 37px !important;
+    width: 37px !important;
+    border-radius: 15px !important;
+    margin-top: 0rem !important;
+    margin-right: 2.5rem !important;
 }
 
-@media (min-width: 376px ) and (max-width: 425px) {
- 
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+  /* .sponsorLogo {
+    width: 75% !important;
+  }
+  #sponsorLogo {
+    height: 45px !important;
+    width: 45px !important;
+    margin-top: 0rem !important;
+    margin-left: -2rem !important;
+  }
+  #sponsorLogo1 {
+    padding-top: 0rem !important;
+  } */
+  .footerContact {
+    display: none !important;
+  }
+  /* .footerTextContainer {
+    height: 65px !important;
+
+} */
+.footerTextContainer {
+  padding-bottom: 4rem !important;
+}
 }
 
-@media (min-width: 426px ) and (max-width: 768px) {
- 
+@media (min-width: 321px) and (max-width: 375px) {
+  #myButton {
+
+    display: inline;
+    height: 2rem;
+    color: #eeb50c;
+    font-weight: bold;
+    /* width: 28%; */
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+  }
+  #dots {
+    display: inline;
+    color: white;
+  }
+  #more {
+    display: none;
+    color: white;
+  }
+  .card-container {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 8.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .social-media {
+    display: none;
+  }
+  .right-column {
+    display: grid;
+    width: 172%;
+  }
+
+  .right-column h3 {
+    padding-top: 2rem;
+  }
+  .vl {
+    display: none;
+  }
+  .meet-our-mentors {
+    padding-top: 9rem !important;
+  }
+
+  .left-column h3 {
+    padding-top: 2rem;
+  }
+  .left-column {
+    width: 172% !important;
+  }
+
+  .mentor-imgMoral {
+    height: 30% !important;
+  }
+  /* .columns ul {
+    display: grid !important;
+    grid-template-columns: 3fr 3fr !important;
+    row-gap: 1.5rem !important;
+  } */
+  .socialIcons {
+    display: none;
+  }
+  .columns ul {
+    display: grid !important;
+    grid-template-columns: 2fr 2fr !important;
+    padding-left: 1rem !important;
+    row-gap: 1rem !important;
+    column-gap: 2.5rem !important;
+    padding-right: 0rem !important;
+  }
+  .sponsorLogo {
+    width: 100% !important;
+  }
+  #sponsorLogo {
+    height: 37px !important;
+    width: 37px !important;
+    border-radius: 15px !important;
+    margin-top: 0.4rem !important;
+    margin-right: 3.5rem !important;
 }
 
-@media (min-width: 768px ) and (max-width: 1440px) {
- 
+  #sponsorLogoHrw {
+    margin-left: -0.5rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+/* 
+  .sponsorLogo {
+    width: 80% !important;
+  }
+  #sponsorLogo {
+    height: 50px !important;
+    width: 50px !important;
+    margin-top: 0.5rem !important;
+    margin-left: -2rem !important;
+  } */
+  /* #sponsorLogo1 {
+    padding-top: 0rem !important;
+  } */
+  .footerContact {
+
+    display: none !important;
+  }
+  /* .footerTextContainer {
+    height: 65px !important;
+  } */
+
+  .footerTextContainer {
+    padding-bottom: 4rem !important;
+  }
+
+  .columns {
+    padding-bottom: 1rem !important;
+    padding-left: 10% !important;
+  }
+  .footerText {
+    /* padding-top: 1.4rem !important; */
+    padding-bottom: 0 !important;
+  }
 }
 
-@media (min-width: 1440px ) and (max-width: 2560px) {
- 
+@media (min-width: 375px) and (max-width: 375px) {
+  #dots {
+    display: inline;
+    color: white;
+  }
+  #more {
+    display: none;
+    color: white;
+  }
+  .card-container {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 10rem;
+    padding-bottom: 1.5rem;
+  }
 
+  #sponsorLogo {
+    height: 45px !important;
+    width: 45px !important;
+    border-radius: 15px !important;
+    margin-top: 0.4rem !important;
+    margin-right: 4rem !important;
+}
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  #myButton {
+    display: inline;
+    height: 2rem;
+    color: #eeb50c;
+    font-weight: bold;
+    /* width: 25%; */
+    font-size: .8rem;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+  }
+  #dots {
+    display: inline;
+    color: white;
+  }
+  #more {
+    display: none;
+    color: white;
+  }
+
+  .card-container {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 9rem;
+    padding-bottom: 1.5rem;
+  }
+  .right-column {
+    display: grid;
+    width: 158%;
+  }
+
+  .social-media {
+    display: none;
+  }
+  .vl {
+    display: none;
+  }
+
+  .right-column h3 {
+    padding-top: 2rem;
+  }
+
+  .meet-our-mentors {
+    padding-top: 9rem !important;
+  }
+
+  .left-column h3 {
+    padding-top: 2rem;
+  }
+  .left-column {
+    width: 158% !important;
+  }
+
+  .mentor-imgMoral {
+    height: 30% !important;
+  }
+  /* .columns ul {
+    display: grid !important;
+    grid-template-columns: 3fr 3fr !important;
+    row-gap: 1.5rem !important;
+  }
+  .socialIcons {
+    display: none;
+  }
+
+  .sponsorLogo {
+    width: 80% !important;
+  }
+  #sponsorLogo {
+    height: 50px !important;
+    width: 50px !important;
+    margin-top: 0.5rem !important;
+    margin-left: -2rem !important;
+  }
+  #sponsorLogo1 {
+    padding-top: 0rem !important;
+   } */
+  .footerContact {
+    display: none !important;
+  }
+  /*  
+  .footerTextContainer {
+    height: 65px !important;
+  }
+  .footerText {
+    padding-top: 1.4rem !important;
+  } */
+  .columns ul {
+    display: grid !important;
+    grid-template-columns: 2fr 2fr !important;
+    padding-left: 1rem !important; 
+    row-gap: 1.5rem !important; 
+    column-gap: 3rem !important;
+    padding-right: 0 !important;
+  }
+  .sponsorLogo {
+    width: 80% !important;
+  }
+  #sponsorLogo {
+    height: 45px !important;
+    width: 45px !important;
+    border-radius: 15px !important;
+    margin-top: .3rem !important;
+    margin-right: 3rem !important;
+
+  }
+
+  #sponsorLogo1 {
+   padding-top: .5rem;
+  }
+
+  #sponsorLogoHrw {
+    margin-left: -0.9rem;
+  }
+
+  #sponsorLogoSrcwrx {
+    margin-left: -0.7rem;
+  }
+
+  .columns {
+    padding-bottom: 1rem !important;
+    padding-left: 6% !important;
+  }
+  .footerTextContainer {
+    padding-bottom: 4rem;
+  }
+  .footerText {
+    padding-top: 1.3rem !important;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 425px){
+  #dots {
+    display: inline;
+    color: white;
+  }
+  #more {
+    display: none;
+    color: white;
+  }
+  .card-container {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 10rem;
+    padding-bottom: 1.5rem;
+  }
+  #sponsorLogo {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    margin-top: .3rem;
+    margin-right: 4.5rem;
+
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  #myButton {
+
+    display: inline;
+    height: 2rem;
+    color: #eeb50c;
+    font-weight: bold;
+    width: 25%;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+  }
+  .card-container {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .right-column {
+    display: grid;
+    width: 158%;
+  }
+
+  .social-media {
+    display: none;
+  }
+  .vl {
+    display: none;
+  }
+
+  .right-column h3 {
+    padding-top: 2rem;
+  }
+
+  .meet-our-mentors {
+    padding-top: 9rem !important;
+  }
+
+  .left-column h3 {
+    padding-top: 2rem;
+  }
+  .left-column {
+    width: 158% !important;
+  }
+
+  .mentor-imgMoral {
+    height: 30% !important;
 
 }
 
-@media (min-width: 2560px ) {
- 
+/* .columns ul{
+  display: grid !important;
+  grid-template-columns: 3fr 3fr !important;
+  row-gap: 1.5rem !important;
+    } */
+    .socialIcons{
+      display: none;
+    }  
+
+    .columns ul {
+      display: grid !important;
+      grid-template-columns: 2fr 2fr !important;
+      padding-left: 0 !important;
+      row-gap: 1.5rem !important;
+      column-gap: 3rem !important;
+      /* padding-right: 3rem; */
+    }
+    .sponsorLogo {
+      width: 80% !important;
+    }
+    #sponsorLogo {
+      height: 50px !important;
+      width: 50px !important;
+      border-radius: 15px !important;
+      margin-top: 0.3rem !important;
+      margin-right: 4rem !important;
+    }
+  
+    #sponsorLogoHrw {
+      margin-left: -0.5rem;
+    }
+  
+    #sponsorLogoSrcwrx {
+      margin-left: -0.5rem;
+      margin-top: 2rem;
+    }
+  
+    .columns {
+      padding-bottom: 1rem !important;
+      padding-left: 10% !important;
+    }
+    .footerTextContainer {
+      padding-bottom: 4rem;
+    }
+    .footerText {
+      padding-top: 1.4rem;
+    }
+  
+    /* .sponsorLogo{
+      width: 80% !important;
+    }
+    #sponsorLogo{
+      height: 45px !important;
+      width: 45px !important;
+  margin-top: 0.5rem !important;
+  margin-left:-5rem !important
+    }
+    #sponsorLogo1{
+  padding-top: 0rem !important;
+  } */
+  .footerContact{
+    display: none !important;
+   } 
+  /* .footerTextContainer{*
+    height: 65px !important;
+  }
+  .footerText{
+    padding-top: 1.4rem !important;
+  } */
+  #dots {
+    display: inline;
+    color: white;
+  }
+  #more {
+    display: none;
+    color: white;
+  }
+
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #intro-section {
+    background-color: #2a7e5f;
+    background-image: linear-gradient(315deg, #98de5b 10%, #2a7e5f 74%);
+  }
+
+  .meet-our-mentors {
+    padding-top: 8rem !important;
+    font-size: 2rem;
+  }
+
+  .card-container {
+    display: block;
+    padding-top: 2rem !important;
+    font-size: 2.5rem;
+    padding: 0px 0px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .founders {
+    font-family: "Raleway";
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card-container p {
+    font-size: 16px;
+  }
+
+  .h1-align1 {
+    display: flex !important;
+    gap: 0.5rem !important;
+  }
+
+  .card h1 {
+    display: flex !important;
+    gap: 0.5rem !important;
+  }
+
+  .title {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 16px;
+    font-family: "Raleway" !important;
+  }
+
+  h3 {
+    font-family: "Raleway" !important;
+    color: white;
+    padding-top: 2rem;
+  }
+
+  h5 {
+    color: white;
+    font-family: "Raleway" !important;
+  }
+
+  .mentor-text {
+    display: flex !;
+  }
+
+  .left-column {
+    margin: 0 auto;
+    text-align: center;
+    font-family: arial;
+    color: #ffffff;
+    width: 100% !important;
+  }
+
+  .mentor-imgMoral {
+    height: 480px !important;
+  }
+
+  .left-column h1 {
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: "Raleway";
+  }
+
+  #dots {
+    display: none !important;
+  }
+  #more {
+    color: white !important;
+    display: inline !important;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .right-column p {
+    font-family: "Raleway";
+    color: white;
+  }
+
+  .right-column h2 {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  hr {
+    background-color: rgba(255, 255, 255, 0.555) !important;
+    width: 89%;
+    margin: auto;
+  }
+
+  #myButton {
+    display: none !important;
+  }
+
+  #myBtn {
+    display: none !important;
+  }
+
+  .footerContact {
+    display: none !important;
+  }
+
+  .columns ul {
+    display: grid !important;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr !important;
+    width: 100%;
+  }
+  #sponsorLogo1 {
+    width: 100px;
+  }
+  .sponsorLogo {
+    width: 100px !important;
+  }
+  #sponsorLogo {
+    height: 43px !important;
+    width: 43px !important;
+    border-radius: 15px !important;
+    margin: 0 !important;
+  }
+
+  #sponsorLogo1 {
+    margin-top: -12px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  #intro-section {
+    background-color: #2a7e5f;
+    background-image: linear-gradient(315deg, #98de5b 10%, #2a7e5f 74%);
+  }
+
+  .meet-our-mentors {
+    padding-top: 8rem !important;
+    font-size: 2rem;
+  }
+
+  .card-container {
+    display: block;
+    padding-top: 2rem !important;
+    font-size: 2.5rem;
+    padding: 0px 0px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .founders {
+    font-family: "Raleway";
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card-container p {
+    font-size: 16px;
+  }
+
+  .h1-align1 {
+    display: flex !important;
+    gap: 0.5rem !important;
+  }
+
+  .card h1 {
+    display: flex !important;
+    gap: 0.5rem !important;
+  }
+
+  .title {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 16px;
+    font-family: "Raleway" !important;
+  }
+
+  h3 {
+    font-family: "Raleway" !important;
+    color: white;
+    padding-top: 2rem;
+  }
+
+  h5 {
+    color: white;
+    font-family: "Raleway" !important;
+  }
+
+  .mentor-text {
+    display: flex !;
+  }
+
+  .left-column {
+    margin: 0 auto;
+    text-align: center;
+    font-family: arial;
+    color: #ffffff;
+    width: 70% !important;
+  }
+
+  .mentor-imgMoral {
+    height: 480px !important;
+  }
+
+  .left-column h1 {
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: "Raleway";
+  }
+
+  #dots {
+    display: none !important;
+  }
+  #more {
+    color: white !important;
+    display: inline !important;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .right-column p {
+    font-family: "Raleway";
+    color: white;
+  }
+
+  .right-column h2 {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  hr {
+    background-color: rgba(255, 255, 255, 0.555) !important;
+    width: 89%;
+    margin: auto;
+  }
+
+  #myButton {
+    display: none !important;
+  }
+
+  #myBtn {
+    display: none !important;
+  }
+
+  .footerContact {
+    display: none !important;
+  }
+
+  .columns ul {
+    display: grid !important;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr !important;
+    width: 100%;
+  }
+  #sponsorLogo1 {
+    width: 100px;
+  }
+  .sponsorLogo {
+    width: 100px !important;
+  }
+  #sponsorLogo {
+    height: 43px !important;
+    width: 43px !important;
+    border-radius: 15px !important;
+    margin: 0 !important;
+  }
+
+  #sponsorLogo1 {
+    margin-top: -12px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+  #dots {
+    display: none !important;
+  }
+  #more {
+    color: white !important;
+    display: inline !important;
+  }
+  #myButton {
+    display: none;
+      }
+  .card-container {
+    display: grid;
+    grid-template-columns: 50% 3% 47%;
+    padding: 10rem;
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+}
+
+.vl{
+  height: 100%;
+}
+
+.left-column {
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+  color: #ffffff;
+  width: 90% !important;
+}
+
+.mentor-imgMoral {
+  height: 480px !important;
+}
+#myButton {
+  display: none !important;
+}
+#myBtn {
+  display: none !important;
+}
+
+.footerContact {
+  display: none !important;
+}
+
+.columns {
+  padding: 3em !important;
+  text-align: center !important;
+}
+
+.columns ul {
+  display: grid !important;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr !important;
+  width: 100%;
+}
+#sponsorLogo1 {
+  width: 100px;
+}
+.sponsorLogo {
+  width: 100px !important;
+}
+#sponsorLogo {
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 15px !important;
+  margin: 0 !important;
+}
+
+#sponsorLogo1 {
+  margin-top: -12px;
+}
+}
+
+@media (min-width: 2560px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 50% 5% 45%;
+    padding: 10rem;
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+}
+.mentor-imgMoral {
+  height: 500px !important;
+}
+#myButton {
+  display: none !important;
+}
+}
+

@@ -9,8 +9,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Raleway|Alfa Slab One" />
   <link rel="stylesheet" href="./responsive/responsiveforAllScreen.css" />
   <link rel="stylesheet" href="./responsive/navaboutcontactresponsive.css" />
+  <link rel="stylesheet" href="./responsive/responsive.css/index.css" />
+
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -31,7 +34,7 @@
       <a href="#"><img class="nav-logo" src="./img/Logo-White-website.png" /></a>
       <ul class="nav-menu">
         <li class="nav-item">
-          <a id="nav-item" class="current" href="./index.html" class="nav-link">Home</a>
+          <a class="current" href="./index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
           <a href="./htmlFiles/about.html" class="nav-link">About</a>
@@ -40,7 +43,7 @@
           <a href="./htmlFiles/students.html" class="nav-link">Students</a>
         </li>
         <li class="nav-item">
-          <a href="./htmlFiles/mentor.html" class="nav-link">Mentors</a>
+          <a href="./htmlFiles/mentor.html" class="nav-link">Team</a>
         </li>
         <li class="nav-item">
           <a href="./htmlFiles/contact.html" class="nav-link">Contact</a>
@@ -56,15 +59,18 @@
   
   <div id="home" class="imgContainer">
     <div  class="cliquidity">
-      <p style="color: white;text-align:center">
-        1. Create an account on cliquidity by clicking on this link
-        <a style="color: yellow;text-decoration: none" href="https://www.cliquidity.co.uk/content/home"
-          target="_blank">cliquidity. </a>  2. Complete the Adaptive Reasoning Assessment, 3. download the
-        PDF of the Results and email them to
-        <a style="color: yellow;text-decoration: none" href="mailto:tanille@thecodingground.com"
-          target="_blank">tanille@thecodingground.com</a> you must also include
-        your name, contacts and Id copy.
-      </p></div>
+
+      <p style="color: white;">
+        First create an account on
+        <a style="color: #efb633" href="https://www.cliquidity.co.uk/content/home"
+          target="_blank">cliquidity</a>. Complete the <strong>Adaptive Reasoning</strong> test. Download the
+        PDF and email it to
+        <a style="color:#efb633" href="mailto:tanille@thecodingground.com"
+          target="_blank">tanille@thecodingground.com</a>
+        with your name, contact and Id copy before completing the form bellow.
+      </p>
+    </div>
+
       <div class="homeContainerGrid">
       <div class="img-logo">
     <img style="padding-top: 3rem;" class="homeImg" src="./img/Logo-White.png" alt="tcgLogo" />
@@ -75,18 +81,27 @@
         <h2 class="header-medium"><strong>THE CODING GROUND</strong></h2>
       </div>
       <br />
-      <br />
+      <!-- <br /> -->
 
       <div class="sub-header-container">
-        <div class="sub-header">
+        <div class="box">
+          <div class="inner">
+            <span style="color: white">START YOUR JOURNEY TO <a style="color: #efb633">SOFTWARE</a> MASTERY</span>
+          </div>
+    
+        </div>
+        <div class="sub-header sub1-header">
           <h3>learn today.</h3>
         </div>
         <div class="sub-header">
           <h3>craft your future.</h3>
         </div>
+
+        <div class="arrow bounce">
         <a id="applyBtn" class="btn btn-apply" data-toggle="modal" data-target="#exampleModal" href="">apply for
-          2022</a>
-        <div style="margin-top: 10rem !important; height: 80% !important" class="modal fade" id="exampleModal"
+          2023</a>
+        </div>
+        <div style="margin-top: 4rem !important; height: 80% !important" class="modal fade" id="exampleModal"
           tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -98,7 +113,7 @@
                     <hr style="color: black" />
                                       <p style="color: black">
                       Please fill in this form to apply for
-                      <strong>2022</strong> learnership
+                      <strong>2023</strong> learnership
                     </p>
                     <hr />
                     <div class="form-group">
@@ -182,12 +197,10 @@
   </div>
 
   <div class="card">
+    <h1 class="header-text">WHAT WILL I LEARN?</h1>
     <div class="what-to-learn-container">
       <div class="learn-side-1">
         <div class="section">
-          <u>
-            <h1 class="header-text">WHAT WILL I LEARN?</h1>
-          </u>
           <p class="card-text">
             Students will acquire the skills to become a well-rounded,
             full-stack software developer.This means that the student will
@@ -196,24 +209,24 @@
           </p>
         </div>
         <ul>
-          <li>
+          <li id="icon2">
             <i id="icon" class="fa fa-graduation-cap"></i>
             Learning how to learn
           </li>
-          <li>
-            <i class="fa fa-cogs"></i>
+          <li id="icon2">
+            <i id="icon" class="fa fa-cogs"></i>
             Problem-solving
           </li>
-          <li>
-            <i class="fa fa-cube"></i>
+          <li id="icon2">
+            <i  id="icon" class="fa fa-cube"></i>
             Python, Javascript &amp; C#
           </li>
-          <li>
-            <i class="fa fa-rocket"></i>
+          <li id="icon2">
+            <i  id="icon"  class="fa fa-rocket"></i>
             Web Development Fundamentals
           </li>
-          <li>
-            <i class="fa fa-archive"></i>
+          <li id="icon2">
+            <i id="icon" class="fa fa-archive"></i>
             Database Design and Use
           </li>
         </ul>
@@ -222,24 +235,24 @@
       <div class="learn-side-2">
         <img class="learn-side-2Logo" src="img/APPLICATION-v2-875x516.png" alt="logo" />
         <ul>
-          <li>
-            <i class="fa fa-bookmark"></i>
+          <li id="icon2">
+            <i id="icon"  class="fa fa-bookmark"></i>
             Computer Science Fundamentals
           </li>
-          <li>
-            <i class="fa fa-balance-scale"></i>Software Engineering
+          <li id="icon2">
+            <i  id="icon"  class="fa fa-balance-scale"></i>Software Engineering
             Fundamentals
           </li>
-          <li>
-            <i class="fa fa-bullhorn"></i>
+          <li id="icon2">
+            <i  id="icon" class="fa fa-bullhorn"></i>
             Dev-Ops
           </li>
-          <li>
-            <i class="fa fa-database"></i>
+          <li id="icon2">
+            <i id="icon"  class="fa fa-database"></i>
             API/ HTTP Request Programming
           </li>
-          <li>
-            <i class="fa fa-power-off"></i>
+          <li id="icon2">
+            <i  id="icon"  class="fa fa-power-off"></i>
             Agile Software Development
           </li>
         </ul>
@@ -256,25 +269,25 @@
         <ul>
           <li>
             <a href="https://www.inreality.com/" target="_blank">
-              <img src="./img/inreality.svg" class="sponsorLogo" /></a>
+              <img src="./img/inreality.svg"  id="sponsorLogo1" class="sponsorLogo" /></a>
           </li>
 
           <li>
             <a href="https://www.riversandsihub.co.za/" target="_blank">
-              <img src="./img/riversandsihub.png" class="sponsorLogo" /></a>
+              <img src="./img/riversandsihub.png" id="sponsorLogo1" class="sponsorLogo" /></a>
           </li>
           <li>
-            <a href="https://www.sourceworx.co.za/#" target="_blank">
-              <img src="./img/source-worx.svg" class="sponsorLogo" /></a>
+            <a href="https://www.sourceworx.co.za/#" id="sponsorLogoSrcwrx" target="_blank">
+              <img src="./img/source-worx.svg" id="sponsorLogo1" class="sponsorLogo" /></a>
           </li>
 
           <li>
             <a href="https://techways.online/" target="_blank">
-              <img src="./img/Techways.png" class="sponsorLogo" /></a>
+              <img src="./img/Techways.png" id="sponsorLogo1" class="sponsorLogo" /></a>
           </li>
           <li>
             <a href="https://hrwgrp.com/" target="_blank">
-              <img src="./img/HRW_RECRUITMENT.png" class="sponsorLogo" /></a>
+              <img src="./img/HRW_RECRUITMENT.png" id="sponsorLogoHrw" class="sponsorLogo" /></a>
           </li>
           <li>
             <a href="https://www.devson.co.za/" target="_blank">
@@ -298,7 +311,7 @@
       </div>
     </div>
     <div class="footerTextContainer">
-      <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2021</h5>
+      <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2023</h5>
     </div>
   </footer>
 

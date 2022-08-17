@@ -11,7 +11,7 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="../css/students.css" />
   <link rel="stylesheet" href="../style.css" />
-  <!-- <link rel="stylesheet" href="../responsive/responsiveforAllScreen.css"> -->
+  <link rel="stylesheet" href="../responsive/responsive.css/stundent.css">
   <link rel="stylesheet" href="../responsive/navaboutcontactresponsive.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
@@ -19,14 +19,14 @@
 " />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
 " />
- 
-<link rel="icon" type="image/png" href="/img/green-favicon.ico" sizes="16x16">
+
+  <link rel="icon" type="image/png" href="/img/green-favicon.ico" sizes="16x16">
   <title>STUDENTS - THE CODING GROUND</title>
- 
+
 </head>
 
 <body>
-<!-- /////////////////////////////////////////////// NAVIGATIONBAR HTML //////////////////////////////////////////////////// -->
+  <!-- /////////////////////////////////////////////// NAVIGATIONBAR HTML //////////////////////////////////////////////////// -->
 
   <header class="header-nav">
     <nav class="navbar">
@@ -42,7 +42,7 @@
           <a class="current" href="../htmlFiles/students.html" class="nav-link">Students</a>
         </li>
         <li class="nav-item">
-          <a href="../htmlFiles/mentor.html" class="nav-link">Mentors</a>
+          <a href="../htmlFiles/mentor.html" class="nav-link">Team</a>
         </li>
         <li class="nav-item">
           <a href="../htmlFiles/contact.html" class="nav-link">Contact</a>
@@ -58,130 +58,231 @@
   <!-- ////////////////////////////////////// END NAVIGATIONBAR HTML ////////////////////////////////////////////////////////////////// -->
 
   <div class="header-img">
-
+<img class="header-img1" src="../img/group_pic.jpg";
+" alt="">
   </div>
 
-<div>
-  <h1 class="welcome-students">
-    MEET OUR STUDENTS</h1>
+  <div class="welcomeStudents">
+    <h1 class="welcome-students">
+      MEET OUR STUDENTS</h1>
   </div>
   <div id="students" class="students">
 
-    <div class="bio-container">
+    <div class="bio-container block">
       <div class="card-container">
 
         <img src="../img/kamvalethu.jpg" alt="Kamvalethu Zitho" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 6rem;">Kamvalethu Zitho</h2>
+            <h2 class="names-space">Kamvalethu Zitho</h2>
           </strong></figcaption>
-        
+
+        <!-- <div class="social">
+          <a href=" https://www.linkedin.com/in/kamvalethu-zitho-152751217/" target="_blank"><i class="fab fa-linkedin "
+              style="color: #007bb6;"></i></a>
+          <a href="mailto:kamvalethu.zitho1705@gmail.com" target="_blank"><i class="far fa-envelope"
+              style="color: rgb(202, 142, 11);"></i></a>
+        </div> -->
+
       </div>
-      <div class="bio">
-        <p style="margin-left: 2rem">
-          Kamvalethu Zitho was born in the Eastern Cape, in a Township called Cala at Cala Hospital. She spent almost 8
+      <div class="bio read" info-names="Kamvalethu">
+        <p>
+
+         Hello, my name is Kamvalethu Zitho. I was born in the Eastern Cape, in a Township called Cala. Cala is a small,
+         underdeveloped area so when I was 8, I had to relocate to start school in Johannesburg. Growing up, I had a sharp mind, 
+         a strong sense of sympathy, and excellent problem-solving skills which made me stand out from other children. 
+         I loved reading books, writing and also loved spending time alone. I completed my Matric in the year 2020 and 
+         considered pursuing a career as an administrative lawyer or a chef but when I was introduced to co<span id="dots">...</span><span id="more">ding through
+        a mutual friend, I gave it a try and fell in love with it instantly and have never looked back. I am a hard worker
+         and if given an opportunity I persevere. I like to think of myself as a self-motivated and analytical thinker. One of 
+         the mottos I live by is “Principles only mean something if you stick by them when they are inconvenient”. I believe that 
+         words are powerful and can be used to make a significant impact on the lives of others. Therefore, I carefully use the power of 
+         to create genuine connections and lasting relationships with people in my professional and personal life.</span><button onclick="readMore('Kamvalethu')" id="myButton">Read more</button>
+
+
+
+          <!-- Kamvalethu Zitho was born in the Eastern Cape, in a Township called Cala at Cala Hospital. She spent almost 8
           years of her life in the Eastern Cape but
           later moved to Gauteng, because of the underdeveloped village she came from, she had to relocate to start
           school at Johannesburg. She was a genius growing
           up and that started to show at a very early stage of her life. For her age, she was as right as rain because
           you could see that she was going to be a very wise
-          young person. Growing up Kamvalethu possessed a very good personality trait which is sympathy and that made
+          young person. Growing up Kamvalethu posses<span id="dots">...</span><span id="more">sed a very good personality trait which is sympathy and that made
           her stand out from other children, she also
-          had excellent problem-solving skills. She showed interest in becoming a Lawyer specifically being an
-          Administrative lawyer at the age of 14 and also being a
-          Chef because it was one of her favorite things to do. She loved reading books, writing and also loved spending
-          most of her time alone. She completed her
-          Matric in the year 2020. She then got introduced to Coding through a mutual friend and she found it
-          interesting, she gave it a try and fell in love with it instantly
-          she has never looked back. Kamvalethu then joined The Coding Ground in 2021 and is still a student there.
-          Kamvalethu is a hard worker, she is capable if given
-          the opportunity and she perseveres. She has the ability to learn quickly and enjoys a challenge communicating
-          orally and in writing. Kamvalethu likes to think
-          of herself as self-motivated, a critical, and an analytical thinker. One of the mottos she says she lives by
-          is 'Principles only mean something if you stick by them when they’re inconvenient and she still lives by it
-          till to date.
+          had excellent problem-solving skills. She showed interest in
+            becoming a Lawyer specifically being an
+
+
+            Administrative lawyer at the age of 14 and also being a
+            Chef because it was one of her favorite things to do. She loved reading books, writing and also loved
+            spending
+            most of her time alone. She completed her
+            Matric in the year 2020. She then got introduced to Coding through a mutual friend and she found it
+            interesting, she gave it a try and fell in love with it instantly
+            she has never looked back. Kamvalethu then joined The Coding Ground in 2021 and is still a student there.
+            Kamvalethu is a hard worker, she is capable if given
+            the opportunity and she perseveres. She has the ability to learn quickly and enjoys a challenge
+            communicating
+            orally and in writing. Kamvalethu likes to think
+            of herself as self-motivated, a critical, and an analytical thinker. One of the mottos she says she lives by
+            is 'Principles only mean something if you stick by them when they’re inconvenient and she still lives by it
+            till to date.</span><button onclick="readMore('Kamvalethu')" id="myButton">Read more</button> -->
+
         </p>
       </div>
     </div>
     <hr style="border: 1px solid rgb(124, 116, 116);">
-    <div class="bio-container">
-      <div class="bio">
+    <div class="bio-container reversed">
+      <div class="bio read" info-names="Tumisang">
         <p>
-          My name is Ramollo Samuel Tumisang and I was born in the province of North West, in a small village called
-          Madidi but currently residing at Centurion
-          (Olievenhoutbosch). I was raised by my grandparents untill I became an adult. Since childhood, I have been
-          passionate about personal computers and media
-          designs. I completed my matric in 2009 and went to DSDC college the following year for a matric upgrade hoping
-          to enroll at one of the best universities in
-          Africa. I was hoping to do Multimedia design. In 2012 I enrolled at Sokhele college for a call center
-          certificate and Worked for Affinity mobile sponsored
-          by 8ta, based in Sunnyside Pretoria. I also completed a security grade E - C certificate in 2013. In 2015
-          joined Imvula Quality Protection and served my
-          three-year contract with no faulty issues. In 2016 I was awarded the commendation of service excellence at
-          Imvula Quality Protection for saving one of my
-          colleague’s life. I joined THE CODING GROUND in 2021 as a full-stack software developer. I joined THE CODING
-          GROUND because I love coding I wanted to
-          become the best software developers in the world. Currently, I’m doing frontend development. with the months
-          that I have spent here, I was able to learn a few
-          programming languages and frameworks. I am just glad that I got a chance to fulfill my dream of becoming a
-          software developer.
+          Hi, my name is Tumisang. I was born in the province of North West and raised by my grandparents
+           in a small village called Madidi. Since childhood, I have been passionate about personal computers 
+           and multimedia designs. I completed my Matric in 2009 and went to DSDC college the following year for
+           a matric upgrade, hoping to enroll with Unisa and study Multimedia Designs, but I could not study multimedia 
+          designs because I couldn't afford to pay for the studies In 2016 I was awarded the commendation of service excellence 
+          at Imvula Quality Protection for sa<span id="dots">...</span><span id="more">ving one of my colleague’s life. I joined THE CODING GROUND because I love coding I 
+          wanted to become the best software developers in the world. Currently, I’m doing frontend development. In the months that I
+           have spent here so far, I’ve been able to learn a few programming languages and frameworks. I am just so glad that I am getting
+            the chance to fulfil my dream of becoming a software developer.</span><button onclick="readMore('Tumisang')" id="myButton">Read more</button>
+
+
+
+          <!-- Hi, my name is Tumisang. I was born in the province of North West and raised by my grandparents in a small
+          village called Madidi. Since childhood, I have been passionate about personal computers and media designs. I
+          completed my Matric in 2009 and went to DSDC college the following year for a matric upgrade, hoping to enroll
+          with Unisa and study Multim<span id="dots">...</span><span id="more">edia Designs, but I could not study multimedia designs because I couldn't afford to
+
+          pay for the studies.          
+            In 2016 I was awarded the commendation of service excellence at Imvula Quality Protection
+          for saving one of my colleague’s life.
+        
+          I joined THE CODING GROUND because I love coding I wanted to become the best software developer in the world.
+          Got a chance to learn full stack development at THECODINGGROUND. In the months that I have spent here so far, I’ve been able to
+          learn a few programming languages and frameworks. I am just so glad that I am getting the chance to fulfill my
+            dream of becoming a software developer.</span><button onclick="readMore('Tumisang')" id="myButton">Read more</button> -->
+
         </p>
+
       </div>
-      <div class="card-container">
+
+      <div id="card-container" class="card-container">
 
 
         <img src="../img/tumi.jpg" alt="Tumisang Ramollo" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 6rem;">Samuel Tumisang Ramollo</h2>
+            <h2 class="names-space">Samuel Tumisang Ramollo</h2>
           </strong></figcaption>
-        
+
+        <!-- <div class="social">
+          
+          <a href="https://za.linkedin.com/in/samuel-ramollo-1aa8a2202" target="_blank"><i class="fab fa-linkedin "
+            style="color: #007bb6;"></i></a>
+            <a href="mailto: ramollosamuel2@gmail.com" target="_blank"><i class="far fa-envelope"
+              style="color: rgb(202, 142, 11);"></i></a>
+              
+            </div> -->
+
       </div>
     </div>
     <hr style="border: 1px solid rgb(122, 113, 113);">
-    <div class="bio-container">
+    <div class="bio-container block">
       <div class="card-container">
 
 
         <img src="../img/Lindo.jpg" alt="Lindokuhle Mazibuko" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 6rem;">Lindokuhle Angel Mazibuko</h2>
+            <h2 class="names-space">Lindokuhle Angel Mazibuko</h2>
           </strong></figcaption>
-       
+
+        <!-- <div class="social">
+
+          <a href="https://www.linkedin.com/in/lindokuhle-angel-486420201/" target="_blank"><i class="fab fa-linkedin"
+              style="color: #007bb6;"></i></a>
+          <a href="mailto: lindokuhlea38@gmail.com" style="color: #007bb6;" target="_blank"><i class="far fa-envelope"
+              style="color: rgb(202, 142, 11);"></i></a>
+          <a href="https://twitter.com/Royalblues01" target="_blank"><i class="fab fa-twitter"
+              style="color: #00aced;"></i></a>
+
+
+        </div> -->
+
       </div>
 
 
 
-      <div class="bio">
+      <div class="bio read" info-names="Lindokuhle"> 
         <p>
-          Lindokuhle Angel Mazibuko was born and raised in Diepsloot and later moved to RiversideView. Like any other
+          Lindokuhle Angel Mazibuko
+  
+          Hi, I am Lindokuhle Angel Mazibuko, I was born and raised in Diepsloot. 
+          I later moved to RiversideView. Like any other person I faced a lot of hardships along 
+          the way and the important part is that I found myself again. As a kid I fell in love with 
+          literature, how they played around with words and created a fantasy world using language. I
+           began to journal regularly and have always dreamed of being a professional writer. Growing up
+            in Diepsloot, High School gave me a glimpse of what real life looked like – with personal safety 
+            be<span id="dots">...</span><span id="more">ing a constant concern. I'm the kind of person who tries to escape life whenever I get the chance 
+            hence I developed an interest in computers in general. From there on I fell in love with programming and
+             I found my way to coding. The Coding Ground allowed me to learn a skill, be successful and build a career.
+           As an emotional introvert, when I’m coding, I get the chance to escape and focus on the code and I've never been happier.</span><button onclick="readMore('Lindokuhle')" id="myButton">Read more</button>
+
+
+
+          <!-- Lindokuhle Angel Mazibuko was born and raised in Diepsloot and later moved to RiversideView. Like any other
           alive human being I faced a lot of hardships
           along the way and the important part is that I found myself again. As a kid I fell in love with literature and
           tried writing my own thoughts. The first time
           I ever fell in love with literature was when I first read the novel titled Two Of Kind Diaries(It's A Twin
-          Thing), and there I was falling in love with how
-          they played around with words and how they sent a fantasy message through rich language. For a long time I
-          wanted to be a professional writer, I wanted to
-          express my emotions through writing but realised that although writing was my passion, it still was a hobby.
+          Thing), and there I was fall<span id="dots">...</span><span id="more">ing in love with how
+            they played around with words and how they sent a fantasy message through rich language. For a long time I
+            wanted to be a professional writer, I wanted to
+            express my emotions through writing but realised that although writing was my passion, it still was a hobby.
+        
+
           High School gave me the glimpse of what real
           life looked like, I'm the kind of person who tries to escape life whenever she gets a chance hence I developed
           an interest in computers in general. From
           there on I fell in love with programming and I found my way to coding. The Coding Ground developed my life and
-          I've never been happier.
+          I've never been happier.</span><button onclick="readMore('Lindokuhle')" id="myButton">Read more</button> -->
+
         </p>
+
       </div>
     </div>
     <hr style="border: 1px solid rgb(133, 124, 124);">
 
-    <div class="bio-container">
-      <div class="bio">
+    <div class="bio-container reversed">
+      <div class="bio read" info-names="Muano">
 
         <p>
-          Muano Nevhufumba was born and bred in a small village called Tshiliwi in Limpopo. As a kid I grew up enjoying
+
+          Hi, my name is Muano Nevhufumba. I was born in Limpopo and raised in a small
+           village called Tshivhilwi. As a child I grew up building things with my hands. 
+           I would build a car using wires and every child would love the car and ask me to 
+           build one for them. That was my passion and as a child and I dreamt of building a real
+            car for myself one day when I was grown up. When I matriculated I wanted to study computer 
+            science because my brother was studying it and when I saw the work he was doing I fell in love 
+            with the course. I remember one friend of mine always<span id="dots">...</span><span style="color:black" id="more">used to talk about C++ and how challenging 
+            it was but it didn’t scare me and I still wanted to study the course. When I went to varsity I ended 
+            up studying Geology but deep down I knew I wanted to study computer science. I was about to go back to 
+            varsity or college and register for IT (information technology) when I found out about The Coding Ground. 
+            I applied and was accepted and now I’m here learning how to program and I’m enjoying each and every single day 
+            that I spend here. I have no regrets that I left everything behind to finally do something that I have always wanted to do.</span><button onclick="readMore('Muano')" id="myButton">Read more</button>
+
+
+
+
+
+          <!-- Muano Nevhufumba was born and bred in a small village called Tshiliwi in Limpopo. As a kid I grew up enjoying
           building things with my hands, I will build
           myself cars using wires and every kid would love the cars that I have built and they would ask me to also
           build one for them, that was my passion as a kid.
           When I matriculated I wanted to study computer science, the reason behind studying computer science is that I
           saw the work that my brother was doing and I
           just instantly fell in love with the course, I remember a friend of mine who will always talk about C++ and
+          how challe<span id="dots">...</span><span style="color:black" id="more">nging it was but it didn’t scare me
+          off, I still wanted to study it.
+
+        I don’t know what changed my mind or how it did but I found
+          myself studying
           how challenging it was but it didn’t scare me
           off, I still wanted to study it. I don’t know what changed my mind or how it did but I found myself studying
           Geology and deep down I knew I wanted to study
@@ -191,139 +292,276 @@
           be a part of The Coding Ground. At the moment
           I am at The Coding Ground learning how to program. I’m enjoying every single day that I spend here, I have no
           regret that I left everything behind to finally
-          do something that I have always wanted to do.
+          do something that I have always wanted to do.</span><button onclick="readMore('Muano')" id="myButton">Read more</button> -->
+
         </p>
+
       </div>
-      <div class="card-container">
+      <div id="card-container" class="card-container">
 
 
         <img src="../img/muano.jpg" alt="Muano Nevhufumba" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 10rem;">Muano Nevhufumba</h2>
+            <h2 class="names-space">Muano Nevhufumba</h2>
           </strong></figcaption>
-        
+
+        <!-- <div class="social">
+
+          <a href="https://www.linkedin.com/in/lindokuhle-angel-486420201/" target="_blank"><i class="fab fa-linkedin "
+              style="color: #007bb6;"></i></a>
+          <a href="mailto: kevin198944@gmail.com" target="_blank"><i class="far fa-envelope"
+              style="color: rgb(202, 142, 11);"></i></a>
+
+
+
+        </div> -->
+
 
 
 
       </div>
     </div>
     <hr style="border: 1px solid grey;">
-    <div class="bio-container">
+    <div class="bio-container block">
 
       <div class="card-container">
 
 
         <img src="../img/wongani.jpg" alt="Wongani Skosana" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 10rem;">Wongani Skosana</h2>
+            <h2 class="names-space">Wongani Skosana</h2>
           </strong></figcaption>
-       
+
+        <!-- <div class="social">
+
+          <a href="https://www.linkedin.com/in/wongani-skosana-55ba53224/" target="_blank"><i class="fab fa-linkedin "
+              style="color: #007bb6;"></i></a>
+          <a href="mailto: wonganiskosana@gmail.com" target="_blank"><i class="far fa-envelope"
+              style="color: rgb(202, 142, 11);"></i></a>
+
+
+        </div> -->
+
       </div>
-      <div class="bio">
+      <div class="bio read" info-names="Wongani">
 
 
         <p>
-          Wongani Skosana is a competent young adult whose goal has been nothing but to aim for the stars. He always
+           Hi, my name is Wongani Skosana a competent young adult whose goal has been nothing but
+            to aim for the stars. I always believed in self-motivation because growing up in a crowded location required
+            me to trust myself more than I trusted others. I was born in South Africa, Gauteng, and 
+            raised in a small overcrowded township called Diepsloot. My situation never stopped me from 
+            conquering obstacles and pushed me to work extra hard so I can escape my earlier life. Before 
+            coding found me I had dreams of becoming a mechanical engineer, yet I'm<span id="dots">...</span><span id="more">very grateful for falling 
+            in love with coding and making it my priority. With coding I managed to find a better version of myself,
+             spending most of my time thinking and talking about code made me realize how much I wanted to change the world
+              with coding. I am elated for finding my calling in coding and I plan on staying true to it. I am thankful to The
+               Coding Ground for helping me reach my full potential.ng adult whose goal has been nothing but to aim for the stars. 
+               I always believed in self-motivation because growing up in a crowded location required me to trust myself more than I trusted 
+               others. I was born in South Africa, Gauteng, and raised in a small overcrowded township called Diepsloot. My situation never stopped
+                me from conquering obstacles and pushed me to work extra hard so I can escape my earlier life. Before coding found me I had dreams of
+                 becoming a mechanical engineer, yet I'm very grateful for falling in love with coding and making it my priority. With coding I managed to
+                  find a better version of myself, spending most of my time thinking and talking about code made me realize how much I wanted to change the world 
+                  with coding. I am elated for finding my calling in coding and I plan on staying true to it. I am thankful to The Coding Ground for helping me reach my full potential.</span><button onclick="readMore('Wongani')" id="myButton">Read more</button>
+
+
+
+
+
+          <!-- Wongani Skosana is a competent young adult whose goal has been nothing but to aim for the stars. He always
           believed in self-motivation because growing
           up in a crowded location required him to trust himself more than he trusted others. Wongani was born in South
           Africa, Gauteng, and was raised in a small
           overcrowded township,located north of Johannesburg called Diepsloot. His situation never stopped him from
           conquering it pushed him to work extra hard so
-          he can escape his earlier life.Before Coding found him he had dreams of becoming a mechanical engineer, yet
+          he can escape his earlier life. Before Coding found him he had dreams of beco<span id="dots">...</span><span id="more">ming a mechanical engineer, yet
           he's very grateful for falling in love with
-          coding and making it his priority. With Coding he managed to find a better version of himself, spending most
-          of his time thinking and talking about code
-          made him realize how much he wanted to change the world with coding. He's elated for finding his calling in
-          coding and plans on staying true to it. He has
-          been a student of The Coding Ground for 13 full months, and he's thankful to The Coding Ground for helping him
-          reach his full potential. The coding ground
-          helped him acquire some skills which he needed in the Tech industry. Wongani Skosana believes in divide and
-          conquer because he believes that working alone
-          helps you think deeper within yourself and your working speed automatically rises.
+          coding and making it his priority.
+
+        With Coding he managed to find a better version of himself,
+            spending most
+
+            coding and making it his priority. With Coding he managed to find a better version of himself, spending most
+            of his time thinking and talking about code
+            made him realize how much he wanted to change the world with coding. He's elated for finding his calling in
+            coding and plans on staying true to it. He has
+            been a student of The Coding Ground for 13 full months, and he's thankful to The Coding Ground for helping
+            him
+            reach his full potential. The coding ground
+            helped him acquire some skills which he needed in the Tech industry. Wongani Skosana believes in divide and
+            conquer because he believes that working alone
+            helps you think deeper within yourself and your working speed automatically rises.</span><button onclick="readMore('Wongani')" id="myButton">Read more</button> -->
+
         </p>
+
       </div>
     </div>
     <hr style="border: 1px solid rgb(138, 124, 124);">
-    <div class="bio-container">
-      <div class="bio">
+    <div class="bio-container reversed">
+      <div class="bio read" info-names="Kwanele">
         <p>
-          Kwanele Mkhwanazi is a software developer student at The Coding Ground, a software craftsmanship academy that
+          Hi, my name is Kwanele Mkhwanazi. I find honesty, creativity, 
+          and dedication to be the most valuable qualities for success in 
+          the world of software. I am a young, innovative, single parent of two 
+          beautiful girls. I describe myself as a funny, generous, open-minded, and 
+          a good communicator. I was born in Mtubatuba - a local municipality situated
+           along the northern coastal belt of KwaZulu-Natal and in the south-eastern corner 
+           of the uMkhanyakude District. I grew up in Diepsloot, Johannesburg - a densely populated 
+           township. As a software developer, I enjoy<span id="dots">...</span><span id="more">software because it can provide new and innovative 
+           solutions to different companies ranging from tiny startups to big corporations. I recently enjoyed
+            participating in the African Youth Anti-Corruption Hackathon organized by the United Nations Office on
+             Drugs and Crime (UNODC). The objectives of the hackathon were to promote the use of information and communications 
+             technologies (ICT) to prevent and combat corruption in Africa and give young developers the chance to come up with ideas 
+             for how to counter corruption using technology. The program allowed me to interact with people from a variety of backgrounds
+              and learn from their experiences in tech. I am currently concentrating on building WordPress websites and dream of building a career
+               that allows me to interact with lots of different people, share my life experiences through tech and become the empress of my own legacy.</span><button onclick="readMore('Kwanele')" id="myButton">Read more</button>
+
+          
+
+
+
+
+          <!-- Kwanele Mkhwanazi is a software developer student at The Coding Ground, a software craftsmanship academy that
           focuses on the art and science of
           cultivating software developers with in-demand technical. She finds honesty, creativity, and dedication to be
           the most valuable qualities for success in
-          the world of software. She is a young innovative single parent of two beautiful girls. She describes herself
-          as a funny, generous, open-minded, and good
-          listener. She was born in the local municipality situated along the northern coastal belt of KwaZulu-Natal and
-          in the south-eastern corner of the uMkhanyakude
-          District Mtubatuba and grew in a densely populated township in Gauteng, South Africa(Diepsloot). She believes
-          that software delivers new and innovative
-          solutions to different companies ranging from tiny startups to major corporations with massive information
-          technology and programming needs.
-        </p>
-      </div>
-      <div class="card-container">
+          the world of software. She is a young inno<span id="dots">...</span><span id="more">vative single parent of two beautiful girls.
 
-        <figure>
-          <img src="../img/kwanele.jpg" alt="Kwanele Mkhwanazi" class="resize">
-          <figcaption><strong>
-              <h2 style="margin-left: 9rem;">Kwanele Mkhwanazi</h2>
-            </strong></figcaption>
-          
-        </figure>
+          She describes herself
+            as a funny, generous, open-minded, and good
+            the world of software. She is a young innovative single parent of two beautiful girls. She describes herself
+            as a funny, generous, open-minded, and good
+            listener. She was born in the local municipality situated along the northern coastal belt of KwaZulu-Natal
+            and
+            in the south-eastern corner of the uMkhanyakude
+            District Mtubatuba and grew in a densely populated township in Gauteng, South Africa(Diepsloot). She
+            believes
+            that software delivers new and innovative
+            solutions to different companies ranging from tiny startups to major corporations with massive information
+            technology and programming needs.</span><button onclick="readMore('Kwanele')" id="myButton">Read more</button> -->
+
+        </p>
+
+      </div>
+      <div id="card-container" class="card-container">
+
+
+        <img src="../img/kwanele.jpg" alt="Kwanele Mkhwanazi" class="resize">
+        <figcaption><strong>
+            <h2 class="names-space">Kwanele Mkhwanazi</h2>
+          </strong></figcaption>
+        <!-- <div class="social">
+
+            <a href="https://www.linkedin.com/in/kwanele-mkhwanazi-aa8ab41a3/" target="_blank"><i
+                class="fab fa-linkedin " style="color: #007bb6;"></i></a>
+            <a href="mailto: mkhwanazikwanele62@gmail.com" target="_blank"><i class="far fa-envelope"
+                style="color: rgb(202, 142, 11);"></i></a>
+
+
+     </div> -->
+
 
       </div>
     </div>
     <hr style="border: 1px solid rgb(100, 79, 79);">
-    <div class="bio-container">
+    <div class="bio-container block">
 
       <div class="card-container">
 
 
         <img src="../img/njabulo.jpg" alt="Njabulo Zulu" class="resize">
         <figcaption><strong>
-            <h2 style="margin-left: 13rem;">Njabulo Zulu</h2>
+            <h2 class="names-space">Njabulo Zulu</h2>
           </strong></figcaption>
 
-      
+
+        <!-- <div class="social">
+
+          <a href="https://za.linkedin.com/in/njabulo-zulu-10094915b" target="_blank"><i class="fab fa-linkedin "
+              style="color: #007bb6;"></i></a>
+          <a href="mailto: njabulo@devson.co.za" target="_blank"><i class="far fa-envelope"
+              style="color: rgb(202, 142, 11);"></i></a>
+
+
+        </div> -->
+
       </div>
-      <div class="bio">
+      <div class="bio read" info-names="Njabulo">
 
         <p>
-          Hi, My name is Njabulo Zulu, and to lighten up the mood I would say a joke but just to save electricity and
+          Hi, my name is Njabulo Zulu. I am originally from a small town called Eshowe
+           in KwaZulu Natal, but I grew up in Gauteng, mostly in Centurion, Olievenhoutbosch. 
+           I am an individual who strongly believes in the butterfly effect, In which a tiny change
+            can have a huge impact on a person's life. For example, the path that I am on is being a
+             software engineer. If my parents never decided to leave Tembisa where we used to live, I
+              don't think I would be here today. lucky enough they made a choice to move to a different 
+              place which led to us living in Olieven<span id="dots">...</span><span id="more">houtbosch where I met one of my best friends who introduced 
+              me to playing video games. This also led to us falling in love with building computers and that led 
+              to him being introduced to coding and programming and that was passed down to me because of our friendship.
+               Ever since that day, I fell in love with it. I show my strengths through my actions and better myself by being 
+               aware of my weaknesses and trying to better myself. My biggest weakness is time management, which I think is caused
+                by me trying to do a lot of things at once. And I am trying to turn my weakness into one of my strengths by integrating a
+                 schedule to help me manage my time better.</span><button onclick="readMore('Njabulo')" id="myButton">Read more</button>
+
+
+
+          <!-- Hi, My name is Njabulo Zulu, and to lighten up the mood I would say a joke but just to save electricity and
           the computer's ink let's just get into it.
           I am originally from KZN in a small town called Eshowe, but I grew up in Gauteng mostly in Pretoria centurion
           Olievenhoutbosch. I am an individual
           who strongly believes in the butterfly effect, In which a tiny change can have a huge impact on a person's
           life. For example, the path that I am on is
-          being a software engineer, if my parents never decided to leave Tembisa where we used to live, I don't think I
+          being a software engineer, if my parents never decided to leave Tem<span id="dots">...</span><span id="more">bisa where we used to live, I don't think I
           would be here today. lucky enough they
-          made a choice of moving to a different place which led to us ending up living in Olievenhoutbosch where I met
-          one of my best friends who introduced me
-          to playing video games. This also led to us falling in love with building computers and that led to him being
+          made a choice of moving to a different place which led to us ending
+            up living in Olievenhoutbosch where I met
+            one of my best friends who introduced me
+            to playing video games.
+
+        This also led to us falling in love with building computers and that led to him being
           introduced to coding and programming and
           that was passed down to me because of our friendship. ever since that day, I fell in love with it. To add on
           top of that just to speak about my strengths
           and weaknesses, what I can say is I show my strength through my actions and weaknesses by being aware of them
           and trying to better myself. My biggest
           weakness is time management, which is trying to manage my time to work better for me, and I think that is
-          caused by me trying to do a lot of things at once.
+          caused by me trying to do a lot of things at once.</span><button onclick="readMore('Njabulo')" id="myButton">Read more</button> -->
+
         </p>
       </div>
     </div>
     <hr style="border: 1px solid rgb(94, 90, 90);">
 
-    <div class="bio-container">
-      <div class="bio">
+    <div class="bio-container reversed">
+      <div class="bio bottom-spacing read" info-names="Sibonokuhle">
 
         <p>
-          My name is Sibonokuhle Nkabinde, I was born on the 27th of November 1999 in a township called Lady Smith
+          My name is Sibonokuhle Nkabinde, I was born on the 27th of November
+           1999 in a township called Lady Smith located in the province of Kwa-Zulu Natal. 
+           I am a humble, down-to-earth, kind person. I follow my heart and most importantly
+            I believe in myself. I have a steady source of motivation that drives me to do my best. 
+            My ambitions are driven by my passion to conquer and do what makes me happy. I always thrive 
+            on challenges and constantly set a goal for myself. Settling is out of my comfort zone hence I'm 
+            always looking for an opportunity to do better and achi<span id="dots">...</span><span id="more">eve greatness. I am also highly organized. I 
+            always take notes and use tools to help stay on top of deadlines. Looking for positivity in everything is
+             an essential trait of mine, I believe that every negative detail has a tiny positive detail in it. My past does 
+             not determine my future. I am currently doing software development at The Coding Ground, I started this journey in 2020. 
+             The Coding Ground taught me what code is and how to code. I didn't know anything about code. Their patience with me is what
+              motivated me and kept me on my feet.</span><button onclick="readMore('Sibonokuhle')" id="myButton">Read more</button>
+
+
+
+
+
+          <!-- My name is Sibonokuhle Nkabinde, I was born on the 27th of November 1999 in a township called Lady Smith
           located in the province of Kwa-Zulu Natal.
           I am a humble, down-to-earth kind person. I follow my heart and most important I believe in myself. I have a
           steady source of motivation that drives
           me to do my best. My ambitions are driven by my passion to conquer and do what makes me happy. I always thrive
-          on challenges and constantly set a goal
-          for myself. Settling is out of my comfort zone hence I'm always looking for an opportunity to do better and
-          achieve greatness. I am also highly organized
+          on challenges and constantly set a go<span id="dots">...</span><span id="more">al
+            for myself. Settling is out of my comfort zone hence I'm always looking for an opportunity to do better and
+            achieve greatness.
+          I am also highly organized
           I always take notes and I use serious tools to help myself stay on top of deadlines. looking for positivity in
           everything is an essential trait of mine, I
           believe that every negative detail has a tiny positive detail in it. My past does not determine my future. I
@@ -332,96 +570,101 @@
           code. I didn't know anything about code, their
           patience with me is what motivated me and kept me on my feet. For the time I have spent here, I managed to
           grab a few skills and more knowledge about
-          coding.
+          coding.</span><button onclick="readMore('Sibonokuhle')" id="myButton">Read more</button> -->
+
         </p>
       </div>
 
-      <div class="card-container">
+      <div id="card-container" class="card-container">
 
 
-      <img src="../img/sbonokuhle.jpg" alt="Sbonokuhle Nkabinde" class="resize">
-      <figcaption><strong>
-          <h2 style="margin-left: 9rem;">Sbonokuhle Nkabinde</h2>
-        </strong></figcaption>
 
+        <img src="../img/sbonokuhle.jpg" alt="Sbonokuhle Nkabinde" class="resize">
+        <figcaption><strong>
+            <h2 class="names-space">Sbonokuhle Nkabinde</h2>
+          </strong></figcaption>
+
+      </div>
     </div>
     </div>
-    </div>
-    <footer>
-      <div class="footer">
-       
-        <div class="columns">
-          <h3 style="color:white; text-align:center">Affiliated and proudly sponsored by</h3>
-          <br>
-          <ul>
-            <li>
-              <a href="https://www.inreality.com/" target="_blank">
+  
+    
+  <footer>
+    <div class="footer">
 
-                <img src="../img/inreality.svg" class="sponsorLogo" /></a>
-            </li>
+      <div class="columns">
+        <h3 style="color:white; text-align:center">Affiliated and proudly sponsored by</h3>
+        <br>
+        <ul>
+          <li>
+            <a href="https://www.inreality.com/" target="_blank">
 
-            <li>
-              <a href="https://www.riversandsihub.co.za/" target="_blank">
+              <img src="../img/inreality.svg"  id="sponsorLogo1" class="sponsorLogo" /></a>
+          </li>
 
-                <img src="../img/riversandsihub.png" class="sponsorLogo" /></a>
-            </li>
-            <li>
-              <a href="https://www.sourceworx.co.za/#" target="_blank">
+          <li>
+            <a href="https://www.riversandsihub.co.za/" target="_blank">
 
-                <img src="../img/source-worx.svg" class="sponsorLogo" /></a>
-            </li>
+              <img src="../img/riversandsihub.png"  id="sponsorLogo1" class="sponsorLogo" /></a>
+          </li>
+          <li>
+            <a href="https://www.sourceworx.co.za/#" target="_blank" id="sponsorLogoSrcwrx">
 
-            <li>
-              <a href="https://techways.online/" target="_blank">
+              <img src="../img/source-worx.svg"   id="sponsorLogo1" class="sponsorLogo" /></a>
+          </li>
 
-                <img src="../img/Techways.png" class="sponsorLogo" /></a>
-            </li>
-            <li>
-              <a href="https://hrwgrp.com/" target="_blank">
+          <li>
+            <a href="https://techways.online/" target="_blank">
 
-                <img src="../img/HRW_RECRUITMENT.png" class="sponsorLogo" /></a>
-            </li>
-            <li>
-              <a href="https://www.devson.co.za/" target="_blank">
-                <img src="../img/1551263018231.jpeg" style="height:70px; width:70px; border-radius: 15px;"
-                  class="sponsorLogo" /></a>
-            </li>
-          </ul>
+              <img src="../img/Techways.png"  id="sponsorLogo1" class="sponsorLogo" /></a>
+          </li>
+          <li>
+            <a href="https://hrwgrp.com/" target="_blank">
 
-          <div class="footerContact">
-            <div class="socialIcons">
-              <a href="https://wa.me/0827799875" target="_blank"><img src="../icons/whatsapp-brands.svg" class="img-fluid" /></a>
-              <a href="https://www.facebocom/CodeSchoolZA/" target="_blank"><img src="../icons/facebook-brands.svg"
-                  style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
-              </a>
-              <a href="https://www.linkedin.com/company/the-coding-ground/about/" target="_blank"><img class="img-fluid"
-                  src="../icons/linkedin-in-brands.svg" />
-              </a>
-            </div>
-            <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+              <img src="../img/HRW_RECRUITMENT.png" id="sponsorLogoHrw" class="sponsorLogo" /></a>
+          </li>
+          <li>
+            <a href="https://www.devson.co.za/" target="_blank"> 
+              <img src="../img/1551263018231.jpeg" id="sponsorLogo"
+                class="sponsorLogo" /></a>
+          </li>
+        </ul>
 
+        <div class="footerContact">
+          <div class="socialIcons">
+            <a href="https://wa.me/0827799875" target="_blank"><img src="../icons/whatsapp-brands.svg"
+                class="img-fluid" /></a>
+            <a href="https://www.facebocom/CodeSchoolZA/" target="_blank"><img src="../icons/facebook-brands.svg"
+                style="margin-left: 20px;margin-right: 20px;" class="img-fluid" />
+            </a>
+            <a href="https://www.linkedin.com/company/the-coding-ground/about/" target="_blank"><img class="img-fluid"
+                src="../icons/linkedin-in-brands.svg" />
+            </a>
           </div>
+          <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
         </div>
       </div>
-      <div class="footerTextContainer">
-        <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2021</h5>
-      </div>
+    </div>
+    <div class="footerTextContainer">
+      <h5 class="footerText">THECODINGGROUND&#9400;2017 - 2023</h5>
+    </div>
 
-    </footer>
-    <script src="../student.js"></script>
-    <script src="../script.js"></script>
+  </footer>
+  <script src="../student.js"></script>
+  <script src="../script.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
