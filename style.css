@@ -63,7 +63,7 @@ ul.nav-menu {
 }
 
 a.current {
-  color: yellow;
+  color: #f5bd3a;
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
@@ -71,7 +71,7 @@ a.current {
 
 a.current:hover {
   text-decoration: none;
-  color: yellow;
+  color: #f5bd3a;
 }
 .nav-menu {
   display: flex;
@@ -460,14 +460,9 @@ body {
   overflow-x: hidden !important;
 }
 
-/* ////////////////////////////////////////////////////////// INTRO */
-/* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
-
-/* .square {
-  border: 1px solid black;
-  padding: 1.5rem 1.5rem;
-  font-size: 1.8rem;
-} */
+a{
+  text-decoration: none;
+}
 
 .icon {
   color: white;

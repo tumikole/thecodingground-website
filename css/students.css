@@ -3,7 +3,6 @@
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: -6rem;
-  /* margin-bottom: 4rem; */
   
 }
 
@@ -53,7 +52,6 @@ h5{
   text-align: center;
   font-family: 'Delius', cursive;
   font-size: 2rem;
-  /* margin-top: 2rem;  */
   font-weight: 900;
   letter-spacing: 3px;
   font-family: 'Raleway';
@@ -84,10 +82,9 @@ h2{
 
 
 .bio p {
-  margin-top: 4rem; 
-  margin-bottom: 4rem; 
-font-family: 'Raleway';
-font-size: 15px;
+  margin-top: 29px; 
+  font-family: 'Raleway';
+  font-size: 15px;
 
 }
 
